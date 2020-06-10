@@ -9,18 +9,21 @@ root.positions = [];
 root.stop();
 
 root.btnMenuDasar1.on("click", function () {
-  root.gotoAndStop("menu");
   root.shuffle();
+
+  root.gotoAndStop("menu");
 });
 
 root.btnNextDasar1.on("click", function () {
-  root.gotoAndStop("game7");
   root.shuffle();
+
+  root.gotoAndStop("menu");
 });
 
 root.btnBack3.on("click", function () {
-  root.gotoAndStop("game5");
   root.shuffle();
+
+  root.gotoAndStop("game5");
 });
 
 root.pGam1.gotoAndStop(0);
