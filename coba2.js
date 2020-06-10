@@ -4,27 +4,23 @@ var slots = root.slots;
 var restart = root.restart;
 var winMessage = root.winMessage;
 var Score = root.Score;
-root.positions = [];
-root.simpanPositions = [];
+root.positions1 = [];
 
 root.stop();
 
 root.btnMenuDasar1.on("click", function () {
   root.shuffle();
-
   root.gotoAndStop("menu");
 });
 
 root.btnNextDasar1.on("click", function () {
   root.shuffle();
-
-  root.gotoAndStop("game7");
+  root.gotoAndStop("game8");
 });
 
 root.btnBack3.on("click", function () {
   root.shuffle();
-
-  root.gotoAndStop("game5");
+  root.gotoAndStop("game6");
 });
 
 root.pGam1.gotoAndStop(0);
@@ -105,7 +101,7 @@ root.start = function (e) {
   winMessage.originalY = winMessage.y;
 
   pieces.children.forEach(function (child, index) {
-    root.positions[index] = { x: child.x, y: child.y };
+    root.positions1[index] = { x: child.x, y: child.y };
   });
 
   slots.children.forEach(function (child, index) {
@@ -161,20 +157,13 @@ root.stageMouseUpHandler = function (e) {
 root.shuffle = function () {
   Score.text = "score";
 
-  root.positions.sort(function (a, b) {
+  root.positions1.sort(function (a, b) {
     return 0.5 - Math.random();
   });
 
   pieces.children.forEach(function (child, index) {
-    if (root.simpanPositions.length !== 0) {
-      child.originalX = root.simpanPositions[index].x;
-      child.originalY = root.simpanPositions[index].y;
-    } else {
-      child.originalX = root.positions[index].x;
-      child.originalY = root.positions[index].y;
-      root.simpanPositions = root.positions;
-    }
-
+    child.originalX = root.positions1[index].x;
+    child.originalY = root.positions1[index].y;
     child.mouseEnabled = true;
     createjs.Tween.get(child).to(
       { x: child.originalX, y: child.originalY },
