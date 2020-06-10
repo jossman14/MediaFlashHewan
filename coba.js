@@ -4,94 +4,94 @@ var slots = root.slots;
 var restart = root.restart;
 var winMessage = root.winMessage;
 var Score = root.Score;
-root.positions = [];
-root.simpanPositions = [];
+root.positions1 = [];
+root.tempPositions1 = [];
 
 root.stop();
 
 root.btnMenuDasar1.on("click", function () {
   root.shuffle();
 
-  root.gotoAndStop("menu");
+  root.gotoAndStop("base1");
 });
 
 root.btnNextDasar1.on("click", function () {
   root.shuffle();
 
-  root.gotoAndStop("game7");
+  root.gotoAndStop("base1");
 });
 
 root.btnBack3.on("click", function () {
   root.shuffle();
 
-  root.gotoAndStop("game5");
+  root.gotoAndStop("base1");
 });
 
-root.pGam1.gotoAndStop(0);
+// root.pGam1.gotoAndStop(0);
 
-root.pieces.laut.on("dblclick", function () {
-  root.pGam1.gotoAndPlay(0);
-});
+// root.pieces.laut.on("dblclick", function () {
+//   root.pGam1.gotoAndPlay(0);
+// });
 
-root.pp3.gotoAndStop(0);
+// root.pp3.gotoAndStop(0);
 
-root.pieces.tana.on("dblclick", function () {
-  root.pp3.gotoAndPlay(0);
-});
+// root.pieces.tana.on("dblclick", function () {
+//   root.pp3.gotoAndPlay(0);
+// });
 
-root.pp4.gotoAndStop(0);
+// root.pp4.gotoAndStop(0);
 
-root.pieces.tana1.on("dblclick", function () {
-  root.pp4.gotoAndPlay(0);
-});
+// root.pieces.tana1.on("dblclick", function () {
+//   root.pp4.gotoAndPlay(0);
+// });
 
-root.pp5.gotoAndStop(0);
+// root.pp5.gotoAndStop(0);
 
-root.pieces.laut1.on("dblclick", function () {
-  root.pp5.gotoAndPlay(0);
-});
+// root.pieces.laut1.on("dblclick", function () {
+//   root.pp5.gotoAndPlay(0);
+// });
 
-root.pp6.gotoAndStop(0);
+// root.pp6.gotoAndStop(0);
 
-root.pieces.laut2.on("dblclick", function () {
-  root.pp6.gotoAndPlay(0);
-});
+// root.pieces.laut2.on("dblclick", function () {
+//   root.pp6.gotoAndPlay(0);
+// });
 
-root.pp7.gotoAndStop(0);
+// root.pp7.gotoAndStop(0);
 
-root.pieces.laut3.on("dblclick", function () {
-  root.pp7.gotoAndPlay(0);
-});
+// root.pieces.laut3.on("dblclick", function () {
+//   root.pp7.gotoAndPlay(0);
+// });
 
-root.pp8.gotoAndStop(0);
+// root.pp8.gotoAndStop(0);
 
-root.pieces.laut4.on("dblclick", function () {
-  root.pp8.gotoAndPlay(0);
-});
+// root.pieces.laut4.on("dblclick", function () {
+//   root.pp8.gotoAndPlay(0);
+// });
 
-root.pp9.gotoAndStop(0);
+// root.pp9.gotoAndStop(0);
 
-root.pieces.laut5.on("dblclick", function () {
-  root.pp9.gotoAndPlay(0);
-});
+// root.pieces.laut5.on("dblclick", function () {
+//   root.pp9.gotoAndPlay(0);
+// });
 
-root.pp10.gotoAndStop(0);
+// root.pp10.gotoAndStop(0);
 
-root.pieces.laut6.on("dblclick", function () {
-  root.pp10.gotoAndPlay(0);
-});
+// root.pieces.laut6.on("dblclick", function () {
+//   root.pp10.gotoAndPlay(0);
+// });
 
-root.pp11.gotoAndStop(0);
+// root.pp11.gotoAndStop(0);
 
-root.pieces.laut7.on("dblclick", function () {
-  root.pp11.gotoAndPlay(0);
-});
+// root.pieces.laut7.on("dblclick", function () {
+//   root.pp11.gotoAndPlay(0);
+// });
 
-root.popUpInfo.gotoAndStop(0);
+// root.popUpInfo.gotoAndStop(0);
 
-root.btnInfo.on("click", function () {
-  root.popUpInfo.gotoAndPlay(0);
-});
+// root.btnInfo.on("click", function () {
+//   root.popUpInfo.gotoAndPlay(0);
+// });
 
 root.setup = function () {
   document.body.style.backgroundColor = lib.properties.color;
@@ -105,14 +105,15 @@ root.start = function (e) {
   winMessage.originalY = winMessage.y;
 
   pieces.children.forEach(function (child, index) {
-    root.positions[index] = { x: child.x, y: child.y };
+    root.positions1[index] = { x: child.x, y: child.y };
+    console.log(root.positions1);
   });
 
   slots.children.forEach(function (child, index) {
     child.mouseChildren = false;
   });
 
-  root.restartHandler(null);
+  root.restartHandler();
   restart.on("click", root.restartHandler);
   pieces.on("mousedown", root.mouseDownHandler);
 };
@@ -161,18 +162,18 @@ root.stageMouseUpHandler = function (e) {
 root.shuffle = function () {
   Score.text = "score";
 
-  root.positions.sort(function (a, b) {
+  root.positions1.sort(function (a, b) {
     return 0.5 - Math.random();
   });
 
   pieces.children.forEach(function (child, index) {
-    if (root.simpanPositions.length !== 0) {
-      child.originalX = root.simpanPositions[index].x;
-      child.originalY = root.simpanPositions[index].y;
+    if (root.tempPositions1.length !== 0) {
+      child.originalX = root.tempPositions1[index].x;
+      child.originalY = root.tempPositions1[index].y;
     } else {
-      child.originalX = root.positions[index].x;
-      child.originalY = root.positions[index].y;
-      root.simpanPositions = root.positions;
+      child.originalX = root.positions1[index].x;
+      child.originalY = root.positions1[index].y;
+      root.tempPositions1 = root.positions1;
     }
 
     child.mouseEnabled = true;
