@@ -6,7 +6,7 @@ root.btnMenuDasar1.on("click", function () {
   root.shuffle();
   root.restartHandler();
   root.sleep(1000);
-  root.gotoAndStop("base1");
+  root.gotoAndStop("menu");
 });
 
 root.btnNextDasar1.on("click", function () {
@@ -14,7 +14,7 @@ root.btnNextDasar1.on("click", function () {
   root.shuffle();
   root.restartHandler();
   root.sleep(1000);
-  root.gotoAndStop("base1");
+  root.gotoAndStop("game10");
 });
 
 root.btnBack3.on("click", function () {
@@ -22,7 +22,7 @@ root.btnBack3.on("click", function () {
   root.shuffle();
   root.restartHandler();
   root.sleep(1000);
-  root.gotoAndStop("base1");
+  root.gotoAndStop("game8");
 });
 
 root.sleep = function (milliseconds) {
