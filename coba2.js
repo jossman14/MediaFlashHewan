@@ -1,3 +1,4 @@
+//'esversion:8'
 var root = this;
 var pieces = root.pieces;
 var slots = root.slots;
@@ -8,30 +9,6 @@ root.positions = [];
 
 root.stop();
 
-root.btnMenuDasar1.on("click", function () {
-  root.sleep(600);
-  root.shuffle();
-  root.restartHandler();
-  root.sleep(1000);
-  root.gotoAndStop("menu");
-});
-
-root.btnNextDasar1.on("click", function () {
-  root.sleep(600);
-  root.shuffle();
-  root.restartHandler();
-  root.sleep(1000);
-  root.gotoAndStop("game7");
-});
-
-root.btnBack3.on("click", function () {
-  root.sleep(600);
-  root.shuffle();
-  root.restartHandler();
-  root.sleep(1000);
-  root.gotoAndStop("game5");
-});
-
 root.sleep = function (milliseconds) {
   const date = Date.now();
   let currentDate = null;
@@ -40,71 +17,110 @@ root.sleep = function (milliseconds) {
   } while (currentDate - date < milliseconds);
 };
 
-root.pGam1.gotoAndStop(0);
-
-root.pieces.laut.on("dblclick", function () {
-  root.pGam1.gotoAndPlay(0);
+root.btnMenuDasar1.on("click", function () {
+  root.sleep(400);
+  root.shuffle();
+  root.sleep(400);
+  root.restartHandler();
+  root.sleep(500);
+  root.gotoAndStop("base2");
 });
 
-root.pp3.gotoAndStop(0);
+root.btnNextDasar1.on("click", function () {
+  root.sleep(400);
+  root.shuffle();
+  console.log("ShuffleNext");
+  root.sleep(400);
+  root.restartHandler();
+  console.log("Restart");
+  root.sleep(500);
+  console.log("gotonext");
 
-root.pieces.tana.on("dblclick", function () {
-  root.pp3.gotoAndPlay(0);
+  root.gotoAndStop("base2");
 });
 
-root.pp4.gotoAndStop(0);
-
-root.pieces.tana1.on("dblclick", function () {
-  root.pp4.gotoAndPlay(0);
+root.btnBack3.on("click", function () {
+  root.sleep(400);
+  root.shuffle();
+  root.sleep(400);
+  root.restartHandler();
+  root.sleep(500);
+  root.gotoAndStop("base2");
 });
 
-root.pp5.gotoAndStop(0);
+// root.sleep = function (duration) {
+//   return new Promise((resolve) => {
+//     setTimeout(() => {
+//       resolve();
+//     }, duration);
+//   });
+// };
 
-root.pieces.laut1.on("dblclick", function () {
-  root.pp5.gotoAndPlay(0);
-});
+// root.pGam1.gotoAndStop(0);
 
-root.pp6.gotoAndStop(0);
+// root.pieces.laut.on("dblclick", function () {
+//   root.pGam1.gotoAndPlay(0);
+// });
 
-root.pieces.laut2.on("dblclick", function () {
-  root.pp6.gotoAndPlay(0);
-});
+// root.pp3.gotoAndStop(0);
 
-root.pp7.gotoAndStop(0);
+// root.pieces.tana.on("dblclick", function () {
+//   root.pp3.gotoAndPlay(0);
+// });
 
-root.pieces.laut3.on("dblclick", function () {
-  root.pp7.gotoAndPlay(0);
-});
+// root.pp4.gotoAndStop(0);
 
-root.pp8.gotoAndStop(0);
+// root.pieces.tana1.on("dblclick", function () {
+//   root.pp4.gotoAndPlay(0);
+// });
 
-root.pieces.laut4.on("dblclick", function () {
-  root.pp8.gotoAndPlay(0);
-});
+// root.pp5.gotoAndStop(0);
 
-root.pp9.gotoAndStop(0);
+// root.pieces.laut1.on("dblclick", function () {
+//   root.pp5.gotoAndPlay(0);
+// });
 
-root.pieces.laut5.on("dblclick", function () {
-  root.pp9.gotoAndPlay(0);
-});
+// root.pp6.gotoAndStop(0);
 
-root.pp10.gotoAndStop(0);
+// root.pieces.laut2.on("dblclick", function () {
+//   root.pp6.gotoAndPlay(0);
+// });
 
-root.pieces.laut6.on("dblclick", function () {
-  root.pp10.gotoAndPlay(0);
-});
+// root.pp7.gotoAndStop(0);
 
-root.pp11.gotoAndStop(0);
+// root.pieces.laut3.on("dblclick", function () {
+//   root.pp7.gotoAndPlay(0);
+// });
 
-root.pieces.laut7.on("dblclick", function () {
-  root.pp11.gotoAndPlay(0);
-});
+// root.pp8.gotoAndStop(0);
 
-root.popUpInfo.gotoAndStop(0);
+// root.pieces.laut4.on("dblclick", function () {
+//   root.pp8.gotoAndPlay(0);
+// });
 
-root.btnInfo.on("click", function () {
-  root.popUpInfo.gotoAndPlay(0);
-});
+// root.pp9.gotoAndStop(0);
+
+// root.pieces.laut5.on("dblclick", function () {
+//   root.pp9.gotoAndPlay(0);
+// });
+
+// root.pp10.gotoAndStop(0);
+
+// root.pieces.laut6.on("dblclick", function () {
+//   root.pp10.gotoAndPlay(0);
+// });
+
+// root.pp11.gotoAndStop(0);
+
+// root.pieces.laut7.on("dblclick", function () {
+//   root.pp11.gotoAndPlay(0);
+// });
+
+// root.popUpInfo.gotoAndStop(0);
+
+// root.btnInfo.on("click", function () {
+//   root.popUpInfo.gotoAndPlay(0);
+// });
 
 root.setup = function () {
   document.body.style.backgroundColor = lib.properties.color;
@@ -133,8 +149,7 @@ root.start = function (e) {
 root.restartHandler = function (e) {
   pieces.count = 0;
   winMessage.text = "";
-  root.sleep(600);
-
+  root.sleep(400);
   root.shuffle();
 };
 
