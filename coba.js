@@ -6,6 +6,7 @@ var restart = root.restart;
 var winMessage = root.winMessage;
 var Score = root.Score;
 root.positions = [];
+var flag = true;
 
 root.stop();
 
@@ -18,40 +19,49 @@ root.sleep = function (milliseconds) {
 };
 
 root.btnMenuDasar1.on("click", function () {
-  root.sleep(400);
-  root.shuffle();
+  if (flag) {
+    flag = !flag;
+    root.sleep(400);
+    root.shuffle();
 
-  root.sleep(400);
-  root.restartHandler();
+    root.sleep(400);
+    root.restartHandler();
 
-  root.sleep(500);
-  root.gotoAndStop("base2");
+    root.sleep(500);
+    root.gotoAndStop("base1");
+  }
 });
 
 root.btnNextDasar1.on("click", function () {
-  root.sleep(400);
-  root.shuffle();
+  if (flag) {
+    flag = !flag;
+    root.sleep(400);
+    root.shuffle();
 
-  console.log("ShuffleNext");
-  root.sleep(400);
-  root.restartHandler();
+    console.log("ShuffleNext");
+    root.sleep(400);
+    root.restartHandler();
 
-  console.log("Restart");
+    console.log("Restart");
+  }
   root.sleep(500);
   console.log("gotonext");
 
-  root.gotoAndStop("base2");
+  root.gotoAndStop("base1");
 });
 
 root.btnBack3.on("click", function () {
-  root.sleep(400);
-  root.shuffle();
+  if (flag) {
+    flag = !flag;
+    root.sleep(400);
+    root.shuffle();
 
-  root.sleep(400);
-  root.restartHandler();
+    root.sleep(400);
+    root.restartHandler();
 
-  root.sleep(500);
-  root.gotoAndStop("base2");
+    root.sleep(500);
+    root.gotoAndStop("base1");
+  }
 });
 
 // root.sleep = function (duration) {
@@ -136,6 +146,7 @@ root.setup = function () {
 };
 
 root.start = function (e) {
+  flag = true;
   stage.off("drawstart", root.drawStart);
   winMessage.originalY = winMessage.y;
 

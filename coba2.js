@@ -1,126 +1,9 @@
-//'esversion:8'
 var root = this;
 var pieces = root.pieces;
 var slots = root.slots;
 var restart = root.restart;
 var winMessage = root.winMessage;
-var Score = root.Score;
-root.positions = [];
-
-root.stop();
-
-root.sleep = function (milliseconds) {
-  const date = Date.now();
-  let currentDate = null;
-  do {
-    currentDate = Date.now();
-  } while (currentDate - date < milliseconds);
-};
-
-root.btnMenuDasar1.on("click", function () {
-  root.sleep(400);
-  root.shuffle();
-  root.sleep(400);
-  root.restartHandler();
-  root.sleep(500);
-  root.gotoAndStop("base2");
-});
-
-root.btnNextDasar1.on("click", function () {
-  root.sleep(400);
-  root.shuffle();
-  console.log("ShuffleNext");
-  root.sleep(400);
-  root.restartHandler();
-  console.log("Restart");
-  root.sleep(500);
-  console.log("gotonext");
-
-  root.gotoAndStop("base2");
-});
-
-root.btnBack3.on("click", function () {
-  root.sleep(400);
-  root.shuffle();
-  root.sleep(400);
-  root.restartHandler();
-  root.sleep(500);
-  root.gotoAndStop("base2");
-});
-
-// root.sleep = function (duration) {
-//   return new Promise((resolve) => {
-//     setTimeout(() => {
-//       resolve();
-//     }, duration);
-//   });
-// };
-
-// root.pGam1.gotoAndStop(0);
-
-// root.pieces.laut.on("dblclick", function () {
-//   root.pGam1.gotoAndPlay(0);
-// });
-
-// root.pp3.gotoAndStop(0);
-
-// root.pieces.tana.on("dblclick", function () {
-//   root.pp3.gotoAndPlay(0);
-// });
-
-// root.pp4.gotoAndStop(0);
-
-// root.pieces.tana1.on("dblclick", function () {
-//   root.pp4.gotoAndPlay(0);
-// });
-
-// root.pp5.gotoAndStop(0);
-
-// root.pieces.laut1.on("dblclick", function () {
-//   root.pp5.gotoAndPlay(0);
-// });
-
-// root.pp6.gotoAndStop(0);
-
-// root.pieces.laut2.on("dblclick", function () {
-//   root.pp6.gotoAndPlay(0);
-// });
-
-// root.pp7.gotoAndStop(0);
-
-// root.pieces.laut3.on("dblclick", function () {
-//   root.pp7.gotoAndPlay(0);
-// });
-
-// root.pp8.gotoAndStop(0);
-
-// root.pieces.laut4.on("dblclick", function () {
-//   root.pp8.gotoAndPlay(0);
-// });
-
-// root.pp9.gotoAndStop(0);
-
-// root.pieces.laut5.on("dblclick", function () {
-//   root.pp9.gotoAndPlay(0);
-// });
-
-// root.pp10.gotoAndStop(0);
-
-// root.pieces.laut6.on("dblclick", function () {
-//   root.pp10.gotoAndPlay(0);
-// });
-
-// root.pp11.gotoAndStop(0);
-
-// root.pieces.laut7.on("dblclick", function () {
-//   root.pp11.gotoAndPlay(0);
-// });
-
-// root.popUpInfo.gotoAndStop(0);
-
-// root.btnInfo.on("click", function () {
-//   root.popUpInfo.gotoAndPlay(0);
-// });
+var positions = [];
 
 root.setup = function () {
   document.body.style.backgroundColor = lib.properties.color;
@@ -134,14 +17,14 @@ root.start = function (e) {
   winMessage.originalY = winMessage.y;
 
   pieces.children.forEach(function (child, index) {
-    root.positions[index] = { x: child.x, y: child.y };
+    positions[index] = { x: child.x, y: child.y };
   });
 
   slots.children.forEach(function (child, index) {
     child.mouseChildren = false;
   });
 
-  root.restartHandler();
+  root.restartHandler(null);
   restart.on("click", root.restartHandler);
   pieces.on("mousedown", root.mouseDownHandler);
 };
@@ -149,20 +32,10 @@ root.start = function (e) {
 root.restartHandler = function (e) {
   pieces.count = 0;
   winMessage.text = "";
-  root.sleep(400);
   root.shuffle();
 };
 
 root.mouseDownHandler = function (e) {
-  winMessage.text = "Ayo...silahkan letakkan pada kotak yang sesuai!";
-  winMessage.alpha = 0;
-  winMessage.y = winMessage.originalY + 60;
-  createjs.Tween.get(winMessage).to(
-    { alpha: 1, y: winMessage.originalY },
-    500,
-    createjs.Ease.backInOut
-  );
-
   e.currentTarget.setChildIndex(e.target, e.currentTarget.children.length - 1);
   e.target.offsetX = e.stageX / stage.scaleX - e.target.x;
   e.target.offsetY = e.stageY / stage.scaleY - e.target.y;
@@ -189,17 +62,13 @@ root.stageMouseUpHandler = function (e) {
 };
 
 root.shuffle = function () {
-  Score.text = "score";
-
-  root.positions.sort(function (a, b) {
+  positions.sort(function (a, b) {
     return 0.5 - Math.random();
   });
 
   pieces.children.forEach(function (child, index) {
-    child.originalX = root.positions[index].x;
-    child.originalY = root.positions[index].y;
-    root.tempPositions = root.positions;
-
+    child.originalX = positions[index].x;
+    child.originalY = positions[index].y;
     child.mouseEnabled = true;
     createjs.Tween.get(child).to(
       { x: child.originalX, y: child.originalY },
@@ -211,6 +80,7 @@ root.shuffle = function () {
 
 root.check = function () {
   var spot = slots.getObjectUnderPoint(pieces.target.x, pieces.target.y);
+
   if (!spot) {
     root.onMiss();
     return;
@@ -219,7 +89,7 @@ root.check = function () {
   root.slot = spot.parent;
 
   if (root.slot) {
-    if (pieces.target.name.substring(0, 4) === root.slot.name) {
+    if (pieces.target.name === root.slot.name) {
       root.onMatch();
 
       if (pieces.count === pieces.children.length) root.onWin();
@@ -233,23 +103,14 @@ root.onMatch = function () {
   pieces.target.mouseEnabled = false;
   pieces.count++;
   createjs.Tween.get(pieces.target).to(
-    { x: root.slots.kotakKartu2.x, y: root.slots.kotakKartu2.y },
+    { x: root.slot.x, y: root.slot.y },
     350,
-    createjs.Ease.backInOut
-  );
-  winMessage.text = "Selamat! Tebakan Anda Benar!";
-  Score.text = pieces.count * 10;
-  winMessage.alpha = 0;
-  winMessage.y = winMessage.originalY + 60;
-  createjs.Tween.get(winMessage).to(
-    { alpha: 1, y: winMessage.originalY },
-    500,
     createjs.Ease.backInOut
   );
 };
 
 root.onWin = function () {
-  winMessage.text = "Anda Berhasil Menyelesaikan Tantangan!";
+  winMessage.text = "YOU WIN!";
   winMessage.alpha = 0;
   winMessage.y = winMessage.originalY + 60;
   createjs.Tween.get(winMessage).to(
@@ -262,15 +123,7 @@ root.onWin = function () {
 root.onMiss = function () {
   createjs.Tween.get(pieces.target).to(
     { x: pieces.target.originalX, y: pieces.target.originalY },
-    250,
-    createjs.Ease.backInOut
-  );
-  winMessage.text = "Sepertinya Tebakan Anda Salah, Silahkan Coba Lagi";
-  winMessage.alpha = 0;
-  winMessage.y = winMessage.originalY + 60;
-  createjs.Tween.get(winMessage).to(
-    { alpha: 1, y: winMessage.originalY },
-    500,
+    350,
     createjs.Ease.backInOut
   );
 };
