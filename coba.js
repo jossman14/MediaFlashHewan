@@ -1,4 +1,4 @@
-//'esversion:8'
+//'esversion:6'
 var root = this;
 var pieces = root.pieces;
 var slots = root.slots;
@@ -6,7 +6,7 @@ var restart = root.restart;
 var winMessage = root.winMessage;
 var Score = root.Score;
 root.positions = [];
-var flag = true;
+root.tempPosition = [];
 
 root.stop();
 
@@ -18,126 +18,6 @@ root.sleep = function (milliseconds) {
   } while (currentDate - date < milliseconds);
 };
 
-root.btnMenuDasar1.on("click", function () {
-  if (flag) {
-    flag = !flag;
-    root.sleep(400);
-    root.shuffle();
-
-    root.sleep(400);
-    root.restartHandler();
-
-    root.sleep(500);
-    root.gotoAndStop("base1");
-  }
-});
-
-root.btnNextDasar1.on("click", function () {
-  if (flag) {
-    flag = !flag;
-    root.sleep(400);
-    root.shuffle();
-
-    console.log("ShuffleNext");
-    root.sleep(400);
-    root.restartHandler();
-
-    console.log("Restart");
-  }
-  root.sleep(500);
-  console.log("gotonext");
-
-  root.gotoAndStop("base1");
-});
-
-root.btnBack3.on("click", function () {
-  if (flag) {
-    flag = !flag;
-    root.sleep(400);
-    root.shuffle();
-
-    root.sleep(400);
-    root.restartHandler();
-
-    root.sleep(500);
-    root.gotoAndStop("base1");
-  }
-});
-
-// root.sleep = function (duration) {
-//   return new Promise((resolve) => {
-//     setTimeout(() => {
-//       resolve();
-//     }, duration);
-//   });
-// };
-
-// root.pGam1.gotoAndStop(0);
-
-// root.pieces.laut.on("dblclick", function () {
-//   root.pGam1.gotoAndPlay(0);
-// });
-
-// root.pp3.gotoAndStop(0);
-
-// root.pieces.tana.on("dblclick", function () {
-//   root.pp3.gotoAndPlay(0);
-// });
-
-// root.pp4.gotoAndStop(0);
-
-// root.pieces.tana1.on("dblclick", function () {
-//   root.pp4.gotoAndPlay(0);
-// });
-
-// root.pp5.gotoAndStop(0);
-
-// root.pieces.laut1.on("dblclick", function () {
-//   root.pp5.gotoAndPlay(0);
-// });
-
-// root.pp6.gotoAndStop(0);
-
-// root.pieces.laut2.on("dblclick", function () {
-//   root.pp6.gotoAndPlay(0);
-// });
-
-// root.pp7.gotoAndStop(0);
-
-// root.pieces.laut3.on("dblclick", function () {
-//   root.pp7.gotoAndPlay(0);
-// });
-
-// root.pp8.gotoAndStop(0);
-
-// root.pieces.laut4.on("dblclick", function () {
-//   root.pp8.gotoAndPlay(0);
-// });
-
-// root.pp9.gotoAndStop(0);
-
-// root.pieces.laut5.on("dblclick", function () {
-//   root.pp9.gotoAndPlay(0);
-// });
-
-// root.pp10.gotoAndStop(0);
-
-// root.pieces.laut6.on("dblclick", function () {
-//   root.pp10.gotoAndPlay(0);
-// });
-
-// root.pp11.gotoAndStop(0);
-
-// root.pieces.laut7.on("dblclick", function () {
-//   root.pp11.gotoAndPlay(0);
-// });
-
-// root.popUpInfo.gotoAndStop(0);
-
-// root.btnInfo.on("click", function () {
-//   root.popUpInfo.gotoAndPlay(0);
-// });
-
 root.setup = function () {
   document.body.style.backgroundColor = lib.properties.color;
   createjs.Touch.enable(stage);
@@ -146,7 +26,6 @@ root.setup = function () {
 };
 
 root.start = function (e) {
-  flag = true;
   stage.off("drawstart", root.drawStart);
   winMessage.originalY = winMessage.y;
 
@@ -157,16 +36,110 @@ root.start = function (e) {
   slots.children.forEach(function (child, index) {
     child.mouseChildren = false;
   });
-
-  root.restartHandler();
+  console.log(pieces);
+  console.log(slots);
+  root.restartHandler(null);
   restart.on("click", root.restartHandler);
   pieces.on("mousedown", root.mouseDownHandler);
+
+  root.btnMenuDasar1.on("click", function () {
+    root.shuffle();
+    root.restartHandler();
+
+    root.sleep(410);
+    root.gotoAndStop("menu");
+  });
+
+  root.btnNextDasar1.on("click", function () {
+    root.shuffle();
+
+    root.restartHandler();
+
+    root.sleep(410);
+
+    root.gotoAndStop("game7");
+  });
+
+  root.btnBack3.on("click", function () {
+    root.shuffle();
+
+    root.restartHandler();
+
+    root.sleep(410);
+    root.gotoAndStop("game5");
+  });
+
+  root.pGam1.gotoAndStop(0);
+
+  root.pieces.laut.on("dblclick", function () {
+    root.pGam1.gotoAndPlay(0);
+  });
+
+  root.pp3.gotoAndStop(0);
+
+  root.pieces.tana.on("dblclick", function () {
+    root.pp3.gotoAndPlay(0);
+  });
+
+  root.pp4.gotoAndStop(0);
+
+  root.pieces.tana1.on("dblclick", function () {
+    root.pp4.gotoAndPlay(0);
+  });
+
+  root.pp5.gotoAndStop(0);
+
+  root.pieces.laut1.on("dblclick", function () {
+    root.pp5.gotoAndPlay(0);
+  });
+
+  root.pp6.gotoAndStop(0);
+
+  root.pieces.laut2.on("dblclick", function () {
+    root.pp6.gotoAndPlay(0);
+  });
+
+  root.pp7.gotoAndStop(0);
+
+  root.pieces.laut3.on("dblclick", function () {
+    root.pp7.gotoAndPlay(0);
+  });
+
+  root.pp8.gotoAndStop(0);
+
+  root.pieces.laut4.on("dblclick", function () {
+    root.pp8.gotoAndPlay(0);
+  });
+
+  root.pp9.gotoAndStop(0);
+
+  root.pieces.laut5.on("dblclick", function () {
+    root.pp9.gotoAndPlay(0);
+  });
+
+  root.pp10.gotoAndStop(0);
+
+  root.pieces.laut6.on("dblclick", function () {
+    root.pp10.gotoAndPlay(0);
+  });
+
+  root.pp11.gotoAndStop(0);
+
+  root.pieces.laut7.on("dblclick", function () {
+    root.pp11.gotoAndPlay(0);
+  });
+
+  root.popUpInfo.gotoAndStop(0);
+
+  root.btnInfo.on("click", function () {
+    root.popUpInfo.gotoAndPlay(0);
+  });
 };
 
 root.restartHandler = function (e) {
   pieces.count = 0;
   winMessage.text = "";
-  root.sleep(400);
+  root.sleep(370);
   root.shuffle();
 };
 
@@ -215,7 +188,6 @@ root.shuffle = function () {
   pieces.children.forEach(function (child, index) {
     child.originalX = root.positions[index].x;
     child.originalY = root.positions[index].y;
-    root.tempPositions = root.positions;
 
     child.mouseEnabled = true;
     createjs.Tween.get(child).to(
@@ -236,7 +208,7 @@ root.check = function () {
   root.slot = spot.parent;
 
   if (root.slot) {
-    if (pieces.target.name.substring(0, 4) === root.slot.name) {
+    if (pieces.target.name.substring(0, 4) === root.slot.name.substring(0, 4)) {
       root.onMatch();
 
       if (pieces.count === pieces.children.length) root.onWin();
@@ -250,10 +222,11 @@ root.onMatch = function () {
   pieces.target.mouseEnabled = false;
   pieces.count++;
   createjs.Tween.get(pieces.target).to(
-    { x: root.slots.kotakKartu2.x, y: root.slots.kotakKartu2.y },
+    { x: root.slot.x, y: root.slot.y },
     350,
     createjs.Ease.backInOut
   );
+
   winMessage.text = "Selamat! Tebakan Anda Benar!";
   Score.text = pieces.count * 10;
   winMessage.alpha = 0;
