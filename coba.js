@@ -266,3 +266,5 @@ root.onMiss = function () {
 };
 
 root.setup();
+
+var root = this;

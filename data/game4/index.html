@@ -53,7 +53,7 @@ function handleComplete(evt,comp) {
 	var preloaderDiv = document.getElementById("_preload_div_");
 	preloaderDiv.style.display = 'none';
 	canvas.style.display = 'block';
-	exportRoot = new lib.game4();
+	exportRoot = new lib.game4_temp();
 	stage = new lib.Stage(canvas);
 	stage.enableMouseOver();	
 	//Registers the "tick" event listener.
@@ -71,8 +71,8 @@ function handleComplete(evt,comp) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-	<div id="animation_container" style="background-color:rgba(0, 153, 153, 1.00); width:960px; height:540px">
-		<canvas id="canvas" width="960" height="540" style="position: absolute; display: none; background-color:rgba(0, 153, 153, 1.00);"></canvas>
+	<div id="animation_container" style="background-color:rgba(52, 73, 94, 1.00); width:960px; height:540px">
+		<canvas id="canvas" width="960" height="540" style="position: absolute; display: none; background-color:rgba(52, 73, 94, 1.00);"></canvas>
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:960px; height:540px; position: absolute; left: 0px; top: 0px; display: none;">
 		</div>
 	</div>
