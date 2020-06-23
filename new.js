@@ -13,11 +13,11 @@ root.btnMenuDasar1.on("click", function () {
 });
 
 root.btnNextDasar1.on("click", function () {
-  window.location.replace("../game10/index.html");
+  window.location.replace("../game11/index.html");
 });
 
 root.btnBack3.on("click", function () {
-  window.location.replace("../materi6/index.html");
+  window.location.replace("../game9/index.html");
 });
 
 //#34495e
@@ -197,8 +197,6 @@ root.check = function () {
 root.letakin = function () {
   pieces.target.mouseEnabled = false;
   pieces.count++;
-  console.log(pieces.target);
-
   createjs.Tween.get(pieces.target).to(
     { x: root.slots.kotakKartu2.x, y: root.slots.kotakKartu2.y },
     350,
@@ -220,7 +218,7 @@ root.salahJawab = function () {
 root.onMatch = function () {
   winMessage.text = "Selamat! Tebakan Anda Benar!";
   pieces.skor++;
-  Score.text = pieces.skor * 33;
+  Score.text = pieces.skor * 20;
   winMessage.alpha = 0;
   winMessage.y = winMessage.originalY + 60;
   createjs.Tween.get(winMessage).to(
@@ -234,7 +232,6 @@ root.onWin = function () {
   winMessage.text = "Yey!, Anda Berhasil Menyelesaikan Tantangan. Selamat!";
   winMessage.alpha = 0;
   winMessage.y = winMessage.originalY + 60;
-  Score.text = pieces.skor * 33 + 1;
   createjs.Tween.get(winMessage).to(
     { alpha: 1, y: winMessage.originalY },
     500,
