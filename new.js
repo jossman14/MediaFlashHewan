@@ -3,7 +3,7 @@ var pieces = root.pieces;
 var slots = root.slots;
 var restart = root.restart;
 var winMessage = root.winMessage;
-var Score1 = root.Score1;
+var Score = root.Score;
 var positions1 = [];
 
 root.stop();
@@ -159,7 +159,7 @@ root.stageMouseUpHandler = function (e) {
 };
 
 root.shuffle = function () {
-  Score1.text = "score1";
+  Score.text = "score";
   positions1.sort(function (a, b) {
     return 0.5 - Math.random();
   });
@@ -187,6 +187,8 @@ root.check = function () {
   root.slot = spot.parent;
 
   if (root.slot) {
+    console.log(pieces.target.name, root.slot.name);
+    console.log(root.slot);
     if (pieces.target.name.substring(0, 4) === root.slot.name.substring(0, 4)) {
       root.letakin();
       root.onMatch();
@@ -224,7 +226,7 @@ root.salahJawab = function () {
 root.onMatch = function () {
   winMessage.text = "Selamat! Tebakan Anda Benar!";
   pieces.skor++;
-  Score1.text = pieces.skor * 20;
+  Score.text = pieces.skor * 20;
   winMessage.alpha = 0;
   winMessage.y = winMessage.originalY + 60;
   createjs.Tween.get(winMessage).to(
