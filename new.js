@@ -3,7 +3,7 @@ var pieces = root.pieces;
 var slots = root.slots;
 var restart = root.restart;
 var winMessage = root.winMessage;
-var Score = root.Score;
+var Score1 = root.Score1;
 var positions1 = [];
 
 root.stop();
@@ -88,6 +88,12 @@ root.btnInfo.on("click", function () {
   root.popUpInfo.gotoAndPlay(0);
 });
 
+root.popUpMateri.gotoAndStop(0);
+
+root.materiBtn.on("click", function () {
+  root.popUpMateri.gotoAndPlay(0);
+});
+
 root.setup = function () {
   document.body.style.backgroundColor = lib.properties.color;
   createjs.Touch.enable(stage);
@@ -153,7 +159,7 @@ root.stageMouseUpHandler = function (e) {
 };
 
 root.shuffle = function () {
-  Score.text = "score";
+  Score1.text = "score1";
   positions1.sort(function (a, b) {
     return 0.5 - Math.random();
   });
@@ -218,7 +224,7 @@ root.salahJawab = function () {
 root.onMatch = function () {
   winMessage.text = "Selamat! Tebakan Anda Benar!";
   pieces.skor++;
-  Score.text = pieces.skor * 20;
+  Score1.text = pieces.skor * 20;
   winMessage.alpha = 0;
   winMessage.y = winMessage.originalY + 60;
   createjs.Tween.get(winMessage).to(
