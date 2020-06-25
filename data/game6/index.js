@@ -135,16 +135,16 @@ lib.ssMetadata = [];
 
 
 
+(lib.Bitmap2 = function() {
+	this.initialize(img.Bitmap2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,998,600);
+
+
 (lib.Bitmap3 = function() {
 	this.initialize(img.Bitmap3);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,249,87);
-
-
-(lib.Bitmap83 = function() {
-	this.initialize(img.Bitmap83);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,329,159);
 
 
 (lib.Bitmap84 = function() {
@@ -153,28 +153,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,329,159);
 p.nominalBounds = new cjs.Rectangle(0,0,322,159);
 
 
-(lib.Bitmap85 = function() {
-	this.initialize(img.Bitmap85);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,307,157);
-
-
 (lib.Bitmap86 = function() {
 	this.initialize(img.Bitmap86);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,321,184);
 
 
+(lib.Bitmap83 = function() {
+	this.initialize(img.Bitmap83);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,329,159);
+
+
+(lib.Bitmap85 = function() {
+	this.initialize(img.Bitmap85);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,307,157);
+
+
 (lib.bookpngcopy = function() {
 	this.initialize(img.bookpngcopy);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
-
-
-(lib.Bitmap2 = function() {
-	this.initialize(img.Bitmap2);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 
 
 (lib.Bitmap87 = function() {
@@ -4126,9 +4126,9 @@ p.nominalBounds = new cjs.Rectangle(-59.4,-25.6,118.1,49.1);
 
 	this.instance_2 = new lib.Tween3("synched",0);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},6).to({state:[{t:this.instance_2}]},7).wait(2));
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true,x:-12.55},6).wait(9));
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({_off:false},6).to({_off:true,x:0},7).wait(2));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},12).to({state:[{t:this.instance_2}]},14).wait(4));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true,x:-12.55},12).wait(18));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({_off:false},12).to({_off:true,x:0},14).wait(4));
 
 	this._renderFirstFrame();
 
@@ -4239,9 +4239,9 @@ p.nominalBounds = new cjs.Rectangle(-23.3,-22.9,46.2,45.9);
 
 	this.instance_2 = new lib.Tween6("synched",0);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},7).to({state:[{t:this.instance_2}]},7).wait(1));
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true,x:-24},7).wait(8));
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({_off:false},7).to({_off:true,x:0},7).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},16).to({state:[{t:this.instance_2}]},17).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true,x:-24},16).wait(19));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({_off:false},16).to({_off:true,x:0},17).wait(2));
 
 	this._renderFirstFrame();
 
@@ -6200,13 +6200,13 @@ lib.properties = {
 	color: "#009999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Bitmap3.png", id:"Bitmap3"},
-		{src:"images/Bitmap83.png", id:"Bitmap83"},
-		{src:"images/Bitmap84.png", id:"Bitmap84"},
-		{src:"images/Bitmap85.png", id:"Bitmap85"},
-		{src:"images/Bitmap86.png", id:"Bitmap86"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
 		{src:"images/Bitmap2.png", id:"Bitmap2"},
+		{src:"images/Bitmap3.png", id:"Bitmap3"},
+		{src:"images/Bitmap84.png", id:"Bitmap84"},
+		{src:"images/Bitmap86.png", id:"Bitmap86"},
+		{src:"images/Bitmap83.png", id:"Bitmap83"},
+		{src:"images/Bitmap85.png", id:"Bitmap85"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
 		{src:"images/Bitmap87.png", id:"Bitmap87"}
 	],
 	preloads: []
