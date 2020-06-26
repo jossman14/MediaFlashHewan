@@ -135,8 +135,20 @@ lib.ssMetadata = [];
 
 
 
-(lib._14 = function() {
-	this.initialize(img._14);
+(lib._11 = function() {
+	this.initialize(img._11);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+
+
+(lib._13 = function() {
+	this.initialize(img._13);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+
+
+(lib._12 = function() {
+	this.initialize(img._12);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
@@ -147,8 +159,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 p.nominalBounds = new cjs.Rectangle(0,0,962,562);
 
 
-(lib._24 = function() {
-	this.initialize(img._24);
+(lib._14 = function() {
+	this.initialize(img._14);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+
+
+(lib._23 = function() {
+	this.initialize(img._23);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,962,562);
 
@@ -165,20 +183,20 @@ p.nominalBounds = new cjs.Rectangle(0,0,960,545);
 p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 
 
-(lib._22 = function() {
-	this.initialize(img._22);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,562);
-
-
 (lib.bookpngcopy = function() {
 	this.initialize(img.bookpngcopy);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
-(lib._23 = function() {
-	this.initialize(img._23);
+(lib._24 = function() {
+	this.initialize(img._24);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,562);
+
+
+(lib._22 = function() {
+	this.initialize(img._22);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,962,562);// helper functions:
 
@@ -245,6 +263,30 @@ p.nominalBounds = new cjs.Rectangle(-27.6,-229,55.3,458.1);
 
 	this.instance_3 = new lib._24();
 	this.instance_3.setTransform(-284,-166,0.999,0.9983);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},5).to({state:[{t:this.instance_2}]},5).to({state:[{t:this.instance_3}]},5).wait(5));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-284,-166,567,331);
+
+
+(lib.gambar1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib._11();
+	this.instance.setTransform(-284,-166,0.59,0.59);
+
+	this.instance_1 = new lib._12();
+	this.instance_1.setTransform(-284,-166,0.59,0.59);
+
+	this.instance_2 = new lib._13();
+	this.instance_2.setTransform(-284,-166,0.59,0.59);
+
+	this.instance_3 = new lib._14();
+	this.instance_3.setTransform(-284,-166);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},5).to({state:[{t:this.instance_2}]},5).to({state:[{t:this.instance_3}]},5).wait(5));
 
@@ -784,8 +826,8 @@ p.nominalBounds = new cjs.Rectangle(-59.4,-25.6,118.1,49);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1).call(this.frame_4).wait(1));
 
 	// Layer_1
-	this.instance = new lib._14();
-	this.instance.setTransform(204,140);
+	this.instance = new lib.gambar1();
+	this.instance.setTransform(487.4,306.45);
 
 	this.instance_1 = new lib.gambar2();
 	this.instance_1.setTransform(488.2,306.25);
@@ -4764,14 +4806,17 @@ lib.properties = {
 	color: "#3498DB",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_14.png", id:"_14"},
+		{src:"images/_11.png", id:"_11"},
+		{src:"images/_13.png", id:"_13"},
+		{src:"images/_12.png", id:"_12"},
 		{src:"images/_21.png", id:"_21"},
-		{src:"images/_24.png", id:"_24"},
+		{src:"images/_14.png", id:"_14"},
+		{src:"images/_23.png", id:"_23"},
 		{src:"images/Bitmap28.png", id:"Bitmap28"},
 		{src:"images/Bitmap5.png", id:"Bitmap5"},
-		{src:"images/_22.png", id:"_22"},
 		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/_23.png", id:"_23"}
+		{src:"images/_24.png", id:"_24"},
+		{src:"images/_22.png", id:"_22"}
 	],
 	preloads: []
 };
