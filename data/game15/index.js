@@ -141,22 +141,28 @@ lib.ssMetadata = [];
 p.nominalBounds = new cjs.Rectangle(0,0,320,292);
 
 
-(lib._26 = function() {
-	this.initialize(img._26);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,624,375);
-
-
 (lib.Bitmap102copy = function() {
 	this.initialize(img.Bitmap102copy);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,233,124);
 
 
-(lib.Bitmap134 = function() {
-	this.initialize(img.Bitmap134);
+(lib._26 = function() {
+	this.initialize(img._26);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,233,123);
+p.nominalBounds = new cjs.Rectangle(0,0,624,375);
+
+
+(lib.Bitmap130 = function() {
+	this.initialize(img.Bitmap130);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,263,167);
+
+
+(lib.Bitmap135 = function() {
+	this.initialize(img.Bitmap135);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,199,123);
 
 
 (lib.Bitmap136 = function() {
@@ -171,10 +177,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,191,123);
 p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 
 
-(lib.Bitmap130 = function() {
-	this.initialize(img.Bitmap130);
+(lib.Bitmap3 = function() {
+	this.initialize(img.Bitmap3);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,263,167);
+p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 
 
 (lib.bookpngcopy = function() {
@@ -183,22 +189,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,263,167);
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
-(lib.Bitmap135 = function() {
-	this.initialize(img.Bitmap135);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,199,123);
-
-
-(lib.Bitmap3 = function() {
-	this.initialize(img.Bitmap3);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,249,87);
-
-
 (lib.Bitmap133 = function() {
 	this.initialize(img.Bitmap133);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,196,167);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,196,167);
+
+
+(lib.Bitmap134 = function() {
+	this.initialize(img.Bitmap134);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,233,123);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -6255,16 +6255,16 @@ lib.properties = {
 	opacity: 1.00,
 	manifest: [
 		{src:"images/_16.jpeg", id:"_16"},
-		{src:"images/_26.jpeg", id:"_26"},
 		{src:"images/Bitmap102copy.png", id:"Bitmap102copy"},
-		{src:"images/Bitmap134.png", id:"Bitmap134"},
+		{src:"images/_26.jpeg", id:"_26"},
+		{src:"images/Bitmap130.png", id:"Bitmap130"},
+		{src:"images/Bitmap135.png", id:"Bitmap135"},
 		{src:"images/Bitmap136.png", id:"Bitmap136"},
 		{src:"images/Bitmap2.png", id:"Bitmap2"},
-		{src:"images/Bitmap130.png", id:"Bitmap130"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/Bitmap135.png", id:"Bitmap135"},
 		{src:"images/Bitmap3.png", id:"Bitmap3"},
-		{src:"images/Bitmap133.png", id:"Bitmap133"}
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"images/Bitmap133.png", id:"Bitmap133"},
+		{src:"images/Bitmap134.png", id:"Bitmap134"}
 	],
 	preloads: []
 };

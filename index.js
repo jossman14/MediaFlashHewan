@@ -491,9 +491,9 @@ lib.properties = {
 	color: "#2ECC71",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Bitmap1.png?1593274562273", id:"Bitmap1"},
-		{src:"images/Bitmap13.png?1593274562273", id:"Bitmap13"},
-		{src:"images/bookpngcopy.png?1593274562273", id:"bookpngcopy"}
+		{src:"images/Bitmap1.png?1593275017489", id:"Bitmap1"},
+		{src:"images/Bitmap13.png?1593275017489", id:"Bitmap13"},
+		{src:"images/bookpngcopy.png?1593275017489", id:"bookpngcopy"}
 	],
 	preloads: []
 };

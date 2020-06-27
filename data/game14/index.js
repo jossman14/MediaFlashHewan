@@ -135,6 +135,12 @@ lib.ssMetadata = [];
 
 
 
+(lib._16 = function() {
+	this.initialize(img._16);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,320,292);
+
+
 (lib.Bitmap102copy = function() {
 	this.initialize(img.Bitmap102copy);
 }).prototype = p = new cjs.Bitmap();
@@ -151,12 +157,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,222);
 	this.initialize(img.Bitmap124);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,296,222);
-
-
-(lib.Bitmap126 = function() {
-	this.initialize(img.Bitmap126);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,226,157);
 
 
 (lib.Bitmap127 = function() {
@@ -189,16 +189,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
-(lib._16 = function() {
-	this.initialize(img._16);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,320,292);
-
-
 (lib.Bitmap125 = function() {
 	this.initialize(img.Bitmap125);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,302,222);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,302,222);
+
+
+(lib.Bitmap126 = function() {
+	this.initialize(img.Bitmap126);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,226,157);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -3667,32 +3667,32 @@ p.nominalBounds = new cjs.Rectangle(-23.3,-22.9,46.2,45.9);
 	this.initialize(mode,startPosition,loop,{});
 
 	// pieces
-	this.drag2G1 = new lib.drag11G13();
-	this.drag2G1.name = "drag2G1";
-	this.drag2G1.setTransform(365,383.3,0.928,0.9446,0,0,0,45.1,46.9);
-	new cjs.ButtonHelper(this.drag2G1, 0, 1, 1);
+	this.target = new lib.drag11G13();
+	this.target.name = "target";
+	this.target.setTransform(365,383.3,0.928,0.9446,0,0,0,45.1,46.9);
+	new cjs.ButtonHelper(this.target, 0, 1, 1);
 
-	this.drag2G1_1 = new lib.drag11G11();
-	this.drag2G1_1.name = "drag2G1_1";
-	this.drag2G1_1.setTransform(274.9,383.25,0.928,0.9446,0,0,0,45.1,46.9);
-	new cjs.ButtonHelper(this.drag2G1_1, 0, 1, 1);
+	this.target_1 = new lib.drag11G11();
+	this.target_1.name = "target_1";
+	this.target_1.setTransform(274.9,383.25,0.928,0.9446,0,0,0,45.1,46.9);
+	new cjs.ButtonHelper(this.target_1, 0, 1, 1);
 
-	this.drag2G1_2 = new lib.drag11G12();
-	this.drag2G1_2.name = "drag2G1_2";
-	this.drag2G1_2.setTransform(183.05,383.25,0.928,0.9446,0,0,0,45.1,46.9);
-	new cjs.ButtonHelper(this.drag2G1_2, 0, 1, 1);
+	this.target_2 = new lib.drag11G12();
+	this.target_2.name = "target_2";
+	this.target_2.setTransform(183.05,383.25,0.928,0.9446,0,0,0,45.1,46.9);
+	new cjs.ButtonHelper(this.target_2, 0, 1, 1);
 
-	this.drag2G1_3 = new lib.drag11G10();
-	this.drag2G1_3.name = "drag2G1_3";
-	this.drag2G1_3.setTransform(92.85,383.3,0.928,0.9446,0,0,0,45.1,46.9);
-	new cjs.ButtonHelper(this.drag2G1_3, 0, 1, 1);
+	this.target_3 = new lib.drag11G10();
+	this.target_3.name = "target_3";
+	this.target_3.setTransform(92.85,383.3,0.928,0.9446,0,0,0,45.1,46.9);
+	new cjs.ButtonHelper(this.target_3, 0, 1, 1);
 
 	this.hemm = new lib.drag7G10copy();
 	this.hemm.name = "hemm";
 	this.hemm.setTransform(456.05,382.5,0.9279,0.9279,0,0,0,45,47);
 	new cjs.ButtonHelper(this.hemm, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.hemm},{t:this.drag2G1_3},{t:this.drag2G1_2},{t:this.drag2G1_1},{t:this.drag2G1}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.hemm},{t:this.target_3},{t:this.target_2},{t:this.target_1},{t:this.target}]}).wait(1));
 
 	this._renderFirstFrame();
 
@@ -4645,6 +4645,19 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		this.clearAllSoundStreams();
 		 
 		var root = this;
+		
+		root.btnMenuDasar1.on("click", function () {
+		  window.location.replace("../menu/index.html");
+		});
+		
+		root.btnNextDasar1.on("click", function () {
+		  window.location.replace("../game15/index.html");
+		});
+		
+		root.btnBack3.on("click", function () {
+		  window.location.replace("../game13/index.html");
+		});
+		var root = this;
 		var pieces = root.pieces;
 		var slots = root.slots;
 		var restart = root.restart;
@@ -5518,17 +5531,17 @@ lib.properties = {
 	color: "#34495E",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Bitmap102copy.png?1593242383271", id:"Bitmap102copy"},
-		{src:"images/Bitmap123.png?1593242383271", id:"Bitmap123"},
-		{src:"images/Bitmap124.png?1593242383271", id:"Bitmap124"},
-		{src:"images/Bitmap126.png?1593242383271", id:"Bitmap126"},
-		{src:"images/Bitmap127.png?1593242383271", id:"Bitmap127"},
-		{src:"images/Bitmap128.png?1593242383271", id:"Bitmap128"},
-		{src:"images/Bitmap2.png?1593242383271", id:"Bitmap2"},
-		{src:"images/Bitmap3.png?1593242383271", id:"Bitmap3"},
-		{src:"images/bookpngcopy.png?1593242383271", id:"bookpngcopy"},
-		{src:"images/_16.jpeg?1593242383271", id:"_16"},
-		{src:"images/Bitmap125.png?1593242383271", id:"Bitmap125"}
+		{src:"images/_16.jpeg", id:"_16"},
+		{src:"images/Bitmap102copy.png", id:"Bitmap102copy"},
+		{src:"images/Bitmap123.png", id:"Bitmap123"},
+		{src:"images/Bitmap124.png", id:"Bitmap124"},
+		{src:"images/Bitmap127.png", id:"Bitmap127"},
+		{src:"images/Bitmap128.png", id:"Bitmap128"},
+		{src:"images/Bitmap2.png", id:"Bitmap2"},
+		{src:"images/Bitmap3.png", id:"Bitmap3"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"images/Bitmap125.png", id:"Bitmap125"},
+		{src:"images/Bitmap126.png", id:"Bitmap126"}
 	],
 	preloads: []
 };
