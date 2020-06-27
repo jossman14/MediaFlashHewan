@@ -147,18 +147,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 
 
-(lib.Bitmap84 = function() {
-	this.initialize(img.Bitmap84);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,322,159);
-
-
-(lib.Bitmap86 = function() {
-	this.initialize(img.Bitmap86);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,321,184);
-
-
 (lib.Bitmap83 = function() {
 	this.initialize(img.Bitmap83);
 }).prototype = p = new cjs.Bitmap();
@@ -171,16 +159,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,329,159);
 p.nominalBounds = new cjs.Rectangle(0,0,307,157);
 
 
+(lib.Bitmap87 = function() {
+	this.initialize(img.Bitmap87);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,275,161);
+
+
 (lib.bookpngcopy = function() {
 	this.initialize(img.bookpngcopy);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
-(lib.Bitmap87 = function() {
-	this.initialize(img.Bitmap87);
+(lib.Bitmap84 = function() {
+	this.initialize(img.Bitmap84);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,275,161);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,322,159);
+
+
+(lib.Bitmap86 = function() {
+	this.initialize(img.Bitmap86);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,321,184);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -5450,12 +5450,21 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		}
 		this.clearAllSoundStreams();
 		 
-		var _this = this;
+		var root = this;
 		
-		_this.btnNextDasar1.on('click', function(){
-		
-		window.location.replace('../../index.html');
+		root.btnMenuDasar1.on("click", function () {
+		  window.location.replace("../menu/index.html");
 		});
+		
+		root.btnNextDasar1.on("click", function () {
+		  window.location.replace("../game7/index.html");
+		});
+		
+		root.btnBack3.on("click", function () {
+		  window.location.replace("../game5/index.html");
+		});
+		
+		//#34495e
 		var root = this;
 		var pieces = root.pieces;
 		var slots = root.slots;
@@ -6202,12 +6211,12 @@ lib.properties = {
 	manifest: [
 		{src:"images/Bitmap2.png", id:"Bitmap2"},
 		{src:"images/Bitmap3.png", id:"Bitmap3"},
-		{src:"images/Bitmap84.png", id:"Bitmap84"},
-		{src:"images/Bitmap86.png", id:"Bitmap86"},
 		{src:"images/Bitmap83.png", id:"Bitmap83"},
 		{src:"images/Bitmap85.png", id:"Bitmap85"},
+		{src:"images/Bitmap87.png", id:"Bitmap87"},
 		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/Bitmap87.png", id:"Bitmap87"}
+		{src:"images/Bitmap84.png", id:"Bitmap84"},
+		{src:"images/Bitmap86.png", id:"Bitmap86"}
 	],
 	preloads: []
 };

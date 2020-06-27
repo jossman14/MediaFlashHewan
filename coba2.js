@@ -8,6 +8,20 @@ var positions1 = [];
 
 root.stop();
 
+root.btnMenuDasar1.on("click", function () {
+  window.location.replace("../menu/index.html");
+});
+
+root.btnNextDasar1.on("click", function () {
+  window.location.replace("../game12/index.html");
+});
+
+root.btnBack3.on("click", function () {
+  window.location.replace("../game10/index.html");
+});
+
+//#34495e
+
 // root.pGam1.gotoAndStop(0);
 
 // root.pieces.laut.on("dblclick", function () {
@@ -83,7 +97,7 @@ root.setup = function () {
 
 root.start = function (e) {
   stage.off("drawstart", root.drawStart);
-  winMessage.originalY = winMessage.y;
+  winMessage.originalY1 = winMessage.y;
   pieces.children.forEach(function (child, index) {
     positions1[index] = { x: child.x, y: child.y };
   });
@@ -107,9 +121,9 @@ root.restartHandler = function (e) {
 root.mouseDownHandler = function (e) {
   winMessage.text = "Ayo, Letakkan pada kotak yang sesuai!";
   winMessage.alpha = 0;
-  winMessage.y = winMessage.originalY + 60;
+  winMessage.y = winMessage.originalY1 + 60;
   createjs.Tween.get(winMessage).to(
-    { alpha: 1, y: winMessage.originalY },
+    { alpha: 1, y: winMessage.originalY1 },
     500,
     createjs.Ease.backInOut
   );
@@ -143,13 +157,14 @@ root.shuffle = function () {
   positions1.sort(function (a, b) {
     return 0.5 - Math.random();
   });
-
-  pieces.children.forEach(function (child, index) {
-    child.originalX = positions1[index].x;
-    child.originalY = positions1[index].y;
-    child.mouseEnabled = true;
-    createjs.Tween.get(child).to(
-      { x: child.originalX, y: child.originalY },
+  console.log(pieces);
+  console.log(pieces.children);
+  pieces.children.forEach(function (child1, index) {
+    child1.originalX1 = positions1[index].x;
+    child1.originalY1 = positions1[index].y;
+    child1.mouseEnabled = true;
+    createjs.Tween.get(child1).to(
+      { x: child1.originalX1, y: child1.originalY1 },
       350,
       createjs.Ease.backInOut
     );
@@ -168,7 +183,6 @@ root.check = function () {
 
   if (root.slot) {
     console.log(root.slot.name, pieces.target.name);
-    console.log(root.slot);
     if (pieces.target.name.substring(0, 4) === root.slot.name.substring(0, 4)) {
       root.letakin();
       root.onMatch();
@@ -195,9 +209,9 @@ root.letakin = function () {
 root.salahJawab = function () {
   winMessage.text = "Hemm, sepertinya Tebakan Anda Salah";
   winMessage.alpha = 0;
-  winMessage.y = winMessage.originalY + 60;
+  winMessage.y = winMessage.originalY1 + 60;
   createjs.Tween.get(winMessage).to(
-    { alpha: 1, y: winMessage.originalY },
+    { alpha: 1, y: winMessage.originalY1 },
     500,
     createjs.Ease.backInOut
   );
@@ -208,9 +222,9 @@ root.onMatch = function () {
   pieces.skor++;
   Score.text = pieces.skor * 20;
   winMessage.alpha = 0;
-  winMessage.y = winMessage.originalY + 60;
+  winMessage.y = winMessage.originalY1 + 60;
   createjs.Tween.get(winMessage).to(
-    { alpha: 1, y: winMessage.originalY },
+    { alpha: 1, y: winMessage.originalY1 },
     500,
     createjs.Ease.backInOut
   );
@@ -219,9 +233,9 @@ root.onMatch = function () {
 root.onWin = function () {
   winMessage.text = "Yey!, Anda Berhasil Menyelesaikan Tantangan. Selamat!";
   winMessage.alpha = 0;
-  winMessage.y = winMessage.originalY + 60;
+  winMessage.y = winMessage.originalY1 + 60;
   createjs.Tween.get(winMessage).to(
-    { alpha: 1, y: winMessage.originalY },
+    { alpha: 1, y: winMessage.originalY1 },
     500,
     createjs.Ease.backInOut
   );
@@ -229,15 +243,15 @@ root.onWin = function () {
 
 root.onMiss = function () {
   createjs.Tween.get(pieces.target).to(
-    { x: pieces.target.originalX, y: pieces.target.originalY },
+    { x: pieces.target.originalX1, y: pieces.target.originalY1 },
     350,
     createjs.Ease.backInOut
   );
   winMessage.text = "Silahkan letakkan pada kotak yang sesuai ya..";
   winMessage.alpha = 0;
-  winMessage.y = winMessage.originalY + 60;
+  winMessage.y = winMessage.originalY1 + 60;
   createjs.Tween.get(winMessage).to(
-    { alpha: 1, y: winMessage.originalY },
+    { alpha: 1, y: winMessage.originalY1 },
     500,
     createjs.Ease.backInOut
   );

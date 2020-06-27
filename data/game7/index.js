@@ -153,16 +153,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 p.nominalBounds = new cjs.Rectangle(0,0,170,155);
 
 
-(lib.Bitmap90 = function() {
-	this.initialize(img.Bitmap90);
+(lib.Bitmap92 = function() {
+	this.initialize(img.Bitmap92);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,182,104);
-
-
-(lib.Bitmap89 = function() {
-	this.initialize(img.Bitmap89);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,177,146);
+p.nominalBounds = new cjs.Rectangle(0,0,170,155);
 
 
 (lib.Bitmap95 = function() {
@@ -177,16 +171,22 @@ p.nominalBounds = new cjs.Rectangle(0,0,170,155);
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
-(lib.Bitmap92 = function() {
-	this.initialize(img.Bitmap92);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,170,155);
-
-
 (lib.Bitmap93 = function() {
 	this.initialize(img.Bitmap93);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,183,105);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,183,105);
+
+
+(lib.Bitmap89 = function() {
+	this.initialize(img.Bitmap89);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,177,146);
+
+
+(lib.Bitmap90 = function() {
+	this.initialize(img.Bitmap90);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,182,104);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -4102,6 +4102,21 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		this.clearAllSoundStreams();
 		 
 		var root = this;
+		
+		root.btnMenuDasar1.on("click", function () {
+		  window.location.replace("../menu/index.html");
+		});
+		
+		root.btnNextDasar1.on("click", function () {
+		  window.location.replace("../game8/index.html");
+		});
+		
+		root.btnBack3.on("click", function () {
+		  window.location.replace("../game6/index.html");
+		});
+		
+		//#34495e
+		var root = this;
 		var pieces = root.pieces;
 		var slots = root.slots;
 		var restart = root.restart;
@@ -4828,12 +4843,12 @@ lib.properties = {
 		{src:"images/Bitmap2.png", id:"Bitmap2"},
 		{src:"images/Bitmap3.png", id:"Bitmap3"},
 		{src:"images/Bitmap88.png", id:"Bitmap88"},
-		{src:"images/Bitmap90.png", id:"Bitmap90"},
-		{src:"images/Bitmap89.png", id:"Bitmap89"},
+		{src:"images/Bitmap92.png", id:"Bitmap92"},
 		{src:"images/Bitmap95.png", id:"Bitmap95"},
 		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/Bitmap92.png", id:"Bitmap92"},
-		{src:"images/Bitmap93.png", id:"Bitmap93"}
+		{src:"images/Bitmap93.png", id:"Bitmap93"},
+		{src:"images/Bitmap89.png", id:"Bitmap89"},
+		{src:"images/Bitmap90.png", id:"Bitmap90"}
 	],
 	preloads: []
 };

@@ -135,14 +135,14 @@ lib.ssMetadata = [];
 
 
 
-(lib._12 = function() {
-	this.initialize(img._12);
+(lib._11 = function() {
+	this.initialize(img._11);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
 
-(lib._11 = function() {
-	this.initialize(img._11);
+(lib._13 = function() {
+	this.initialize(img._13);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
@@ -153,20 +153,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 p.nominalBounds = new cjs.Rectangle(0,0,962,562);
 
 
-(lib._23 = function() {
-	this.initialize(img._23);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,562);
-
-
 (lib._22 = function() {
 	this.initialize(img._22);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,962,562);
 
 
-(lib._13 = function() {
-	this.initialize(img._13);
+(lib._14 = function() {
+	this.initialize(img._14);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
@@ -177,16 +171,82 @@ p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 p.nominalBounds = new cjs.Rectangle(0,0,962,562);
 
 
+(lib._31 = function() {
+	this.initialize(img._31);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,963,560);
+
+
+(lib._32 = function() {
+	this.initialize(img._32);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,966,560);
+
+
+(lib._33 = function() {
+	this.initialize(img._33);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,966,560);
+
+
+(lib._34 = function() {
+	this.initialize(img._34);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,966,560);
+
+
+(lib._35 = function() {
+	this.initialize(img._35);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,966,560);
+
+
+(lib._23 = function() {
+	this.initialize(img._23);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,562);
+
+
+(lib._3 = function() {
+	this.initialize(img._3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+
+
+(lib._4 = function() {
+	this.initialize(img._4);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+
+
+(lib._5 = function() {
+	this.initialize(img._5);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+
+
+(lib._6 = function() {
+	this.initialize(img._6);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+
+
+(lib._1 = function() {
+	this.initialize(img._1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+
+
 (lib.Bitmap5 = function() {
 	this.initialize(img.Bitmap5);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 
 
-(lib.Bitmap28 = function() {
-	this.initialize(img.Bitmap28);
+(lib._12 = function() {
+	this.initialize(img._12);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,960,545);
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
 
 (lib.bookpngcopy = function() {
@@ -195,10 +255,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,960,545);
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
-(lib._14 = function() {
-	this.initialize(img._14);
+(lib._2 = function() {
+	this.initialize(img._2);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,961,561);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+
+
+(lib.Bitmap28 = function() {
+	this.initialize(img.Bitmap28);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,545);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -272,18 +338,91 @@ p.nominalBounds = new cjs.Rectangle(-27.6,-229,55.3,458.1);
 p.nominalBounds = new cjs.Rectangle(-284,-166,567,331);
 
 
-(lib.gambar1 = function(mode,startPosition,loop) {
+(lib.g4 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// timeline functions:
+	this.frame_95 = function() {
+		this.stop();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).wait(95).call(this.frame_95).wait(25));
+
+	// Layer_1
+	this.instance = new lib._1();
+	this.instance.setTransform(-285,-167);
+
+	this.instance_1 = new lib._2();
+	this.instance_1.setTransform(-285,-167);
+
+	this.instance_2 = new lib._3();
+	this.instance_2.setTransform(-285,-167);
+
+	this.instance_3 = new lib._4();
+	this.instance_3.setTransform(-285,-167);
+
+	this.instance_4 = new lib._5();
+	this.instance_4.setTransform(-285,-167);
+
+	this.instance_5 = new lib._6();
+	this.instance_5.setTransform(-285,-167);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},15).to({state:[{t:this.instance_2}]},15).to({state:[{t:this.instance_3}]},15).to({state:[{t:this.instance_4}]},25).to({state:[{t:this.instance_5}]},25).wait(25));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-285,-167,567,331);
+
+
+(lib.g3 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// timeline functions:
+	this.frame_80 = function() {
+		this.stop();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).wait(80).call(this.frame_80).wait(20));
+
+	// Layer_1
+	this.instance = new lib._31();
+	this.instance.setTransform(-285,-167,0.998,1.0018);
+
+	this.instance_1 = new lib._32();
+	this.instance_1.setTransform(-285,-167,0.9948,1.0018);
+
+	this.instance_2 = new lib._33();
+	this.instance_2.setTransform(-285,-167,0.9948,1.0018);
+
+	this.instance_3 = new lib._34();
+	this.instance_3.setTransform(-285,-167,0.9948,1.0018);
+
+	this.instance_4 = new lib._35();
+	this.instance_4.setTransform(-285,-167,0.9948,1.0018);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},20).to({state:[{t:this.instance_2}]},20).to({state:[{t:this.instance_3}]},20).to({state:[{t:this.instance_4}]},20).wait(20));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-285,-167,567,331);
+
+
+(lib.g1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer_1
 	this.instance = new lib._11();
-	this.instance.setTransform(-284,-166,0.59,0.59);
+	this.instance.setTransform(-284,-166);
 
 	this.instance_1 = new lib._12();
-	this.instance_1.setTransform(-284,-166,0.59,0.59);
+	this.instance_1.setTransform(-284,-166);
 
 	this.instance_2 = new lib._13();
-	this.instance_2.setTransform(-284,-166,0.59,0.59);
+	this.instance_2.setTransform(-284,-166);
 
 	this.instance_3 = new lib._14();
 	this.instance_3.setTransform(-284,-166);
@@ -379,11 +518,11 @@ p.nominalBounds = new cjs.Rectangle(-27.6,-229,55.3,458.1);
 	// Layer_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#18B8C4").s().p("AhXBMIBNhMIhNhMIAygxIB9B9Ih9B+g");
-	this.shape.setTransform(-43.2824,1.4241,0.5329,0.5329,-90);
+	this.shape.setTransform(-43.283,1.4244,0.5328,0.5328,-90);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#18B8C4").s().p("Ah6CSICRiSIiRiRIAygyIDCDDIjCDDg");
-	this.shape_1.setTransform(-43.2824,-6.902,0.5329,0.5329,-90);
+	this.shape_1.setTransform(-43.283,-6.9012,0.5328,0.5328,-90);
 
 	this.shape_2 = new cjs.Shape();
 	this.shape_2.graphics.f("#FFFFFF").s().p("AAUAxIAAgUQgMANgHAEQgFADgIAAQgIAAgFgEQgGgFgDgHQgCgIAAgNIAAgqQAAgGgBgDQgCgDgDgBQgDgBgHAAIAAgEIAhAAIAAA/QAAANAFAEQAFAEAGAAQAEAAAFgCQAGgDAIgIIAAg1QAAgIgDgDQgDgDgJAAIAAgEIAgAAIAAA5IABAUQABAEABABIAEACQAEAAAEgCIABADIgcAMg");
@@ -441,7 +580,7 @@ p.nominalBounds = new cjs.Rectangle(-27.6,-229,55.3,458.1);
 	this.shape_15.graphics.f("#4B7BEC").s().p("Am4DZIAAmxILqAAQA3AAAoAnQAWAWAKAcQAHAVAAAYIAACpIAAABQAAAVgHATQgJAYgSAVIgFAFQgoAng3AAg");
 	this.shape_15.setTransform(14.65,1.725);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_8},{t:this.shape_7,p:{y:-3.875}},{t:this.shape_6,p:{y:-3.875}},{t:this.shape_5},{t:this.shape_4,p:{y:0.925}},{t:this.shape_3},{t:this.shape_2,p:{y:1.075}},{t:this.shape_1,p:{y:-6.902}},{t:this.shape,p:{y:1.4241}}]}).to({state:[{t:this.shape_7,p:{y:-2.275}},{t:this.shape_11},{t:this.shape_6,p:{y:-2.275}},{t:this.shape_10},{t:this.shape_4,p:{y:2.525}},{t:this.shape_9},{t:this.shape_2,p:{y:2.675}},{t:this.shape_1,p:{y:-5.302}},{t:this.shape,p:{y:3.0241}}]},1).to({state:[{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_4,p:{y:6.525}},{t:this.shape_12},{t:this.shape_2,p:{y:6.675}},{t:this.shape_1,p:{y:-1.302}},{t:this.shape,p:{y:7.0241}}]},1).wait(2));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_8},{t:this.shape_7,p:{y:-3.875}},{t:this.shape_6,p:{y:-3.875}},{t:this.shape_5},{t:this.shape_4,p:{y:0.925}},{t:this.shape_3},{t:this.shape_2,p:{y:1.075}},{t:this.shape_1,p:{y:-6.9012}},{t:this.shape,p:{y:1.4244}}]}).to({state:[{t:this.shape_7,p:{y:-2.275}},{t:this.shape_11},{t:this.shape_6,p:{y:-2.275}},{t:this.shape_10},{t:this.shape_4,p:{y:2.525}},{t:this.shape_9},{t:this.shape_2,p:{y:2.675}},{t:this.shape_1,p:{y:-5.3012}},{t:this.shape,p:{y:3.0244}}]},1).to({state:[{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_4,p:{y:6.525}},{t:this.shape_12},{t:this.shape_2,p:{y:6.675}},{t:this.shape_1,p:{y:-1.3012}},{t:this.shape,p:{y:7.0244}}]},1).wait(2));
 
 	this._renderFirstFrame();
 
@@ -550,11 +689,11 @@ p.nominalBounds = new cjs.Rectangle(-59.4,-25.6,118.1,49.5);
 	// Layer_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#ED4F44").s().p("AgfAzQgGgEAAgHIAAhQQAAgGAGgEQAHgDAFAEIAzAoQAGAEAAAFQAAAHgGAEIgzAmQgDADgDAAIgGgBg");
-	this.shape.setTransform(-38.9394,-3.0044,0.7124,0.7883,180);
+	this.shape.setTransform(-38.9393,-3.0039,0.7124,0.7883,180);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#ED4F44").s().p("Ah3C3QgGgDAAgHIAAgiQAAgOAMgJICPhrQAEgEAAgFQAAgFgEgDIiPhsQgMgIAAgOIAAgiQAAgHAGgDQAHgDAFAEIDkCrQAFAEAAAGQAAAHgFAEIjkCrQgDACgEAAIgFgBg");
-	this.shape_1.setTransform(-45.2265,-3.0241,0.7124,0.7883,180);
+	this.shape_1.setTransform(-45.2261,-3.0236,0.7124,0.7883,180);
 
 	this.shape_2 = new cjs.Shape();
 	this.shape_2.graphics.f("#FFFFFF").s().p("AgVBKIAAgEQAGAAADgBQACgBACgDQACgDgBgKIAAglQAAgPgBgEQgBgDgBgBQAAAAgBgBQAAAAgBAAQAAAAgBAAQAAgBgBAAIgHACIgCgEIAcgLIAEAAIAABLQABAKABADQABADADABQACABAHAAIAAAEgAgGg3QgDgDAAgEQAAgFADgDQAEgDADAAQAFAAADADQACADAAAFQAAAEgCADQgDADgFAAQgDAAgEgDg");
@@ -660,7 +799,7 @@ p.nominalBounds = new cjs.Rectangle(-59.4,-25.6,118.1,49.5);
 	this.shape_27.graphics.f("#E74C3C").s().p("Am4DZIAAmxILqAAQA3AAAoAnQAWAWAKAcQAHAVAAAYIAACpIAAADQgBAUgGASQgJAYgSAVIgFAFQgoAng3AAg");
 	this.shape_27.setTransform(14.65,1.625);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_11},{t:this.shape_10,p:{y:-3.875}},{t:this.shape_9,p:{y:-3.875}},{t:this.shape_8},{t:this.shape_7,p:{y:0.925}},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1,p:{scaleX:0.7124,scaleY:0.7883,x:-45.2265,y:-3.0241}},{t:this.shape,p:{scaleX:0.7124,scaleY:0.7883,x:-38.9394,y:-3.0044}}]}).to({state:[{t:this.shape_10,p:{y:-1.875}},{t:this.shape_18},{t:this.shape_9,p:{y:-1.875}},{t:this.shape_17},{t:this.shape_7,p:{y:2.925}},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_1,p:{scaleX:0.7119,scaleY:0.7878,x:-45.2195,y:-2.3143}},{t:this.shape,p:{scaleX:0.7119,scaleY:0.7878,x:-38.9373,y:-2.2946}}]},1).to({state:[{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_7,p:{y:6.425}},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_1,p:{scaleX:0.7119,scaleY:0.7878,x:-45.2195,y:-0.3143}},{t:this.shape,p:{scaleX:0.7119,scaleY:0.7878,x:-38.9373,y:-0.2946}}]},1).wait(2));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_11},{t:this.shape_10,p:{y:-3.875}},{t:this.shape_9,p:{y:-3.875}},{t:this.shape_8},{t:this.shape_7,p:{y:0.925}},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1,p:{scaleX:0.7124,scaleY:0.7883,x:-45.2261,y:-3.0236}},{t:this.shape,p:{scaleX:0.7124,scaleY:0.7883,x:-38.9393,y:-3.0039}}]}).to({state:[{t:this.shape_10,p:{y:-1.875}},{t:this.shape_18},{t:this.shape_9,p:{y:-1.875}},{t:this.shape_17},{t:this.shape_7,p:{y:2.925}},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_1,p:{scaleX:0.7118,scaleY:0.7877,x:-45.219,y:-2.3637}},{t:this.shape,p:{scaleX:0.7118,scaleY:0.7877,x:-38.9371,y:-2.344}}]},1).to({state:[{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_7,p:{y:6.425}},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_1,p:{scaleX:0.7118,scaleY:0.7877,x:-45.219,y:-0.4137}},{t:this.shape,p:{scaleX:0.7118,scaleY:0.7877,x:-38.9371,y:-0.394}}]},1).wait(2));
 
 	this._renderFirstFrame();
 
@@ -826,20 +965,26 @@ p.nominalBounds = new cjs.Rectangle(-59.4,-25.6,118.1,49);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1).call(this.frame_4).wait(1));
 
 	// Layer_1
-	this.instance = new lib.gambar1();
-	this.instance.setTransform(488.2,306.45);
+	this.instance = new lib.g1();
+	this.instance.setTransform(488.2,306.25);
 
 	this.instance_1 = new lib.gambar2();
 	this.instance_1.setTransform(488.2,306.25);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).to({state:[]},1).wait(3));
+	this.instance_2 = new lib.g3();
+	this.instance_2.setTransform(488.2,306.35);
+
+	this.instance_3 = new lib.g4();
+	this.instance_3.setTransform(488.2,306.25);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_3}]},1).to({state:[]},1).wait(1));
 
 	// base
-	this.instance_2 = new lib.Symbol1("synched",0);
-	this.instance_2.setTransform(218.9,304.7,0.5777,0.7318,0,0,0,0.1,0.2);
+	this.instance_4 = new lib.Symbol1("synched",0);
+	this.instance_4.setTransform(218.9,304.7,0.5777,0.7318,0,0,0,0.1,0.2);
 
-	this.instance_3 = new lib.Symbol1("synched",0);
-	this.instance_3.setTransform(809.2,304.7,0.5777,0.7318,0,0,0,0.1,0.2);
+	this.instance_5 = new lib.Symbol1("synched",0);
+	this.instance_5.setTransform(809.2,304.7,0.5777,0.7318,0,0,0,0.1,0.2);
 
 	this.btnNextDasar1 = new lib.btnKINext();
 	this.btnNextDasar1.name = "btnNextDasar1";
@@ -1248,18 +1393,18 @@ p.nominalBounds = new cjs.Rectangle(-59.4,-25.6,118.1,49);
 	this.judulKI.setTransform(523.7,95.05,1.7364,1.0347,0,0,0,0.4,0.3);
 	this.judulKI.shadow = new cjs.Shadow("rgba(0,0,0,1)",1,1,8);
 
-	this.instance_4 = new lib.Bitmap28();
-	this.instance_4.setTransform(7,4);
+	this.instance_6 = new lib.Bitmap28();
+	this.instance_6.setTransform(7,4);
 
-	this.instance_5 = new lib.Bitmap5();
-	this.instance_5.setTransform(-28,-39);
+	this.instance_7 = new lib.Bitmap5();
+	this.instance_7.setTransform(-28,-39);
 
 	this.shape_98 = new cjs.Shape();
-	this.shape_98.graphics.f().s("rgba(0,0,0,0.098)").ss(1,1,1).p("AAeTqIjcAAMAAAgoHIE1AAIAAOsIBHAAIAAaPIigAAIAAg0IAA5bIBZAAIAAZbg");
+	this.shape_98.graphics.f().s("rgba(0,0,0,0.098)").ss(1,1,1).p("AB3lxIBHAAIAAaPIigAAIAAg0IjcAAMAAAgoHIE1AAgAAeTqIAA5bIBZAAIAAZbg");
 	this.shape_98.setTransform(801.95,251.05);
 
 	this.shape_99 = new cjs.Shape();
-	this.shape_99.graphics.f("#FFFFFF").s().p("AhPNIIAAg0IBYAAIAA5bIBHAAIAAaPgAAJMUIhYAAIAA5bIBYAAIAAZbgAhPMUg");
+	this.shape_99.graphics.f("#FFFFFF").s().p("AhPNIIAAg0IBYAAIAA5bIBHAAIAAaPgAhPMUIAA5bIBYAAIAAZbgAAJtHg");
 	this.shape_99.setTransform(813,298.05);
 
 	this.btnBack3 = new lib.btnKIBack();
@@ -1376,11 +1521,8 @@ p.nominalBounds = new cjs.Rectangle(-59.4,-25.6,118.1,49);
 	this.judulKI_1.setTransform(523.7,95.05,1.7364,1.0347,0,0,0,0.4,0.3);
 	this.judulKI_1.shadow = new cjs.Shadow("rgba(0,0,0,1)",1,1,8);
 
-	this.instance_6 = new lib.Symbol1copy2("synched",0);
-	this.instance_6.setTransform(218.9,304.6,0.5777,0.7317,0,0,0,0.1,0.1);
-
-	this.instance_7 = new lib.Symbol1copy2("synched",0);
-	this.instance_7.setTransform(809.2,304.6,0.5777,0.7317,0,0,0,0.1,0.1);
+	this.instance_8 = new lib.Symbol1copy2("synched",0);
+	this.instance_8.setTransform(218.9,304.6,0.5777,0.7317,0,0,0,0.1,0.1);
 
 	this.shape_126 = new cjs.Shape();
 	this.shape_126.graphics.f("#FFFFFF").s().p("AgaAwIAAhdIAYAAIABAKQAGgMAOAAQAEAAAEABIgBAYIgJgBQgOAAgEALIAAA8g");
@@ -1571,11 +1713,8 @@ p.nominalBounds = new cjs.Rectangle(-59.4,-25.6,118.1,49);
 	this.judulKI_2.setTransform(523.7,95.05,1.7364,1.0347,0,0,0,0.4,0.3);
 	this.judulKI_2.shadow = new cjs.Shadow("rgba(0,0,0,1)",1,1,8);
 
-	this.instance_8 = new lib.Symbol1copy("synched",0);
-	this.instance_8.setTransform(218.9,304.7,0.5777,0.7317,0,0,0,0.1,0.2);
-
 	this.instance_9 = new lib.Symbol1copy("synched",0);
-	this.instance_9.setTransform(809.2,304.7,0.5777,0.7317,0,0,0,0.1,0.2);
+	this.instance_9.setTransform(218.9,304.7,0.5777,0.7317,0,0,0,0.1,0.2);
 
 	this.shape_172 = new cjs.Shape();
 	this.shape_172.graphics.f("#FFFFFF").s().p("AArAxIAAg8QgBgIgDgEQgCgDgIgBQgMAAgFALIAABBIgYAAIAAg8QAAgIgDgEQgEgDgHgBQgLABgFAIIAABDIgZAAIAAhfIAYAAIABALQAKgMARAAQARAAAHAOQAKgOASAAQAQgBAIAKQAHAJAAASIAAA8g");
@@ -4791,7 +4930,7 @@ p.nominalBounds = new cjs.Rectangle(-59.4,-25.6,118.1,49);
 	this.shape_972.graphics.f("#FFFFFF").s().p("AgwBAIAAh/IAoAAQAPAAAOAIQANAHAIAOQAHAPAAARIAAAFQAAASgHAOQgIAOgNAHQgNAIgQAAgAgVArIAMAAQAPAAAIgLQAIgJAAgTIAAgGQAAgTgIgLQgIgKgOAAIgNAAg");
 	this.shape_972.setTransform(254.325,96.15);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_99},{t:this.shape_98},{t:this.instance_5},{t:this.instance_4},{t:this.judulKI},{t:this.shape_97},{t:this.shape_96},{t:this.shape_95,p:{x:250.725}},{t:this.shape_94},{t:this.shape_93,p:{x:270.525}},{t:this.shape_92},{t:this.shape_91,p:{x:294.125}},{t:this.shape_90,p:{x:303.975}},{t:this.shape_89,p:{x:311.725,y:82.125}},{t:this.shape_88,p:{x:319.925}},{t:this.shape_87},{t:this.shape_86,p:{x:345.075}},{t:this.shape_85,p:{x:349.825,y:81.2}},{t:this.shape_84,p:{x:357.025}},{t:this.shape_83},{t:this.shape_82,p:{x:375.675}},{t:this.shape_81,p:{x:385.525}},{t:this.shape_80},{t:this.shape_79,p:{x:408.875}},{t:this.shape_78,p:{x:418.725}},{t:this.shape_77},{t:this.shape_76},{t:this.shape_75,p:{x:453.6}},{t:this.shape_74},{t:this.shape_73,p:{x:469.775}},{t:this.shape_72},{t:this.shape_71,p:{x:489.575}},{t:this.shape_70},{t:this.shape_69,p:{x:511.425}},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66,p:{x:542.875,y:82.125}},{t:this.shape_65,p:{x:550.875}},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62,p:{x:588.75}},{t:this.shape_61,p:{x:601.375}},{t:this.shape_60},{t:this.shape_59,p:{x:617.575}},{t:this.shape_58,p:{x:627.425}},{t:this.shape_57},{t:this.shape_56,p:{x:652.475}},{t:this.shape_55},{t:this.shape_54,p:{x:670.775}},{t:this.shape_53,p:{x:678.525}},{t:this.shape_52,p:{x:686.175}},{t:this.shape_51,p:{x:692.225}},{t:this.shape_50,p:{x:697.475}},{t:this.shape_49},{t:this.shape_48,p:{x:718.625}},{t:this.shape_47,p:{x:728.475}},{t:this.shape_46,p:{x:736.225,y:82.125}},{t:this.shape_45,p:{x:744.425}},{t:this.shape_44,p:{x:258.125,y:110.525}},{t:this.shape_43},{t:this.shape_42,p:{x:276.425}},{t:this.shape_41,p:{x:284.325}},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34,p:{x:357.475,y:110.525}},{t:this.shape_33,p:{x:367.3}},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20,p:{x:506.775,y:110.725}},{t:this.shape_19,p:{x:516.075}},{t:this.shape_18},{t:this.shape_17,p:{x:540.275}},{t:this.shape_16,p:{x:550.175}},{t:this.shape_15},{t:this.shape_14,p:{x:573.175}},{t:this.shape_13},{t:this.shape_12,p:{x:597.225,y:107.15}},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9,p:{x:628.575}},{t:this.shape_8},{t:this.shape_7,p:{x:648.025}},{t:this.shape_6},{t:this.shape_5,p:{x:675.475}},{t:this.shape_4,p:{x:682.875}},{t:this.shape_3,p:{x:692.475,y:110.725}},{t:this.shape_2,p:{x:701.775}},{t:this.shape_1},{t:this.shape,p:{x:719.775,y:102.375}},{t:this.btnMenuDasar1,p:{x:755.75,y:504.8}},{t:this.btnNextDasar1,p:{x:885.8,y:504.8}},{t:this.instance_3},{t:this.instance_2,p:{scaleY:0.7318}}]}).to({state:[{t:this.instance_5},{t:this.instance_4},{t:this.judulKI_1},{t:this.shape_125,p:{x:222.15}},{t:this.shape_124},{t:this.shape_95,p:{x:241.975}},{t:this.shape_53,p:{x:251.675}},{t:this.shape_93,p:{x:261.775}},{t:this.shape_123},{t:this.shape_91,p:{x:285.375}},{t:this.shape_90,p:{x:295.225}},{t:this.shape_46,p:{x:302.975,y:82.125}},{t:this.shape_88,p:{x:311.175}},{t:this.shape_81,p:{x:325.725}},{t:this.shape_84,p:{x:335.575}},{t:this.shape_54,p:{x:344.075}},{t:this.shape_122,p:{x:349.325}},{t:this.shape_121},{t:this.shape_120},{t:this.shape_82,p:{x:374.675}},{t:this.shape_119,p:{x:381.875}},{t:this.shape_48,p:{x:389.275}},{t:this.shape_51,p:{x:397.975}},{t:this.shape_79,p:{x:405.675}},{t:this.shape_118,p:{x:415.525}},{t:this.shape_44,p:{x:430.375,y:84.925}},{t:this.shape_86,p:{x:437.625}},{t:this.shape_34,p:{x:445.275,y:84.925}},{t:this.shape_73,p:{x:454.975}},{t:this.shape_117},{t:this.shape_69,p:{x:482.275}},{t:this.shape_116,p:{x:489.675}},{t:this.shape_20,p:{x:499.275,y:85.125}},{t:this.shape_71,p:{x:508.575}},{t:this.shape_115},{t:this.shape_114},{t:this.shape_113,p:{x:544.675}},{t:this.shape_112},{t:this.shape_111},{t:this.shape_45,p:{x:576.025}},{t:this.shape_110},{t:this.shape_65,p:{x:595.475}},{t:this.shape_109,p:{x:612.675,y:81.55}},{t:this.shape_52,p:{x:622.925}},{t:this.shape_78,p:{x:630.325}},{t:this.shape_3,p:{x:639.925,y:85.125}},{t:this.shape_61,p:{x:649.225}},{t:this.shape_108},{t:this.shape_107,p:{x:675.95}},{t:this.shape_106},{t:this.shape_58,p:{x:698.525}},{t:this.shape_105},{t:this.shape_59,p:{x:718.625}},{t:this.shape_85,p:{x:725.825,y:81.2}},{t:this.shape_47,p:{x:733.025}},{t:this.shape_104},{t:this.shape_50,p:{x:755.825}},{t:this.shape_103},{t:this.shape_33,p:{x:456.3}},{t:this.shape_17,p:{x:466.375}},{t:this.shape_102},{t:this.shape_101},{t:this.shape_100},{t:this.shape_42,p:{x:504.725}},{t:this.shape_2,p:{x:512.425}},{t:this.shape_4,p:{x:522.275}},{t:this.shape,p:{x:530.925,y:102.375}},{t:this.btnNextDasar1,p:{x:878.8,y:508.25}},{t:this.btnMenuDasar1,p:{x:616.75,y:508.25}},{t:this.btnBack3,p:{x:749,y:508.25}},{t:this.instance_2,p:{scaleY:0.7317}}]},1).to({state:[{t:this.instance_5},{t:this.instance_4},{t:this.judulKI_2},{t:this.shape_171},{t:this.shape_109,p:{x:244.825,y:96.15}},{t:this.shape_170},{t:this.shape_169},{t:this.shape_3,p:{x:272.075,y:99.725}},{t:this.shape_168,p:{x:281.375}},{t:this.shape_167},{t:this.shape_166,p:{x:305.125}},{t:this.shape_165},{t:this.shape_164},{t:this.shape_163},{t:this.shape_162},{t:this.shape_161,p:{x:349.425}},{t:this.shape_66,p:{x:357.175,y:96.725}},{t:this.shape_160},{t:this.shape_159},{t:this.shape_158,p:{x:389.475}},{t:this.shape_157},{t:this.shape_156},{t:this.shape_155},{t:this.shape_154},{t:this.shape_153,p:{x:435.525}},{t:this.shape_152,p:{x:445.375}},{t:this.shape_44,p:{x:460.225,y:99.525}},{t:this.shape_151},{t:this.shape_34,p:{x:475.125,y:99.525}},{t:this.shape_150,p:{x:484.825}},{t:this.shape_149,p:{x:501.95}},{t:this.shape_148},{t:this.shape_147,p:{x:524.525}},{t:this.shape_146},{t:this.shape_145},{t:this.shape_144},{t:this.shape_143,p:{x:569.175}},{t:this.shape_142},{t:this.shape_141,p:{x:582.925}},{t:this.shape_85,p:{x:592.175,y:95.8}},{t:this.shape_140,p:{x:596.925}},{t:this.shape_139,p:{x:604.325}},{t:this.shape_138},{t:this.shape_137,p:{x:625}},{t:this.shape_136,p:{x:634.225}},{t:this.shape_135,p:{x:644.275}},{t:this.shape_134,p:{x:654.3,y:99.575}},{t:this.shape_133,p:{x:664.375}},{t:this.shape_132,p:{x:674.225}},{t:this.shape_131},{t:this.shape_130},{t:this.shape_129},{t:this.shape_128,p:{x:714.775}},{t:this.shape_46,p:{x:720.075,y:96.725}},{t:this.shape_127,p:{x:728.075}},{t:this.shape_126,p:{x:736.575}},{t:this.shape,p:{x:743.025,y:91.375}},{t:this.btnNextDasar1,p:{x:878.8,y:508.25}},{t:this.btnMenuDasar1,p:{x:616.75,y:508.25}},{t:this.btnBack3,p:{x:749,y:508.25}},{t:this.instance_7},{t:this.instance_6}]},1).to({state:[{t:this.instance_5},{t:this.instance_4},{t:this.judulKI_3},{t:this.shape_125,p:{x:221.15}},{t:this.shape_113,p:{x:230.125}},{t:this.shape_88,p:{x:240.725}},{t:this.shape_199},{t:this.shape_56,p:{x:266.625}},{t:this.shape_90,p:{x:276.325}},{t:this.shape_198},{t:this.shape_84,p:{x:296.025}},{t:this.shape_118,p:{x:305.875}},{t:this.shape_62,p:{x:323.25}},{t:this.shape_197},{t:this.shape_116,p:{x:340.825}},{t:this.shape_3,p:{x:350.425,y:85.125}},{t:this.shape_82,p:{x:359.725}},{t:this.shape_196},{t:this.shape_195},{t:this.shape_79,p:{x:392.725}},{t:this.shape_194},{t:this.shape_193},{t:this.shape_73,p:{x:428.125}},{t:this.shape_122,p:{x:435.325}},{t:this.shape_192},{t:this.shape_191},{t:this.shape_190},{t:this.shape_71,p:{x:471.125}},{t:this.shape_48,p:{x:480.975}},{t:this.shape_189},{t:this.shape_107,p:{x:504.4}},{t:this.shape_75,p:{x:517.15}},{t:this.shape_119,p:{x:524.325}},{t:this.shape_65,p:{x:531.525}},{t:this.shape_85,p:{x:538.725,y:81.2}},{t:this.shape_45,p:{x:546.125}},{t:this.shape_86,p:{x:553.525}},{t:this.shape_188},{t:this.shape_187},{t:this.shape_54,p:{x:584.425}},{t:this.shape_69,p:{x:589.675}},{t:this.shape_186},{t:this.shape_44,p:{x:604.325,y:84.925}},{t:this.shape_185},{t:this.shape_51,p:{x:623.075}},{t:this.shape_52,p:{x:628.325}},{t:this.shape_184},{t:this.shape_61,p:{x:646.125}},{t:this.shape_78,p:{x:655.975}},{t:this.shape_59,p:{x:665.875}},{t:this.shape_183},{t:this.shape_182},{t:this.shape_181},{t:this.shape_81,p:{x:709.275}},{t:this.shape_50,p:{x:716.675}},{t:this.shape_58,p:{x:724.075}},{t:this.shape_180},{t:this.shape_134,p:{x:744.3,y:84.975}},{t:this.shape_47,p:{x:754.375}},{t:this.shape_19,p:{x:389.775}},{t:this.shape_14,p:{x:396.975}},{t:this.shape_179},{t:this.shape_178},{t:this.shape_7,p:{x:419.975}},{t:this.shape_41,p:{x:429.825}},{t:this.shape_89,p:{x:437.775,y:107.725}},{t:this.shape_34,p:{x:446.225,y:110.525}},{t:this.shape_16,p:{x:456.125}},{t:this.shape_4,p:{x:466.175}},{t:this.shape_5,p:{x:478.125}},{t:this.shape_177},{t:this.shape_9,p:{x:495.125}},{t:this.shape_66,p:{x:503.075,y:107.725}},{t:this.shape_46,p:{x:513.675,y:107.725}},{t:this.shape_176},{t:this.shape_175},{t:this.shape_174},{t:this.shape_173},{t:this.shape_172},{t:this.shape_2,p:{x:572.725}},{t:this.shape_42,p:{x:581.225}},{t:this.shape,p:{x:587.675,y:102.375}},{t:this.btnNextDasar1,p:{x:878.8,y:508.25}},{t:this.btnMenuDasar1,p:{x:616.75,y:508.25}},{t:this.btnBack3,p:{x:749,y:508.25}},{t:this.instance_9},{t:this.instance_8}]},1).to({state:[{t:this.instance_5},{t:this.instance_4},{t:this.judulKI},{t:this.shape_972},{t:this.shape_971},{t:this.shape_149,p:{x:277.4}},{t:this.shape_44,p:{x:290.475,y:99.525}},{t:this.shape_970},{t:this.shape_969},{t:this.shape_968},{t:this.shape_967},{t:this.shape_141,p:{x:340.725}},{t:this.shape_158,p:{x:348.375}},{t:this.shape_168,p:{x:358.075}},{t:this.shape_66,p:{x:365.825,y:96.725}},{t:this.shape_34,p:{x:378.775,y:99.525}},{t:this.shape_966},{t:this.shape_152,p:{x:398.425}},{t:this.shape_965},{t:this.shape_964},{t:this.shape_963},{t:this.shape_166,p:{x:443.075}},{t:this.shape_126,p:{x:451.575}},{t:this.shape_161,p:{x:459.275}},{t:this.shape_147,p:{x:469.125}},{t:this.shape_962},{t:this.shape_140,p:{x:496.675}},{t:this.shape_139,p:{x:504.075}},{t:this.shape_20,p:{x:513.675,y:99.725}},{t:this.shape_153,p:{x:522.975}},{t:this.shape_137,p:{x:533.2}},{t:this.shape_46,p:{x:544.825,y:96.725}},{t:this.shape_150,p:{x:552.825}},{t:this.shape_135,p:{x:562.675}},{t:this.shape_143,p:{x:572.575}},{t:this.shape_961},{t:this.shape_960},{t:this.shape_12,p:{x:609.125,y:96.15}},{t:this.shape_959},{t:this.shape_958},{t:this.shape_136,p:{x:640.475}},{t:this.shape_957},{t:this.shape_133,p:{x:659.925}},{t:this.shape_109,p:{x:677.125,y:96.15}},{t:this.shape_128,p:{x:687.375}},{t:this.shape_132,p:{x:694.775}},{t:this.shape_3,p:{x:704.375,y:99.725}},{t:this.shape_127,p:{x:713.675}},{t:this.shape_956},{t:this.judulKI_4},{t:this.btnMenuDasar1,p:{x:623.75,y:504.8}},{t:this.btnNextDasar1,p:{x:885.8,y:504.8}},{t:this.btnBack3,p:{x:756,y:504.8}},{t:this.shape_955},{t:this.shape_954},{t:this.shape_953},{t:this.shape_952},{t:this.shape_951},{t:this.shape_950},{t:this.shape_949},{t:this.shape_948},{t:this.shape_947},{t:this.shape_946},{t:this.shape_945},{t:this.shape_944},{t:this.shape_943},{t:this.shape_942},{t:this.shape_941},{t:this.shape_940},{t:this.shape_939},{t:this.shape_938},{t:this.shape_937},{t:this.shape_936},{t:this.shape_935},{t:this.shape_934},{t:this.shape_933},{t:this.shape_932},{t:this.shape_931},{t:this.shape_930},{t:this.shape_929},{t:this.shape_928},{t:this.shape_927},{t:this.shape_926},{t:this.shape_925},{t:this.shape_924},{t:this.shape_923},{t:this.shape_922},{t:this.shape_921},{t:this.shape_920},{t:this.shape_919},{t:this.shape_918},{t:this.shape_917},{t:this.shape_916},{t:this.shape_915},{t:this.shape_914},{t:this.shape_913},{t:this.shape_912},{t:this.shape_911},{t:this.shape_910},{t:this.shape_909},{t:this.shape_908},{t:this.shape_907},{t:this.shape_906},{t:this.shape_905},{t:this.shape_904},{t:this.shape_903},{t:this.shape_902},{t:this.shape_901},{t:this.shape_900},{t:this.shape_899},{t:this.shape_898},{t:this.shape_897},{t:this.shape_896},{t:this.shape_895},{t:this.shape_894},{t:this.shape_893},{t:this.shape_892},{t:this.shape_891},{t:this.shape_890},{t:this.shape_889},{t:this.shape_888},{t:this.shape_887},{t:this.shape_886},{t:this.shape_885},{t:this.shape_884},{t:this.shape_883},{t:this.shape_882},{t:this.shape_881},{t:this.shape_880},{t:this.shape_879},{t:this.shape_878},{t:this.shape_877},{t:this.shape_876},{t:this.shape_875},{t:this.shape_874},{t:this.shape_873},{t:this.shape_872},{t:this.shape_871},{t:this.shape_870},{t:this.shape_869},{t:this.shape_868},{t:this.shape_867},{t:this.shape_866},{t:this.shape_865},{t:this.shape_864},{t:this.shape_863},{t:this.shape_862},{t:this.shape_861},{t:this.shape_860},{t:this.shape_859},{t:this.shape_858},{t:this.shape_857},{t:this.shape_856},{t:this.shape_855},{t:this.shape_854},{t:this.shape_853},{t:this.shape_852},{t:this.shape_851},{t:this.shape_850},{t:this.shape_849},{t:this.shape_848},{t:this.shape_847},{t:this.shape_846},{t:this.shape_845},{t:this.shape_844},{t:this.shape_843},{t:this.shape_842},{t:this.shape_841},{t:this.shape_840},{t:this.shape_839},{t:this.shape_838},{t:this.shape_837},{t:this.shape_836},{t:this.shape_835},{t:this.shape_834},{t:this.shape_833},{t:this.shape_832},{t:this.shape_831},{t:this.shape_830},{t:this.shape_829},{t:this.shape_828},{t:this.shape_827},{t:this.shape_826},{t:this.shape_825},{t:this.shape_824},{t:this.shape_823},{t:this.shape_822},{t:this.shape_821},{t:this.shape_820},{t:this.shape_819},{t:this.shape_818},{t:this.shape_817},{t:this.shape_816},{t:this.shape_815},{t:this.shape_814},{t:this.shape_813},{t:this.shape_812},{t:this.shape_811},{t:this.shape_810},{t:this.shape_809},{t:this.shape_808},{t:this.shape_807},{t:this.shape_806},{t:this.shape_805},{t:this.shape_804},{t:this.shape_803},{t:this.shape_802},{t:this.shape_801},{t:this.shape_800},{t:this.shape_799},{t:this.shape_798},{t:this.shape_797},{t:this.shape_796},{t:this.shape_795},{t:this.shape_794},{t:this.shape_793},{t:this.shape_792},{t:this.shape_791},{t:this.shape_790},{t:this.shape_789},{t:this.shape_788},{t:this.shape_787},{t:this.shape_786},{t:this.shape_785},{t:this.shape_784},{t:this.shape_783},{t:this.shape_782},{t:this.shape_781},{t:this.shape_780},{t:this.shape_779},{t:this.shape_778},{t:this.shape_777},{t:this.shape_776},{t:this.shape_775},{t:this.shape_774},{t:this.shape_773},{t:this.shape_772},{t:this.shape_771},{t:this.shape_770},{t:this.shape_769},{t:this.shape_768},{t:this.shape_767},{t:this.shape_766},{t:this.shape_765},{t:this.shape_764},{t:this.shape_763},{t:this.shape_762},{t:this.shape_761},{t:this.shape_760},{t:this.shape_759},{t:this.shape_758},{t:this.shape_757},{t:this.shape_756},{t:this.shape_755},{t:this.shape_754},{t:this.shape_753},{t:this.shape_752},{t:this.shape_751},{t:this.shape_750},{t:this.shape_749},{t:this.shape_748},{t:this.shape_747},{t:this.shape_746},{t:this.shape_745},{t:this.shape_744},{t:this.shape_743},{t:this.shape_742},{t:this.shape_741},{t:this.shape_740},{t:this.shape_739},{t:this.shape_738},{t:this.shape_737},{t:this.shape_736},{t:this.shape_735},{t:this.shape_734},{t:this.shape_733},{t:this.shape_732},{t:this.shape_731},{t:this.shape_730},{t:this.shape_729},{t:this.shape_728},{t:this.shape_727},{t:this.shape_726},{t:this.shape_725},{t:this.shape_724},{t:this.shape_723},{t:this.shape_722},{t:this.shape_721},{t:this.shape_720},{t:this.shape_719},{t:this.shape_718},{t:this.shape_717},{t:this.shape_716},{t:this.shape_715},{t:this.shape_714},{t:this.shape_713},{t:this.shape_712},{t:this.shape_711},{t:this.shape_710},{t:this.shape_709},{t:this.shape_708},{t:this.shape_707},{t:this.shape_706},{t:this.shape_705},{t:this.shape_704},{t:this.shape_703},{t:this.shape_702},{t:this.shape_701},{t:this.shape_700},{t:this.shape_699},{t:this.shape_698},{t:this.shape_697},{t:this.shape_696},{t:this.shape_695},{t:this.shape_694},{t:this.shape_693},{t:this.shape_692},{t:this.shape_691},{t:this.shape_690},{t:this.shape_689},{t:this.shape_688},{t:this.shape_687},{t:this.shape_686},{t:this.shape_685},{t:this.shape_684},{t:this.shape_683},{t:this.shape_682},{t:this.shape_681},{t:this.shape_680},{t:this.shape_679},{t:this.shape_678},{t:this.shape_677},{t:this.shape_676},{t:this.shape_675},{t:this.shape_674},{t:this.shape_673},{t:this.shape_672},{t:this.shape_671},{t:this.shape_670},{t:this.shape_669},{t:this.shape_668},{t:this.shape_667},{t:this.shape_666},{t:this.shape_665},{t:this.shape_664},{t:this.shape_663},{t:this.shape_662},{t:this.shape_661},{t:this.shape_660},{t:this.shape_659},{t:this.shape_658},{t:this.shape_657},{t:this.shape_656},{t:this.shape_655},{t:this.shape_654},{t:this.shape_653},{t:this.shape_652},{t:this.shape_651},{t:this.shape_650},{t:this.shape_649},{t:this.shape_648},{t:this.shape_647},{t:this.shape_646},{t:this.shape_645},{t:this.shape_644},{t:this.shape_643},{t:this.shape_642},{t:this.shape_641},{t:this.shape_640},{t:this.shape_639},{t:this.shape_638},{t:this.shape_637},{t:this.shape_636},{t:this.shape_635},{t:this.shape_634},{t:this.shape_633},{t:this.shape_632},{t:this.shape_631},{t:this.shape_630},{t:this.shape_629},{t:this.shape_628},{t:this.shape_627},{t:this.shape_626},{t:this.shape_625},{t:this.shape_624},{t:this.shape_623},{t:this.shape_622},{t:this.shape_621},{t:this.shape_620},{t:this.shape_619},{t:this.shape_618},{t:this.shape_617},{t:this.shape_616},{t:this.shape_615},{t:this.shape_614},{t:this.shape_613},{t:this.shape_612},{t:this.shape_611},{t:this.shape_610},{t:this.shape_609},{t:this.shape_608},{t:this.shape_607},{t:this.shape_606},{t:this.shape_605},{t:this.shape_604},{t:this.shape_603},{t:this.shape_602},{t:this.shape_601},{t:this.shape_600},{t:this.shape_599},{t:this.shape_598},{t:this.shape_597},{t:this.shape_596},{t:this.shape_595},{t:this.shape_594},{t:this.shape_593},{t:this.shape_592},{t:this.shape_591},{t:this.shape_590},{t:this.shape_589},{t:this.shape_588},{t:this.shape_587},{t:this.shape_586},{t:this.shape_585},{t:this.shape_584},{t:this.shape_583},{t:this.shape_582},{t:this.shape_581},{t:this.shape_580},{t:this.shape_579},{t:this.shape_578},{t:this.shape_577},{t:this.shape_576},{t:this.shape_575},{t:this.shape_574},{t:this.shape_573},{t:this.shape_572},{t:this.shape_571},{t:this.shape_570},{t:this.shape_569},{t:this.shape_568},{t:this.shape_567},{t:this.shape_566},{t:this.shape_565},{t:this.shape_564},{t:this.shape_563},{t:this.shape_562},{t:this.shape_561},{t:this.shape_560},{t:this.shape_559},{t:this.shape_558},{t:this.shape_557},{t:this.shape_556},{t:this.shape_555},{t:this.shape_554},{t:this.shape_553},{t:this.shape_552},{t:this.shape_551},{t:this.shape_550},{t:this.shape_549},{t:this.shape_548},{t:this.shape_547},{t:this.shape_546},{t:this.shape_545},{t:this.shape_544},{t:this.shape_543},{t:this.shape_542},{t:this.shape_541},{t:this.shape_540},{t:this.shape_539},{t:this.shape_538},{t:this.shape_537},{t:this.shape_536},{t:this.shape_535},{t:this.shape_534},{t:this.shape_533},{t:this.shape_532},{t:this.shape_531},{t:this.shape_530},{t:this.shape_529},{t:this.shape_528},{t:this.shape_527},{t:this.shape_526},{t:this.shape_525},{t:this.shape_524},{t:this.shape_523},{t:this.shape_522},{t:this.shape_521},{t:this.shape_520},{t:this.shape_519},{t:this.shape_518},{t:this.shape_517},{t:this.shape_516},{t:this.shape_515},{t:this.shape_514},{t:this.shape_513},{t:this.shape_512},{t:this.shape_511},{t:this.shape_510},{t:this.shape_509},{t:this.shape_508},{t:this.shape_507},{t:this.shape_506},{t:this.shape_505},{t:this.shape_504},{t:this.shape_503},{t:this.shape_502},{t:this.shape_501},{t:this.shape_500},{t:this.shape_499},{t:this.shape_498},{t:this.shape_497},{t:this.shape_496},{t:this.shape_495},{t:this.shape_494},{t:this.shape_493},{t:this.shape_492},{t:this.shape_491},{t:this.shape_490},{t:this.shape_489},{t:this.shape_488},{t:this.shape_487},{t:this.shape_486},{t:this.shape_485},{t:this.shape_484},{t:this.shape_483},{t:this.shape_482},{t:this.shape_481},{t:this.shape_480},{t:this.shape_479},{t:this.shape_478},{t:this.shape_477},{t:this.shape_476},{t:this.shape_475},{t:this.shape_474},{t:this.shape_473},{t:this.shape_472},{t:this.shape_471},{t:this.shape_470},{t:this.shape_469},{t:this.shape_468},{t:this.shape_467},{t:this.shape_466},{t:this.shape_465},{t:this.shape_464},{t:this.shape_463},{t:this.shape_462},{t:this.shape_461},{t:this.shape_460},{t:this.shape_459},{t:this.shape_458},{t:this.shape_457},{t:this.shape_456},{t:this.shape_455},{t:this.shape_454},{t:this.shape_453},{t:this.shape_452},{t:this.shape_451},{t:this.shape_450},{t:this.shape_449},{t:this.shape_448},{t:this.shape_447},{t:this.shape_446},{t:this.shape_445},{t:this.shape_444},{t:this.shape_443},{t:this.shape_442},{t:this.shape_441},{t:this.shape_440},{t:this.shape_439},{t:this.shape_438},{t:this.shape_437},{t:this.shape_436},{t:this.shape_435},{t:this.shape_434},{t:this.shape_433},{t:this.shape_432},{t:this.shape_431},{t:this.shape_430},{t:this.shape_429},{t:this.shape_428},{t:this.shape_427},{t:this.shape_426},{t:this.shape_425},{t:this.shape_424},{t:this.shape_423},{t:this.shape_422},{t:this.shape_421},{t:this.shape_420},{t:this.shape_419},{t:this.shape_418},{t:this.shape_417},{t:this.shape_416},{t:this.shape_415},{t:this.shape_414},{t:this.shape_413},{t:this.shape_412},{t:this.shape_411},{t:this.shape_410},{t:this.shape_409},{t:this.shape_408},{t:this.shape_407},{t:this.shape_406},{t:this.shape_405},{t:this.shape_404},{t:this.shape_403},{t:this.shape_402},{t:this.shape_401},{t:this.shape_400},{t:this.shape_399},{t:this.shape_398},{t:this.shape_397},{t:this.shape_396},{t:this.shape_395},{t:this.shape_394},{t:this.shape_393},{t:this.shape_392},{t:this.shape_391},{t:this.shape_390},{t:this.shape_389},{t:this.shape_388},{t:this.shape_387},{t:this.shape_386},{t:this.shape_385},{t:this.shape_384},{t:this.shape_383},{t:this.shape_382},{t:this.shape_381},{t:this.shape_380},{t:this.shape_379},{t:this.shape_378},{t:this.shape_377},{t:this.shape_376},{t:this.shape_375},{t:this.shape_374},{t:this.shape_373},{t:this.shape_372},{t:this.shape_371},{t:this.shape_370},{t:this.shape_369},{t:this.shape_368},{t:this.shape_367},{t:this.shape_366},{t:this.shape_365},{t:this.shape_364},{t:this.shape_363},{t:this.shape_362},{t:this.shape_361},{t:this.shape_360},{t:this.shape_359},{t:this.shape_358},{t:this.shape_357},{t:this.shape_356},{t:this.shape_355},{t:this.shape_354},{t:this.shape_353},{t:this.shape_352},{t:this.shape_351},{t:this.shape_350},{t:this.shape_349},{t:this.shape_348},{t:this.shape_347},{t:this.shape_346},{t:this.shape_345},{t:this.shape_344},{t:this.shape_343},{t:this.shape_342},{t:this.shape_341},{t:this.shape_340},{t:this.shape_339},{t:this.shape_338},{t:this.shape_337},{t:this.shape_336},{t:this.shape_335},{t:this.shape_334},{t:this.shape_333},{t:this.shape_332},{t:this.shape_331},{t:this.shape_330},{t:this.shape_329},{t:this.shape_328},{t:this.shape_327},{t:this.shape_326},{t:this.shape_325},{t:this.shape_324},{t:this.shape_323},{t:this.shape_322},{t:this.shape_321},{t:this.shape_320},{t:this.shape_319},{t:this.shape_318},{t:this.shape_317},{t:this.shape_316},{t:this.shape_315},{t:this.shape_314},{t:this.shape_313},{t:this.shape_312},{t:this.shape_311},{t:this.shape_310},{t:this.shape_309},{t:this.shape_308},{t:this.shape_307},{t:this.shape_306},{t:this.shape_305},{t:this.shape_304},{t:this.shape_303},{t:this.shape_302},{t:this.shape_301},{t:this.shape_300},{t:this.shape_299},{t:this.shape_298},{t:this.shape_297},{t:this.shape_296},{t:this.shape_295},{t:this.shape_294},{t:this.shape_293},{t:this.shape_292},{t:this.shape_291},{t:this.shape_290},{t:this.shape_289},{t:this.shape_288},{t:this.shape_287},{t:this.shape_286},{t:this.shape_285},{t:this.shape_284},{t:this.shape_283},{t:this.shape_282},{t:this.shape_281},{t:this.shape_280},{t:this.shape_279},{t:this.shape_278},{t:this.shape_277},{t:this.shape_276},{t:this.shape_275},{t:this.shape_274},{t:this.shape_273},{t:this.shape_272},{t:this.shape_271},{t:this.shape_270},{t:this.shape_269},{t:this.shape_268},{t:this.shape_267},{t:this.shape_266},{t:this.shape_265},{t:this.shape_264},{t:this.shape_263},{t:this.shape_262},{t:this.shape_261},{t:this.shape_260},{t:this.shape_259},{t:this.shape_258},{t:this.shape_257},{t:this.shape_256},{t:this.shape_255},{t:this.shape_254},{t:this.shape_253},{t:this.shape_252},{t:this.shape_251},{t:this.shape_250},{t:this.shape_249},{t:this.shape_248},{t:this.shape_247},{t:this.shape_246},{t:this.shape_245},{t:this.shape_244},{t:this.shape_243},{t:this.shape_242},{t:this.shape_241},{t:this.shape_240},{t:this.shape_239},{t:this.shape_238},{t:this.shape_237},{t:this.shape_236},{t:this.shape_235},{t:this.shape_234},{t:this.shape_233},{t:this.shape_232},{t:this.shape_231},{t:this.shape_230},{t:this.shape_229},{t:this.shape_228},{t:this.shape_227},{t:this.shape_226},{t:this.shape_225},{t:this.shape_224},{t:this.shape_223},{t:this.shape_222},{t:this.shape_221},{t:this.shape_220},{t:this.shape_219},{t:this.shape_218},{t:this.shape_217},{t:this.shape_216},{t:this.shape_215},{t:this.shape_214},{t:this.shape_213},{t:this.shape_212},{t:this.shape_211},{t:this.shape_210},{t:this.shape_209},{t:this.shape_208},{t:this.shape_207},{t:this.shape_206},{t:this.shape_205},{t:this.shape_204},{t:this.shape_203},{t:this.shape_202},{t:this.shape_201},{t:this.shape_200}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_99},{t:this.shape_98},{t:this.instance_7},{t:this.instance_6},{t:this.judulKI},{t:this.shape_97},{t:this.shape_96},{t:this.shape_95,p:{x:250.725}},{t:this.shape_94},{t:this.shape_93,p:{x:270.525}},{t:this.shape_92},{t:this.shape_91,p:{x:294.125}},{t:this.shape_90,p:{x:303.975}},{t:this.shape_89,p:{x:311.725,y:82.125}},{t:this.shape_88,p:{x:319.925}},{t:this.shape_87},{t:this.shape_86,p:{x:345.075}},{t:this.shape_85,p:{x:349.825,y:81.2}},{t:this.shape_84,p:{x:357.025}},{t:this.shape_83},{t:this.shape_82,p:{x:375.675}},{t:this.shape_81,p:{x:385.525}},{t:this.shape_80},{t:this.shape_79,p:{x:408.875}},{t:this.shape_78,p:{x:418.725}},{t:this.shape_77},{t:this.shape_76},{t:this.shape_75,p:{x:453.6}},{t:this.shape_74},{t:this.shape_73,p:{x:469.775}},{t:this.shape_72},{t:this.shape_71,p:{x:489.575}},{t:this.shape_70},{t:this.shape_69,p:{x:511.425}},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66,p:{x:542.875,y:82.125}},{t:this.shape_65,p:{x:550.875}},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62,p:{x:588.75}},{t:this.shape_61,p:{x:601.375}},{t:this.shape_60},{t:this.shape_59,p:{x:617.575}},{t:this.shape_58,p:{x:627.425}},{t:this.shape_57},{t:this.shape_56,p:{x:652.475}},{t:this.shape_55},{t:this.shape_54,p:{x:670.775}},{t:this.shape_53,p:{x:678.525}},{t:this.shape_52,p:{x:686.175}},{t:this.shape_51,p:{x:692.225}},{t:this.shape_50,p:{x:697.475}},{t:this.shape_49},{t:this.shape_48,p:{x:718.625}},{t:this.shape_47,p:{x:728.475}},{t:this.shape_46,p:{x:736.225,y:82.125}},{t:this.shape_45,p:{x:744.425}},{t:this.shape_44,p:{x:258.125,y:110.525}},{t:this.shape_43},{t:this.shape_42,p:{x:276.425}},{t:this.shape_41,p:{x:284.325}},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34,p:{x:357.475,y:110.525}},{t:this.shape_33,p:{x:367.3}},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20,p:{x:506.775,y:110.725}},{t:this.shape_19,p:{x:516.075}},{t:this.shape_18},{t:this.shape_17,p:{x:540.275}},{t:this.shape_16,p:{x:550.175}},{t:this.shape_15},{t:this.shape_14,p:{x:573.175}},{t:this.shape_13},{t:this.shape_12,p:{x:597.225,y:107.15}},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9,p:{x:628.575}},{t:this.shape_8},{t:this.shape_7,p:{x:648.025}},{t:this.shape_6},{t:this.shape_5,p:{x:675.475}},{t:this.shape_4,p:{x:682.875}},{t:this.shape_3,p:{x:692.475,y:110.725}},{t:this.shape_2,p:{x:701.775}},{t:this.shape_1},{t:this.shape,p:{x:719.775,y:102.375}},{t:this.btnMenuDasar1,p:{x:755.75,y:504.8}},{t:this.btnNextDasar1,p:{x:885.8,y:504.8}},{t:this.instance_5},{t:this.instance_4,p:{scaleY:0.7318}}]}).to({state:[{t:this.instance_7},{t:this.instance_6},{t:this.judulKI_1},{t:this.shape_125,p:{x:222.15}},{t:this.shape_124},{t:this.shape_95,p:{x:241.975}},{t:this.shape_53,p:{x:251.675}},{t:this.shape_93,p:{x:261.775}},{t:this.shape_123},{t:this.shape_91,p:{x:285.375}},{t:this.shape_90,p:{x:295.225}},{t:this.shape_46,p:{x:302.975,y:82.125}},{t:this.shape_88,p:{x:311.175}},{t:this.shape_81,p:{x:325.725}},{t:this.shape_84,p:{x:335.575}},{t:this.shape_54,p:{x:344.075}},{t:this.shape_122,p:{x:349.325}},{t:this.shape_121},{t:this.shape_120},{t:this.shape_82,p:{x:374.675}},{t:this.shape_119,p:{x:381.875}},{t:this.shape_48,p:{x:389.275}},{t:this.shape_51,p:{x:397.975}},{t:this.shape_79,p:{x:405.675}},{t:this.shape_118,p:{x:415.525}},{t:this.shape_44,p:{x:430.375,y:84.925}},{t:this.shape_86,p:{x:437.625}},{t:this.shape_34,p:{x:445.275,y:84.925}},{t:this.shape_73,p:{x:454.975}},{t:this.shape_117},{t:this.shape_69,p:{x:482.275}},{t:this.shape_116,p:{x:489.675}},{t:this.shape_20,p:{x:499.275,y:85.125}},{t:this.shape_71,p:{x:508.575}},{t:this.shape_115},{t:this.shape_114},{t:this.shape_113,p:{x:544.675}},{t:this.shape_112},{t:this.shape_111},{t:this.shape_45,p:{x:576.025}},{t:this.shape_110},{t:this.shape_65,p:{x:595.475}},{t:this.shape_109,p:{x:612.675,y:81.55}},{t:this.shape_52,p:{x:622.925}},{t:this.shape_78,p:{x:630.325}},{t:this.shape_3,p:{x:639.925,y:85.125}},{t:this.shape_61,p:{x:649.225}},{t:this.shape_108},{t:this.shape_107,p:{x:675.95}},{t:this.shape_106},{t:this.shape_58,p:{x:698.525}},{t:this.shape_105},{t:this.shape_59,p:{x:718.625}},{t:this.shape_85,p:{x:725.825,y:81.2}},{t:this.shape_47,p:{x:733.025}},{t:this.shape_104},{t:this.shape_50,p:{x:755.825}},{t:this.shape_103},{t:this.shape_33,p:{x:456.3}},{t:this.shape_17,p:{x:466.375}},{t:this.shape_102},{t:this.shape_101},{t:this.shape_100},{t:this.shape_42,p:{x:504.725}},{t:this.shape_2,p:{x:512.425}},{t:this.shape_4,p:{x:522.275}},{t:this.shape,p:{x:530.925,y:102.375}},{t:this.btnNextDasar1,p:{x:878.8,y:508.25}},{t:this.btnMenuDasar1,p:{x:616.75,y:508.25}},{t:this.btnBack3,p:{x:749,y:508.25}},{t:this.instance_4,p:{scaleY:0.7317}}]},1).to({state:[{t:this.instance_7},{t:this.instance_6},{t:this.judulKI_2},{t:this.shape_171},{t:this.shape_109,p:{x:244.825,y:96.15}},{t:this.shape_170},{t:this.shape_169},{t:this.shape_3,p:{x:272.075,y:99.725}},{t:this.shape_168,p:{x:281.375}},{t:this.shape_167},{t:this.shape_166,p:{x:305.125}},{t:this.shape_165},{t:this.shape_164},{t:this.shape_163},{t:this.shape_162},{t:this.shape_161,p:{x:349.425}},{t:this.shape_66,p:{x:357.175,y:96.725}},{t:this.shape_160},{t:this.shape_159},{t:this.shape_158,p:{x:389.475}},{t:this.shape_157},{t:this.shape_156},{t:this.shape_155},{t:this.shape_154},{t:this.shape_153,p:{x:435.525}},{t:this.shape_152,p:{x:445.375}},{t:this.shape_44,p:{x:460.225,y:99.525}},{t:this.shape_151},{t:this.shape_34,p:{x:475.125,y:99.525}},{t:this.shape_150,p:{x:484.825}},{t:this.shape_149,p:{x:501.95}},{t:this.shape_148},{t:this.shape_147,p:{x:524.525}},{t:this.shape_146},{t:this.shape_145},{t:this.shape_144},{t:this.shape_143,p:{x:569.175}},{t:this.shape_142},{t:this.shape_141,p:{x:582.925}},{t:this.shape_85,p:{x:592.175,y:95.8}},{t:this.shape_140,p:{x:596.925}},{t:this.shape_139,p:{x:604.325}},{t:this.shape_138},{t:this.shape_137,p:{x:625}},{t:this.shape_136,p:{x:634.225}},{t:this.shape_135,p:{x:644.275}},{t:this.shape_134,p:{x:654.3,y:99.575}},{t:this.shape_133,p:{x:664.375}},{t:this.shape_132,p:{x:674.225}},{t:this.shape_131},{t:this.shape_130},{t:this.shape_129},{t:this.shape_128,p:{x:714.775}},{t:this.shape_46,p:{x:720.075,y:96.725}},{t:this.shape_127,p:{x:728.075}},{t:this.shape_126,p:{x:736.575}},{t:this.shape,p:{x:743.025,y:91.375}},{t:this.btnNextDasar1,p:{x:878.8,y:508.25}},{t:this.btnMenuDasar1,p:{x:616.75,y:508.25}},{t:this.btnBack3,p:{x:749,y:508.25}},{t:this.instance_8}]},1).to({state:[{t:this.instance_7},{t:this.instance_6},{t:this.judulKI_3},{t:this.shape_125,p:{x:221.15}},{t:this.shape_113,p:{x:230.125}},{t:this.shape_88,p:{x:240.725}},{t:this.shape_199},{t:this.shape_56,p:{x:266.625}},{t:this.shape_90,p:{x:276.325}},{t:this.shape_198},{t:this.shape_84,p:{x:296.025}},{t:this.shape_118,p:{x:305.875}},{t:this.shape_62,p:{x:323.25}},{t:this.shape_197},{t:this.shape_116,p:{x:340.825}},{t:this.shape_3,p:{x:350.425,y:85.125}},{t:this.shape_82,p:{x:359.725}},{t:this.shape_196},{t:this.shape_195},{t:this.shape_79,p:{x:392.725}},{t:this.shape_194},{t:this.shape_193},{t:this.shape_73,p:{x:428.125}},{t:this.shape_122,p:{x:435.325}},{t:this.shape_192},{t:this.shape_191},{t:this.shape_190},{t:this.shape_71,p:{x:471.125}},{t:this.shape_48,p:{x:480.975}},{t:this.shape_189},{t:this.shape_107,p:{x:504.4}},{t:this.shape_75,p:{x:517.15}},{t:this.shape_119,p:{x:524.325}},{t:this.shape_65,p:{x:531.525}},{t:this.shape_85,p:{x:538.725,y:81.2}},{t:this.shape_45,p:{x:546.125}},{t:this.shape_86,p:{x:553.525}},{t:this.shape_188},{t:this.shape_187},{t:this.shape_54,p:{x:584.425}},{t:this.shape_69,p:{x:589.675}},{t:this.shape_186},{t:this.shape_44,p:{x:604.325,y:84.925}},{t:this.shape_185},{t:this.shape_51,p:{x:623.075}},{t:this.shape_52,p:{x:628.325}},{t:this.shape_184},{t:this.shape_61,p:{x:646.125}},{t:this.shape_78,p:{x:655.975}},{t:this.shape_59,p:{x:665.875}},{t:this.shape_183},{t:this.shape_182},{t:this.shape_181},{t:this.shape_81,p:{x:709.275}},{t:this.shape_50,p:{x:716.675}},{t:this.shape_58,p:{x:724.075}},{t:this.shape_180},{t:this.shape_134,p:{x:744.3,y:84.975}},{t:this.shape_47,p:{x:754.375}},{t:this.shape_19,p:{x:389.775}},{t:this.shape_14,p:{x:396.975}},{t:this.shape_179},{t:this.shape_178},{t:this.shape_7,p:{x:419.975}},{t:this.shape_41,p:{x:429.825}},{t:this.shape_89,p:{x:437.775,y:107.725}},{t:this.shape_34,p:{x:446.225,y:110.525}},{t:this.shape_16,p:{x:456.125}},{t:this.shape_4,p:{x:466.175}},{t:this.shape_5,p:{x:478.125}},{t:this.shape_177},{t:this.shape_9,p:{x:495.125}},{t:this.shape_66,p:{x:503.075,y:107.725}},{t:this.shape_46,p:{x:513.675,y:107.725}},{t:this.shape_176},{t:this.shape_175},{t:this.shape_174},{t:this.shape_173},{t:this.shape_172},{t:this.shape_2,p:{x:572.725}},{t:this.shape_42,p:{x:581.225}},{t:this.shape,p:{x:587.675,y:102.375}},{t:this.btnNextDasar1,p:{x:878.8,y:508.25}},{t:this.btnMenuDasar1,p:{x:616.75,y:508.25}},{t:this.btnBack3,p:{x:749,y:508.25}},{t:this.instance_9}]},1).to({state:[{t:this.instance_7},{t:this.instance_6},{t:this.judulKI},{t:this.shape_972},{t:this.shape_971},{t:this.shape_149,p:{x:277.4}},{t:this.shape_44,p:{x:290.475,y:99.525}},{t:this.shape_970},{t:this.shape_969},{t:this.shape_968},{t:this.shape_967},{t:this.shape_141,p:{x:340.725}},{t:this.shape_158,p:{x:348.375}},{t:this.shape_168,p:{x:358.075}},{t:this.shape_66,p:{x:365.825,y:96.725}},{t:this.shape_34,p:{x:378.775,y:99.525}},{t:this.shape_966},{t:this.shape_152,p:{x:398.425}},{t:this.shape_965},{t:this.shape_964},{t:this.shape_963},{t:this.shape_166,p:{x:443.075}},{t:this.shape_126,p:{x:451.575}},{t:this.shape_161,p:{x:459.275}},{t:this.shape_147,p:{x:469.125}},{t:this.shape_962},{t:this.shape_140,p:{x:496.675}},{t:this.shape_139,p:{x:504.075}},{t:this.shape_20,p:{x:513.675,y:99.725}},{t:this.shape_153,p:{x:522.975}},{t:this.shape_137,p:{x:533.2}},{t:this.shape_46,p:{x:544.825,y:96.725}},{t:this.shape_150,p:{x:552.825}},{t:this.shape_135,p:{x:562.675}},{t:this.shape_143,p:{x:572.575}},{t:this.shape_961},{t:this.shape_960},{t:this.shape_12,p:{x:609.125,y:96.15}},{t:this.shape_959},{t:this.shape_958},{t:this.shape_136,p:{x:640.475}},{t:this.shape_957},{t:this.shape_133,p:{x:659.925}},{t:this.shape_109,p:{x:677.125,y:96.15}},{t:this.shape_128,p:{x:687.375}},{t:this.shape_132,p:{x:694.775}},{t:this.shape_3,p:{x:704.375,y:99.725}},{t:this.shape_127,p:{x:713.675}},{t:this.shape_956},{t:this.judulKI_4},{t:this.btnMenuDasar1,p:{x:623.75,y:504.8}},{t:this.btnNextDasar1,p:{x:885.8,y:504.8}},{t:this.btnBack3,p:{x:756,y:504.8}},{t:this.shape_955},{t:this.shape_954},{t:this.shape_953},{t:this.shape_952},{t:this.shape_951},{t:this.shape_950},{t:this.shape_949},{t:this.shape_948},{t:this.shape_947},{t:this.shape_946},{t:this.shape_945},{t:this.shape_944},{t:this.shape_943},{t:this.shape_942},{t:this.shape_941},{t:this.shape_940},{t:this.shape_939},{t:this.shape_938},{t:this.shape_937},{t:this.shape_936},{t:this.shape_935},{t:this.shape_934},{t:this.shape_933},{t:this.shape_932},{t:this.shape_931},{t:this.shape_930},{t:this.shape_929},{t:this.shape_928},{t:this.shape_927},{t:this.shape_926},{t:this.shape_925},{t:this.shape_924},{t:this.shape_923},{t:this.shape_922},{t:this.shape_921},{t:this.shape_920},{t:this.shape_919},{t:this.shape_918},{t:this.shape_917},{t:this.shape_916},{t:this.shape_915},{t:this.shape_914},{t:this.shape_913},{t:this.shape_912},{t:this.shape_911},{t:this.shape_910},{t:this.shape_909},{t:this.shape_908},{t:this.shape_907},{t:this.shape_906},{t:this.shape_905},{t:this.shape_904},{t:this.shape_903},{t:this.shape_902},{t:this.shape_901},{t:this.shape_900},{t:this.shape_899},{t:this.shape_898},{t:this.shape_897},{t:this.shape_896},{t:this.shape_895},{t:this.shape_894},{t:this.shape_893},{t:this.shape_892},{t:this.shape_891},{t:this.shape_890},{t:this.shape_889},{t:this.shape_888},{t:this.shape_887},{t:this.shape_886},{t:this.shape_885},{t:this.shape_884},{t:this.shape_883},{t:this.shape_882},{t:this.shape_881},{t:this.shape_880},{t:this.shape_879},{t:this.shape_878},{t:this.shape_877},{t:this.shape_876},{t:this.shape_875},{t:this.shape_874},{t:this.shape_873},{t:this.shape_872},{t:this.shape_871},{t:this.shape_870},{t:this.shape_869},{t:this.shape_868},{t:this.shape_867},{t:this.shape_866},{t:this.shape_865},{t:this.shape_864},{t:this.shape_863},{t:this.shape_862},{t:this.shape_861},{t:this.shape_860},{t:this.shape_859},{t:this.shape_858},{t:this.shape_857},{t:this.shape_856},{t:this.shape_855},{t:this.shape_854},{t:this.shape_853},{t:this.shape_852},{t:this.shape_851},{t:this.shape_850},{t:this.shape_849},{t:this.shape_848},{t:this.shape_847},{t:this.shape_846},{t:this.shape_845},{t:this.shape_844},{t:this.shape_843},{t:this.shape_842},{t:this.shape_841},{t:this.shape_840},{t:this.shape_839},{t:this.shape_838},{t:this.shape_837},{t:this.shape_836},{t:this.shape_835},{t:this.shape_834},{t:this.shape_833},{t:this.shape_832},{t:this.shape_831},{t:this.shape_830},{t:this.shape_829},{t:this.shape_828},{t:this.shape_827},{t:this.shape_826},{t:this.shape_825},{t:this.shape_824},{t:this.shape_823},{t:this.shape_822},{t:this.shape_821},{t:this.shape_820},{t:this.shape_819},{t:this.shape_818},{t:this.shape_817},{t:this.shape_816},{t:this.shape_815},{t:this.shape_814},{t:this.shape_813},{t:this.shape_812},{t:this.shape_811},{t:this.shape_810},{t:this.shape_809},{t:this.shape_808},{t:this.shape_807},{t:this.shape_806},{t:this.shape_805},{t:this.shape_804},{t:this.shape_803},{t:this.shape_802},{t:this.shape_801},{t:this.shape_800},{t:this.shape_799},{t:this.shape_798},{t:this.shape_797},{t:this.shape_796},{t:this.shape_795},{t:this.shape_794},{t:this.shape_793},{t:this.shape_792},{t:this.shape_791},{t:this.shape_790},{t:this.shape_789},{t:this.shape_788},{t:this.shape_787},{t:this.shape_786},{t:this.shape_785},{t:this.shape_784},{t:this.shape_783},{t:this.shape_782},{t:this.shape_781},{t:this.shape_780},{t:this.shape_779},{t:this.shape_778},{t:this.shape_777},{t:this.shape_776},{t:this.shape_775},{t:this.shape_774},{t:this.shape_773},{t:this.shape_772},{t:this.shape_771},{t:this.shape_770},{t:this.shape_769},{t:this.shape_768},{t:this.shape_767},{t:this.shape_766},{t:this.shape_765},{t:this.shape_764},{t:this.shape_763},{t:this.shape_762},{t:this.shape_761},{t:this.shape_760},{t:this.shape_759},{t:this.shape_758},{t:this.shape_757},{t:this.shape_756},{t:this.shape_755},{t:this.shape_754},{t:this.shape_753},{t:this.shape_752},{t:this.shape_751},{t:this.shape_750},{t:this.shape_749},{t:this.shape_748},{t:this.shape_747},{t:this.shape_746},{t:this.shape_745},{t:this.shape_744},{t:this.shape_743},{t:this.shape_742},{t:this.shape_741},{t:this.shape_740},{t:this.shape_739},{t:this.shape_738},{t:this.shape_737},{t:this.shape_736},{t:this.shape_735},{t:this.shape_734},{t:this.shape_733},{t:this.shape_732},{t:this.shape_731},{t:this.shape_730},{t:this.shape_729},{t:this.shape_728},{t:this.shape_727},{t:this.shape_726},{t:this.shape_725},{t:this.shape_724},{t:this.shape_723},{t:this.shape_722},{t:this.shape_721},{t:this.shape_720},{t:this.shape_719},{t:this.shape_718},{t:this.shape_717},{t:this.shape_716},{t:this.shape_715},{t:this.shape_714},{t:this.shape_713},{t:this.shape_712},{t:this.shape_711},{t:this.shape_710},{t:this.shape_709},{t:this.shape_708},{t:this.shape_707},{t:this.shape_706},{t:this.shape_705},{t:this.shape_704},{t:this.shape_703},{t:this.shape_702},{t:this.shape_701},{t:this.shape_700},{t:this.shape_699},{t:this.shape_698},{t:this.shape_697},{t:this.shape_696},{t:this.shape_695},{t:this.shape_694},{t:this.shape_693},{t:this.shape_692},{t:this.shape_691},{t:this.shape_690},{t:this.shape_689},{t:this.shape_688},{t:this.shape_687},{t:this.shape_686},{t:this.shape_685},{t:this.shape_684},{t:this.shape_683},{t:this.shape_682},{t:this.shape_681},{t:this.shape_680},{t:this.shape_679},{t:this.shape_678},{t:this.shape_677},{t:this.shape_676},{t:this.shape_675},{t:this.shape_674},{t:this.shape_673},{t:this.shape_672},{t:this.shape_671},{t:this.shape_670},{t:this.shape_669},{t:this.shape_668},{t:this.shape_667},{t:this.shape_666},{t:this.shape_665},{t:this.shape_664},{t:this.shape_663},{t:this.shape_662},{t:this.shape_661},{t:this.shape_660},{t:this.shape_659},{t:this.shape_658},{t:this.shape_657},{t:this.shape_656},{t:this.shape_655},{t:this.shape_654},{t:this.shape_653},{t:this.shape_652},{t:this.shape_651},{t:this.shape_650},{t:this.shape_649},{t:this.shape_648},{t:this.shape_647},{t:this.shape_646},{t:this.shape_645},{t:this.shape_644},{t:this.shape_643},{t:this.shape_642},{t:this.shape_641},{t:this.shape_640},{t:this.shape_639},{t:this.shape_638},{t:this.shape_637},{t:this.shape_636},{t:this.shape_635},{t:this.shape_634},{t:this.shape_633},{t:this.shape_632},{t:this.shape_631},{t:this.shape_630},{t:this.shape_629},{t:this.shape_628},{t:this.shape_627},{t:this.shape_626},{t:this.shape_625},{t:this.shape_624},{t:this.shape_623},{t:this.shape_622},{t:this.shape_621},{t:this.shape_620},{t:this.shape_619},{t:this.shape_618},{t:this.shape_617},{t:this.shape_616},{t:this.shape_615},{t:this.shape_614},{t:this.shape_613},{t:this.shape_612},{t:this.shape_611},{t:this.shape_610},{t:this.shape_609},{t:this.shape_608},{t:this.shape_607},{t:this.shape_606},{t:this.shape_605},{t:this.shape_604},{t:this.shape_603},{t:this.shape_602},{t:this.shape_601},{t:this.shape_600},{t:this.shape_599},{t:this.shape_598},{t:this.shape_597},{t:this.shape_596},{t:this.shape_595},{t:this.shape_594},{t:this.shape_593},{t:this.shape_592},{t:this.shape_591},{t:this.shape_590},{t:this.shape_589},{t:this.shape_588},{t:this.shape_587},{t:this.shape_586},{t:this.shape_585},{t:this.shape_584},{t:this.shape_583},{t:this.shape_582},{t:this.shape_581},{t:this.shape_580},{t:this.shape_579},{t:this.shape_578},{t:this.shape_577},{t:this.shape_576},{t:this.shape_575},{t:this.shape_574},{t:this.shape_573},{t:this.shape_572},{t:this.shape_571},{t:this.shape_570},{t:this.shape_569},{t:this.shape_568},{t:this.shape_567},{t:this.shape_566},{t:this.shape_565},{t:this.shape_564},{t:this.shape_563},{t:this.shape_562},{t:this.shape_561},{t:this.shape_560},{t:this.shape_559},{t:this.shape_558},{t:this.shape_557},{t:this.shape_556},{t:this.shape_555},{t:this.shape_554},{t:this.shape_553},{t:this.shape_552},{t:this.shape_551},{t:this.shape_550},{t:this.shape_549},{t:this.shape_548},{t:this.shape_547},{t:this.shape_546},{t:this.shape_545},{t:this.shape_544},{t:this.shape_543},{t:this.shape_542},{t:this.shape_541},{t:this.shape_540},{t:this.shape_539},{t:this.shape_538},{t:this.shape_537},{t:this.shape_536},{t:this.shape_535},{t:this.shape_534},{t:this.shape_533},{t:this.shape_532},{t:this.shape_531},{t:this.shape_530},{t:this.shape_529},{t:this.shape_528},{t:this.shape_527},{t:this.shape_526},{t:this.shape_525},{t:this.shape_524},{t:this.shape_523},{t:this.shape_522},{t:this.shape_521},{t:this.shape_520},{t:this.shape_519},{t:this.shape_518},{t:this.shape_517},{t:this.shape_516},{t:this.shape_515},{t:this.shape_514},{t:this.shape_513},{t:this.shape_512},{t:this.shape_511},{t:this.shape_510},{t:this.shape_509},{t:this.shape_508},{t:this.shape_507},{t:this.shape_506},{t:this.shape_505},{t:this.shape_504},{t:this.shape_503},{t:this.shape_502},{t:this.shape_501},{t:this.shape_500},{t:this.shape_499},{t:this.shape_498},{t:this.shape_497},{t:this.shape_496},{t:this.shape_495},{t:this.shape_494},{t:this.shape_493},{t:this.shape_492},{t:this.shape_491},{t:this.shape_490},{t:this.shape_489},{t:this.shape_488},{t:this.shape_487},{t:this.shape_486},{t:this.shape_485},{t:this.shape_484},{t:this.shape_483},{t:this.shape_482},{t:this.shape_481},{t:this.shape_480},{t:this.shape_479},{t:this.shape_478},{t:this.shape_477},{t:this.shape_476},{t:this.shape_475},{t:this.shape_474},{t:this.shape_473},{t:this.shape_472},{t:this.shape_471},{t:this.shape_470},{t:this.shape_469},{t:this.shape_468},{t:this.shape_467},{t:this.shape_466},{t:this.shape_465},{t:this.shape_464},{t:this.shape_463},{t:this.shape_462},{t:this.shape_461},{t:this.shape_460},{t:this.shape_459},{t:this.shape_458},{t:this.shape_457},{t:this.shape_456},{t:this.shape_455},{t:this.shape_454},{t:this.shape_453},{t:this.shape_452},{t:this.shape_451},{t:this.shape_450},{t:this.shape_449},{t:this.shape_448},{t:this.shape_447},{t:this.shape_446},{t:this.shape_445},{t:this.shape_444},{t:this.shape_443},{t:this.shape_442},{t:this.shape_441},{t:this.shape_440},{t:this.shape_439},{t:this.shape_438},{t:this.shape_437},{t:this.shape_436},{t:this.shape_435},{t:this.shape_434},{t:this.shape_433},{t:this.shape_432},{t:this.shape_431},{t:this.shape_430},{t:this.shape_429},{t:this.shape_428},{t:this.shape_427},{t:this.shape_426},{t:this.shape_425},{t:this.shape_424},{t:this.shape_423},{t:this.shape_422},{t:this.shape_421},{t:this.shape_420},{t:this.shape_419},{t:this.shape_418},{t:this.shape_417},{t:this.shape_416},{t:this.shape_415},{t:this.shape_414},{t:this.shape_413},{t:this.shape_412},{t:this.shape_411},{t:this.shape_410},{t:this.shape_409},{t:this.shape_408},{t:this.shape_407},{t:this.shape_406},{t:this.shape_405},{t:this.shape_404},{t:this.shape_403},{t:this.shape_402},{t:this.shape_401},{t:this.shape_400},{t:this.shape_399},{t:this.shape_398},{t:this.shape_397},{t:this.shape_396},{t:this.shape_395},{t:this.shape_394},{t:this.shape_393},{t:this.shape_392},{t:this.shape_391},{t:this.shape_390},{t:this.shape_389},{t:this.shape_388},{t:this.shape_387},{t:this.shape_386},{t:this.shape_385},{t:this.shape_384},{t:this.shape_383},{t:this.shape_382},{t:this.shape_381},{t:this.shape_380},{t:this.shape_379},{t:this.shape_378},{t:this.shape_377},{t:this.shape_376},{t:this.shape_375},{t:this.shape_374},{t:this.shape_373},{t:this.shape_372},{t:this.shape_371},{t:this.shape_370},{t:this.shape_369},{t:this.shape_368},{t:this.shape_367},{t:this.shape_366},{t:this.shape_365},{t:this.shape_364},{t:this.shape_363},{t:this.shape_362},{t:this.shape_361},{t:this.shape_360},{t:this.shape_359},{t:this.shape_358},{t:this.shape_357},{t:this.shape_356},{t:this.shape_355},{t:this.shape_354},{t:this.shape_353},{t:this.shape_352},{t:this.shape_351},{t:this.shape_350},{t:this.shape_349},{t:this.shape_348},{t:this.shape_347},{t:this.shape_346},{t:this.shape_345},{t:this.shape_344},{t:this.shape_343},{t:this.shape_342},{t:this.shape_341},{t:this.shape_340},{t:this.shape_339},{t:this.shape_338},{t:this.shape_337},{t:this.shape_336},{t:this.shape_335},{t:this.shape_334},{t:this.shape_333},{t:this.shape_332},{t:this.shape_331},{t:this.shape_330},{t:this.shape_329},{t:this.shape_328},{t:this.shape_327},{t:this.shape_326},{t:this.shape_325},{t:this.shape_324},{t:this.shape_323},{t:this.shape_322},{t:this.shape_321},{t:this.shape_320},{t:this.shape_319},{t:this.shape_318},{t:this.shape_317},{t:this.shape_316},{t:this.shape_315},{t:this.shape_314},{t:this.shape_313},{t:this.shape_312},{t:this.shape_311},{t:this.shape_310},{t:this.shape_309},{t:this.shape_308},{t:this.shape_307},{t:this.shape_306},{t:this.shape_305},{t:this.shape_304},{t:this.shape_303},{t:this.shape_302},{t:this.shape_301},{t:this.shape_300},{t:this.shape_299},{t:this.shape_298},{t:this.shape_297},{t:this.shape_296},{t:this.shape_295},{t:this.shape_294},{t:this.shape_293},{t:this.shape_292},{t:this.shape_291},{t:this.shape_290},{t:this.shape_289},{t:this.shape_288},{t:this.shape_287},{t:this.shape_286},{t:this.shape_285},{t:this.shape_284},{t:this.shape_283},{t:this.shape_282},{t:this.shape_281},{t:this.shape_280},{t:this.shape_279},{t:this.shape_278},{t:this.shape_277},{t:this.shape_276},{t:this.shape_275},{t:this.shape_274},{t:this.shape_273},{t:this.shape_272},{t:this.shape_271},{t:this.shape_270},{t:this.shape_269},{t:this.shape_268},{t:this.shape_267},{t:this.shape_266},{t:this.shape_265},{t:this.shape_264},{t:this.shape_263},{t:this.shape_262},{t:this.shape_261},{t:this.shape_260},{t:this.shape_259},{t:this.shape_258},{t:this.shape_257},{t:this.shape_256},{t:this.shape_255},{t:this.shape_254},{t:this.shape_253},{t:this.shape_252},{t:this.shape_251},{t:this.shape_250},{t:this.shape_249},{t:this.shape_248},{t:this.shape_247},{t:this.shape_246},{t:this.shape_245},{t:this.shape_244},{t:this.shape_243},{t:this.shape_242},{t:this.shape_241},{t:this.shape_240},{t:this.shape_239},{t:this.shape_238},{t:this.shape_237},{t:this.shape_236},{t:this.shape_235},{t:this.shape_234},{t:this.shape_233},{t:this.shape_232},{t:this.shape_231},{t:this.shape_230},{t:this.shape_229},{t:this.shape_228},{t:this.shape_227},{t:this.shape_226},{t:this.shape_225},{t:this.shape_224},{t:this.shape_223},{t:this.shape_222},{t:this.shape_221},{t:this.shape_220},{t:this.shape_219},{t:this.shape_218},{t:this.shape_217},{t:this.shape_216},{t:this.shape_215},{t:this.shape_214},{t:this.shape_213},{t:this.shape_212},{t:this.shape_211},{t:this.shape_210},{t:this.shape_209},{t:this.shape_208},{t:this.shape_207},{t:this.shape_206},{t:this.shape_205},{t:this.shape_204},{t:this.shape_203},{t:this.shape_202},{t:this.shape_201},{t:this.shape_200}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -4806,17 +4945,28 @@ lib.properties = {
 	color: "#3498DB",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_12.png?1593161972372", id:"_12"},
-		{src:"images/_11.png?1593161972372", id:"_11"},
-		{src:"images/_21.png?1593161972372", id:"_21"},
-		{src:"images/_23.png?1593161972372", id:"_23"},
-		{src:"images/_22.png?1593161972372", id:"_22"},
-		{src:"images/_13.png?1593161972372", id:"_13"},
-		{src:"images/_24.png?1593161972372", id:"_24"},
-		{src:"images/Bitmap5.png?1593161972372", id:"Bitmap5"},
-		{src:"images/Bitmap28.png?1593161972372", id:"Bitmap28"},
-		{src:"images/bookpngcopy.png?1593161972372", id:"bookpngcopy"},
-		{src:"images/_14.png?1593161972372", id:"_14"}
+		{src:"images/_11.png", id:"_11"},
+		{src:"images/_13.png", id:"_13"},
+		{src:"images/_21.png", id:"_21"},
+		{src:"images/_22.png", id:"_22"},
+		{src:"images/_14.png", id:"_14"},
+		{src:"images/_24.png", id:"_24"},
+		{src:"images/_31.png", id:"_31"},
+		{src:"images/_32.png", id:"_32"},
+		{src:"images/_33.png", id:"_33"},
+		{src:"images/_34.png", id:"_34"},
+		{src:"images/_35.png", id:"_35"},
+		{src:"images/_23.png", id:"_23"},
+		{src:"images/_3.png", id:"_3"},
+		{src:"images/_4.png", id:"_4"},
+		{src:"images/_5.png", id:"_5"},
+		{src:"images/_6.png", id:"_6"},
+		{src:"images/_1.png", id:"_1"},
+		{src:"images/Bitmap5.png", id:"Bitmap5"},
+		{src:"images/_12.png", id:"_12"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"images/_2.png", id:"_2"},
+		{src:"images/Bitmap28.png", id:"Bitmap28"}
 	],
 	preloads: []
 };
