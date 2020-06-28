@@ -153,10 +153,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,233,124);
 p.nominalBounds = new cjs.Rectangle(0,0,300,222);
 
 
-(lib.Bitmap124 = function() {
-	this.initialize(img.Bitmap124);
+(lib.Bitmap126 = function() {
+	this.initialize(img.Bitmap126);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,296,222);
+p.nominalBounds = new cjs.Rectangle(0,0,226,157);
 
 
 (lib.Bitmap127 = function() {
@@ -189,16 +189,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
+(lib.Bitmap124 = function() {
+	this.initialize(img.Bitmap124);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,296,222);
+
+
 (lib.Bitmap125 = function() {
 	this.initialize(img.Bitmap125);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,302,222);
-
-
-(lib.Bitmap126 = function() {
-	this.initialize(img.Bitmap126);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,226,157);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,302,222);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -4667,17 +4667,6 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		
 		root.stop();
 		
-		root.btnMenuDasar1.on("click", function () {
-		  window.location.replace("../menu/index.html");
-		});
-		
-		root.btnNextDasar1.on("click", function () {
-		  window.location.replace("../game12/index.html");
-		});
-		
-		root.btnBack3.on("click", function () {
-		  window.location.replace("../game10/index.html");
-		});
 		
 		//#34495e
 		
@@ -5534,14 +5523,14 @@ lib.properties = {
 		{src:"images/_16.jpeg", id:"_16"},
 		{src:"images/Bitmap102copy.png", id:"Bitmap102copy"},
 		{src:"images/Bitmap123.png", id:"Bitmap123"},
-		{src:"images/Bitmap124.png", id:"Bitmap124"},
+		{src:"images/Bitmap126.png", id:"Bitmap126"},
 		{src:"images/Bitmap127.png", id:"Bitmap127"},
 		{src:"images/Bitmap128.png", id:"Bitmap128"},
 		{src:"images/Bitmap2.png", id:"Bitmap2"},
 		{src:"images/Bitmap3.png", id:"Bitmap3"},
 		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/Bitmap125.png", id:"Bitmap125"},
-		{src:"images/Bitmap126.png", id:"Bitmap126"}
+		{src:"images/Bitmap124.png", id:"Bitmap124"},
+		{src:"images/Bitmap125.png", id:"Bitmap125"}
 	],
 	preloads: []
 };
