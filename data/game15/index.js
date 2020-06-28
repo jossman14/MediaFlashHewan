@@ -141,16 +141,16 @@ lib.ssMetadata = [];
 p.nominalBounds = new cjs.Rectangle(0,0,320,292);
 
 
-(lib.Bitmap102copy = function() {
-	this.initialize(img.Bitmap102copy);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,233,124);
-
-
 (lib._26 = function() {
 	this.initialize(img._26);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,624,375);
+
+
+(lib.Bitmap102copy = function() {
+	this.initialize(img.Bitmap102copy);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,233,124);
 
 
 (lib.Bitmap130 = function() {
@@ -159,10 +159,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,624,375);
 p.nominalBounds = new cjs.Rectangle(0,0,263,167);
 
 
-(lib.Bitmap135 = function() {
-	this.initialize(img.Bitmap135);
+(lib.Bitmap133 = function() {
+	this.initialize(img.Bitmap133);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,199,123);
+p.nominalBounds = new cjs.Rectangle(0,0,196,167);
+
+
+(lib.Bitmap134 = function() {
+	this.initialize(img.Bitmap134);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,233,123);
 
 
 (lib.Bitmap136 = function() {
@@ -189,16 +195,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
-(lib.Bitmap133 = function() {
-	this.initialize(img.Bitmap133);
+(lib.Bitmap135 = function() {
+	this.initialize(img.Bitmap135);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,196,167);
-
-
-(lib.Bitmap134 = function() {
-	this.initialize(img.Bitmap134);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,233,123);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,199,123);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -5654,13 +5654,13 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 
 	// base
 	this.instance = new lib.Bitmap133();
-	this.instance.setTransform(777,256,0.4184,0.3713);
+	this.instance.setTransform(799,233,0.5151,0.4491);
 
 	this.instance_1 = new lib._26();
-	this.instance_1.setTransform(682,256,0.1314,0.1653);
+	this.instance_1.setTransform(682,233,0.1618,0.2);
 
 	this.instance_2 = new lib.Bitmap130();
-	this.instance_2.setTransform(586,256,0.3118,0.3713);
+	this.instance_2.setTransform(564,233,0.3838,0.4491);
 
 	this.cobaha = new lib.bg5();
 	this.cobaha.name = "cobaha";
@@ -5668,7 +5668,7 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 
 	this.drag2G1 = new lib.drag7G7();
 	this.drag2G1.name = "drag2G1";
-	this.drag2G1.setTransform(652.25,251.65,0.8086,0.8086,0,0,0,82.2,26.7);
+	this.drag2G1.setTransform(854.45,223.6,0.8086,0.8086,0,0,0,82.2,26.7);
 	new cjs.ButtonHelper(this.drag2G1, 0, 1, 1);
 
 	this.btnInfo = new lib.btnInfo();
@@ -6255,16 +6255,16 @@ lib.properties = {
 	opacity: 1.00,
 	manifest: [
 		{src:"images/_16.jpeg", id:"_16"},
-		{src:"images/Bitmap102copy.png", id:"Bitmap102copy"},
 		{src:"images/_26.jpeg", id:"_26"},
+		{src:"images/Bitmap102copy.png", id:"Bitmap102copy"},
 		{src:"images/Bitmap130.png", id:"Bitmap130"},
-		{src:"images/Bitmap135.png", id:"Bitmap135"},
+		{src:"images/Bitmap133.png", id:"Bitmap133"},
+		{src:"images/Bitmap134.png", id:"Bitmap134"},
 		{src:"images/Bitmap136.png", id:"Bitmap136"},
 		{src:"images/Bitmap2.png", id:"Bitmap2"},
 		{src:"images/Bitmap3.png", id:"Bitmap3"},
 		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/Bitmap133.png", id:"Bitmap133"},
-		{src:"images/Bitmap134.png", id:"Bitmap134"}
+		{src:"images/Bitmap135.png", id:"Bitmap135"}
 	],
 	preloads: []
 };

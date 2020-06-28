@@ -135,10 +135,10 @@ lib.ssMetadata = [];
 
 
 
-(lib._10 = function() {
-	this.initialize(img._10);
+(lib._8 = function() {
+	this.initialize(img._8);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,400,265);
+p.nominalBounds = new cjs.Rectangle(0,0,496,325);
 
 
 (lib.Bitmap102copy = function() {
@@ -147,20 +147,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,400,265);
 p.nominalBounds = new cjs.Rectangle(0,0,233,124);
 
 
-(lib._8 = function() {
-	this.initialize(img._8);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,496,325);
-
-
-(lib.Bitmap110 = function() {
-	this.initialize(img.Bitmap110);
+(lib.Bitmap109 = function() {
+	this.initialize(img.Bitmap109);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,287,163);
 
 
-(lib.Bitmap109 = function() {
-	this.initialize(img.Bitmap109);
+(lib.Bitmap110 = function() {
+	this.initialize(img.Bitmap110);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,287,163);
 
@@ -171,16 +165,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,287,163);
 p.nominalBounds = new cjs.Rectangle(0,0,239,160);
 
 
-(lib.Bitmap2 = function() {
-	this.initialize(img.Bitmap2);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,998,600);
-
-
 (lib.Bitmap3 = function() {
 	this.initialize(img.Bitmap3);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,249,87);
+
+
+(lib.bookpngcopy = function() {
+	this.initialize(img.bookpngcopy);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
 (lib.G = function() {
@@ -189,16 +183,22 @@ p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 p.nominalBounds = new cjs.Rectangle(0,0,903,613);
 
 
+(lib._10 = function() {
+	this.initialize(img._10);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,400,265);
+
+
 (lib.Bitmap108 = function() {
 	this.initialize(img.Bitmap108);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,287,163);
 
 
-(lib.bookpngcopy = function() {
-	this.initialize(img.bookpngcopy);
+(lib.Bitmap2 = function() {
+	this.initialize(img.Bitmap2);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,288,399);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,998,600);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -4853,17 +4853,17 @@ p.nominalBounds = new cjs.Rectangle(-69,-25.2,138.1,50.5);
 	this.cobaha.setTransform(675.75,358.05);
 
 	this.instance = new lib._8();
-	this.instance.setTransform(782,254,0.1653,0.1908);
+	this.instance.setTransform(801,233,0.1996,0.2307);
 
 	this.instance_1 = new lib.G();
-	this.instance_1.setTransform(687,254,0.9081,1.0114);
+	this.instance_1.setTransform(686,233,0.9132,1.0192);
 
 	this.instance_2 = new lib._10();
-	this.instance_2.setTransform(586,254,0.215,0.2339);
+	this.instance_2.setTransform(564,233,0.2596,0.2829);
 
 	this.drag2G1 = new lib.drag7G7();
 	this.drag2G1.name = "drag2G1";
-	this.drag2G1.setTransform(652.25,251.65,0.8086,0.8086,0,0,0,82.2,26.7);
+	this.drag2G1.setTransform(854.45,223.6,0.8086,0.8086,0,0,0,82.2,26.7);
 	new cjs.ButtonHelper(this.drag2G1, 0, 1, 1);
 
 	this.btnInfo = new lib.btnInfo();
@@ -5453,17 +5453,17 @@ lib.properties = {
 	color: "#34495E",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_10.jpeg", id:"_10"},
-		{src:"images/Bitmap102copy.png", id:"Bitmap102copy"},
 		{src:"images/_8.jpeg", id:"_8"},
-		{src:"images/Bitmap110.png", id:"Bitmap110"},
+		{src:"images/Bitmap102copy.png", id:"Bitmap102copy"},
 		{src:"images/Bitmap109.png", id:"Bitmap109"},
+		{src:"images/Bitmap110.png", id:"Bitmap110"},
 		{src:"images/Bitmap111.png", id:"Bitmap111"},
-		{src:"images/Bitmap2.png", id:"Bitmap2"},
 		{src:"images/Bitmap3.png", id:"Bitmap3"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
 		{src:"images/G.png", id:"G"},
+		{src:"images/_10.jpeg", id:"_10"},
 		{src:"images/Bitmap108.png", id:"Bitmap108"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"}
+		{src:"images/Bitmap2.png", id:"Bitmap2"}
 	],
 	preloads: []
 };

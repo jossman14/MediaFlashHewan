@@ -141,6 +141,48 @@ lib.ssMetadata = [];
 p.nominalBounds = new cjs.Rectangle(0,0,681,451);
 
 
+(lib.Bitmap148 = function() {
+	this.initialize(img.Bitmap148);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,195,145);
+
+
+(lib.Bitmap152 = function() {
+	this.initialize(img.Bitmap152);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,287,152);
+
+
+(lib.Bitmap153 = function() {
+	this.initialize(img.Bitmap153);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,264,152);
+
+
+(lib.Bitmap154 = function() {
+	this.initialize(img.Bitmap154);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,280,139);
+
+
+(lib.Bitmap2 = function() {
+	this.initialize(img.Bitmap2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,998,600);
+
+
+(lib.Bitmap3 = function() {
+	this.initialize(img.Bitmap3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,249,87);
+
+
+(lib.bookpngcopy = function() {
+	this.initialize(img.bookpngcopy);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,288,399);
+
+
 (lib.Bitmap149 = function() {
 	this.initialize(img.Bitmap149);
 }).prototype = p = new cjs.Bitmap();
@@ -150,49 +192,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,304,166);
 (lib.Bitmap147 = function() {
 	this.initialize(img.Bitmap147);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,143,136);
-
-
-(lib.Bitmap148 = function() {
-	this.initialize(img.Bitmap148);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,195,145);
-
-
-(lib.Bitmap154 = function() {
-	this.initialize(img.Bitmap154);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,280,139);
-
-
-(lib.Bitmap3 = function() {
-	this.initialize(img.Bitmap3);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,249,87);
-
-
-(lib.Bitmap2 = function() {
-	this.initialize(img.Bitmap2);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,998,600);
-
-
-(lib.bookpngcopy = function() {
-	this.initialize(img.bookpngcopy);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,288,399);
-
-
-(lib.Bitmap153 = function() {
-	this.initialize(img.Bitmap153);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,264,152);
-
-
-(lib.Bitmap152 = function() {
-	this.initialize(img.Bitmap152);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,287,152);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,143,136);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -5197,11 +5197,11 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		});
 		
 		root.btnNextDasar1.on("click", function () {
-		  window.location.replace("../game12/index.html");
+		  window.location.replace("../materi8/index.html");
 		});
 		
 		root.btnBack3.on("click", function () {
-		  window.location.replace("../game10/index.html");
+		  window.location.replace("../game17/index.html");
 		});
 		
 		//#34495e
@@ -5456,10 +5456,10 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 
 	// base
 	this.instance = new lib._15();
-	this.instance.setTransform(683,253,0.1204,0.1375);
+	this.instance.setTransform(742,233,0.1534,0.1663);
 
 	this.instance_1 = new lib.Bitmap149();
-	this.instance_1.setTransform(586,253,0.2697,0.3735);
+	this.instance_1.setTransform(618,233,0.3436,0.4518);
 
 	this.cobaha = new lib.bg5();
 	this.cobaha.name = "cobaha";
@@ -5467,7 +5467,7 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 
 	this.drag2G1 = new lib.drag7G7();
 	this.drag2G1.name = "drag2G1";
-	this.drag2G1.setTransform(652.25,251.65,0.8086,0.8086,0,0,0,82.2,26.7);
+	this.drag2G1.setTransform(854.45,223.6,0.8086,0.8086,0,0,0,82.2,26.7);
 	new cjs.ButtonHelper(this.drag2G1, 0, 1, 1);
 
 	this.btnInfo = new lib.btnInfo();
@@ -6066,15 +6066,15 @@ lib.properties = {
 	opacity: 1.00,
 	manifest: [
 		{src:"images/_15.jpeg", id:"_15"},
-		{src:"images/Bitmap149.png", id:"Bitmap149"},
-		{src:"images/Bitmap147.png", id:"Bitmap147"},
 		{src:"images/Bitmap148.png", id:"Bitmap148"},
-		{src:"images/Bitmap154.png", id:"Bitmap154"},
-		{src:"images/Bitmap3.png", id:"Bitmap3"},
-		{src:"images/Bitmap2.png", id:"Bitmap2"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"images/Bitmap152.png", id:"Bitmap152"},
 		{src:"images/Bitmap153.png", id:"Bitmap153"},
-		{src:"images/Bitmap152.png", id:"Bitmap152"}
+		{src:"images/Bitmap154.png", id:"Bitmap154"},
+		{src:"images/Bitmap2.png", id:"Bitmap2"},
+		{src:"images/Bitmap3.png", id:"Bitmap3"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"images/Bitmap149.png", id:"Bitmap149"},
+		{src:"images/Bitmap147.png", id:"Bitmap147"}
 	],
 	preloads: []
 };

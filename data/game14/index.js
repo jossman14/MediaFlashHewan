@@ -153,6 +153,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,233,124);
 p.nominalBounds = new cjs.Rectangle(0,0,300,222);
 
 
+(lib.Bitmap124 = function() {
+	this.initialize(img.Bitmap124);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,296,222);
+
+
 (lib.Bitmap126 = function() {
 	this.initialize(img.Bitmap126);
 }).prototype = p = new cjs.Bitmap();
@@ -165,16 +171,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,226,157);
 p.nominalBounds = new cjs.Rectangle(0,0,243,157);
 
 
-(lib.Bitmap128 = function() {
-	this.initialize(img.Bitmap128);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,266,157);
-
-
 (lib.Bitmap2 = function() {
 	this.initialize(img.Bitmap2);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,998,600);
+
+
+(lib.Bitmap128 = function() {
+	this.initialize(img.Bitmap128);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,266,157);
 
 
 (lib.Bitmap3 = function() {
@@ -187,12 +193,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 	this.initialize(img.bookpngcopy);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
-
-
-(lib.Bitmap124 = function() {
-	this.initialize(img.Bitmap124);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,296,222);
 
 
 (lib.Bitmap125 = function() {
@@ -4920,13 +4920,13 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 
 	// base
 	this.instance = new lib.Bitmap125();
-	this.instance.setTransform(777,253,0.2715,0.2793);
+	this.instance.setTransform(799,233,0.3343,0.3378);
 
 	this.instance_1 = new lib.Bitmap124();
-	this.instance_1.setTransform(680,253,0.277,0.2793);
+	this.instance_1.setTransform(680,233,0.341,0.3378);
 
 	this.instance_2 = new lib.Bitmap123();
-	this.instance_2.setTransform(586,253,0.2733,0.2793);
+	this.instance_2.setTransform(564,233,0.3365,0.3378);
 
 	this.cobaha = new lib.bg5();
 	this.cobaha.name = "cobaha";
@@ -4934,7 +4934,7 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 
 	this.drag2G1 = new lib.drag7G7();
 	this.drag2G1.name = "drag2G1";
-	this.drag2G1.setTransform(652.25,251.65,0.8086,0.8086,0,0,0,82.2,26.7);
+	this.drag2G1.setTransform(854.45,223.6,0.8086,0.8086,0,0,0,82.2,26.7);
 	new cjs.ButtonHelper(this.drag2G1, 0, 1, 1);
 
 	this.btnInfo = new lib.btnInfo();
@@ -5523,13 +5523,13 @@ lib.properties = {
 		{src:"images/_16.jpeg", id:"_16"},
 		{src:"images/Bitmap102copy.png", id:"Bitmap102copy"},
 		{src:"images/Bitmap123.png", id:"Bitmap123"},
+		{src:"images/Bitmap124.png", id:"Bitmap124"},
 		{src:"images/Bitmap126.png", id:"Bitmap126"},
 		{src:"images/Bitmap127.png", id:"Bitmap127"},
-		{src:"images/Bitmap128.png", id:"Bitmap128"},
 		{src:"images/Bitmap2.png", id:"Bitmap2"},
+		{src:"images/Bitmap128.png", id:"Bitmap128"},
 		{src:"images/Bitmap3.png", id:"Bitmap3"},
 		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/Bitmap124.png", id:"Bitmap124"},
 		{src:"images/Bitmap125.png", id:"Bitmap125"}
 	],
 	preloads: []

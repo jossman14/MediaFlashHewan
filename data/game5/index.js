@@ -147,24 +147,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,400,265);
 p.nominalBounds = new cjs.Rectangle(0,0,638,479);
 
 
-(lib.Bitmap2 = function() {
-	this.initialize(img.Bitmap2);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,998,600);
-
-
-(lib.bookpngcopy = function() {
-	this.initialize(img.bookpngcopy);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,288,399);
-
-
-(lib.G = function() {
-	this.initialize(img.G);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,903,613);
-
-
 (lib._7 = function() {
 	this.initialize(img._7);
 }).prototype = p = new cjs.Bitmap();
@@ -174,7 +156,25 @@ p.nominalBounds = new cjs.Rectangle(0,0,300,201);
 (lib.Bitmap3 = function() {
 	this.initialize(img.Bitmap3);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,249,87);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,249,87);
+
+
+(lib.Bitmap2 = function() {
+	this.initialize(img.Bitmap2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,998,600);
+
+
+(lib.G = function() {
+	this.initialize(img.G);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,903,613);
+
+
+(lib.bookpngcopy = function() {
+	this.initialize(img.bookpngcopy);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,288,399);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -3002,20 +3002,20 @@ p.nominalBounds = new cjs.Rectangle(-87.8,-10.4,163.1,20.8);
 
 	// slots
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AgaBAIA0hxIhEAAIAAgOIBVAAIAAAJIg0B2g");
-	this.shape.setTransform(727.425,391.05);
+	this.shape.graphics.f("#FFFFFF").s().p("AAMBAIAAgeIg5AAIAAgKIA4hXIASAAIAABUIARAAIAAANIgRAAIAAAegAAKglIglA6IAnAAIAAg9g");
+	this.shape.setTransform(727.475,391.05);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("AAMBAIAAgeIg5AAIAAgKIA4hXIASAAIAABUIARAAIAAANIgRAAIAAAegAAKglIglA6IAnAAIAAg9g");
-	this.shape_1.setTransform(517.375,391.05);
+	this.shape_1.graphics.f("#FFFFFF").s().p("AgcA4QgLgKAAgQIAPAAQAAAKAHAGQAHAGAKAAQAMAAAGgGQAGgGAAgMQAAgLgHgGQgGgGgMAAIgMAAIAAgMIAMAAQAKAAAHgGQAGgGAAgKQAAgXgWAAQgKAAgGAGQgHAGABAKIgQAAQgBgPALgKQALgKARAAQASAAAKAKQALAJgBARQABAJgGAHQgFAIgKAEQALACAFAIQAGAIABALQAAARgMAKQgLALgSAAQgRAAgLgKg");
+	this.shape_1.setTransform(517.2,391.075);
 
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#FFFFFF").s().p("AgbA4QgLgKgBgQIAPAAQACALAGAFQAGAGAKgBQALABAHgIQAGgIAAgOQAAgMgHgIQgHgHgLAAQgKAAgGAEIgFADIgNgCIAHhAIBAAAIAAAPIgyAAIgEAjQAJgGALAAQASAAAKAMQAKAKAAAUQAAAUgKAMQgLALgTAAQgQAAgLgJg");
-	this.shape_2.setTransform(727.775,277.75);
+	this.shape_2.graphics.f("#FFFFFF").s().p("AgoBBIAAgMIAsgxQAKgKADgHQAEgHAAgIQAAgKgGgGQgGgHgJAAQgMAAgHAHQgHAHAAAMIgQAAQAAgRALgLQAMgLATAAQARAAAKAJQAKAKAAAPQAAATgYAZIghAlIA/AAIAAAOg");
+	this.shape_2.setTransform(727.525,277.575);
 
 	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("#FFFFFF").s().p("AgoBBIAAgMIAsgxQAKgKADgHQAEgHAAgIQAAgKgGgGQgGgHgJAAQgMAAgHAHQgHAHAAAMIgQAAQAAgRALgLQAMgLATAAQARAAAKAJQAKAKAAAPQAAATgYAZIghAlIA/AAIAAAOg");
-	this.shape_3.setTransform(517.425,277.575);
+	this.shape_3.graphics.f("#FFFFFF").s().p("AAIBAIAAhrIgfAMIAAgPIAtgRIACAAIAAB/g");
+	this.shape_3.setTransform(516.25,277.625);
 
 	this.shape_4 = new cjs.Shape();
 	this.shape_4.graphics.f("#FFFFFF").s().p("AgdApQgJgHAAgNQAAgOALgIQALgIAUAAIAQAAIAAgHQAAgJgFgFQgFgGgKABQgIgBgGAFQgGAFAAAGIgQAAQAAgIAFgGQAFgGAJgEQAIgFAKAAQAQAAAJAJQAKAIAAAPIAAArQAAANADAHIAAABIgRAAIgCgKQgLAMgPAAQgOAAgJgIgAgWATQAAAHAFAFQAFAEAIAAQAHAAAHgEQAHgEADgGIAAgTIgNAAQgdgBAAASg");
@@ -4776,11 +4776,11 @@ lib.properties = {
 	manifest: [
 		{src:"images/_10.jpeg", id:"_10"},
 		{src:"images/_3.jpeg", id:"_3"},
-		{src:"images/Bitmap2.png", id:"Bitmap2"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/G.png", id:"G"},
 		{src:"images/_7.jpeg", id:"_7"},
-		{src:"images/Bitmap3.png", id:"Bitmap3"}
+		{src:"images/Bitmap3.png", id:"Bitmap3"},
+		{src:"images/Bitmap2.png", id:"Bitmap2"},
+		{src:"images/G.png", id:"G"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"}
 	],
 	preloads: []
 };
