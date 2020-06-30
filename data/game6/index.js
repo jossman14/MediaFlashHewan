@@ -141,6 +141,36 @@ lib.ssMetadata = [];
 p.nominalBounds = new cjs.Rectangle(0,0,307,157);
 
 
+(lib.Bitmap2 = function() {
+	this.initialize(img.Bitmap2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,998,600);
+
+
+(lib.Bitmap3 = function() {
+	this.initialize(img.Bitmap3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,249,87);
+
+
+(lib.Bitmap86 = function() {
+	this.initialize(img.Bitmap86);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,321,184);
+
+
+(lib.Bitmap87 = function() {
+	this.initialize(img.Bitmap87);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,275,161);
+
+
+(lib.bookpngcopy = function() {
+	this.initialize(img.bookpngcopy);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,288,399);
+
+
 (lib.Bitmap83 = function() {
 	this.initialize(img.Bitmap83);
 }).prototype = p = new cjs.Bitmap();
@@ -150,37 +180,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,329,159);
 (lib.Bitmap84 = function() {
 	this.initialize(img.Bitmap84);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,322,159);
-
-
-(lib.Bitmap86 = function() {
-	this.initialize(img.Bitmap86);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,321,184);
-
-
-(lib.bookpngcopy = function() {
-	this.initialize(img.bookpngcopy);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,288,399);
-
-
-(lib.Bitmap2 = function() {
-	this.initialize(img.Bitmap2);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,998,600);
-
-
-(lib.Bitmap87 = function() {
-	this.initialize(img.Bitmap87);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,275,161);
-
-
-(lib.Bitmap3 = function() {
-	this.initialize(img.Bitmap3);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,249,87);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,322,159);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -6461,7 +6461,7 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		root.onMatch = function () {
 		  winMessage.text = "Selamat! Tebakan Anda Benar!";
 		  pieces.skor++;
-		  Score.text = pieces.skor * 25;
+		  Score.text = pieces.skor * 20;
 		  winMessage.alpha = 0;
 		  winMessage.y = winMessage.originalY + 60;
 		  createjs.Tween.get(winMessage).to(
@@ -7035,14 +7035,14 @@ lib.properties = {
 	color: "#009999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Bitmap10.png", id:"Bitmap10"},
-		{src:"images/Bitmap83.png", id:"Bitmap83"},
-		{src:"images/Bitmap84.png", id:"Bitmap84"},
-		{src:"images/Bitmap86.png", id:"Bitmap86"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/Bitmap2.png", id:"Bitmap2"},
-		{src:"images/Bitmap87.png", id:"Bitmap87"},
-		{src:"images/Bitmap3.png", id:"Bitmap3"}
+		{src:"images/Bitmap10.png?1593498510153", id:"Bitmap10"},
+		{src:"images/Bitmap2.png?1593498510153", id:"Bitmap2"},
+		{src:"images/Bitmap3.png?1593498510153", id:"Bitmap3"},
+		{src:"images/Bitmap86.png?1593498510153", id:"Bitmap86"},
+		{src:"images/Bitmap87.png?1593498510153", id:"Bitmap87"},
+		{src:"images/bookpngcopy.png?1593498510153", id:"bookpngcopy"},
+		{src:"images/Bitmap83.png?1593498510153", id:"Bitmap83"},
+		{src:"images/Bitmap84.png?1593498510153", id:"Bitmap84"}
 	],
 	preloads: []
 };

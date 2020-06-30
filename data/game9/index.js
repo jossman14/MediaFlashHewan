@@ -135,28 +135,28 @@ lib.ssMetadata = [];
 
 
 
-(lib.Bitmap101 = function() {
-	this.initialize(img.Bitmap101);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,277,208);
-
-
 (lib.Bitmap102 = function() {
 	this.initialize(img.Bitmap102);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,229,208);
 
 
-(lib.Bitmap2 = function() {
-	this.initialize(img.Bitmap2);
+(lib.Bitmap101 = function() {
+	this.initialize(img.Bitmap101);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,998,600);
+p.nominalBounds = new cjs.Rectangle(0,0,277,208);
 
 
 (lib.bookpngcopy = function() {
 	this.initialize(img.bookpngcopy);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
+
+
+(lib.Bitmap2 = function() {
+	this.initialize(img.Bitmap2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 
 
 (lib.Bitmap3 = function() {
@@ -2819,12 +2819,12 @@ lib.properties = {
 	color: "#34495E",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Bitmap101.png", id:"Bitmap101"},
-		{src:"images/Bitmap102.png", id:"Bitmap102"},
-		{src:"images/Bitmap2.png", id:"Bitmap2"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/Bitmap3.png", id:"Bitmap3"},
-		{src:"images/Bitmap103.png", id:"Bitmap103"}
+		{src:"images/Bitmap102.png?1593498679986", id:"Bitmap102"},
+		{src:"images/Bitmap101.png?1593498679986", id:"Bitmap101"},
+		{src:"images/bookpngcopy.png?1593498679986", id:"bookpngcopy"},
+		{src:"images/Bitmap2.png?1593498679986", id:"Bitmap2"},
+		{src:"images/Bitmap3.png?1593498679986", id:"Bitmap3"},
+		{src:"images/Bitmap103.png?1593498679986", id:"Bitmap103"}
 	],
 	preloads: []
 };

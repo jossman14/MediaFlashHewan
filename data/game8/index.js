@@ -147,22 +147,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,424,342);
 p.nominalBounds = new cjs.Rectangle(0,0,415,342);
 
 
-(lib.Bitmap3 = function() {
-	this.initialize(img.Bitmap3);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,249,87);
-
-
 (lib.Bitmap2 = function() {
 	this.initialize(img.Bitmap2);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,998,600);
-
-
-(lib.Bitmap98 = function() {
-	this.initialize(img.Bitmap98);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,245,151);
 
 
 (lib.Bitmap96 = function() {
@@ -180,7 +168,19 @@ p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 (lib._33 = function() {
 	this.initialize(img._33);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,595,340);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,595,340);
+
+
+(lib.Bitmap98 = function() {
+	this.initialize(img.Bitmap98);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,245,151);
+
+
+(lib.Bitmap3 = function() {
+	this.initialize(img.Bitmap3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,249,87);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -5189,7 +5189,7 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		root.onMatch = function () {
 		  winMessage.text = "Selamat! Tebakan Anda Benar!";
 		  pieces.skor++;
-		  Score.text = pieces.skor * 25;
+		  Score.text = pieces.skor * 20;
 		  winMessage.alpha = 0;
 		  winMessage.y = winMessage.originalY + 60;
 		  createjs.Tween.get(winMessage).to(
@@ -5850,14 +5850,14 @@ lib.properties = {
 	color: "#34495E",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_20.jpeg", id:"_20"},
-		{src:"images/_25.jpeg", id:"_25"},
-		{src:"images/Bitmap3.png", id:"Bitmap3"},
-		{src:"images/Bitmap2.png", id:"Bitmap2"},
-		{src:"images/Bitmap98.png", id:"Bitmap98"},
-		{src:"images/Bitmap96.png", id:"Bitmap96"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/_33.jpeg", id:"_33"}
+		{src:"images/_20.jpeg?1593498633095", id:"_20"},
+		{src:"images/_25.jpeg?1593498633095", id:"_25"},
+		{src:"images/Bitmap2.png?1593498633095", id:"Bitmap2"},
+		{src:"images/Bitmap96.png?1593498633095", id:"Bitmap96"},
+		{src:"images/bookpngcopy.png?1593498633095", id:"bookpngcopy"},
+		{src:"images/_33.jpeg?1593498633095", id:"_33"},
+		{src:"images/Bitmap98.png?1593498633095", id:"Bitmap98"},
+		{src:"images/Bitmap3.png?1593498633095", id:"Bitmap3"}
 	],
 	preloads: []
 };

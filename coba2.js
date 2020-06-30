@@ -81,6 +81,23 @@ root.btnBack3.on("click", function () {
 // root.pieces.laut7.on("dblclick", function () {
 //   root.pp11.gotoAndPlay(0);
 // });
+root.pp1.gotoAndStop(0);
+
+root.g1.on("click", function () {
+  root.pp1.gotoAndPlay(0);
+});
+
+root.pp2.gotoAndStop(0);
+
+root.g2.on("click", function () {
+  root.pp2.gotoAndPlay(0);
+});
+
+root.pp3.gotoAndStop(0);
+
+root.g3.on("click", function () {
+  root.pp3.gotoAndPlay(0);
+});
 
 root.popUpInfo.gotoAndStop(0);
 

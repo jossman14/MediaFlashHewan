@@ -135,8 +135,8 @@ lib.ssMetadata = [];
 
 
 
-(lib._1pngcopy3 = function() {
-	this.initialize(img._1pngcopy3);
+(lib._1pngcopy2 = function() {
+	this.initialize(img._1pngcopy2);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,960,561);
 
@@ -147,14 +147,20 @@ p.nominalBounds = new cjs.Rectangle(0,0,960,561);
 p.nominalBounds = new cjs.Rectangle(0,0,960,561);
 
 
-(lib._1pngcopy2 = function() {
-	this.initialize(img._1pngcopy2);
+(lib._1pngcopy3 = function() {
+	this.initialize(img._1pngcopy3);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,960,561);
 
 
-(lib._3pngcopy = function() {
-	this.initialize(img._3pngcopy);
+(lib._3e = function() {
+	this.initialize(img._3e);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,561);
+
+
+(lib._4e = function() {
+	this.initialize(img._4e);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,960,561);
 
@@ -169,12 +175,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,960,561);
 	this.initialize(img.Bitmap2);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,998,600);
-
-
-(lib.Bitmap3 = function() {
-	this.initialize(img.Bitmap3);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 
 
 (lib.Bitmap94 = function() {
@@ -195,16 +195,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,247,185);
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
-(lib._3e = function() {
-	this.initialize(img._3e);
+(lib._3pngcopy = function() {
+	this.initialize(img._3pngcopy);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,960,561);
 
 
-(lib._4e = function() {
-	this.initialize(img._4e);
+(lib.Bitmap3 = function() {
+	this.initialize(img.Bitmap3);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,960,561);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,249,87);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -2529,11 +2529,11 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		});
 		
 		root.btnNextDasar1.on("click", function () {
-		  window.location.replace("../menu/index.html");
+		  window.location.replace("../materi9/index.html");
 		});
 		
 		root.btnBack3.on("click", function () {
-		  window.location.replace("../materi12/index.html");
+		  window.location.replace("../game18/index.html");
 		});
 		
 		//#34495e
@@ -2742,7 +2742,7 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		root.onMatch = function () {
 		  winMessage.text = "Selamat! Tebakan Anda Benar!";
 		  pieces.skor++;
-		  Score.text = pieces.skor * 20;
+		  Score.text = pieces.skor * 100;
 		  winMessage.alpha = 0;
 		  winMessage.y = winMessage.originalY1 + 60;
 		  createjs.Tween.get(winMessage).to(
@@ -3547,18 +3547,18 @@ lib.properties = {
 	color: "#34495E",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_1pngcopy3.png?1593491312024", id:"_1pngcopy3"},
-		{src:"images/_2e.png?1593491312024", id:"_2e"},
-		{src:"images/_1pngcopy2.png?1593491312024", id:"_1pngcopy2"},
-		{src:"images/_3pngcopy.png?1593491312024", id:"_3pngcopy"},
-		{src:"images/_5e.png?1593491312024", id:"_5e"},
-		{src:"images/Bitmap2.png?1593491312024", id:"Bitmap2"},
-		{src:"images/Bitmap3.png?1593491312024", id:"Bitmap3"},
-		{src:"images/Bitmap94.png?1593491312024", id:"Bitmap94"},
-		{src:"images/Bitmap95.png?1593491312024", id:"Bitmap95"},
-		{src:"images/bookpngcopy.png?1593491312024", id:"bookpngcopy"},
-		{src:"images/_3e.png?1593491312024", id:"_3e"},
-		{src:"images/_4e.png?1593491312024", id:"_4e"}
+		{src:"images/_1pngcopy2.png", id:"_1pngcopy2"},
+		{src:"images/_2e.png", id:"_2e"},
+		{src:"images/_1pngcopy3.png", id:"_1pngcopy3"},
+		{src:"images/_3e.png", id:"_3e"},
+		{src:"images/_4e.png", id:"_4e"},
+		{src:"images/_5e.png", id:"_5e"},
+		{src:"images/Bitmap2.png", id:"Bitmap2"},
+		{src:"images/Bitmap94.png", id:"Bitmap94"},
+		{src:"images/Bitmap95.png", id:"Bitmap95"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"images/_3pngcopy.png", id:"_3pngcopy"},
+		{src:"images/Bitmap3.png", id:"Bitmap3"}
 	],
 	preloads: []
 };

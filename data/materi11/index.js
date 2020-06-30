@@ -141,14 +141,14 @@ lib.ssMetadata = [];
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
 
-(lib._2pngcopy2 = function() {
-	this.initialize(img._2pngcopy2);
+(lib._1pngcopy5 = function() {
+	this.initialize(img._1pngcopy5);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
 
-(lib._4pngcopy2 = function() {
-	this.initialize(img._4pngcopy2);
+(lib._2pngcopy2 = function() {
+	this.initialize(img._2pngcopy2);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
@@ -159,16 +159,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 
 
-(lib._3pngcopy2 = function() {
-	this.initialize(img._3pngcopy2);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,961,561);
-
-
 (lib.Bitmap3 = function() {
 	this.initialize(img.Bitmap3);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,249,87);
+
+
+(lib.Bitmap77 = function() {
+	this.initialize(img.Bitmap77);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,256,174);
 
 
 (lib.Bitmap79 = function() {
@@ -183,14 +183,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,170,155);
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
-(lib.Bitmap77 = function() {
-	this.initialize(img.Bitmap77);
+(lib._3pngcopy2 = function() {
+	this.initialize(img._3pngcopy2);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,256,174);
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
 
-(lib._1pngcopy5 = function() {
-	this.initialize(img._1pngcopy5);
+(lib._4pngcopy2 = function() {
+	this.initialize(img._4pngcopy2);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);// helper functions:
 
@@ -3099,11 +3099,11 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		});
 		
 		root.btnNextDasar1.on("click", function () {
-		  window.location.replace("../materi12/index.html");
+		  window.location.replace("../materi9/index.html");
 		});
 		
 		root.btnBack3.on("click", function () {
-		  window.location.replace("../materi14/index.html");
+		  window.location.replace("../game18/index.html");
 		});
 		
 		//#34495e
@@ -3312,7 +3312,7 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		root.onMatch = function () {
 		  winMessage.text = "Selamat! Tebakan Anda Benar!";
 		  pieces.skor++;
-		  Score.text = pieces.skor * 20;
+		  Score.text = pieces.skor * 100;
 		  winMessage.alpha = 0;
 		  winMessage.y = winMessage.originalY1 + 60;
 		  createjs.Tween.get(winMessage).to(
@@ -3990,15 +3990,15 @@ lib.properties = {
 	opacity: 1.00,
 	manifest: [
 		{src:"images/_1pngcopy4.png", id:"_1pngcopy4"},
+		{src:"images/_1pngcopy5.png", id:"_1pngcopy5"},
 		{src:"images/_2pngcopy2.png", id:"_2pngcopy2"},
-		{src:"images/_4pngcopy2.png", id:"_4pngcopy2"},
 		{src:"images/Bitmap2.png", id:"Bitmap2"},
-		{src:"images/_3pngcopy2.png", id:"_3pngcopy2"},
 		{src:"images/Bitmap3.png", id:"Bitmap3"},
+		{src:"images/Bitmap77.png", id:"Bitmap77"},
 		{src:"images/Bitmap79.png", id:"Bitmap79"},
 		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/Bitmap77.png", id:"Bitmap77"},
-		{src:"images/_1pngcopy5.png", id:"_1pngcopy5"}
+		{src:"images/_3pngcopy2.png", id:"_3pngcopy2"},
+		{src:"images/_4pngcopy2.png", id:"_4pngcopy2"}
 	],
 	preloads: []
 };
