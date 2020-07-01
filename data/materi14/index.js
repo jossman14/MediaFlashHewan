@@ -147,16 +147,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 p.nominalBounds = new cjs.Rectangle(0,0,962,564);
 
 
-(lib._12 = function() {
-	this.initialize(img._12);
+(lib._1pngcopy = function() {
+	this.initialize(img._1pngcopy);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,564);
-
-
-(lib._11 = function() {
-	this.initialize(img._11);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,564);
+p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 
 
 (lib._13 = function() {
@@ -171,8 +165,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,962,564);
 p.nominalBounds = new cjs.Rectangle(0,0,962,564);
 
 
-(lib._14 = function() {
-	this.initialize(img._14);
+(lib._16 = function() {
+	this.initialize(img._16);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,962,564);
 
@@ -183,8 +177,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,962,564);
 p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 
 
-(lib._16 = function() {
-	this.initialize(img._16);
+(lib._12 = function() {
+	this.initialize(img._12);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,962,564);
 
@@ -193,42 +187,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,962,564);
 	this.initialize(img._3);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,962,560);
-
-
-(lib._6 = function() {
-	this.initialize(img._6);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,560);
-
-
-(lib._4 = function() {
-	this.initialize(img._4);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,560);
-
-
-(lib._8 = function() {
-	this.initialize(img._8);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,560);
-
-
-(lib._9 = function() {
-	this.initialize(img._9);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,560);
-
-
-(lib.Bitmap2 = function() {
-	this.initialize(img.Bitmap2);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,998,600);
-
-
-(lib.Bitmap3 = function() {
-	this.initialize(img.Bitmap3);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 
 
 (lib._5 = function() {
@@ -243,16 +201,52 @@ p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 
 
-(lib._1pngcopy = function() {
-	this.initialize(img._1pngcopy);
+(lib._4 = function() {
+	this.initialize(img._4);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,962,560);
+
+
+(lib._14 = function() {
+	this.initialize(img._14);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,564);
+
+
+(lib._9 = function() {
+	this.initialize(img._9);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,560);
+
+
+(lib.Bitmap2 = function() {
+	this.initialize(img.Bitmap2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,998,600);
+
+
+(lib._6 = function() {
+	this.initialize(img._6);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,560);
+
+
+(lib._11 = function() {
+	this.initialize(img._11);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,564);
 
 
 (lib.bookpngcopy = function() {
 	this.initialize(img.bookpngcopy);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,288,399);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,288,399);
+
+
+(lib._8 = function() {
+	this.initialize(img._8);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,560);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -816,21 +810,6 @@ p.nominalBounds = new cjs.Rectangle(-105.7,-28.8,197.8,48.8);
 }).prototype = getMCSymbolPrototype(lib.bg10, new cjs.Rectangle(-229,-134,459.6,267.1), null);
 
 
-(lib.bg1 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Layer_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#0097E6").s().p("A82E7Qg1AAAAgYIAApFQAAgXA1AAMA5tAAAQA1AAABAXIAAJFQgBAYg1AAg");
-	this.shape.setTransform(-20.05,1.45);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.bg1, new cjs.Rectangle(-210.1,-30,380.1,62.9), null);
-
-
 (lib.anim1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -899,7 +878,7 @@ p.nominalBounds = new cjs.Rectangle(-105.7,-28.8,197.8,48.8);
 p.nominalBounds = new cjs.Rectangle(-332,-194,664,388);
 
 
-(lib.Symbol49 = function(mode,startPosition,loop) {
+(lib.Symbol29 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer_1
@@ -1601,7 +1580,7 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.instance_1.setTransform(43.5,-40.25);
 	this.instance_1.alpha = 0;
 
-	this.instance_2 = new lib.Symbol49("synched",0);
+	this.instance_2 = new lib.Symbol29("synched",0);
 	this.instance_2.setTransform(42.2,-40.2,1,1,0,0,0,42.2,-40.2);
 	this.instance_2._off = true;
 
@@ -1729,177 +1708,6 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		root.btnAnim1.on("click", function () {
 		  root.popUpAnim1.gotoAndPlay(0);
 		});
-		
-		root.setup = function () {
-		  document.body.style.backgroundColor = lib.properties.color;
-		  createjs.Touch.enable(stage);
-		  stage.mouseMoveOutside = true;
-		  root.drawStart = stage.on("drawstart", root.start, null, true);
-		};
-		
-		root.start = function (e) {
-		  stage.off("drawstart", root.drawStart);
-		  winMessage.originalY1 = winMessage.y;
-		  pieces.children.forEach(function (child, index) {
-		    positions1[index] = { x: child.x, y: child.y };
-		  });
-		
-		  slots.children.forEach(function (child, index) {
-		    child.mouseChildren = false;
-		  });
-		
-		  root.restartHandler(null);
-		  restart.on("click", root.restartHandler);
-		  pieces.on("mousedown", root.mouseDownHandler);
-		};
-		
-		root.restartHandler = function (e) {
-		  pieces.skor = 0;
-		  pieces.count = 0;
-		  winMessage.text = "";
-		  root.shuffle();
-		};
-		
-		root.mouseDownHandler = function (e) {
-		  winMessage.text = "Ayo, Letakkan pada kotak yang sesuai!";
-		  winMessage.alpha = 0;
-		  winMessage.y = winMessage.originalY1 + 60;
-		  createjs.Tween.get(winMessage).to(
-		    { alpha: 1, y: winMessage.originalY1 },
-		    500,
-		    createjs.Ease.backInOut
-		  );
-		  e.currentTarget.setChildIndex(e.target, e.currentTarget.children.length - 1);
-		  e.target.offsetX = e.stageX / stage.scaleX - e.target.x;
-		  e.target.offsetY = e.stageY / stage.scaleY - e.target.y;
-		  pieces.target = e.target;
-		  root.stageMouseMove = stage.on("stagemousemove", root.stageMouseMoveHandler);
-		  root.stageMouseUp = stage.on("stagemouseup", root.stageMouseUpHandler);
-		};
-		
-		root.stageMouseMoveHandler = function (e) {
-		  if (pieces.target) {
-		    pieces.target.x = e.stageX / stage.scaleX - pieces.target.offsetX;
-		    pieces.target.y = e.stageY / stage.scaleY - pieces.target.offsetY;
-		  }
-		};
-		
-		root.stageMouseUpHandler = function (e) {
-		  stage.off("stagemousemove", root.stageMouseMove);
-		  stage.off("stagemouseup", root.stageMouseUp);
-		
-		  if (pieces.target) {
-		    root.check();
-		    pieces.target = null;
-		  }
-		};
-		
-		root.shuffle = function () {
-		  Score.text = "score";
-		  positions1.sort(function (a, b) {
-		    return 0.5 - Math.random();
-		  });
-		  console.log(pieces);
-		  console.log(pieces.children);
-		  pieces.children.forEach(function (child1, index) {
-		    child1.originalX1 = positions1[index].x;
-		    child1.originalY1 = positions1[index].y;
-		    child1.mouseEnabled = true;
-		    createjs.Tween.get(child1).to(
-		      { x: child1.originalX1, y: child1.originalY1 },
-		      350,
-		      createjs.Ease.backInOut
-		    );
-		  });
-		};
-		
-		root.check = function () {
-		  var spot = slots.getObjectUnderPoint(pieces.target.x, pieces.target.y);
-		
-		  if (!spot) {
-		    root.onMiss();
-		    return;
-		  }
-		
-		  root.slot = spot.parent;
-		
-		  if (root.slot) {
-		    console.log(root.slot.name, pieces.target.name);
-		    if (pieces.target.name.substring(0, 4) === root.slot.name.substring(0, 4)) {
-		      root.letakin();
-		      root.onMatch();
-		    } else {
-		      root.letakin();
-		      root.salahJawab();
-		    }
-		    if (pieces.count === pieces.children.length) root.onWin();
-		
-		    root.slot = null;
-		  } else root.onMiss();
-		};
-		
-		root.letakin = function () {
-		  pieces.target.mouseEnabled = false;
-		  pieces.count++;
-		  createjs.Tween.get(pieces.target).to(
-		    { x: root.slots.kotakKartu2.x, y: root.slots.kotakKartu2.y },
-		    350,
-		    createjs.Ease.backInOut
-		  );
-		};
-		
-		root.salahJawab = function () {
-		  winMessage.text = "Hemm, sepertinya Tebakan Anda Salah";
-		  winMessage.alpha = 0;
-		  winMessage.y = winMessage.originalY1 + 60;
-		  createjs.Tween.get(winMessage).to(
-		    { alpha: 1, y: winMessage.originalY1 },
-		    500,
-		    createjs.Ease.backInOut
-		  );
-		};
-		
-		root.onMatch = function () {
-		  winMessage.text = "Selamat! Tebakan Anda Benar!";
-		  pieces.skor++;
-		  Score.text = pieces.skor * 20;
-		  winMessage.alpha = 0;
-		  winMessage.y = winMessage.originalY1 + 60;
-		  createjs.Tween.get(winMessage).to(
-		    { alpha: 1, y: winMessage.originalY1 },
-		    500,
-		    createjs.Ease.backInOut
-		  );
-		};
-		
-		root.onWin = function () {
-		  winMessage.text = "Yey!, Anda Berhasil Menyelesaikan Tantangan. Selamat!";
-		  winMessage.alpha = 0;
-		  winMessage.y = winMessage.originalY1 + 60;
-		  createjs.Tween.get(winMessage).to(
-		    { alpha: 1, y: winMessage.originalY1 },
-		    500,
-		    createjs.Ease.backInOut
-		  );
-		};
-		
-		root.onMiss = function () {
-		  createjs.Tween.get(pieces.target).to(
-		    { x: pieces.target.originalX1, y: pieces.target.originalY1 },
-		    350,
-		    createjs.Ease.backInOut
-		  );
-		  winMessage.text = "Silahkan letakkan pada kotak yang sesuai ya..";
-		  winMessage.alpha = 0;
-		  winMessage.y = winMessage.originalY1 + 60;
-		  createjs.Tween.get(winMessage).to(
-		    { alpha: 1, y: winMessage.originalY1 },
-		    500,
-		    createjs.Ease.backInOut
-		  );
-		};
-		
-		root.setup();
 	}
 
 	// actions tween:
@@ -1924,19 +1732,6 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.btnAnim1.name = "btnAnim1";
 	this.btnAnim1.setTransform(476.4,326.4,0.6435,0.6435,0,0,0,0.1,0);
 	new cjs.ButtonHelper(this.btnAnim1, 0, 1, 2, false, new lib.btnAnim(), 3);
-
-	this.Score = new cjs.Text("score", "18px 'Roboto'", "#FFFFFF");
-	this.Score.name = "Score";
-	this.Score.textAlign = "center";
-	this.Score.lineHeight = 26;
-	this.Score.lineWidth = 46;
-	this.Score.parent = this;
-	this.Score.setTransform(859.343,25.15,1.9238,1.9238);
-
-	this.judulKI = new lib.bg1();
-	this.judulKI.name = "judulKI";
-	this.judulKI.setTransform(867.8,38,0.4108,0.8628,0,0,0,0.4,0.4);
-	this.judulKI.shadow = new cjs.Shadow("rgba(0,0,0,1)",1,1,8);
 
 	this.btnBack3 = new lib.btnKIBack();
 	this.btnBack3.name = "btnBack3";
@@ -2233,7 +2028,7 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.shape_68.graphics.bf(img.Bitmap2, null, new cjs.Matrix2D(1,0,0,1,-499,-300)).s().p("EhN9Au4MAAAhdvMCb7AAAMAAABdvg");
 	this.shape_68.setTransform(471,266.2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_68},{t:this.instance},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape},{t:this.btnNextDasar1},{t:this.btnMenuDasar1},{t:this.btnBack3},{t:this.judulKI},{t:this.Score},{t:this.btnAnim1}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_68},{t:this.instance},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape},{t:this.btnNextDasar1},{t:this.btnMenuDasar1},{t:this.btnBack3},{t:this.btnAnim1}]}).wait(1));
 
 	this._renderFirstFrame();
 
@@ -2248,26 +2043,25 @@ lib.properties = {
 	color: "#34495E",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_1.png?1593570839618", id:"_1"},
-		{src:"images/_10.png?1593570839618", id:"_10"},
-		{src:"images/_12.png?1593570839618", id:"_12"},
-		{src:"images/_11.png?1593570839618", id:"_11"},
-		{src:"images/_13.png?1593570839618", id:"_13"},
-		{src:"images/_15.png?1593570839618", id:"_15"},
-		{src:"images/_14.png?1593570839618", id:"_14"},
-		{src:"images/_2.png?1593570839618", id:"_2"},
-		{src:"images/_16.png?1593570839618", id:"_16"},
-		{src:"images/_3.png?1593570839618", id:"_3"},
-		{src:"images/_6.png?1593570839618", id:"_6"},
-		{src:"images/_4.png?1593570839618", id:"_4"},
-		{src:"images/_8.png?1593570839618", id:"_8"},
-		{src:"images/_9.png?1593570839618", id:"_9"},
-		{src:"images/Bitmap2.png?1593570839618", id:"Bitmap2"},
-		{src:"images/Bitmap3.png?1593570839618", id:"Bitmap3"},
-		{src:"images/_5.png?1593570839618", id:"_5"},
-		{src:"images/_7.png?1593570839618", id:"_7"},
-		{src:"images/_1pngcopy.png?1593570839618", id:"_1pngcopy"},
-		{src:"images/bookpngcopy.png?1593570839618", id:"bookpngcopy"}
+		{src:"images/_1.png", id:"_1"},
+		{src:"images/_10.png", id:"_10"},
+		{src:"images/_1pngcopy.png", id:"_1pngcopy"},
+		{src:"images/_13.png", id:"_13"},
+		{src:"images/_15.png", id:"_15"},
+		{src:"images/_16.png", id:"_16"},
+		{src:"images/_2.png", id:"_2"},
+		{src:"images/_12.png", id:"_12"},
+		{src:"images/_3.png", id:"_3"},
+		{src:"images/_5.png", id:"_5"},
+		{src:"images/_7.png", id:"_7"},
+		{src:"images/_4.png", id:"_4"},
+		{src:"images/_14.png", id:"_14"},
+		{src:"images/_9.png", id:"_9"},
+		{src:"images/Bitmap2.png", id:"Bitmap2"},
+		{src:"images/_6.png", id:"_6"},
+		{src:"images/_11.png", id:"_11"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"images/_8.png", id:"_8"}
 	],
 	preloads: []
 };
