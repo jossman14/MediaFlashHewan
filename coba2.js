@@ -1,277 +1,225 @@
-var root = this;
-var pieces = root.pieces;
-var slots = root.slots;
-var restart = root.restart;
-var winMessage = root.winMessage;
-var Score = root.Score;
-var positions1 = [];
+var root1 = this;
+var pieces1 = root1.pieces1;
+var slots1 = root1.slots1;
+var restart = root1.restart;
+var winMessage = root1.winMessage;
+var Score = root1.Score;
+var positions2 = [];
 
-root.stop();
+root1.stop();
 
-root.btnMenuDasar1.on("click", function () {
-  window.location.replace("../menu/index.html");
+// root1.pGam1.gotoAndStop(0);
+
+// root1.pieces1.laut.on("dblclick", function () {
+//   root1.pGam1.gotoAndPlay(0);
+// });
+
+// root1.pp3.gotoAndStop(0);
+
+// root1.pieces1.tana.on("dblclick", function () {
+//   root1.pp3.gotoAndPlay(0);
+// });
+
+// root1.pp4.gotoAndStop(0);
+
+// root1.pieces1.tana1.on("dblclick", function () {
+//   root1.pp4.gotoAndPlay(0);
+// });
+
+// root1.pp5.gotoAndStop(0);
+
+// root1.pieces1.laut1.on("dblclick", function () {
+//   root1.pp5.gotoAndPlay(0);
+// });
+
+// root1.pp6.gotoAndStop(0);
+
+// root1.pieces1.laut2.on("dblclick", function () {
+//   root1.pp6.gotoAndPlay(0);
+// });
+
+// root1.pp7.gotoAndStop(0);
+
+// root1.pieces1.laut3.on("dblclick", function () {
+//   root1.pp7.gotoAndPlay(0);
+// });
+
+root1.popUpInfo.gotoAndStop(0);
+
+root1.btnInfo.on("click", function () {
+  root1.popUpInfo.gotoAndPlay(0);
 });
 
-root.btnNextDasar1.on("click", function () {
-  window.location.replace("../game12/index.html");
-});
-
-root.btnBack3.on("click", function () {
-  window.location.replace("../game10/index.html");
-});
-
-//#34495e
-
-// root.pGam1.gotoAndStop(0);
-
-// root.pieces.laut.on("dblclick", function () {
-//   root.pGam1.gotoAndPlay(0);
-// });
-
-// root.pp3.gotoAndStop(0);
-
-// root.pieces.tana.on("dblclick", function () {
-//   root.pp3.gotoAndPlay(0);
-// });
-
-// root.pp4.gotoAndStop(0);
-
-// root.pieces.tana1.on("dblclick", function () {
-//   root.pp4.gotoAndPlay(0);
-// });
-
-// root.pp5.gotoAndStop(0);
-
-// root.pieces.laut1.on("dblclick", function () {
-//   root.pp5.gotoAndPlay(0);
-// });
-
-// root.pp6.gotoAndStop(0);
-
-// root.pieces.laut2.on("dblclick", function () {
-//   root.pp6.gotoAndPlay(0);
-// });
-
-// root.pp7.gotoAndStop(0);
-
-// root.pieces.laut3.on("dblclick", function () {
-//   root.pp7.gotoAndPlay(0);
-// });
-
-// root.pp8.gotoAndStop(0);
-
-// root.pieces.laut4.on("dblclick", function () {
-//   root.pp8.gotoAndPlay(0);
-// });
-
-// root.pp9.gotoAndStop(0);
-
-// root.pieces.laut5.on("dblclick", function () {
-//   root.pp9.gotoAndPlay(0);
-// });
-
-// root.pp10.gotoAndStop(0);
-
-// root.pieces.laut6.on("dblclick", function () {
-//   root.pp10.gotoAndPlay(0);
-// });
-
-// root.pp11.gotoAndStop(0);
-
-// root.pieces.laut7.on("dblclick", function () {
-//   root.pp11.gotoAndPlay(0);
-// });
-root.pp1.gotoAndStop(0);
-
-root.g1.on("click", function () {
-  root.pp1.gotoAndPlay(0);
-});
-
-root.pp2.gotoAndStop(0);
-
-root.g2.on("click", function () {
-  root.pp2.gotoAndPlay(0);
-});
-
-root.pp3.gotoAndStop(0);
-
-root.g3.on("click", function () {
-  root.pp3.gotoAndPlay(0);
-});
-
-root.popUpInfo.gotoAndStop(0);
-
-root.btnInfo.on("click", function () {
-  root.popUpInfo.gotoAndPlay(0);
-});
-
-root.setup = function () {
+root1.setup = function () {
   document.body.style.backgroundColor = lib.properties.color;
   createjs.Touch.enable(stage);
   stage.mouseMoveOutside = true;
-  root.drawStart = stage.on("drawstart", root.start, null, true);
+  root1.drawStart = stage.on("drawstart", root1.start, null, true);
 };
 
-root.start = function (e) {
-  stage.off("drawstart", root.drawStart);
-  winMessage.originalY1 = winMessage.y;
-  pieces.children.forEach(function (child, index) {
-    positions1[index] = { x: child.x, y: child.y };
+root1.start = function (e) {
+  stage.off("drawstart", root1.drawStart);
+  winMessage.originalY = winMessage.y;
+  pieces1.children.forEach(function (child, index) {
+    positions2[index] = { x: child.x, y: child.y };
   });
 
-  slots.children.forEach(function (child, index) {
+  slots1.children.forEach(function (child, index) {
     child.mouseChildren = false;
   });
 
-  root.restartHandler(null);
-  restart.on("click", root.restartHandler);
-  pieces.on("mousedown", root.mouseDownHandler);
+  root1.restartHandler(null);
+  restart.on("click", root1.restartHandler);
+  pieces1.on("mousedown", root1.mouseDownHandler);
 };
 
-root.restartHandler = function (e) {
-  pieces.skor = 0;
-  pieces.count = 0;
+root1.restartHandler = function (e) {
+  pieces1.skor = 0;
+  pieces1.count = 0;
   winMessage.text = "";
-  root.shuffle();
+  root1.shuffle();
 };
 
-root.mouseDownHandler = function (e) {
+root1.mouseDownHandler = function (e) {
   winMessage.text = "Ayo, Letakkan pada kotak yang sesuai!";
   winMessage.alpha = 0;
-  winMessage.y = winMessage.originalY1 + 60;
+  winMessage.y = winMessage.originalY + 60;
   createjs.Tween.get(winMessage).to(
-    { alpha: 1, y: winMessage.originalY1 },
+    { alpha: 1, y: winMessage.originalY },
     500,
     createjs.Ease.backInOut
   );
   e.currentTarget.setChildIndex(e.target, e.currentTarget.children.length - 1);
   e.target.offsetX = e.stageX / stage.scaleX - e.target.x;
   e.target.offsetY = e.stageY / stage.scaleY - e.target.y;
-  pieces.target = e.target;
-  root.stageMouseMove = stage.on("stagemousemove", root.stageMouseMoveHandler);
-  root.stageMouseUp = stage.on("stagemouseup", root.stageMouseUpHandler);
+  pieces1.target = e.target;
+  root1.stageMouseMove = stage.on(
+    "stagemousemove",
+    root1.stageMouseMoveHandler
+  );
+  root1.stageMouseUp = stage.on("stagemouseup", root1.stageMouseUpHandler);
 };
 
-root.stageMouseMoveHandler = function (e) {
-  if (pieces.target) {
-    pieces.target.x = e.stageX / stage.scaleX - pieces.target.offsetX;
-    pieces.target.y = e.stageY / stage.scaleY - pieces.target.offsetY;
+root1.stageMouseMoveHandler = function (e) {
+  if (pieces1.target) {
+    pieces1.target.x = e.stageX / stage.scaleX - pieces1.target.offsetX;
+    pieces1.target.y = e.stageY / stage.scaleY - pieces1.target.offsetY;
   }
 };
 
-root.stageMouseUpHandler = function (e) {
-  stage.off("stagemousemove", root.stageMouseMove);
-  stage.off("stagemouseup", root.stageMouseUp);
+root1.stageMouseUpHandler = function (e) {
+  stage.off("stagemousemove", root1.stageMouseMove);
+  stage.off("stagemouseup", root1.stageMouseUp);
 
-  if (pieces.target) {
-    root.check();
-    pieces.target = null;
+  if (pieces1.target) {
+    root1.check();
+    pieces1.target = null;
   }
 };
 
-root.shuffle = function () {
+root1.shuffle = function () {
   Score.text = "score";
-  positions1.sort(function (a, b) {
+  positions2.sort(function (a, b) {
     return 0.5 - Math.random();
   });
-  console.log(pieces);
-  console.log(pieces.children);
-  pieces.children.forEach(function (child1, index) {
-    child1.originalX1 = positions1[index].x;
-    child1.originalY1 = positions1[index].y;
-    child1.mouseEnabled = true;
-    createjs.Tween.get(child1).to(
-      { x: child1.originalX1, y: child1.originalY1 },
+
+  pieces1.children.forEach(function (child, index) {
+    child.originalX = positions2[index].x;
+    child.originalY = positions2[index].y;
+    child.mouseEnabled = true;
+    createjs.Tween.get(child).to(
+      { x: child.originalX, y: child.originalY },
       350,
       createjs.Ease.backInOut
     );
   });
 };
 
-root.check = function () {
-  var spot = slots.getObjectUnderPoint(pieces.target.x, pieces.target.y);
+root1.check = function () {
+  var spot = slots1.getObjectUnderPoint(pieces1.target.x, pieces1.target.y);
 
   if (!spot) {
-    root.onMiss();
+    root1.onMiss();
     return;
   }
 
-  root.slot = spot.parent;
+  root1.slot = spot.parent;
 
-  if (root.slot) {
-    console.log(root.slot.name, pieces.target.name);
-    if (pieces.target.name.substring(0, 4) === root.slot.name.substring(0, 4)) {
-      root.letakin();
-      root.onMatch();
+  if (root1.slot) {
+    if (
+      pieces1.target.name.substring(0, 4) === root1.slot.name.substring(0, 4)
+    ) {
+      root1.letakin();
+      root1.onMatch();
     } else {
-      root.letakin();
-      root.salahJawab();
+      root1.letakin();
+      root1.salahJawab();
     }
-    if (pieces.count === pieces.children.length) root.onWin();
+    if (pieces1.count === pieces1.children.length) root1.onWin();
 
-    root.slot = null;
-  } else root.onMiss();
+    root1.slot = null;
+  } else root1.onMiss();
 };
 
-root.letakin = function () {
-  pieces.target.mouseEnabled = false;
-  pieces.count++;
-  createjs.Tween.get(pieces.target).to(
-    { x: root.slots.kotakKartu2.x, y: root.slots.kotakKartu2.y },
+root1.letakin = function () {
+  pieces1.target.mouseEnabled = false;
+  pieces1.count++;
+  createjs.Tween.get(pieces1.target).to(
+    { x: root1.slots1.kotakKartu2.x, y: root1.slots1.kotakKartu2.y },
     350,
     createjs.Ease.backInOut
   );
 };
 
-root.salahJawab = function () {
+root1.salahJawab = function () {
   winMessage.text = "Hemm, sepertinya Tebakan Anda Salah";
   winMessage.alpha = 0;
-  winMessage.y = winMessage.originalY1 + 60;
+  winMessage.y = winMessage.originalY + 60;
   createjs.Tween.get(winMessage).to(
-    { alpha: 1, y: winMessage.originalY1 },
+    { alpha: 1, y: winMessage.originalY },
     500,
     createjs.Ease.backInOut
   );
 };
 
-root.onMatch = function () {
+root1.onMatch = function () {
   winMessage.text = "Selamat! Tebakan Anda Benar!";
-  pieces.skor++;
-  Score.text = pieces.skor * 20;
+  pieces1.skor++;
+  Score.text = pieces1.skor * 20;
   winMessage.alpha = 0;
-  winMessage.y = winMessage.originalY1 + 60;
+  winMessage.y = winMessage.originalY + 60;
   createjs.Tween.get(winMessage).to(
-    { alpha: 1, y: winMessage.originalY1 },
+    { alpha: 1, y: winMessage.originalY },
     500,
     createjs.Ease.backInOut
   );
 };
 
-root.onWin = function () {
+root1.onWin = function () {
   winMessage.text = "Yey!, Anda Berhasil Menyelesaikan Tantangan. Selamat!";
   winMessage.alpha = 0;
-  winMessage.y = winMessage.originalY1 + 60;
+  winMessage.y = winMessage.originalY + 60;
   createjs.Tween.get(winMessage).to(
-    { alpha: 1, y: winMessage.originalY1 },
+    { alpha: 1, y: winMessage.originalY },
     500,
     createjs.Ease.backInOut
   );
 };
 
-root.onMiss = function () {
-  createjs.Tween.get(pieces.target).to(
-    { x: pieces.target.originalX1, y: pieces.target.originalY1 },
+root1.onMiss = function () {
+  createjs.Tween.get(pieces1.target).to(
+    { x: pieces1.target.originalX, y: pieces1.target.originalY },
     350,
     createjs.Ease.backInOut
   );
   winMessage.text = "Silahkan letakkan pada kotak yang sesuai ya..";
   winMessage.alpha = 0;
-  winMessage.y = winMessage.originalY1 + 60;
+  winMessage.y = winMessage.originalY + 60;
   createjs.Tween.get(winMessage).to(
-    { alpha: 1, y: winMessage.originalY1 },
+    { alpha: 1, y: winMessage.originalY },
     500,
     createjs.Ease.backInOut
   );
 };
 
-root.setup();
+root1.setup();
