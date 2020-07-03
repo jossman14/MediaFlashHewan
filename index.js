@@ -135,6 +135,12 @@ lib.ssMetadata = [];
 
 
 
+(lib.bookpngcopy = function() {
+	this.initialize(img.bookpngcopy);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,288,399);
+
+
 (lib.Bitmap1 = function() {
 	this.initialize(img.Bitmap1);
 }).prototype = p = new cjs.Bitmap();
@@ -144,13 +150,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,987,663);
 (lib.Bitmap13 = function() {
 	this.initialize(img.Bitmap13);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,675,535);
-
-
-(lib.bookpngcopy = function() {
-	this.initialize(img.bookpngcopy);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,288,399);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,675,535);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -491,9 +491,9 @@ lib.properties = {
 	color: "#2ECC71",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Bitmap1.png?1593334713990", id:"Bitmap1"},
-		{src:"images/Bitmap13.png?1593334713990", id:"Bitmap13"},
-		{src:"images/bookpngcopy.png?1593334713990", id:"bookpngcopy"}
+		{src:"images/bookpngcopy.png?1593770805091", id:"bookpngcopy"},
+		{src:"images/Bitmap1.png?1593770805091", id:"Bitmap1"},
+		{src:"images/Bitmap13.png?1593770805091", id:"Bitmap13"}
 	],
 	preloads: []
 };

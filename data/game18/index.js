@@ -147,6 +147,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,681,451);
 p.nominalBounds = new cjs.Rectangle(0,0,143,136);
 
 
+(lib.Bitmap149 = function() {
+	this.initialize(img.Bitmap149);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,304,166);
+
+
 (lib.Bitmap153 = function() {
 	this.initialize(img.Bitmap153);
 }).prototype = p = new cjs.Bitmap();
@@ -171,28 +177,22 @@ p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 
 
-(lib.Bitmap149 = function() {
-	this.initialize(img.Bitmap149);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,304,166);
-
-
 (lib.bookpngcopy = function() {
 	this.initialize(img.bookpngcopy);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
-(lib.Bitmap152 = function() {
-	this.initialize(img.Bitmap152);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,287,152);
-
-
 (lib.Bitmap148 = function() {
 	this.initialize(img.Bitmap148);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,195,145);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,195,145);
+
+
+(lib.Bitmap152 = function() {
+	this.initialize(img.Bitmap152);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,287,152);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -5598,11 +5598,11 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		});
 		
 		root.btnNextDasar1.on("click", function () {
-		  window.location.replace("../game17/index.html");
+		  window.location.replace("../materi8/index.html");
 		});
 		
 		root.btnBack3.on("click", function () {
-		  window.location.replace("../game15/index.html");
+		  window.location.replace("../game17/index.html");
 		});
 		
 		root.pp1.gotoAndStop(0);
@@ -6499,16 +6499,16 @@ lib.properties = {
 	color: "#34495E",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_15.jpeg", id:"_15"},
-		{src:"images/Bitmap147.png", id:"Bitmap147"},
-		{src:"images/Bitmap153.png", id:"Bitmap153"},
-		{src:"images/Bitmap154.png", id:"Bitmap154"},
-		{src:"images/Bitmap2.png", id:"Bitmap2"},
-		{src:"images/Bitmap3.png", id:"Bitmap3"},
-		{src:"images/Bitmap149.png", id:"Bitmap149"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/Bitmap152.png", id:"Bitmap152"},
-		{src:"images/Bitmap148.png", id:"Bitmap148"}
+		{src:"images/_15.jpeg?1593771143322", id:"_15"},
+		{src:"images/Bitmap147.png?1593771143322", id:"Bitmap147"},
+		{src:"images/Bitmap149.png?1593771143322", id:"Bitmap149"},
+		{src:"images/Bitmap153.png?1593771143322", id:"Bitmap153"},
+		{src:"images/Bitmap154.png?1593771143322", id:"Bitmap154"},
+		{src:"images/Bitmap2.png?1593771143322", id:"Bitmap2"},
+		{src:"images/Bitmap3.png?1593771143322", id:"Bitmap3"},
+		{src:"images/bookpngcopy.png?1593771143322", id:"bookpngcopy"},
+		{src:"images/Bitmap148.png?1593771143322", id:"Bitmap148"},
+		{src:"images/Bitmap152.png?1593771143322", id:"Bitmap152"}
 	],
 	preloads: []
 };
