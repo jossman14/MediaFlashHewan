@@ -141,10 +141,10 @@ lib.ssMetadata = [];
 p.nominalBounds = new cjs.Rectangle(0,0,320,292);
 
 
-(lib._28 = function() {
-	this.initialize(img._28);
+(lib._32 = function() {
+	this.initialize(img._32);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,259,194);
+p.nominalBounds = new cjs.Rectangle(0,0,720,489);
 
 
 (lib._36 = function() {
@@ -153,28 +153,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,259,194);
 p.nominalBounds = new cjs.Rectangle(0,0,690,518);
 
 
+(lib.Bitmap122 = function() {
+	this.initialize(img.Bitmap122);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,261,174);
+
+
+(lib._28 = function() {
+	this.initialize(img._28);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,259,194);
+
+
 (lib.Bitmap3 = function() {
 	this.initialize(img.Bitmap3);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 
 
-(lib._32 = function() {
-	this.initialize(img._32);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,720,489);
-
-
 (lib.bookpngcopy = function() {
 	this.initialize(img.bookpngcopy);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
-
-
-(lib.Bitmap122 = function() {
-	this.initialize(img.Bitmap122);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,261,174);
 
 
 (lib.Bitmap2 = function() {
@@ -3742,12 +3742,12 @@ lib.properties = {
 	opacity: 1.00,
 	manifest: [
 		{src:"images/_16.jpeg", id:"_16"},
-		{src:"images/_28.jpeg", id:"_28"},
-		{src:"images/_36.jpeg", id:"_36"},
-		{src:"images/Bitmap3.png", id:"Bitmap3"},
 		{src:"images/_32.jpeg", id:"_32"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"images/_36.jpeg", id:"_36"},
 		{src:"images/Bitmap122.png", id:"Bitmap122"},
+		{src:"images/_28.jpeg", id:"_28"},
+		{src:"images/Bitmap3.png", id:"Bitmap3"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
 		{src:"images/Bitmap2.png", id:"Bitmap2"}
 	],
 	preloads: []
