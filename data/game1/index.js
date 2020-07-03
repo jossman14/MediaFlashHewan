@@ -153,16 +153,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,594,297);
 p.nominalBounds = new cjs.Rectangle(0,0,320,292);
 
 
-(lib._25 = function() {
-	this.initialize(img._25);
+(lib._10_tripo = function() {
+	this.initialize(img._10_tripo);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,729,600);
-
-
-(lib._26 = function() {
-	this.initialize(img._26);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,624,375);
+p.nominalBounds = new cjs.Rectangle(0,0,708,526);
 
 
 (lib._17 = function() {
@@ -171,10 +165,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,624,375);
 p.nominalBounds = new cjs.Rectangle(0,0,700,467);
 
 
-(lib._3 = function() {
-	this.initialize(img._3);
+(lib._26 = function() {
+	this.initialize(img._26);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,638,479);
+p.nominalBounds = new cjs.Rectangle(0,0,624,375);
 
 
 (lib._28 = function() {
@@ -183,10 +177,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,638,479);
 p.nominalBounds = new cjs.Rectangle(0,0,259,194);
 
 
-(lib._34 = function() {
-	this.initialize(img._34);
+(lib._3 = function() {
+	this.initialize(img._3);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,440,302);
+p.nominalBounds = new cjs.Rectangle(0,0,638,479);
+
+
+(lib._30 = function() {
+	this.initialize(img._30);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,768,437);
 
 
 (lib._32 = function() {
@@ -195,10 +195,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,440,302);
 p.nominalBounds = new cjs.Rectangle(0,0,720,489);
 
 
-(lib._5 = function() {
-	this.initialize(img._5);
+(lib._34 = function() {
+	this.initialize(img._34);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,700,450);
+p.nominalBounds = new cjs.Rectangle(0,0,440,302);
 
 
 (lib._36 = function() {
@@ -213,22 +213,34 @@ p.nominalBounds = new cjs.Rectangle(0,0,690,518);
 p.nominalBounds = new cjs.Rectangle(0,0,1024,683);
 
 
+(lib._25 = function() {
+	this.initialize(img._25);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,729,600);
+
+
+(lib._5 = function() {
+	this.initialize(img._5);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,700,450);
+
+
 (lib._5jpegcopy = function() {
 	this.initialize(img._5jpegcopy);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,700,450);
 
 
-(lib._7 = function() {
-	this.initialize(img._7);
+(lib._7jpegcopy = function() {
+	this.initialize(img._7jpegcopy);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,300,201);
 
 
-(lib._20 = function() {
-	this.initialize(img._20);
+(lib._9_tripo = function() {
+	this.initialize(img._9_tripo);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,720,580);
+p.nominalBounds = new cjs.Rectangle(0,0,823,518);
 
 
 (lib.Bitmap1 = function() {
@@ -243,10 +255,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,97,120);
 p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 
 
-(lib._9_tripo = function() {
-	this.initialize(img._9_tripo);
+(lib.Bitmap3 = function() {
+	this.initialize(img.Bitmap3);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,823,518);
+p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 
 
 (lib.Bitmap44 = function() {
@@ -255,22 +267,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,823,518);
 p.nominalBounds = new cjs.Rectangle(0,0,267,177);
 
 
-(lib.Bitmap3 = function() {
-	this.initialize(img.Bitmap3);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,249,87);
-
-
 (lib.Bitmap45 = function() {
 	this.initialize(img.Bitmap45);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,202,177);
-
-
-(lib._30 = function() {
-	this.initialize(img._30);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,768,437);
 
 
 (lib.Bitmap72 = function() {
@@ -285,22 +285,22 @@ p.nominalBounds = new cjs.Rectangle(0,0,267,177);
 p.nominalBounds = new cjs.Rectangle(0,0,202,177);
 
 
-(lib._10_tripo = function() {
-	this.initialize(img._10_tripo);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,708,526);
-
-
-(lib._7jpegcopy = function() {
-	this.initialize(img._7jpegcopy);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,300,201);
-
-
 (lib.bookpngcopy = function() {
 	this.initialize(img.bookpngcopy);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,288,399);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,288,399);
+
+
+(lib._20 = function() {
+	this.initialize(img._20);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,720,580);
+
+
+(lib._7 = function() {
+	this.initialize(img._7);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,300,201);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -2218,20 +2218,20 @@ p.nominalBounds = new cjs.Rectangle(-23.3,-22.9,46.2,45.9);
 	this.initialize(mode,startPosition,loop,{});
 
 	// pieces
-	this.laut7 = new lib.gem10();
-	this.laut7.name = "laut7";
-	this.laut7.setTransform(711.55,410.25,0.8869,0.8869,0,0,0,49.6,60);
-	new cjs.ButtonHelper(this.laut7, 0, 1, 2);
+	this.gaga2 = new lib.gem10();
+	this.gaga2.name = "gaga2";
+	this.gaga2.setTransform(711.55,410.25,0.8869,0.8869,0,0,0,49.6,60);
+	new cjs.ButtonHelper(this.gaga2, 0, 1, 2);
 
 	this.laut5 = new lib.gem8();
 	this.laut5.name = "laut5";
 	this.laut5.setTransform(472.95,410.25,0.8869,0.8869,0,0,0,49.6,60);
 	new cjs.ButtonHelper(this.laut5, 0, 1, 2);
 
-	this.laut6 = new lib.gem9();
-	this.laut6.name = "laut6";
-	this.laut6.setTransform(592.8,410.25,0.8869,0.8869,0,0,0,49.6,60);
-	new cjs.ButtonHelper(this.laut6, 0, 1, 2);
+	this.gaga1 = new lib.gem9();
+	this.gaga1.name = "gaga1";
+	this.gaga1.setTransform(592.8,410.25,0.8869,0.8869,0,0,0,49.6,60);
+	new cjs.ButtonHelper(this.gaga1, 0, 1, 2);
 
 	this.laut3 = new lib.gem6();
 	this.laut3.name = "laut3";
@@ -2268,7 +2268,7 @@ p.nominalBounds = new cjs.Rectangle(-23.3,-22.9,46.2,45.9);
 	this.tana.setTransform(354.3,283.05,0.8869,0.8869,0,0,0,49.6,60.1);
 	new cjs.ButtonHelper(this.tana, 0, 1, 2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.tana},{t:this.laut},{t:this.laut1},{t:this.tana1},{t:this.laut2},{t:this.laut4},{t:this.laut3},{t:this.laut6},{t:this.laut5},{t:this.laut7}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.tana},{t:this.laut},{t:this.laut1},{t:this.tana1},{t:this.laut2},{t:this.laut4},{t:this.laut3},{t:this.gaga1},{t:this.laut5},{t:this.gaga2}]}).wait(1));
 
 	this._renderFirstFrame();
 
@@ -4312,13 +4312,13 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		
 		root.pp10.gotoAndStop(0);
 		
-		root.pieces.laut6.on("click", function () {
+		root.pieces.gaga1.on("click", function () {
 		  root.pp10.gotoAndPlay(0);
 		});
 		
 		root.pp11.gotoAndStop(0);
 		
-		root.pieces.laut7.on("click", function () {
+		root.pieces.gaga2.on("click", function () {
 		  root.pp11.gotoAndPlay(0);
 		});
 		
@@ -4459,7 +4459,7 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		root.onMatch = function () {
 		  winMessage.text = "Selamat! Tebakan Anda Benar!";
 		  pieces.skor++;
-		  Score.text = pieces.skor * 10;
+		  Score.text = pieces.skor * 12.5;
 		  winMessage.alpha = 0;
 		  winMessage.y = winMessage.originalY + 60;
 		  createjs.Tween.get(winMessage).to(
@@ -4907,34 +4907,34 @@ lib.properties = {
 	color: "#34495E",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_10.jpeg", id:"_10"},
-		{src:"images/_13.jpeg", id:"_13"},
-		{src:"images/_16.jpeg", id:"_16"},
-		{src:"images/_25.jpeg", id:"_25"},
-		{src:"images/_26.jpeg", id:"_26"},
-		{src:"images/_17.jpeg", id:"_17"},
-		{src:"images/_3.jpeg", id:"_3"},
-		{src:"images/_28.jpeg", id:"_28"},
-		{src:"images/_34.jpeg", id:"_34"},
-		{src:"images/_32.jpeg", id:"_32"},
-		{src:"images/_5.jpeg", id:"_5"},
-		{src:"images/_36.jpeg", id:"_36"},
-		{src:"images/_6.jpeg", id:"_6"},
-		{src:"images/_5jpegcopy.jpg", id:"_5jpegcopy"},
-		{src:"images/_7.jpeg", id:"_7"},
-		{src:"images/_20.jpeg", id:"_20"},
-		{src:"images/Bitmap1.png", id:"Bitmap1"},
-		{src:"images/Bitmap2.png", id:"Bitmap2"},
-		{src:"images/_9_tripo.jpg", id:"_9_tripo"},
-		{src:"images/Bitmap44.png", id:"Bitmap44"},
-		{src:"images/Bitmap3.png", id:"Bitmap3"},
-		{src:"images/Bitmap45.png", id:"Bitmap45"},
-		{src:"images/_30.jpeg", id:"_30"},
-		{src:"images/Bitmap72.png", id:"Bitmap72"},
-		{src:"images/Bitmap73.png", id:"Bitmap73"},
-		{src:"images/_10_tripo.jpg", id:"_10_tripo"},
-		{src:"images/_7jpegcopy.jpg", id:"_7jpegcopy"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"}
+		{src:"images/_10.jpeg?1593751891717", id:"_10"},
+		{src:"images/_13.jpeg?1593751891717", id:"_13"},
+		{src:"images/_16.jpeg?1593751891717", id:"_16"},
+		{src:"images/_10_tripo.jpg?1593751891717", id:"_10_tripo"},
+		{src:"images/_17.jpeg?1593751891717", id:"_17"},
+		{src:"images/_26.jpeg?1593751891717", id:"_26"},
+		{src:"images/_28.jpeg?1593751891717", id:"_28"},
+		{src:"images/_3.jpeg?1593751891717", id:"_3"},
+		{src:"images/_30.jpeg?1593751891717", id:"_30"},
+		{src:"images/_32.jpeg?1593751891717", id:"_32"},
+		{src:"images/_34.jpeg?1593751891717", id:"_34"},
+		{src:"images/_36.jpeg?1593751891717", id:"_36"},
+		{src:"images/_6.jpeg?1593751891717", id:"_6"},
+		{src:"images/_25.jpeg?1593751891717", id:"_25"},
+		{src:"images/_5.jpeg?1593751891717", id:"_5"},
+		{src:"images/_5jpegcopy.jpg?1593751891717", id:"_5jpegcopy"},
+		{src:"images/_7jpegcopy.jpg?1593751891717", id:"_7jpegcopy"},
+		{src:"images/_9_tripo.jpg?1593751891717", id:"_9_tripo"},
+		{src:"images/Bitmap1.png?1593751891717", id:"Bitmap1"},
+		{src:"images/Bitmap2.png?1593751891717", id:"Bitmap2"},
+		{src:"images/Bitmap3.png?1593751891717", id:"Bitmap3"},
+		{src:"images/Bitmap44.png?1593751891717", id:"Bitmap44"},
+		{src:"images/Bitmap45.png?1593751891717", id:"Bitmap45"},
+		{src:"images/Bitmap72.png?1593751891717", id:"Bitmap72"},
+		{src:"images/Bitmap73.png?1593751891717", id:"Bitmap73"},
+		{src:"images/bookpngcopy.png?1593751891717", id:"bookpngcopy"},
+		{src:"images/_20.jpeg?1593751891717", id:"_20"},
+		{src:"images/_7.jpeg?1593751891717", id:"_7"}
 	],
 	preloads: []
 };
