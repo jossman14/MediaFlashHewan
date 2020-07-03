@@ -1,0 +1,12 @@
+Update revisi 2 --> 3 July 2020:
+1. jawaban game sudah disesuaikan:
+   a. game 1  : https://cobamedia.netlify.app/data/game1/
+   b. game 2  : https://cobamedia.netlify.app/data/game2/
+   c. game 3  : https://cobamedia.netlify.app/data/game3/
+   d. game 4  : https://cobamedia.netlify.app/data/game4/
+
+2. animasi bioremediasi sudah disesuaikan, teks pengertian ditaruh diawal animasi : https://cobamedia.netlify.app/data/materi14/
+
+3. game 9 sudah ditambahkan pop up : https://cobamedia.netlify.app/data/game9/
+
+4. jawaban game 13 sudah di sinkronkan : 

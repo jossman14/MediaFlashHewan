@@ -141,6 +141,12 @@ lib.ssMetadata = [];
 p.nominalBounds = new cjs.Rectangle(0,0,320,292);
 
 
+(lib._28 = function() {
+	this.initialize(img._28);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,259,194);
+
+
 (lib._32 = function() {
 	this.initialize(img._32);
 }).prototype = p = new cjs.Bitmap();
@@ -159,10 +165,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,690,518);
 p.nominalBounds = new cjs.Rectangle(0,0,261,174);
 
 
-(lib._28 = function() {
-	this.initialize(img._28);
+(lib.Bitmap2 = function() {
+	this.initialize(img.Bitmap2);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,259,194);
+p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 
 
 (lib.Bitmap3 = function() {
@@ -174,13 +180,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 (lib.bookpngcopy = function() {
 	this.initialize(img.bookpngcopy);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,288,399);
-
-
-(lib.Bitmap2 = function() {
-	this.initialize(img.Bitmap2);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,998,600);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,288,399);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -2174,32 +2174,32 @@ p.nominalBounds = new cjs.Rectangle(-59.4,-25.6,118.1,49.1);
 	this.kotakKartu2.name = "kotakKartu2";
 	this.kotakKartu2.setTransform(127.4,185.15);
 
-	this.lima = new lib.drop10G10();
-	this.lima.name = "lima";
-	this.lima.setTransform(797.65,456.25,0.4979,0.4979,0,0,0,160.8,94.8);
-	new cjs.ButtonHelper(this.lima, 0, 1, 1);
-
-	this.empat = new lib.drop10G9();
-	this.empat.name = "empat";
-	this.empat.setTransform(797.65,410.35,0.4979,0.4979,0,0,0,160.8,94.8);
-	new cjs.ButtonHelper(this.empat, 0, 1, 1);
-
-	this.tiga = new lib.drop10G6();
+	this.tiga = new lib.drop10G10();
 	this.tiga.name = "tiga";
-	this.tiga.setTransform(797.65,364.9,0.4979,0.4979,0,0,0,160.8,94.8);
+	this.tiga.setTransform(797.65,456.25,0.4979,0.4979,0,0,0,160.8,94.8);
 	new cjs.ButtonHelper(this.tiga, 0, 1, 1);
 
-	this.dua = new lib.drop10G5();
+	this.dua = new lib.drop10G9();
 	this.dua.name = "dua";
-	this.dua.setTransform(797.65,315.15,0.4979,0.4979,0,0,0,160.8,94.8);
+	this.dua.setTransform(797.65,410.35,0.4979,0.4979,0,0,0,160.8,94.8);
 	new cjs.ButtonHelper(this.dua, 0, 1, 1);
 
-	this.satu = new lib.drop10G4();
+	this.satu = new lib.drop10G6();
 	this.satu.name = "satu";
-	this.satu.setTransform(797.65,270.85,0.4979,0.4979,0,0,0,160.8,94.8);
+	this.satu.setTransform(797.65,364.9,0.4979,0.4979,0,0,0,160.8,94.8);
 	new cjs.ButtonHelper(this.satu, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.satu},{t:this.dua},{t:this.tiga},{t:this.empat},{t:this.lima},{t:this.kotakKartu2}]}).wait(1));
+	this.lima = new lib.drop10G5();
+	this.lima.name = "lima";
+	this.lima.setTransform(797.65,315.15,0.4979,0.4979,0,0,0,160.8,94.8);
+	new cjs.ButtonHelper(this.lima, 0, 1, 1);
+
+	this.empat = new lib.drop10G4();
+	this.empat.name = "empat";
+	this.empat.setTransform(797.65,270.85,0.4979,0.4979,0,0,0,160.8,94.8);
+	new cjs.ButtonHelper(this.empat, 0, 1, 1);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.empat},{t:this.lima},{t:this.satu},{t:this.dua},{t:this.tiga},{t:this.kotakKartu2}]}).wait(1));
 
 	this._renderFirstFrame();
 
@@ -3742,13 +3742,13 @@ lib.properties = {
 	opacity: 1.00,
 	manifest: [
 		{src:"images/_16.jpeg", id:"_16"},
+		{src:"images/_28.jpeg", id:"_28"},
 		{src:"images/_32.jpeg", id:"_32"},
 		{src:"images/_36.jpeg", id:"_36"},
 		{src:"images/Bitmap122.png", id:"Bitmap122"},
-		{src:"images/_28.jpeg", id:"_28"},
+		{src:"images/Bitmap2.png", id:"Bitmap2"},
 		{src:"images/Bitmap3.png", id:"Bitmap3"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/Bitmap2.png", id:"Bitmap2"}
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"}
 	],
 	preloads: []
 };
