@@ -135,20 +135,14 @@ lib.ssMetadata = [];
 
 
 
-(lib._1pngcopy3 = function() {
-	this.initialize(img._1pngcopy3);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,960,561);
-
-
 (lib._1pngcopy2 = function() {
 	this.initialize(img._1pngcopy2);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,960,561);
 
 
-(lib._2e = function() {
-	this.initialize(img._2e);
+(lib._1pngcopy3 = function() {
+	this.initialize(img._1pngcopy3);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,960,561);
 
@@ -159,22 +153,22 @@ p.nominalBounds = new cjs.Rectangle(0,0,960,561);
 p.nominalBounds = new cjs.Rectangle(0,0,960,561);
 
 
-(lib._5e = function() {
-	this.initialize(img._5e);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,960,561);
-
-
 (lib.Bitmap2 = function() {
 	this.initialize(img.Bitmap2);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 
 
-(lib.Bitmap3 = function() {
-	this.initialize(img.Bitmap3);
+(lib._2e = function() {
+	this.initialize(img._2e);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,249,87);
+p.nominalBounds = new cjs.Rectangle(0,0,960,561);
+
+
+(lib._3e = function() {
+	this.initialize(img._3e);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,561);
 
 
 (lib.Bitmap94 = function() {
@@ -183,10 +177,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 p.nominalBounds = new cjs.Rectangle(0,0,280,173);
 
 
-(lib.Bitmap95 = function() {
-	this.initialize(img.Bitmap95);
+(lib.Bitmap3 = function() {
+	this.initialize(img.Bitmap3);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,247,185);
+p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 
 
 (lib._3pngcopy = function() {
@@ -195,10 +189,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,247,185);
 p.nominalBounds = new cjs.Rectangle(0,0,960,561);
 
 
-(lib._3e = function() {
-	this.initialize(img._3e);
+(lib._5e = function() {
+	this.initialize(img._5e);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,960,561);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,960,561);
+
+
+(lib.Bitmap95 = function() {
+	this.initialize(img.Bitmap95);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,247,185);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -1625,9 +1625,9 @@ p.nominalBounds = new cjs.Rectangle(-332,-194,664,388);
 	this.initialize(mode,startPosition,loop,{});
 
 	// slots
-	this.dua = new lib.drag15G5();
-	this.dua.name = "dua";
-	this.dua.setTransform(308.4,368.25,0.8086,0.8086,0,0,0,82,31);
+	this.sdfsfd = new lib.drag15G5();
+	this.sdfsfd.name = "sdfsfd";
+	this.sdfsfd.setTransform(308.4,368.25,0.8086,0.8086,0,0,0,82,31);
 
 	this.satu = new lib.drag15G1();
 	this.satu.name = "satu";
@@ -1637,7 +1637,7 @@ p.nominalBounds = new cjs.Rectangle(-332,-194,664,388);
 	this.kotakKartu2.name = "kotakKartu2";
 	this.kotakKartu2.setTransform(495.6,332.55,1,1,0,0,0,9.7,0);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.kotakKartu2},{t:this.satu},{t:this.dua}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.kotakKartu2},{t:this.satu},{t:this.sdfsfd}]}).wait(1));
 
 	this._renderFirstFrame();
 
@@ -3437,17 +3437,17 @@ lib.properties = {
 	color: "#34495E",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_1pngcopy3.png", id:"_1pngcopy3"},
 		{src:"images/_1pngcopy2.png", id:"_1pngcopy2"},
-		{src:"images/_2e.png", id:"_2e"},
+		{src:"images/_1pngcopy3.png", id:"_1pngcopy3"},
 		{src:"images/_4e.png", id:"_4e"},
-		{src:"images/_5e.png", id:"_5e"},
 		{src:"images/Bitmap2.png", id:"Bitmap2"},
-		{src:"images/Bitmap3.png", id:"Bitmap3"},
+		{src:"images/_2e.png", id:"_2e"},
+		{src:"images/_3e.png", id:"_3e"},
 		{src:"images/Bitmap94.png", id:"Bitmap94"},
-		{src:"images/Bitmap95.png", id:"Bitmap95"},
+		{src:"images/Bitmap3.png", id:"Bitmap3"},
 		{src:"images/_3pngcopy.png", id:"_3pngcopy"},
-		{src:"images/_3e.png", id:"_3e"}
+		{src:"images/_5e.png", id:"_5e"},
+		{src:"images/Bitmap95.png", id:"Bitmap95"}
 	],
 	preloads: []
 };
