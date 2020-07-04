@@ -147,22 +147,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,424,342);
 p.nominalBounds = new cjs.Rectangle(0,0,415,342);
 
 
-(lib._33 = function() {
-	this.initialize(img._33);
+(lib.Bitmap96 = function() {
+	this.initialize(img.Bitmap96);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,595,340);
-
-
-(lib.bookpngcopy = function() {
-	this.initialize(img.bookpngcopy);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,288,399);
-
-
-(lib.WhatsAppImage20200630at211642 = function() {
-	this.initialize(img.WhatsAppImage20200630at211642);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,287,175);
+p.nominalBounds = new cjs.Rectangle(0,0,196,151);
 
 
 (lib.Bitmap2 = function() {
@@ -171,16 +159,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,287,175);
 p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 
 
-(lib.Bitmap96 = function() {
-	this.initialize(img.Bitmap96);
+(lib._33 = function() {
+	this.initialize(img._33);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,196,151);
+p.nominalBounds = new cjs.Rectangle(0,0,595,340);
+
+
+(lib.WhatsAppImage20200704at214744 = function() {
+	this.initialize(img.WhatsAppImage20200704at214744);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,594,241);
 
 
 (lib.Bitmap3 = function() {
 	this.initialize(img.Bitmap3);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,249,87);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,249,87);
+
+
+(lib.bookpngcopy = function() {
+	this.initialize(img.bookpngcopy);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,288,399);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -3276,8 +3276,8 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.timeline.addTween(cjs.Tween.get(this.exit).wait(12).to({_off:false},0).to({_off:true},1).wait(12));
 
 	// Layer_6
-	this.instance = new lib.WhatsAppImage20200630at211642();
-	this.instance.setTransform(-221,-218,1.8336,1.8336);
+	this.instance = new lib.WhatsAppImage20200704at214744();
+	this.instance.setTransform(-336,-200,1.2739,1.2739);
 	this.instance._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(12).to({_off:false},0).to({_off:true},1).wait(12));
@@ -5857,12 +5857,12 @@ lib.properties = {
 	manifest: [
 		{src:"images/_20.jpeg", id:"_20"},
 		{src:"images/_25.jpeg", id:"_25"},
-		{src:"images/_33.jpeg", id:"_33"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/WhatsAppImage20200630at211642.jpeg", id:"WhatsAppImage20200630at211642"},
-		{src:"images/Bitmap2.png", id:"Bitmap2"},
 		{src:"images/Bitmap96.png", id:"Bitmap96"},
-		{src:"images/Bitmap3.png", id:"Bitmap3"}
+		{src:"images/Bitmap2.png", id:"Bitmap2"},
+		{src:"images/_33.jpeg", id:"_33"},
+		{src:"images/WhatsAppImage20200704at214744.jpeg", id:"WhatsAppImage20200704at214744"},
+		{src:"images/Bitmap3.png", id:"Bitmap3"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"}
 	],
 	preloads: []
 };
