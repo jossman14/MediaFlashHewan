@@ -153,10 +153,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,594,297);
 p.nominalBounds = new cjs.Rectangle(0,0,356,415);
 
 
-(lib.Bitmap102copy = function() {
-	this.initialize(img.Bitmap102copy);
+(lib.Bitmap111 = function() {
+	this.initialize(img.Bitmap111);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,233,124);
+p.nominalBounds = new cjs.Rectangle(0,0,239,160);
+
+
+(lib.Bitmap116 = function() {
+	this.initialize(img.Bitmap116);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,260,186);
 
 
 (lib.Bitmap2 = function() {
@@ -169,12 +175,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 	this.initialize(img.Bitmap115);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,287,186);
-
-
-(lib.Bitmap111 = function() {
-	this.initialize(img.Bitmap111);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,239,160);
 
 
 (lib.bookpngcopy = function() {
@@ -195,10 +195,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 p.nominalBounds = new cjs.Rectangle(0,0,287,163);
 
 
-(lib.Bitmap116 = function() {
-	this.initialize(img.Bitmap116);
+(lib.Bitmap102copy = function() {
+	this.initialize(img.Bitmap102copy);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,260,186);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,233,124);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -4170,7 +4170,7 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 
 	// Layer_5
 	this.instance = new lib._14();
-	this.instance.setTransform(-252,-259,1.6532,1.0564);
+	this.instance.setTransform(-161,-259,1.1424,1.0564);
 
 	this.exit = new lib.btnEit();
 	this.exit.name = "exit";
@@ -5822,14 +5822,14 @@ lib.properties = {
 		{src:"images/_12.jpeg", id:"_12"},
 		{src:"images/_13.jpeg", id:"_13"},
 		{src:"images/_14.jpeg", id:"_14"},
-		{src:"images/Bitmap102copy.png", id:"Bitmap102copy"},
+		{src:"images/Bitmap111.png", id:"Bitmap111"},
+		{src:"images/Bitmap116.png", id:"Bitmap116"},
 		{src:"images/Bitmap2.png", id:"Bitmap2"},
 		{src:"images/Bitmap115.png", id:"Bitmap115"},
-		{src:"images/Bitmap111.png", id:"Bitmap111"},
 		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
 		{src:"images/Bitmap3.png", id:"Bitmap3"},
 		{src:"images/Bitmap108.png", id:"Bitmap108"},
-		{src:"images/Bitmap116.png", id:"Bitmap116"}
+		{src:"images/Bitmap102copy.png", id:"Bitmap102copy"}
 	],
 	preloads: []
 };

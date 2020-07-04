@@ -10,3 +10,26 @@ Update revisi 2 --> 3 July 2020:
 3. game 9 sudah ditambahkan pop up : https://cobamedia.netlify.app/data/game9/
 
 4. jawaban game 13 sudah di sinkronkan : https://cobamedia.netlify.app/data/game13/
+
+
+update revisi 3 --> 3 July 2020:
+1. game pada materi 5 sudah disesuaikan : https://cobamedia.netlify.app/data/materi5/
+2. fix minor error pada tombol navigasi : https://cobamedia.netlify.app/data/game18/
+3. fix jawaban pada game 12 : https://cobamedia.netlify.app/data/game12/
+4. tambahan pop up pada game 13 : https://cobamedia.netlify.app/data/game13/
+5. fix minor teks pop up pada game 7 : https://cobamedia.netlify.app/data/game7/
+
+update revisi --> 4 July 2020:
+1. revisi pop up gambar game pada list berikut ini:
+   a. game 6 : https://cobamedia.netlify.app/data/game6/index.html
+   b. game 8 : https://cobamedia.netlify.app/data/game8/index.html
+   c. game 10 : https://cobamedia.netlify.app/data/game10/index.html
+   d. game 11 : https://cobamedia.netlify.app/data/game11/index.html
+   e. game 12 : https://cobamedia.netlify.app/data/game12/index.html
+   f. game 13 : https://cobamedia.netlify.app/data/game13/index.html
+   g. game 14 : https://cobamedia.netlify.app/data/game14/index.html
+   h. game 15 : https://cobamedia.netlify.app/data/game15/index.html
+   i. game 16 : https://cobamedia.netlify.app/data/game16/index.html
+   j. game 17 : https://cobamedia.netlify.app/data/game17/index.html
+   k. game 18 : https://cobamedia.netlify.app/data/game18/index.html
+2. fix minor nav button --> https://cobamedia.netlify.app/data/materi8/index.html

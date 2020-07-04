@@ -135,20 +135,14 @@ lib.ssMetadata = [];
 
 
 
+(lib._1 = function() {
+	this.initialize(img._1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+
+
 (lib._1e = function() {
 	this.initialize(img._1e);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,961,561);
-
-
-(lib._3e = function() {
-	this.initialize(img._3e);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,961,561);
-
-
-(lib._4e = function() {
-	this.initialize(img._4e);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
@@ -159,16 +153,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
 
-(lib._1 = function() {
-	this.initialize(img._1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,961,561);
-
-
 (lib._6e = function() {
 	this.initialize(img._6e);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+
+
+(lib.Bitmap2 = function() {
+	this.initialize(img.Bitmap2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 
 
 (lib.Bitmap3 = function() {
@@ -189,6 +183,18 @@ p.nominalBounds = new cjs.Rectangle(0,0,285,183);
 p.nominalBounds = new cjs.Rectangle(0,0,202,177);
 
 
+(lib._4e = function() {
+	this.initialize(img._4e);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+
+
+(lib._3e = function() {
+	this.initialize(img._3e);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+
+
 (lib._2e = function() {
 	this.initialize(img._2e);
 }).prototype = p = new cjs.Bitmap();
@@ -198,13 +204,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 (lib.bookpngcopy = function() {
 	this.initialize(img.bookpngcopy);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,288,399);
-
-
-(lib.Bitmap2 = function() {
-	this.initialize(img.Bitmap2);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,998,600);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,288,399);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -2945,11 +2945,11 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		});
 		
 		root.btnNextDasar1.on("click", function () {
-		  window.location.replace("../materi9/index.html");
+		  window.location.replace("../materi13/index.html");
 		});
 		
 		root.btnBack3.on("click", function () {
-		  window.location.replace("../game18/index.html");
+		  window.location.replace("../materi11/index.html");
 		});
 		
 		//#34495e
@@ -4407,18 +4407,18 @@ lib.properties = {
 	color: "#34495E",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_1e.png", id:"_1e"},
-		{src:"images/_3e.png", id:"_3e"},
-		{src:"images/_4e.png", id:"_4e"},
-		{src:"images/_5e.png", id:"_5e"},
 		{src:"images/_1.png", id:"_1"},
+		{src:"images/_1e.png", id:"_1e"},
+		{src:"images/_5e.png", id:"_5e"},
 		{src:"images/_6e.png", id:"_6e"},
+		{src:"images/Bitmap2.png", id:"Bitmap2"},
 		{src:"images/Bitmap3.png", id:"Bitmap3"},
 		{src:"images/Bitmap85.png", id:"Bitmap85"},
 		{src:"images/Bitmap86.png", id:"Bitmap86"},
+		{src:"images/_4e.png", id:"_4e"},
+		{src:"images/_3e.png", id:"_3e"},
 		{src:"images/_2e.png", id:"_2e"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/Bitmap2.png", id:"Bitmap2"}
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"}
 	],
 	preloads: []
 };

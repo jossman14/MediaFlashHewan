@@ -141,16 +141,16 @@ lib.ssMetadata = [];
 p.nominalBounds = new cjs.Rectangle(0,0,681,451);
 
 
-(lib.Bitmap149 = function() {
-	this.initialize(img.Bitmap149);
+(lib.Bitmap148 = function() {
+	this.initialize(img.Bitmap148);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,304,166);
+p.nominalBounds = new cjs.Rectangle(0,0,195,145);
 
 
-(lib.Bitmap147 = function() {
-	this.initialize(img.Bitmap147);
+(lib._7 = function() {
+	this.initialize(img._7);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,143,136);
+p.nominalBounds = new cjs.Rectangle(0,0,744,368);
 
 
 (lib.Bitmap153 = function() {
@@ -165,12 +165,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,264,152);
 p.nominalBounds = new cjs.Rectangle(0,0,280,139);
 
 
-(lib.bookpngcopy = function() {
-	this.initialize(img.bookpngcopy);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,288,399);
-
-
 (lib.Bitmap2 = function() {
 	this.initialize(img.Bitmap2);
 }).prototype = p = new cjs.Bitmap();
@@ -183,16 +177,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 
 
+(lib.bookpngcopy = function() {
+	this.initialize(img.bookpngcopy);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,288,399);
+
+
 (lib.Bitmap152 = function() {
 	this.initialize(img.Bitmap152);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,287,152);
 
 
-(lib.Bitmap148 = function() {
-	this.initialize(img.Bitmap148);
+(lib.Bitmap147 = function() {
+	this.initialize(img.Bitmap147);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,195,145);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,143,136);
+
+
+(lib.Bitmap149 = function() {
+	this.initialize(img.Bitmap149);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,304,166);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -4957,8 +4963,8 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(12).call(this.frame_12).wait(13));
 
 	// Layer_5
-	this.instance = new lib.Bitmap149();
-	this.instance.setTransform(-248,-249,1.9099,2.5109);
+	this.instance = new lib._7();
+	this.instance.setTransform(-344,-215,1.0376,1.0376);
 
 	this.exit = new lib.btnEit();
 	this.exit.name = "exit";
@@ -6529,16 +6535,17 @@ lib.properties = {
 	color: "#34495E",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_15.jpeg?1593771652333", id:"_15"},
-		{src:"images/Bitmap149.png?1593771652333", id:"Bitmap149"},
-		{src:"images/Bitmap147.png?1593771652333", id:"Bitmap147"},
-		{src:"images/Bitmap153.png?1593771652333", id:"Bitmap153"},
-		{src:"images/Bitmap154.png?1593771652333", id:"Bitmap154"},
-		{src:"images/bookpngcopy.png?1593771652333", id:"bookpngcopy"},
-		{src:"images/Bitmap2.png?1593771652333", id:"Bitmap2"},
-		{src:"images/Bitmap3.png?1593771652333", id:"Bitmap3"},
-		{src:"images/Bitmap152.png?1593771652333", id:"Bitmap152"},
-		{src:"images/Bitmap148.png?1593771652333", id:"Bitmap148"}
+		{src:"images/_15.jpeg", id:"_15"},
+		{src:"images/Bitmap148.png", id:"Bitmap148"},
+		{src:"images/_7.png", id:"_7"},
+		{src:"images/Bitmap153.png", id:"Bitmap153"},
+		{src:"images/Bitmap154.png", id:"Bitmap154"},
+		{src:"images/Bitmap2.png", id:"Bitmap2"},
+		{src:"images/Bitmap3.png", id:"Bitmap3"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"images/Bitmap152.png", id:"Bitmap152"},
+		{src:"images/Bitmap147.png", id:"Bitmap147"},
+		{src:"images/Bitmap149.png", id:"Bitmap149"}
 	],
 	preloads: []
 };
