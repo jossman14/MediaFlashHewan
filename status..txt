@@ -4,7 +4,6 @@ Update revisi 2 --> 3 July 2020:
    b. game 2  : https://cobamedia.netlify.app/data/game2/
    c. game 3  : https://cobamedia.netlify.app/data/game3/
    d. game 4  : https://cobamedia.netlify.app/data/game4/
-
 2. animasi bioremediasi sudah disesuaikan, teks pengertian ditaruh diawal animasi : https://cobamedia.netlify.app/data/materi14/
 
 3. game 9 sudah ditambahkan pop up : https://cobamedia.netlify.app/data/game9/
@@ -33,3 +32,11 @@ update revisi --> 4 July 2020:
    j. game 17 : https://cobamedia.netlify.app/data/game17/index.html
    k. game 18 : https://cobamedia.netlify.app/data/game18/index.html
 2. fix minor nav button --> https://cobamedia.netlify.app/data/materi8/index.html
+
+update revisi 2 --> 4 july 2020:
+1. fix minor bug  nav button : https://cobamedia.netlify.app/data/materi8/index.html
+--> silahkan dicek materi8 sampai akhir
+
+2. fix jawaban pada game12 : https://cobamedia.netlify.app/data/game12/index.html
+--> tadi saya cek sudah sesuai dengan storyboard kak, mungkin bisa dibantu minta tolong tunjukkan errornya
+
