@@ -47,3 +47,40 @@ fix typo :
 2. https://cobamedia.netlify.app/data/materi17/index.html
 3. https://cobamedia.netlify.app/data/materi10/index.html
 4. https://cobamedia.netlify.app/data/materi12/index.html
+
+
+
+Update Revisi 1 --> 8 July 2020:
+   1. https://cobamedia.netlify.app/data/materi1/index.html
+   2. https://cobamedia.netlify.app/data/materi17/index.html
+   3. https://cobamedia.netlify.app/data/materi10/index.html
+   4. https://cobamedia.netlify.app/data/materi12/index.html
+   5. https://cobamedia.netlify.app/data/materi2/index.html --> Memiringkan kata annelida dan echinodermata
+   6. https://cobamedia.netlify.app/data/materi3/index.html --> Memiringkan kata annelida dan echinodermata
+   7. https://cobamedia.netlify.app/data/materi4/index.html --> Memiringkan kata Porifera, Cnidaria, Ctenophora, Acoelomata, phylum Platyhelmintes, Pseudocoelomata, Nematoda, Coelomata, Annellida, Molusca, Echinodermata, dan Arthrophoda.
+   8. https://cobamedia.netlify.app/data/materi6/index.html --> Memiringkan kata annelida, dan fix typo kesetimbangan, oragainsme dan metabilisme.
+   9. https://cobamedia.netlify.app/data/materi2/index.html --> Memiringkan kata echinodermata, dan fix typo kesetimbangan.
+   10. https://cobamedia.netlify.app/data/materi8/index.html --> Memiringkan kata Lumbricus rubellus, Hirudo medicinalis, terestrolmbrolysin, hipoxantine, xanthine, guanine, choline, guanidine dan alkaline protease 
+   11. https://cobamedia.netlify.app/data/materi9/index.html --> Memiringkan kata Holothuria scabra, Diadema setosum dan alkaline protease
+   12. https://cobamedia.netlify.app/data/materi10/index.html --> Memiringkan kata Asterias forbesi, Ptilocrinus pinnatus
+   13. https://cobamedia.netlify.app/data/materi11/index.html --> Memiringkan kata Ophiotrix sp., dan Asterias forbesi.
+   14. https://cobamedia.netlify.app/data/materi12/index.html --> Memiringkan kata Eunice sp., dan Scolopendra gipas
+   15. https://cobamedia.netlify.app/data/materi13/index.html --> Memiringkan kata Osteatritis, Hirudo medicinalis, Holothuria scabra dan alkaline protease
+   14. https://cobamedia.netlify.app/data/game1/index.html --> Memiringkan kata Eunice sp., Lumbricus rubellus, Hirudo medicinalis, Diadema setosum, Asterias forbesi, Ptilocrinus pinnatus, Holothuria scabra, Ophiotrix sp. , Spongilla dan Scolopendra gipas.
+   15. https://cobamedia.netlify.app/data/game2/index.html --> Memiringkan kata Eunice sp., Lumbricus rubellus, Hirudo medicinalis, Diadema setosum, Asterias forbesi, Ptilocrinus pinnatus, Holothuria scabra, Ophiotrix sp. , Spongilla dan Scolopendra gipas.
+   16. https://cobamedia.netlify.app/data/game3/index.html --> Memiringkan kata Eunice sp., Lumbricus rubellus, Hirudo medicinalis, Diadema setosum, Asterias forbesi, Ptilocrinus pinnatus, Holothuria scabra, Ophiotrix sp. , Spongilla dan Scolopendra gipas.
+   17. https://cobamedia.netlify.app/data/game4/index.html --> Memiringkan kata Eunice sp., Lumbricus rubellus, Hirudo medicinalis, Diadema setosum, Asterias forbesi, Ptilocrinus pinnatus, Holothuria scabra, Ophiotrix sp. , Spongilla dan Scolopendra gipas.
+   18. https://cobamedia.netlify.app/data/game5/index.html --> Memiringkan kata annelida, mengubah kata Bentuk tubuh bersegmen dan reproduksi seksual dan reproduksi aseksual
+   19. https://cobamedia.netlify.app/data/game6/index.html --> Memiringkan kata annelida, edit kata-kata di pop up info
+   20. https://cobamedia.netlify.app/data/game7/index.html --> Memiringkan kata Echinodermata, mengubah kata Bentuk tubuh bersegmen dan reproduksi seksual dan reproduksi aseksual
+   21. https://cobamedia.netlify.app/data/game8/index.html --> Memiringkan kata annelida, edit kata-kata di pop up info
+   22. https://cobamedia.netlify.app/data/game9/index.html --> Memiringkan kata annelida, Polichaeta, Oligochaeta dan Hirudinea
+   23. https://cobamedia.netlify.app/data/game10/index.html --> Memiringkan kata Polichaeta
+   23. https://cobamedia.netlify.app/data/game11/index.html --> Memiringkan kata Oligochaeta
+   24. https://cobamedia.netlify.app/data/game12/index.html --> Memiringkan kata Hirudinea
+   25. https://cobamedia.netlify.app/data/game13/index.html --> Memiringkan kata Asteroidea, Crinodea, Holothuroidea, Ophiurodea dan  Echinoidea
+   26. https://cobamedia.netlify.app/data/game14/index.html --> Memiringkan kata Asteroidea
+   27. https://cobamedia.netlify.app/data/game15/index.html --> Memiringkan kata Echinoidea
+   28. https://cobamedia.netlify.app/data/game16/index.html --> Memiringkan kata Ophiuroidea
+   29. https://cobamedia.netlify.app/data/game17/index.html --> Memiringkan kata Crinoidea
+   30. https://cobamedia.netlify.app/data/game18/index.html --> Memiringkan kata Holothuroidea

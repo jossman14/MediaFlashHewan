@@ -135,8 +135,8 @@ lib.ssMetadata = [];
 
 
 
-(lib._12 = function() {
-	this.initialize(img._12);
+(lib._11 = function() {
+	this.initialize(img._11);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
@@ -147,26 +147,26 @@ p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
 
-(lib._22 = function() {
-	this.initialize(img._22);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,562);
-
-
 (lib._14 = function() {
 	this.initialize(img._14);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
 
-(lib._24 = function() {
-	this.initialize(img._24);
+(lib._22 = function() {
+	this.initialize(img._22);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,962,562);
 
 
 (lib._23 = function() {
 	this.initialize(img._23);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,562);
+
+
+(lib._24 = function() {
+	this.initialize(img._24);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,962,562);
 
@@ -183,20 +183,20 @@ p.nominalBounds = new cjs.Rectangle(0,0,960,545);
 p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 
 
-(lib._21 = function() {
-	this.initialize(img._21);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,562);
-
-
 (lib.bookpngcopy = function() {
 	this.initialize(img.bookpngcopy);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
-(lib._11 = function() {
-	this.initialize(img._11);
+(lib._21 = function() {
+	this.initialize(img._21);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,562);
+
+
+(lib._12 = function() {
+	this.initialize(img._12);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);// helper functions:
 
@@ -1203,17 +1203,17 @@ lib.properties = {
 	color: "#3498DB",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_12.png", id:"_12"},
+		{src:"images/_11.png", id:"_11"},
 		{src:"images/_13.png", id:"_13"},
-		{src:"images/_22.png", id:"_22"},
 		{src:"images/_14.png", id:"_14"},
-		{src:"images/_24.png", id:"_24"},
+		{src:"images/_22.png", id:"_22"},
 		{src:"images/_23.png", id:"_23"},
+		{src:"images/_24.png", id:"_24"},
 		{src:"images/Bitmap28.png", id:"Bitmap28"},
 		{src:"images/Bitmap5.png", id:"Bitmap5"},
-		{src:"images/_21.png", id:"_21"},
 		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/_11.png", id:"_11"}
+		{src:"images/_21.png", id:"_21"},
+		{src:"images/_12.png", id:"_12"}
 	],
 	preloads: []
 };
