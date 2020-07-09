@@ -84,3 +84,56 @@ Update Revisi 1 --> 8 July 2020:
    28. https://cobamedia.netlify.app/data/game16/index.html --> Memiringkan kata Ophiuroidea
    29. https://cobamedia.netlify.app/data/game17/index.html --> Memiringkan kata Crinoidea
    30. https://cobamedia.netlify.app/data/game18/index.html --> Memiringkan kata Holothuroidea
+
+Update revisi 9 July 2020:
+   1. https://cobamedia.netlify.app/data/materi15/index.html
+         a. fix typo akbibat --> akibat
+         b.  fix wrong pop up info pada mini game
+   2. https://cobamedia.netlify.app/data/materi16/index.html
+         a. fix typo Tumbahan --> Tumpahan
+         b. ganti kata ikannya --> hewan-hewannya
+         c.  fix wrong pop up info pada mini game
+   3. https://cobamedia.netlify.app/data/materi17/index.html
+         a. fix typo mengalamai --> mengalami
+         b. menghapus kata selain
+   4. https://cobamedia.netlify.app/data/materi6/index.html
+         a. fix typo memusnahkan --> mendaur
+         b. mennambahkan kata setelah habitat --> habitatnya di laut
+   5. https://cobamedia.netlify.app/data/materi6/index.html
+         a. fix typo memusnahkan --> mendaur
+         b. mennambahkan kata setelah habitat --> habitatnya di laut
+   6. https://cobamedia.netlify.app/data/game9/index.html --> fix wrong pop up info dan menambah animasi teks pembantu user (Geser-->)
+   7. https://cobamedia.netlify.app/data/game8/index.html --> menambah animasi teks pembantu user (<--Geser)
+   8. https://cobamedia.netlify.app/data/game10/index.html
+         a. menambah animasi teks pembantu user (<--Geser)
+         b. fix wrong pop up info dan menambah animasi teks pembantu
+         c. menambah judul pada items kotak
+   9. https://cobamedia.netlify.app/data/game11/index.html
+         a. menambah animasi teks pembantu user (<--Geser)
+         b. fix wrong pop up info dan menambah animasi teks pembantu
+         c. menambah judul pada items kotak
+   10. https://cobamedia.netlify.app/data/game12/index.html
+         a. menambah animasi teks pembantu user (<--Geser)
+         b. fix wrong pop up info dan menambah animasi teks pembantu
+         c. menambah judul pada items kotak
+   11. https://cobamedia.netlify.app/data/game13/index.html
+         a. menambah animasi teks pembantu user (Geser-->)
+         b. fix wrong pop up info dan menambah animasi teks pembantu
+   12. https://cobamedia.netlify.app/data/materi10/index.html
+         a. fix scoring
+         b. fix wrong pop up info dan menambah animasi teks pembantu
+   13. https://cobamedia.netlify.app/data/materi8/index.html
+         a. fix wrong pop up info dan menambah animasi teks pembantu
+         b. edit percakapan dalam gambar, memiringkan Salmonella Typhi
+   14. https://cobamedia.netlify.app/data/materi9/index.html
+         a. fix wrong pop up info dan menambah animasi teks pembantu
+   15. https://cobamedia.netlify.app/data/materi11/index.html
+         a. fix wrong pop up info dan menambah animasi teks pembantu
+   16. https://cobamedia.netlify.app/data/materi12/index.html
+         a. fix wrong pop up info dan menambah animasi teks pembantu
+   17. https://cobamedia.netlify.app/data/materi13/index.html
+         a. fix wrong pop up info dan menambah animasi teks pembantu
+   18. https://cobamedia.netlify.app/data/game14/index.html
+         a. menambah animasi teks pembantu user (<--Geser)
+         b. fix wrong pop up info dan menambah animasi teks pembantu
+         c. menambah judul pada items kotak

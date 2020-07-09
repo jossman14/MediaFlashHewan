@@ -135,10 +135,10 @@ lib.ssMetadata = [];
 
 
 
-(lib.Bitmap28 = function() {
-	this.initialize(img.Bitmap28);
+(lib.Bitmap5 = function() {
+	this.initialize(img.Bitmap5);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,960,545);
+p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 
 
 (lib.bookpngcopy = function() {
@@ -147,10 +147,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,960,545);
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
-(lib.Bitmap5 = function() {
-	this.initialize(img.Bitmap5);
+(lib.Bitmap28 = function() {
+	this.initialize(img.Bitmap28);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,998,600);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,960,545);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -2796,9 +2796,9 @@ lib.properties = {
 	color: "#2ECC71",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Bitmap28.png", id:"Bitmap28"},
+		{src:"images/Bitmap5.png", id:"Bitmap5"},
 		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/Bitmap5.png", id:"Bitmap5"}
+		{src:"images/Bitmap28.png", id:"Bitmap28"}
 	],
 	preloads: []
 };

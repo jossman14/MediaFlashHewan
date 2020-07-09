@@ -153,16 +153,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,320,292);
 p.nominalBounds = new cjs.Rectangle(0,0,415,342);
 
 
-(lib._30 = function() {
-	this.initialize(img._30);
+(lib.Bitmap2 = function() {
+	this.initialize(img.Bitmap2);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,599,340);
-
-
-(lib.Bitmap3 = function() {
-	this.initialize(img.Bitmap3);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,249,87);
+p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 
 
 (lib.Bitmap92 = function() {
@@ -171,22 +165,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 p.nominalBounds = new cjs.Rectangle(0,0,170,155);
 
 
-(lib.Bitmap95 = function() {
-	this.initialize(img.Bitmap95);
+(lib._30 = function() {
+	this.initialize(img._30);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,170,155);
-
-
-(lib.Bitmap2 = function() {
-	this.initialize(img.Bitmap2);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,998,600);
+p.nominalBounds = new cjs.Rectangle(0,0,599,340);
 
 
 (lib.bookpngcopy = function() {
 	this.initialize(img.bookpngcopy);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
+
+
+(lib.Bitmap95 = function() {
+	this.initialize(img.Bitmap95);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,170,155);
+
+
+(lib.Bitmap3 = function() {
+	this.initialize(img.Bitmap3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 
 
 (lib._33 = function() {
@@ -5887,12 +5887,12 @@ lib.properties = {
 		{src:"images/_10.jpeg", id:"_10"},
 		{src:"images/_16.jpeg", id:"_16"},
 		{src:"images/_25.jpeg", id:"_25"},
-		{src:"images/_30.jpeg", id:"_30"},
-		{src:"images/Bitmap3.png", id:"Bitmap3"},
-		{src:"images/Bitmap92.png", id:"Bitmap92"},
-		{src:"images/Bitmap95.png", id:"Bitmap95"},
 		{src:"images/Bitmap2.png", id:"Bitmap2"},
+		{src:"images/Bitmap92.png", id:"Bitmap92"},
+		{src:"images/_30.jpeg", id:"_30"},
 		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"images/Bitmap95.png", id:"Bitmap95"},
+		{src:"images/Bitmap3.png", id:"Bitmap3"},
 		{src:"images/_33.jpeg", id:"_33"}
 	],
 	preloads: []
