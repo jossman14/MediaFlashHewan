@@ -153,12 +153,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
 
-(lib._2pngcopy = function() {
-	this.initialize(img._2pngcopy);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,961,561);
-
-
 (lib.bintanglaut = function() {
 	this.initialize(img.bintanglaut);
 }).prototype = p = new cjs.Bitmap();
@@ -195,10 +189,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,495,480);
 p.nominalBounds = new cjs.Rectangle(0,0,376,233);
 
 
-(lib._6eh = function() {
-	this.initialize(img._6eh);
+(lib.kelabang = function() {
+	this.initialize(img.kelabang);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+p.nominalBounds = new cjs.Rectangle(0,0,788,365);
 
 
 (lib.porifera = function() {
@@ -207,22 +201,22 @@ p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 p.nominalBounds = new cjs.Rectangle(0,0,390,403);
 
 
-(lib._5et = function() {
-	this.initialize(img._5et);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,961,561);
-
-
 (lib.teripang = function() {
 	this.initialize(img.teripang);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,738,347);
 
 
-(lib.kelabang = function() {
-	this.initialize(img.kelabang);
+(lib._2pngcopy = function() {
+	this.initialize(img._2pngcopy);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,788,365);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+
+
+(lib._5et = function() {
+	this.initialize(img._5et);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -5025,12 +5019,12 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.initialize(mode,startPosition,loop,{});
 
 	// timeline functions:
-	this.frame_249 = function() {
+	this.frame_204 = function() {
 		this.stop();
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(249).call(this.frame_249).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(204).call(this.frame_204).wait(1));
 
 	// Layer_1
 	this.instance = new lib._1pngcopy();
@@ -5047,9 +5041,6 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 
 	this.instance_4 = new lib._5et();
 	this.instance_4.setTransform(-285,-167);
-
-	this.instance_5 = new lib._6eh();
-	this.instance_5.setTransform(-285,-167);
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#000000").s().p("AgyBFQgOgNAAgVQgBgYAUgNQASgOAhAAIAbAAIAAgMQAAgPgJgIQgIgIgQAAQgPAAgJAHQgKAHAAALIgbAAQAAgMAIgLQAJgLAOgHQAPgGAPAAQAcAAAQAOQAPANABAYIAABIQAAAWAFANIAAACIgcAAQgDgEgBgMQgTATgZAAQgYAAgPgNgAglAfQgBANAJAHQAJAIANAAQALAAAMgHQALgHAGgKIAAghIgWAAQgxAAABAdg");
@@ -5343,10 +5334,10 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.shape_72.graphics.f("#000000").s().p("ABOBrIAAhTIAChZIhFCsIgVAAIhGisIADBZIAABTIgcAAIAAjVIAkAAIBFCtIBFitIAlAAIAADVg");
 	this.shape_72.setTransform(-283.6,-42.875);
 
-	this.instance_6 = new lib.game1();
-	this.instance_6.setTransform(-1.2,14.2);
+	this.instance_5 = new lib.game1();
+	this.instance_5.setTransform(-1.2,14.2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},8).to({state:[{t:this.instance_2}]},20).to({state:[{t:this.instance_3}]},30).to({state:[{t:this.instance_4}]},50).to({state:[{t:this.instance_5}]},39).to({state:[{t:this.shape_72},{t:this.shape_71},{t:this.shape_70},{t:this.shape_69},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},51).to({state:[{t:this.instance_6}]},51).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},8).to({state:[{t:this.instance_2}]},20).to({state:[{t:this.instance_3}]},30).to({state:[{t:this.instance_4}]},50).to({state:[{t:this.instance_4}]},25).to({state:[{t:this.shape_72},{t:this.shape_71},{t:this.shape_70},{t:this.shape_69},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},20).to({state:[{t:this.instance_5}]},51).wait(1));
 
 	this._renderFirstFrame();
 
@@ -5764,18 +5755,17 @@ lib.properties = {
 		{src:"images/_1pngcopy.png", id:"_1pngcopy"},
 		{src:"images/_3.png", id:"_3"},
 		{src:"images/_4e.png", id:"_4e"},
-		{src:"images/_2pngcopy.png", id:"_2pngcopy"},
 		{src:"images/bintanglaut.png", id:"bintanglaut"},
 		{src:"images/Bitmap28.png", id:"Bitmap28"},
 		{src:"images/Bitmap5.png", id:"Bitmap5"},
 		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
 		{src:"images/bulubabi.png", id:"bulubabi"},
 		{src:"images/cacingruubelus.png", id:"cacingruubelus"},
-		{src:"images/_6eh.png", id:"_6eh"},
+		{src:"images/kelabang.png", id:"kelabang"},
 		{src:"images/porifera.png", id:"porifera"},
-		{src:"images/_5et.png", id:"_5et"},
 		{src:"images/teripang.png", id:"teripang"},
-		{src:"images/kelabang.png", id:"kelabang"}
+		{src:"images/_2pngcopy.png", id:"_2pngcopy"},
+		{src:"images/_5et.png", id:"_5et"}
 	],
 	preloads: []
 };
