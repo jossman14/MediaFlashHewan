@@ -137,3 +137,5 @@ Update revisi 9 July 2020:
          a. menambah animasi teks pembantu user (<--Geser)
          b. fix wrong pop up info dan menambah animasi teks pembantu
          c. menambah judul pada items kotak
+   19. https://cobamedia.netlify.app/data/menu/index.html
+         a. revisi menu

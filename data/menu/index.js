@@ -1229,7 +1229,7 @@ lib.properties = {
 	color: "#009999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Bitmap3.png", id:"Bitmap3"}
+		{src:"images/Bitmap3.png?1594319540259", id:"Bitmap3"}
 	],
 	preloads: []
 };
