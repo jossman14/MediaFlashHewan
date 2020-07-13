@@ -141,6 +141,12 @@ lib.ssMetadata = [];
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
 
+(lib._2pngcopy = function() {
+	this.initialize(img._2pngcopy);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+
+
 (lib._3 = function() {
 	this.initialize(img._3);
 }).prototype = p = new cjs.Bitmap();
@@ -153,10 +159,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
 
-(lib.bintanglaut = function() {
-	this.initialize(img.bintanglaut);
+(lib._5et = function() {
+	this.initialize(img._5et);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,433,371);
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
 
 (lib.Bitmap28 = function() {
@@ -165,10 +171,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,433,371);
 p.nominalBounds = new cjs.Rectangle(0,0,960,545);
 
 
-(lib.Bitmap5 = function() {
-	this.initialize(img.Bitmap5);
+(lib.bulubabi = function() {
+	this.initialize(img.bulubabi);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,998,600);
+p.nominalBounds = new cjs.Rectangle(0,0,495,480);
 
 
 (lib.bookpngcopy = function() {
@@ -177,10 +183,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
-(lib.bulubabi = function() {
-	this.initialize(img.bulubabi);
+(lib.kelabang = function() {
+	this.initialize(img.kelabang);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,495,480);
+p.nominalBounds = new cjs.Rectangle(0,0,788,365);
 
 
 (lib.cacingruubelus = function() {
@@ -189,10 +195,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,495,480);
 p.nominalBounds = new cjs.Rectangle(0,0,376,233);
 
 
-(lib.kelabang = function() {
-	this.initialize(img.kelabang);
+(lib.teripang = function() {
+	this.initialize(img.teripang);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,788,365);
+p.nominalBounds = new cjs.Rectangle(0,0,738,347);
+
+
+(lib.bintanglaut = function() {
+	this.initialize(img.bintanglaut);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,433,371);
 
 
 (lib.porifera = function() {
@@ -201,22 +213,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,788,365);
 p.nominalBounds = new cjs.Rectangle(0,0,390,403);
 
 
-(lib.teripang = function() {
-	this.initialize(img.teripang);
+(lib.Bitmap5 = function() {
+	this.initialize(img.Bitmap5);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,738,347);
-
-
-(lib._2pngcopy = function() {
-	this.initialize(img._2pngcopy);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,961,561);
-
-
-(lib._5et = function() {
-	this.initialize(img._5et);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,961,561);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,998,600);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -4958,6 +4958,18 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.timeline.addTween(cjs.Tween.get(this.popUpInfo).wait(1));
 
 	// logic
+	this.winMessage = new cjs.Text("Sepertinya Tebakan Anda Salah, Silahkan Coba Lagi", "17px 'Roboto'", "#FFFFFF");
+	this.winMessage.name = "winMessage";
+	this.winMessage.textAlign = "center";
+	this.winMessage.lineHeight = 22;
+	this.winMessage.lineWidth = 418;
+	this.winMessage.parent = this;
+	this.winMessage.setTransform(1.4315,-180.45,0.9382,0.9382);
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#E74C3C").s().p("Egg7ACMIAAkXMBB3AAAIAAEXg");
+	this.shape.setTransform(1.9157,-171.7469,0.9383,0.9383);
+
 	this.Score = new cjs.Text("score", "18px 'Roboto'", "#FFFFFF");
 	this.Score.name = "Score";
 	this.Score.textAlign = "center";
@@ -4984,15 +4996,7 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.slots.name = "slots";
 	this.slots.setTransform(-456,-399.95);
 
-	this.winMessage = new cjs.Text("Sepertinya Tebakan Anda Salah, Silahkan Coba Lagi", "15px 'Roboto'", "#FFFFFF");
-	this.winMessage.name = "winMessage";
-	this.winMessage.textAlign = "center";
-	this.winMessage.lineHeight = 20;
-	this.winMessage.lineWidth = 382;
-	this.winMessage.parent = this;
-	this.winMessage.setTransform(-0.25,-181.9);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.winMessage},{t:this.slots},{t:this.pieces},{t:this.restart},{t:this.btnInfo},{t:this.Score}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.slots},{t:this.pieces},{t:this.restart},{t:this.btnInfo},{t:this.Score},{t:this.shape},{t:this.winMessage}]}).wait(1));
 
 	// bg
 	this.instance = new lib.info();
@@ -5004,11 +5008,11 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	// dasar
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("rgba(9,132,227,0.996)").s().p("EhB/Aa3QhyAAAAhoMAAAgydQAAhoByAAMCD/AAAQBxAAAABoMAAAAydQAABohxAAg");
-	this.shape.setTransform(-7.5,-13);
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("rgba(9,132,227,0.996)").s().p("EhB/Aa3QhyAAAAhoMAAAgydQAAhoByAAMCD/AAAQBxAAAABoMAAAAydQAABohxAAg");
+	this.shape_1.setTransform(-7.5,-13);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -5753,19 +5757,19 @@ lib.properties = {
 	opacity: 1.00,
 	manifest: [
 		{src:"images/_1pngcopy.png", id:"_1pngcopy"},
+		{src:"images/_2pngcopy.png", id:"_2pngcopy"},
 		{src:"images/_3.png", id:"_3"},
 		{src:"images/_4e.png", id:"_4e"},
-		{src:"images/bintanglaut.png", id:"bintanglaut"},
+		{src:"images/_5et.png", id:"_5et"},
 		{src:"images/Bitmap28.png", id:"Bitmap28"},
-		{src:"images/Bitmap5.png", id:"Bitmap5"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
 		{src:"images/bulubabi.png", id:"bulubabi"},
-		{src:"images/cacingruubelus.png", id:"cacingruubelus"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
 		{src:"images/kelabang.png", id:"kelabang"},
-		{src:"images/porifera.png", id:"porifera"},
+		{src:"images/cacingruubelus.png", id:"cacingruubelus"},
 		{src:"images/teripang.png", id:"teripang"},
-		{src:"images/_2pngcopy.png", id:"_2pngcopy"},
-		{src:"images/_5et.png", id:"_5et"}
+		{src:"images/bintanglaut.png", id:"bintanglaut"},
+		{src:"images/porifera.png", id:"porifera"},
+		{src:"images/Bitmap5.png", id:"Bitmap5"}
 	],
 	preloads: []
 };

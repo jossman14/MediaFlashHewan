@@ -139,3 +139,6 @@ Update revisi 9 July 2020:
          c. menambah judul pada items kotak
    19. https://cobamedia.netlify.app/data/menu/index.html
          a. revisi menu
+
+Update revisi 13 July 2020:
+   1. Revisi Kotak Pop Up Game

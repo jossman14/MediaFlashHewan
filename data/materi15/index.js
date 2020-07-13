@@ -147,16 +147,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,963,560);
 p.nominalBounds = new cjs.Rectangle(0,0,966,560);
 
 
-(lib._33pngcopy = function() {
-	this.initialize(img._33pngcopy);
+(lib._34e = function() {
+	this.initialize(img._34e);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,966,560);
-
-
-(lib.ant = function() {
-	this.initialize(img.ant);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,825,290);
 
 
 (lib.Bitmap28 = function() {
@@ -177,6 +171,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
+(lib._33pngcopy = function() {
+	this.initialize(img._33pngcopy);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,966,560);
+
+
 (lib.cacing1 = function() {
 	this.initialize(img.cacing1);
 }).prototype = p = new cjs.Bitmap();
@@ -195,6 +195,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,376,233);
 p.nominalBounds = new cjs.Rectangle(0,0,788,365);
 
 
+(lib.ant = function() {
+	this.initialize(img.ant);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,825,290);
+
+
 (lib.lintah = function() {
 	this.initialize(img.lintah);
 }).prototype = p = new cjs.Bitmap();
@@ -209,12 +215,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,636,265);
 
 (lib._35e = function() {
 	this.initialize(img._35e);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,966,560);
-
-
-(lib._34e = function() {
-	this.initialize(img._34e);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,966,560);// helper functions:
 
@@ -4948,6 +4948,18 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.timeline.addTween(cjs.Tween.get(this.popUpInfo).wait(1));
 
 	// logic
+	this.winMessage = new cjs.Text("Sepertinya Tebakan Anda Salah, Silahkan Coba Lagi", "17px 'Roboto'", "#FFFFFF");
+	this.winMessage.name = "winMessage";
+	this.winMessage.textAlign = "center";
+	this.winMessage.lineHeight = 22;
+	this.winMessage.lineWidth = 418;
+	this.winMessage.parent = this;
+	this.winMessage.setTransform(1.4016,-180.5,0.9382,0.9382);
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#E74C3C").s().p("Egg7ACMIAAkXMBB3AAAIAAEXg");
+	this.shape.setTransform(1.9157,-171.7469,0.9383,0.9383);
+
 	this.Score = new cjs.Text("score", "18px 'Roboto'", "#FFFFFF");
 	this.Score.name = "Score";
 	this.Score.textAlign = "center";
@@ -4974,15 +4986,7 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.slots1.name = "slots1";
 	this.slots1.setTransform(-456,-399.95);
 
-	this.winMessage = new cjs.Text("Sepertinya Tebakan Anda Salah, Silahkan Coba Lagi", "15px 'Roboto'", "#FFFFFF");
-	this.winMessage.name = "winMessage";
-	this.winMessage.textAlign = "center";
-	this.winMessage.lineHeight = 20;
-	this.winMessage.lineWidth = 382;
-	this.winMessage.parent = this;
-	this.winMessage.setTransform(-0.25,-181.9);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.winMessage},{t:this.slots1},{t:this.pieces1},{t:this.restart},{t:this.btnInfo},{t:this.Score}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.slots1},{t:this.pieces1},{t:this.restart},{t:this.btnInfo},{t:this.Score},{t:this.shape},{t:this.winMessage}]}).wait(1));
 
 	// bg
 	this.instance = new lib.infoText();
@@ -4994,11 +4998,11 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	// dasar
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("rgba(9,132,227,0.996)").s().p("EhB/Aa3QhyAAAAhoMAAAgydQAAhoByAAMCD/AAAQBxAAAABoMAAAAydQAABohxAAg");
-	this.shape.setTransform(-7.5,-13);
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("rgba(9,132,227,0.996)").s().p("EhB/Aa3QhyAAAAhoMAAAgydQAAhoByAAMCD/AAAQBxAAAABoMAAAAydQAABohxAAg");
+	this.shape_1.setTransform(-7.5,-13);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -5641,18 +5645,18 @@ lib.properties = {
 	manifest: [
 		{src:"images/_31pngcopy.png", id:"_31pngcopy"},
 		{src:"images/_32pngcopy.png", id:"_32pngcopy"},
-		{src:"images/_33pngcopy.png", id:"_33pngcopy"},
-		{src:"images/ant.png", id:"ant"},
+		{src:"images/_34e.png", id:"_34e"},
 		{src:"images/Bitmap28.png", id:"Bitmap28"},
 		{src:"images/Bitmap5.png", id:"Bitmap5"},
 		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"images/_33pngcopy.png", id:"_33pngcopy"},
 		{src:"images/cacing1.png", id:"cacing1"},
 		{src:"images/cacingruubelus.png", id:"cacingruubelus"},
 		{src:"images/kelabang.png", id:"kelabang"},
+		{src:"images/ant.png", id:"ant"},
 		{src:"images/lintah.png", id:"lintah"},
 		{src:"images/worm.png", id:"worm"},
-		{src:"images/_35e.png", id:"_35e"},
-		{src:"images/_34e.png", id:"_34e"}
+		{src:"images/_35e.png", id:"_35e"}
 	],
 	preloads: []
 };
