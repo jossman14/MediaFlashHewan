@@ -147,12 +147,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,400,265);
 p.nominalBounds = new cjs.Rectangle(0,0,638,479);
 
 
-(lib.Bitmap3 = function() {
-	this.initialize(img.Bitmap3);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,249,87);
-
-
 (lib._7 = function() {
 	this.initialize(img._7);
 }).prototype = p = new cjs.Bitmap();
@@ -169,6 +163,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 	this.initialize(img.Bitmap2);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,998,600);
+
+
+(lib.Bitmap3 = function() {
+	this.initialize(img.Bitmap3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 
 
 (lib.G = function() {
@@ -3750,47 +3750,47 @@ p.nominalBounds = new cjs.Rectangle(-23.3,-22.9,46.2,45.9);
 	this.initialize(mode,startPosition,loop,{});
 
 	// pieces
-	this.drag2G1 = new lib.drag2G5();
-	this.drag2G1.name = "drag2G1";
-	this.drag2G1.setTransform(311.95,262.7,0.9026,0.9026,0,0,0,82.1,26.7);
-	new cjs.ButtonHelper(this.drag2G1, 0, 1, 2, false, new lib.drag2G5(), 3);
+	this.bentuk = new lib.drag2G5();
+	this.bentuk.name = "bentuk";
+	this.bentuk.setTransform(311.95,262.7,0.9026,0.9026,0,0,0,82.1,26.7);
+	new cjs.ButtonHelper(this.bentuk, 0, 1, 2, false, new lib.drag2G5(), 3);
 
-	this.drag2G1_1 = new lib.drag2G8();
-	this.drag2G1_1.name = "drag2G1_1";
-	this.drag2G1_1.setTransform(311.95,445.8,0.9026,0.9026,0,0,0,82.1,26.7);
-	new cjs.ButtonHelper(this.drag2G1_1, 0, 1, 2, false, new lib.drag2G8(), 3);
+	this.drag2G1 = new lib.drag2G8();
+	this.drag2G1.name = "drag2G1";
+	this.drag2G1.setTransform(311.95,445.8,0.9026,0.9026,0,0,0,82.1,26.7);
+	new cjs.ButtonHelper(this.drag2G1, 0, 1, 2, false, new lib.drag2G8(), 3);
 
 	this.simetri = new lib.drag2G7();
 	this.simetri.name = "simetri";
 	this.simetri.setTransform(311.95,383.15,0.9026,0.9026,0,0,0,82.1,26.8);
 	new cjs.ButtonHelper(this.simetri, 0, 1, 2, false, new lib.drag2G7(), 3);
 
-	this.drag2G1_2 = new lib.drag2G6();
-	this.drag2G1_2.name = "drag2G1_2";
-	this.drag2G1_2.setTransform(311.95,322.85,0.9026,0.9026,0,0,0,82.1,26.8);
-	new cjs.ButtonHelper(this.drag2G1_2, 0, 1, 2, false, new lib.drag2G6(), 3);
+	this.drag2G1_1 = new lib.drag2G6();
+	this.drag2G1_1.name = "drag2G1_1";
+	this.drag2G1_1.setTransform(311.95,322.85,0.9026,0.9026,0,0,0,82.1,26.8);
+	new cjs.ButtonHelper(this.drag2G1_1, 0, 1, 2, false, new lib.drag2G6(), 3);
 
 	this.rongga = new lib.drag2G4();
 	this.rongga.name = "rongga";
 	this.rongga.setTransform(137.05,446.55,0.9026,0.9026,0,0,0,82.1,26.7);
 	new cjs.ButtonHelper(this.rongga, 0, 1, 2, false, new lib.drag2G4(), 3);
 
-	this.drag2G1_3 = new lib.drag2G3();
-	this.drag2G1_3.name = "drag2G1_3";
-	this.drag2G1_3.setTransform(137.05,385.05,0.9026,0.9026,0,0,0,82.1,26.7);
-	new cjs.ButtonHelper(this.drag2G1_3, 0, 1, 2, false, new lib.drag2G3(), 3);
+	this.drag2G1_2 = new lib.drag2G3();
+	this.drag2G1_2.name = "drag2G1_2";
+	this.drag2G1_2.setTransform(137.05,385.05,0.9026,0.9026,0,0,0,82.1,26.7);
+	new cjs.ButtonHelper(this.drag2G1_2, 0, 1, 2, false, new lib.drag2G3(), 3);
 
 	this.lapisan = new lib.drag2G2();
 	this.lapisan.name = "lapisan";
 	this.lapisan.setTransform(137.05,322.85,0.9026,0.9026,0,0,0,82.1,26.8);
 	new cjs.ButtonHelper(this.lapisan, 0, 1, 2, false, new lib.drag2G2(), 3);
 
-	this.drag2G1_4 = new lib.drag3G1();
-	this.drag2G1_4.name = "drag2G1_4";
-	this.drag2G1_4.setTransform(137.15,262.7,0.9026,0.9026,0,0,0,82.2,26.7);
-	new cjs.ButtonHelper(this.drag2G1_4, 0, 1, 2, false, new lib.drag3G1(), 3);
+	this.drag2G1_3 = new lib.drag3G1();
+	this.drag2G1_3.name = "drag2G1_3";
+	this.drag2G1_3.setTransform(137.15,262.7,0.9026,0.9026,0,0,0,82.2,26.7);
+	new cjs.ButtonHelper(this.drag2G1_3, 0, 1, 2, false, new lib.drag3G1(), 3);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.drag2G1_4},{t:this.lapisan},{t:this.drag2G1_3},{t:this.rongga},{t:this.drag2G1_2},{t:this.simetri},{t:this.drag2G1_1},{t:this.drag2G1}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.drag2G1_3},{t:this.lapisan},{t:this.drag2G1_2},{t:this.rongga},{t:this.drag2G1_1},{t:this.simetri},{t:this.drag2G1},{t:this.bentuk}]}).wait(1));
 
 	this._renderFirstFrame();
 
@@ -6043,13 +6043,13 @@ lib.properties = {
 	color: "#34495E",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_10.jpeg", id:"_10"},
-		{src:"images/_3.jpeg", id:"_3"},
-		{src:"images/Bitmap3.png", id:"Bitmap3"},
-		{src:"images/_7.jpeg", id:"_7"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/Bitmap2.png", id:"Bitmap2"},
-		{src:"images/G.png", id:"G"}
+		{src:"images/_10.jpeg?1594680665708", id:"_10"},
+		{src:"images/_3.jpeg?1594680665708", id:"_3"},
+		{src:"images/_7.jpeg?1594680665708", id:"_7"},
+		{src:"images/bookpngcopy.png?1594680665708", id:"bookpngcopy"},
+		{src:"images/Bitmap2.png?1594680665708", id:"Bitmap2"},
+		{src:"images/Bitmap3.png?1594680665708", id:"Bitmap3"},
+		{src:"images/G.png?1594680665708", id:"G"}
 	],
 	preloads: []
 };
