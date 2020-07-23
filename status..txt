@@ -142,3 +142,10 @@ Update revisi 9 July 2020:
 
 Update revisi 13 July 2020:
    1. Revisi Kotak Pop Up Game
+
+Update Revisi 23 July 2020:
+   1. menambahkan typewrite effect:
+      a. https://cobamedia.netlify.app/data/materi6
+      b. https://cobamedia.netlify.app/data/materi7
+      c. https://cobamedia.netlify.app/data/materi17
+   2. 

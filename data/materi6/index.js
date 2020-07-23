@@ -541,7 +541,7 @@ p.nominalBounds = new cjs.Rectangle(-59.4,-25.6,118.1,49);
 		
 		clearInterval(fI);
 		
-		fI = setInterval(F, 100);
+		fI = setInterval(F, 70);
 		
 		function f(e) {
 		  if (this.coba.text.length < s.length) {
