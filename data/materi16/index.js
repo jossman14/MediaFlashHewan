@@ -135,14 +135,20 @@ lib.ssMetadata = [];
 
 
 
+(lib._1pngcopy = function() {
+	this.initialize(img._1pngcopy);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+
+
 (lib._2pngcopy = function() {
 	this.initialize(img._2pngcopy);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
 
-(lib._3 = function() {
-	this.initialize(img._3);
+(lib._4e = function() {
+	this.initialize(img._4e);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
@@ -153,28 +159,22 @@ p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 p.nominalBounds = new cjs.Rectangle(0,0,433,371);
 
 
-(lib.Bitmap5 = function() {
-	this.initialize(img.Bitmap5);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,998,600);
-
-
 (lib.Bitmap28 = function() {
 	this.initialize(img.Bitmap28);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,960,545);
 
 
-(lib._1pngcopy = function() {
-	this.initialize(img._1pngcopy);
+(lib.Bitmap5 = function() {
+	this.initialize(img.Bitmap5);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 
 
-(lib._5et = function() {
-	this.initialize(img._5et);
+(lib.bookpngcopy = function() {
+	this.initialize(img.bookpngcopy);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
 (lib.bulubabi = function() {
@@ -183,16 +183,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 p.nominalBounds = new cjs.Rectangle(0,0,495,480);
 
 
-(lib.cacingruubelus = function() {
-	this.initialize(img.cacingruubelus);
+(lib._5et = function() {
+	this.initialize(img._5et);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,376,233);
-
-
-(lib.kelabang = function() {
-	this.initialize(img.kelabang);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,788,365);
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
 
 (lib.porifera = function() {
@@ -201,22 +195,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,788,365);
 p.nominalBounds = new cjs.Rectangle(0,0,390,403);
 
 
-(lib.teripang = function() {
-	this.initialize(img.teripang);
+(lib.kelabang = function() {
+	this.initialize(img.kelabang);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,738,347);
+p.nominalBounds = new cjs.Rectangle(0,0,788,365);
 
 
-(lib._4e = function() {
-	this.initialize(img._4e);
+(lib.cacingruubelus = function() {
+	this.initialize(img.cacingruubelus);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,376,233);
+
+
+(lib._3 = function() {
+	this.initialize(img._3);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
 
-(lib.bookpngcopy = function() {
-	this.initialize(img.bookpngcopy);
+(lib.teripang = function() {
+	this.initialize(img.teripang);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,288,399);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,738,347);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -3160,6 +3160,28 @@ p.nominalBounds = new cjs.Rectangle(-76.2,-8,152.4,16);
 }).prototype = getMCSymbolPrototype(lib.target, new cjs.Rectangle(-56.5,-67.6,113,135.3), null);
 
 
+(lib.selesai = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.text = new cjs.Text("Selesai", "30px 'Roboto Medium'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 40;
+	this.text.lineWidth = 100;
+	this.text.parent = this;
+	this.text.setTransform(85,13.4);
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#E74C3C").s().p("AtRD6IAAnzIajAAIAAHzg");
+	this.shape.setTransform(85,25);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.text}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.selesai, new cjs.Rectangle(0,0,170,51.4), null);
+
+
 (lib.RestoreIcon = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -3295,6 +3317,19 @@ p.nominalBounds = new cjs.Rectangle(-21.3,-19.2,42.7,38.5);
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.bg1copy3, new cjs.Rectangle(-210.1,-30,380.1,62.9), null);
+
+
+(lib.ds = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib._5et();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.ds, new cjs.Rectangle(0,0,567,331), null);
 
 
 (lib.bunder = function(mode,startPosition,loop) {
@@ -5164,10 +5199,10 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 
 
 (lib.g4 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{game:272});
+	this.initialize(mode,startPosition,loop,{game:339});
 
 	// timeline functions:
-	this.frame_271 = function() {
+	this.frame_338 = function() {
 		var s =
 		  "Masukkan hewan hewan tersebut kedalam keranjang, kemudian kenali karakteristiknya";
 		
@@ -5197,12 +5232,12 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		
 		_this.stop();
 	}
-	this.frame_272 = function() {
+	this.frame_339 = function() {
 		this.stop();
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(271).call(this.frame_271).wait(1).call(this.frame_272).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(338).call(this.frame_338).wait(1).call(this.frame_339).wait(1));
 
 	// Layer_1
 	this.instance = new lib._1pngcopy();
@@ -5220,6 +5255,14 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.instance_4 = new lib._5et();
 	this.instance_4.setTransform(-285,-167);
 
+	this.instance_5 = new lib.selesai();
+	this.instance_5.setTransform(-1.5,-1.5,1,1,0,0,0,85,25.7);
+
+	this.instance_6 = new lib.ds();
+	this.instance_6.setTransform(-1.5,-1.5,1,1,0,0,0,283.5,165.5);
+	this.instance_6.filters = [new cjs.ColorFilter(0.41, 0.41, 0.41, 1, 0, 0, 0, 0)];
+	this.instance_6.cache(-2,-2,571,335);
+
 	this.btnNextGame = new lib.btnKINextcopy();
 	this.btnNextGame.name = "btnNextGame";
 	this.btnNextGame.setTransform(279.85,98.15,0.7188,0.7188);
@@ -5233,10 +5276,10 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.coba.parent = this;
 	this.coba.setTransform(-13,-60.7);
 
-	this.instance_5 = new lib.game1();
-	this.instance_5.setTransform(-1.2,14.2);
+	this.instance_7 = new lib.game1();
+	this.instance_7.setTransform(-1.2,14.2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},18).to({state:[{t:this.instance_2}]},39).to({state:[{t:this.instance_3}]},58).to({state:[{t:this.instance_4}]},83).to({state:[{t:this.instance_4}]},49).to({state:[{t:this.coba},{t:this.btnNextGame}]},24).to({state:[{t:this.instance_5}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},18).to({state:[{t:this.instance_2}]},39).to({state:[{t:this.instance_3}]},58).to({state:[{t:this.instance_4}]},83).to({state:[{t:this.instance_6},{t:this.instance_5}]},67).to({state:[{t:this.coba},{t:this.btnNextGame}]},73).to({state:[{t:this.instance_7}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -5651,20 +5694,20 @@ lib.properties = {
 	color: "#2980B9",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_2pngcopy.png", id:"_2pngcopy"},
-		{src:"images/_3.png", id:"_3"},
-		{src:"images/bintanglaut.png", id:"bintanglaut"},
-		{src:"images/Bitmap5.png", id:"Bitmap5"},
-		{src:"images/Bitmap28.png", id:"Bitmap28"},
 		{src:"images/_1pngcopy.png", id:"_1pngcopy"},
-		{src:"images/_5et.png", id:"_5et"},
-		{src:"images/bulubabi.png", id:"bulubabi"},
-		{src:"images/cacingruubelus.png", id:"cacingruubelus"},
-		{src:"images/kelabang.png", id:"kelabang"},
-		{src:"images/porifera.png", id:"porifera"},
-		{src:"images/teripang.png", id:"teripang"},
+		{src:"images/_2pngcopy.png", id:"_2pngcopy"},
 		{src:"images/_4e.png", id:"_4e"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"}
+		{src:"images/bintanglaut.png", id:"bintanglaut"},
+		{src:"images/Bitmap28.png", id:"Bitmap28"},
+		{src:"images/Bitmap5.png", id:"Bitmap5"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"images/bulubabi.png", id:"bulubabi"},
+		{src:"images/_5et.png", id:"_5et"},
+		{src:"images/porifera.png", id:"porifera"},
+		{src:"images/kelabang.png", id:"kelabang"},
+		{src:"images/cacingruubelus.png", id:"cacingruubelus"},
+		{src:"images/_3.png", id:"_3"},
+		{src:"images/teripang.png", id:"teripang"}
 	],
 	preloads: []
 };

@@ -148,4 +148,15 @@ Update Revisi 23 July 2020:
       a. https://cobamedia.netlify.app/data/materi6
       b. https://cobamedia.netlify.app/data/materi7
       c. https://cobamedia.netlify.app/data/materi17
-   2. 
+      d. https://cobamedia.netlify.app/data/materi15 --> text sebelum game
+      e. https://cobamedia.netlify.app/data/materi16 --> text sebelum game
+   2. menambahkan keterangan "selesai" di animasi:
+      a. https://cobamedia.netlify.app/data/materi15
+      b. https://cobamedia.netlify.app/data/materi16
+      c. https://cobamedia.netlify.app/data/materi8
+      d. https://cobamedia.netlify.app/data/materi9
+      e. https://cobamedia.netlify.app/data/materi10
+      f. https://cobamedia.netlify.app/data/materi11
+      g. https://cobamedia.netlify.app/data/materi12
+      h. https://cobamedia.netlify.app/data/materi13
+      i. https://cobamedia.netlify.app/data/materi14
