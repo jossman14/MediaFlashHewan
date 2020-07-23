@@ -160,3 +160,8 @@ Update Revisi 23 July 2020:
       g. https://cobamedia.netlify.app/data/materi12
       h. https://cobamedia.netlify.app/data/materi13
       i. https://cobamedia.netlify.app/data/materi14
+
+Update Revisi 23 July 2020 Revisi 2:
+   1. Memiringkan kata "Sustainability":
+      a. https://cobamedia.netlify.app/data/menu
+      b. https://cobamedia.netlify.app/data/materi3

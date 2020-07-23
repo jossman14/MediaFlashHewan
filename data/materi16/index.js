@@ -147,16 +147,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
 
-(lib._4e = function() {
-	this.initialize(img._4e);
+(lib._3 = function() {
+	this.initialize(img._3);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
 
-(lib.bintanglaut = function() {
-	this.initialize(img.bintanglaut);
+(lib._5et = function() {
+	this.initialize(img._5et);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,433,371);
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
 
 (lib.Bitmap28 = function() {
@@ -183,10 +183,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 p.nominalBounds = new cjs.Rectangle(0,0,495,480);
 
 
-(lib._5et = function() {
-	this.initialize(img._5et);
+(lib.cacingruubelus = function() {
+	this.initialize(img.cacingruubelus);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+p.nominalBounds = new cjs.Rectangle(0,0,376,233);
 
 
 (lib.porifera = function() {
@@ -195,28 +195,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 p.nominalBounds = new cjs.Rectangle(0,0,390,403);
 
 
+(lib.teripang = function() {
+	this.initialize(img.teripang);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,738,347);
+
+
 (lib.kelabang = function() {
 	this.initialize(img.kelabang);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,788,365);
 
 
-(lib.cacingruubelus = function() {
-	this.initialize(img.cacingruubelus);
+(lib.bintanglaut = function() {
+	this.initialize(img.bintanglaut);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,376,233);
+p.nominalBounds = new cjs.Rectangle(0,0,433,371);
 
 
-(lib._3 = function() {
-	this.initialize(img._3);
+(lib._4e = function() {
+	this.initialize(img._4e);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,961,561);
-
-
-(lib.teripang = function() {
-	this.initialize(img.teripang);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,738,347);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -5696,18 +5696,18 @@ lib.properties = {
 	manifest: [
 		{src:"images/_1pngcopy.png", id:"_1pngcopy"},
 		{src:"images/_2pngcopy.png", id:"_2pngcopy"},
-		{src:"images/_4e.png", id:"_4e"},
-		{src:"images/bintanglaut.png", id:"bintanglaut"},
+		{src:"images/_3.png", id:"_3"},
+		{src:"images/_5et.png", id:"_5et"},
 		{src:"images/Bitmap28.png", id:"Bitmap28"},
 		{src:"images/Bitmap5.png", id:"Bitmap5"},
 		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
 		{src:"images/bulubabi.png", id:"bulubabi"},
-		{src:"images/_5et.png", id:"_5et"},
-		{src:"images/porifera.png", id:"porifera"},
-		{src:"images/kelabang.png", id:"kelabang"},
 		{src:"images/cacingruubelus.png", id:"cacingruubelus"},
-		{src:"images/_3.png", id:"_3"},
-		{src:"images/teripang.png", id:"teripang"}
+		{src:"images/porifera.png", id:"porifera"},
+		{src:"images/teripang.png", id:"teripang"},
+		{src:"images/kelabang.png", id:"kelabang"},
+		{src:"images/bintanglaut.png", id:"bintanglaut"},
+		{src:"images/_4e.png", id:"_4e"}
 	],
 	preloads: []
 };

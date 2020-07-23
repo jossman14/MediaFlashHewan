@@ -153,22 +153,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,966,560);
 p.nominalBounds = new cjs.Rectangle(0,0,966,560);
 
 
-(lib._33pngcopy = function() {
-	this.initialize(img._33pngcopy);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,966,560);
-
-
-(lib.Bitmap28 = function() {
-	this.initialize(img.Bitmap28);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,960,545);
-
-
 (lib.ant = function() {
 	this.initialize(img.ant);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,825,290);
+
+
+(lib._35e = function() {
+	this.initialize(img._35e);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,966,560);
 
 
 (lib.Bitmap5 = function() {
@@ -201,22 +195,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,376,233);
 p.nominalBounds = new cjs.Rectangle(0,0,788,365);
 
 
+(lib.lintah = function() {
+	this.initialize(img.lintah);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,147,428);
+
+
 (lib.worm = function() {
 	this.initialize(img.worm);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,636,265);
 
 
-(lib._35e = function() {
-	this.initialize(img._35e);
+(lib.Bitmap28 = function() {
+	this.initialize(img.Bitmap28);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,966,560);
+p.nominalBounds = new cjs.Rectangle(0,0,960,545);
 
 
-(lib.lintah = function() {
-	this.initialize(img.lintah);
+(lib._33pngcopy = function() {
+	this.initialize(img._33pngcopy);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,147,428);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,966,560);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -5194,13 +5194,12 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 
 
 (lib.g3 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{game:367});
+	this.initialize(mode,startPosition,loop,{game:290});
 
 	// timeline functions:
 	this.frame_289 = function() {
 		var s =
 		  "Masukkan hewan hewan tersebut kedalam keranjang, kemudian kenali karakteristiknya";
-		
 		
 		var F = f.bind(this);
 		
@@ -5208,7 +5207,7 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		
 		clearInterval(fI);
 		
-		fI = setInterval(F, 80);
+		fI = setInterval(F, 50);
 		
 		function f(e) {
 		  if (this.coba.text.length < s.length) {
@@ -5224,24 +5223,15 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		
 		_this.gotoAndPlay('game');
 		});
-	}
-	this.frame_366 = function() {
+		
 		this.stop();
-		
-		
-		var _this = this;
-		
-		_this.btnNextGame.on('click', function(){
-		
-		_this.gotoAndPlay('game');
-		});
 	}
-	this.frame_367 = function() {
+	this.frame_290 = function() {
 		this.stop();
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(289).call(this.frame_289).wait(77).call(this.frame_366).wait(1).call(this.frame_367).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(289).call(this.frame_289).wait(1).call(this.frame_290).wait(1));
 
 	// Layer_1
 	this.instance = new lib._31pngcopy();
@@ -5275,7 +5265,7 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.coba = new cjs.Text("", "30px 'Roboto'");
 	this.coba.name = "coba";
 	this.coba.textAlign = "center";
-	this.coba.lineHeight = 40;
+	this.coba.lineHeight = 38;
 	this.coba.lineWidth = 580;
 	this.coba.parent = this;
 	this.coba.setTransform(-13,-60.7);
@@ -5284,7 +5274,7 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.game2.name = "game2";
 	this.game2.setTransform(-1.2,14.2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},15).to({state:[{t:this.instance_2}]},48).to({state:[{t:this.instance_3}]},48).to({state:[{t:this.instance_4}]},48).to({state:[{t:this.instance_6},{t:this.instance_5}]},48).to({state:[{t:this.coba,p:{lineHeight:40}},{t:this.btnNextGame}]},82).to({state:[{t:this.coba,p:{lineHeight:38}},{t:this.btnNextGame}]},77).to({state:[{t:this.game2}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},15).to({state:[{t:this.instance_2}]},48).to({state:[{t:this.instance_3}]},48).to({state:[{t:this.instance_4}]},48).to({state:[{t:this.instance_6},{t:this.instance_5}]},48).to({state:[{t:this.coba},{t:this.btnNextGame}]},82).to({state:[{t:this.game2}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -5598,17 +5588,17 @@ lib.properties = {
 		{src:"images/_31pngcopy.png", id:"_31pngcopy"},
 		{src:"images/_32pngcopy.png", id:"_32pngcopy"},
 		{src:"images/_34e.png", id:"_34e"},
-		{src:"images/_33pngcopy.png", id:"_33pngcopy"},
-		{src:"images/Bitmap28.png", id:"Bitmap28"},
 		{src:"images/ant.png", id:"ant"},
+		{src:"images/_35e.png", id:"_35e"},
 		{src:"images/Bitmap5.png", id:"Bitmap5"},
 		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
 		{src:"images/cacing1.png", id:"cacing1"},
 		{src:"images/cacingruubelus.png", id:"cacingruubelus"},
 		{src:"images/kelabang.png", id:"kelabang"},
+		{src:"images/lintah.png", id:"lintah"},
 		{src:"images/worm.png", id:"worm"},
-		{src:"images/_35e.png", id:"_35e"},
-		{src:"images/lintah.png", id:"lintah"}
+		{src:"images/Bitmap28.png", id:"Bitmap28"},
+		{src:"images/_33pngcopy.png", id:"_33pngcopy"}
 	],
 	preloads: []
 };

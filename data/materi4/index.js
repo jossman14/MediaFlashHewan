@@ -147,46 +147,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,681,451);
 p.nominalBounds = new cjs.Rectangle(0,0,903,613);
 
 
-(lib.B = function() {
-	this.initialize(img.B);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,903,613);
-
-
 (lib.A_1 = function() {
 	this.initialize(img.A_1);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,903,613);
 
 
-(lib.Bitmap10 = function() {
-	this.initialize(img.Bitmap10);
+(lib.B = function() {
+	this.initialize(img.B);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,239,179);
-
-
-(lib.BAseksual_ = function() {
-	this.initialize(img.BAseksual_);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,681,451);
-
-
-(lib.Bitmap16 = function() {
-	this.initialize(img.Bitmap16);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,960,545);
-
-
-(lib.AAseksual_ = function() {
-	this.initialize(img.AAseksual_);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,681,451);
-
-
-(lib.Bitmap24 = function() {
-	this.initialize(img.Bitmap24);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,960,545);
+p.nominalBounds = new cjs.Rectangle(0,0,903,613);
 
 
 (lib.B_1 = function() {
@@ -195,16 +165,46 @@ p.nominalBounds = new cjs.Rectangle(0,0,960,545);
 p.nominalBounds = new cjs.Rectangle(0,0,903,613);
 
 
+(lib.BAseksual_ = function() {
+	this.initialize(img.BAseksual_);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,681,451);
+
+
+(lib.Bitmap10 = function() {
+	this.initialize(img.Bitmap10);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,239,179);
+
+
+(lib.Bitmap16 = function() {
+	this.initialize(img.Bitmap16);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,545);
+
+
 (lib.Bitmap18 = function() {
 	this.initialize(img.Bitmap18);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,960,545);
 
 
-(lib.Bitmap6 = function() {
-	this.initialize(img.Bitmap6);
+(lib.Bitmap22 = function() {
+	this.initialize(img.Bitmap22);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,270,170);
+p.nominalBounds = new cjs.Rectangle(0,0,960,545);
+
+
+(lib.Bitmap26 = function() {
+	this.initialize(img.Bitmap26);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,545);
+
+
+(lib.Bitmap24 = function() {
+	this.initialize(img.Bitmap24);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,545);
 
 
 (lib.Bitmap5 = function() {
@@ -219,22 +219,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 p.nominalBounds = new cjs.Rectangle(0,0,78,106);
 
 
-(lib.Bitmap26 = function() {
-	this.initialize(img.Bitmap26);
+(lib.Bitmap8 = function() {
+	this.initialize(img.Bitmap8);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,960,545);
+p.nominalBounds = new cjs.Rectangle(0,0,89,105);
+
+
+(lib.Bitmap6 = function() {
+	this.initialize(img.Bitmap6);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,270,170);
+
+
+(lib.AAseksual_ = function() {
+	this.initialize(img.AAseksual_);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,681,451);
 
 
 (lib.Bitmap9 = function() {
 	this.initialize(img.Bitmap9);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,89,107);
-
-
-(lib.Bitmap22 = function() {
-	this.initialize(img.Bitmap22);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,960,545);
 
 
 (lib.C = function() {
@@ -249,16 +255,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,903,613);
 p.nominalBounds = new cjs.Rectangle(0,0,903,613);
 
 
-(lib.Bitmap8 = function() {
-	this.initialize(img.Bitmap8);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,89,105);
-
-
 (lib.D = function() {
 	this.initialize(img.D);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,903,613);
+
+
+(lib.CAseksual_ = function() {
+	this.initialize(img.CAseksual_);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,681,451);
 
 
 (lib.D_1 = function() {
@@ -273,20 +279,26 @@ p.nominalBounds = new cjs.Rectangle(0,0,903,613);
 p.nominalBounds = new cjs.Rectangle(0,0,903,613);
 
 
-(lib.DAseksual_ = function() {
-	this.initialize(img.DAseksual_);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,681,451);
-
-
 (lib.E_1 = function() {
 	this.initialize(img.E_1);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,903,613);
 
 
+(lib.DAseksual_ = function() {
+	this.initialize(img.DAseksual_);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,681,451);
+
+
 (lib.F = function() {
 	this.initialize(img.F);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,903,613);
+
+
+(lib.G = function() {
+	this.initialize(img.G);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,903,613);
 
@@ -297,22 +309,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,903,613);
 p.nominalBounds = new cjs.Rectangle(0,0,903,613);
 
 
-(lib.CAseksual_ = function() {
-	this.initialize(img.CAseksual_);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,681,451);
-
-
 (lib.bookpngcopy = function() {
 	this.initialize(img.bookpngcopy);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,288,399);
-
-
-(lib.G = function() {
-	this.initialize(img.G);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,903,613);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,288,399);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -344,6 +344,202 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-405,-300,810,600);
+
+
+(lib.Tween7 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#000000").s().p("AgFA0IAAhnIAMAAIAABng");
+	this.shape.setTransform(163.6,-0.35);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#000000").s().p("AgFAyIAAhJIALAAIAABJgAgEglQgCgCAAgDQAAgDACgDQACgCACAAQAEAAABACQACADAAADQAAADgCACQgBACgEAAQgCAAgCgCg");
+	this.shape_1.setTransform(160.2,-0.15);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#000000").s().p("AgWAgQgIgGAAgJQAAgMAKgFQAIgHAPAAIAMAAIAAgGQAAgGgDgEQgFgEgHAAQgGAAgFADQgEAEAAAEIgNAAQAAgFAEgFQAEgFAHgDQAGgDAHAAQANgBAIAHQAGAGABALIAAAhQAAALADAGIAAABIgOAAIgCgIQgJAJgKAAQgMAAgGgGgAgRAOQAAAHAEADQAEADAGABQAFAAAFgDQAGgEACgEIAAgQIgJAAQgXAAAAANg");
+	this.shape_2.setTransform(154.7,1.2);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("#000000").s().p("AgBApQgFgFAAgJIAAgtIgNAAIAAgKIANAAIAAgSIAMAAIAAASIAOAAIAAAKIgOAAIAAAtQAAAEACADQACACAEAAIAGgBIAAAKQgFACgFAAQgIAAgDgGg");
+	this.shape_3.setTransform(148.425,0.375);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.f("#000000").s().p("AgVAcQgJgKAAgQIAAgCQAAgKAEgJQAEgJAIgFQAHgEAIAAQAOgBAIAKQAIAJAAATIAAADIgxAAQABAMAGAGQAGAHAIAAQAHAAAFgCQAEgEAEgEIAHAGQgJAOgSAAQgPABgJgLgAgLgWQgFAGgBAKIAkAAIAAgBQgBgJgEgGQgFgFgIAAQgHAAgFAFg");
+	this.shape_4.setTransform(142.725,1.2);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.f("#000000").s().p("AgWArQgIgLAAgRIAAgBQAAgQAIgKQAIgLANAAQAMAAAIAJIAAgmIAMAAIAABoIgLAAIgBgIQgIAJgMAAQgNAAgIgKgAgMgFQgGAHAAAOQAAAMAGAHQAFAHAIAAQAMAAAGgKIAAghQgGgLgMAAQgIAAgFAHg");
+	this.shape_5.setTransform(134.825,-0.275);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.f("#000000").s().p("AAQA0IAAgxQABgHgEgDQgDgEgIAAQgGAAgEADQgEADgDAFIAAA0IgNAAIAAhnIANAAIAAAnQAIgKAMAAQAYAAAAAZIAAAxg");
+	this.shape_6.setTransform(123.75,-0.35);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.f("#000000").s().p("AgGAyIAAhJIANAAIAABJgAgFglQgBgCgBgDQABgDABgDQACgCADAAQAEAAABACQADADAAADQAAADgDACQgBACgEAAQgDAAgCgCg");
+	this.shape_7.setTransform(118.2,-0.15);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.f("#000000").s().p("AgSArIgBAJIgLAAIAAhoIAMAAIAAAnQAIgKANAAQANAAAIALQAHAKAAAQIAAACQAAARgHAKQgIAKgNAAQgNAAgIgKgAgSAAIAAAfQAGALAMAAQAJAAAFgHQAFgHAAgOQAAgNgFgGQgFgHgJAAQgMAAgGAMg");
+	this.shape_8.setTransform(112.725,-0.275);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.f("#000000").s().p("AgVAcQgJgKAAgQIAAgCQAAgKAEgJQAEgJAIgFQAHgEAIAAQAOgBAIAKQAIAJAAATIAAADIgxAAQABAMAGAGQAGAHAIAAQAHAAAFgCQAEgEAEgEIAHAGQgJAOgSAAQgPABgJgLgAgLgWQgFAGgBAKIAkAAIAAgBQgBgJgEgGQgFgFgIAAQgHAAgFAFg");
+	this.shape_9.setTransform(105.025,1.2);
+
+	this.shape_10 = new cjs.Shape();
+	this.shape_10.graphics.f("#000000").s().p("AgFA0IAAhnIALAAIAABng");
+	this.shape_10.setTransform(99.55,-0.35);
+
+	this.shape_11 = new cjs.Shape();
+	this.shape_11.graphics.f("#000000").s().p("AgXAcQgKgKAAgSIAAAAQAAgKAFgJQAEgJAIgFQAHgEAJAAQAPgBAKALQAJALAAAQIAAABQAAAKgEAJQgEAJgIAFQgIAEgKAAQgOAAgJgKgAgOgTQgGAHAAANQAAAMAGAHQAGAIAIAAQAKAAAFgIQAGgHAAgNQAAgMgGgHQgFgIgKAAQgIAAgGAIg");
+	this.shape_11.setTransform(90.375,1.2);
+
+	this.shape_12 = new cjs.Shape();
+	this.shape_12.graphics.f("#000000").s().p("AgJA1IAAg/IgMAAIAAgKIAMAAIAAgHQgBgMAHgHQAFgGAMAAIAJABIgCAKIgGAAQgGAAgDADQgEAEAAAGIAAAIIAPAAIAAAKIgPAAIAAA/g");
+	this.shape_12.setTransform(84.2,-0.425);
+
+	this.shape_13 = new cjs.Shape();
+	this.shape_13.graphics.f("#000000").s().p("AAQAmIAAgwQAAgIgDgEQgDgEgIAAQgFAAgFADQgFAEgDAFIAAA0IgMAAIAAhJIAMAAIAAAJQAJgLANAAQAXAAAAAbIAAAwg");
+	this.shape_13.setTransform(77.65,1.125);
+
+	this.shape_14 = new cjs.Shape();
+	this.shape_14.graphics.f("#000000").s().p("AgFAyIAAhJIALAAIAABJgAgFglQgBgCAAgDQAAgDABgDQADgCACAAQAEAAABACQACADAAADQAAADgCACQgBACgEAAQgCAAgDgCg");
+	this.shape_14.setTransform(72.1,-0.15);
+
+	this.shape_15 = new cjs.Shape();
+	this.shape_15.graphics.f("#000000").s().p("AAQA0IgZghIgIAIIAAAZIgNAAIAAhnIANAAIAAA+IAHgIIAWgYIAPAAIgcAfIAgAqg");
+	this.shape_15.setTransform(63.875,-0.35);
+
+	this.shape_16 = new cjs.Shape();
+	this.shape_16.graphics.f("#000000").s().p("AgWAfQgGgHAAgOIAAgvIANAAIAAAvQAAARANAAQANAAAGgLIAAg1IAMAAIAABJIgMAAIAAgHQgIAJgNAAQgMAAgGgHg");
+	this.shape_16.setTransform(56,1.275);
+
+	this.shape_17 = new cjs.Shape();
+	this.shape_17.graphics.f("#000000").s().p("AgBApQgFgFAAgJIAAgtIgNAAIAAgKIANAAIAAgSIAMAAIAAASIAOAAIAAAKIgOAAIAAAtQAAAEACADQACACAEAAIAGgBIAAAKQgFACgFAAQgIAAgDgGg");
+	this.shape_17.setTransform(49.675,0.375);
+
+	this.shape_18 = new cjs.Shape();
+	this.shape_18.graphics.f("#000000").s().p("AARAmIAAgwQgBgIgDgEQgEgEgHAAQgGAAgEADQgFAEgDAFIAAA0IgMAAIAAhJIAMAAIAAAJQAJgLANAAQAXAAAAAbIAAAwg");
+	this.shape_18.setTransform(43.7,1.125);
+
+	this.shape_19 = new cjs.Shape();
+	this.shape_19.graphics.f("#000000").s().p("AgWAfQgGgHAAgOIAAgvIANAAIAAAvQAAARANAAQAOAAAEgLIAAg1IANAAIAABJIgMAAIgBgHQgGAJgOAAQgMAAgGgHg");
+	this.shape_19.setTransform(36,1.275);
+
+	this.shape_20 = new cjs.Shape();
+	this.shape_20.graphics.f("#000000").s().p("AgOAjQgHgDgDgFQgFgGAAgHIANAAQABAGAEAFQAFADAHAAQAHAAAFgDQADgDAAgEQABgGgEgCQgEgEgJgCQgJgCgGgCQgGgCgCgEQgDgEAAgGQAAgJAHgGQAJgHAKABQANgBAIAHQAIAGAAALIgNAAQAAgGgEgDQgFgEgHAAQgFAAgFADQgDADAAAFQAAAFADACIANAEQAJADAFACQAHACACAFQAEADAAAHQgBAJgHAGQgJAHgMgBQgIAAgHgDg");
+	this.shape_20.setTransform(25.1,1.2);
+
+	this.shape_21 = new cjs.Shape();
+	this.shape_21.graphics.f("#000000").s().p("AgWAgQgIgGABgJQgBgMAKgFQAIgHAPAAIANAAIAAgGQAAgGgFgEQgDgEgIAAQgGAAgEADQgFAEgBAEIgMAAQAAgFAEgFQAEgFAHgDQAHgDAGAAQANgBAHAHQAIAGAAALIAAAhQAAALADAGIAAABIgOAAIgBgIQgKAJgKAAQgMAAgGgGgAgRAOQAAAHAEADQAEADAGABQAFAAAFgDQAGgEADgEIAAgQIgKAAQgXAAAAANg");
+	this.shape_21.setTransform(17.7,1.2);
+
+	this.shape_22 = new cjs.Shape();
+	this.shape_22.graphics.f("#000000").s().p("AgBApQgFgFAAgJIAAgtIgNAAIAAgKIANAAIAAgSIAMAAIAAASIAOAAIAAAKIgOAAIAAAtQAAAEACADQACACAEAAIAGgBIAAAKQgFACgFAAQgIAAgDgGg");
+	this.shape_22.setTransform(11.425,0.375);
+
+	this.shape_23 = new cjs.Shape();
+	this.shape_23.graphics.f("#000000").s().p("AgWAgQgIgGABgJQgBgMAKgFQAIgHAPAAIANAAIAAgGQAAgGgFgEQgDgEgIAAQgGAAgEADQgFAEgBAEIgMAAQAAgFAEgFQAEgFAHgDQAHgDAGAAQANgBAHAHQAIAGAAALIAAAhQAAALADAGIAAABIgOAAIgBgIQgKAJgKAAQgMAAgGgGgAgRAOQAAAHAEADQAEADAGABQAFAAAFgDQAGgEADgEIAAgQIgKAAQgXAAAAANg");
+	this.shape_23.setTransform(5.55,1.2);
+
+	this.shape_24 = new cjs.Shape();
+	this.shape_24.graphics.f("#000000").s().p("AgGAyIAAhJIANAAIAABJgAgFglQgCgCAAgDQAAgDACgDQADgCACAAQAEAAACACQACADAAADQAAADgCACQgCACgEAAQgCAAgDgCg");
+	this.shape_24.setTransform(0.05,-0.15);
+
+	this.shape_25 = new cjs.Shape();
+	this.shape_25.graphics.f("#000000").s().p("AgWArQgIgLAAgRIAAgBQAAgQAIgKQAIgLANAAQAMAAAIAJIAAgmIAMAAIAABoIgLAAIgBgIQgIAJgMAAQgNAAgIgKgAgMgFQgGAHAAAOQAAAMAGAHQAFAHAIAAQAMAAAGgKIAAghQgGgLgMAAQgIAAgFAHg");
+	this.shape_25.setTransform(-5.775,-0.275);
+
+	this.shape_26 = new cjs.Shape();
+	this.shape_26.graphics.f("#000000").s().p("AgGA0IAAhnIANAAIAABng");
+	this.shape_26.setTransform(-14.7,-0.35);
+
+	this.shape_27 = new cjs.Shape();
+	this.shape_27.graphics.f("#000000").s().p("AgXAcQgKgKAAgSIAAAAQAAgKAFgJQAEgJAIgFQAHgEAJAAQAPgBAKALQAJALAAAQIAAABQAAAKgEAJQgEAJgIAFQgIAEgKAAQgOAAgJgKgAgOgTQgGAHAAANQAAAMAGAHQAGAIAIAAQAKAAAFgIQAGgHAAgNQAAgMgGgHQgFgIgKAAQgIAAgGAIg");
+	this.shape_27.setTransform(-20.425,1.2);
+
+	this.shape_28 = new cjs.Shape();
+	this.shape_28.graphics.f("#000000").s().p("AgSArIgBAJIgLAAIAAhoIAMAAIAAAnQAIgKANAAQANAAAIALQAHAKAAAQIAAACQAAARgHAKQgIAKgNAAQgNAAgIgKgAgSAAIAAAfQAGALAMAAQAJAAAFgHQAFgHAAgOQAAgNgFgGQgFgHgJAAQgMAAgGAMg");
+	this.shape_28.setTransform(-28.175,-0.275);
+
+	this.shape_29 = new cjs.Shape();
+	this.shape_29.graphics.f("#000000").s().p("AAnAmIAAgwQAAgIgDgEQgEgEgIAAQgIAAgEAEQgFAFgBAHIAAAwIgLAAIAAgwQAAgQgQAAQgNAAgEALIAAA1IgNAAIAAhJIAMAAIABAIQAIgKAOAAQAPAAAFAMQADgFAGgDQAGgEAIAAQAZAAAAAaIAAAxg");
+	this.shape_29.setTransform(-38.375,1.125);
+
+	this.shape_30 = new cjs.Shape();
+	this.shape_30.graphics.f("#000000").s().p("AgXAcQgKgKAAgSIAAAAQAAgKAFgJQAEgJAIgFQAHgEAJAAQAPgBAKALQAJALAAAQIAAABQAAAKgEAJQgEAJgIAFQgIAEgKAAQgOAAgJgKgAgOgTQgGAHAAANQAAAMAGAHQAGAIAIAAQAKAAAFgIQAGgHAAgNQAAgMgGgHQgFgIgKAAQgIAAgGAIg");
+	this.shape_30.setTransform(-48.525,1.2);
+
+	this.shape_31 = new cjs.Shape();
+	this.shape_31.graphics.f("#000000").s().p("AgBApQgFgFAAgJIAAgtIgNAAIAAgKIANAAIAAgSIAMAAIAAASIAOAAIAAAKIgOAAIAAAtQAAAEACADQACACAEAAIAGgBIAAAKQgFACgFAAQgIAAgDgGg");
+	this.shape_31.setTransform(-54.975,0.375);
+
+	this.shape_32 = new cjs.Shape();
+	this.shape_32.graphics.f("#000000").s().p("AgWAfQgGgHAAgOIAAgvIANAAIAAAvQAAARANAAQAOAAAEgLIAAg1IANAAIAABJIgMAAIgBgHQgGAJgOAAQgMAAgGgHg");
+	this.shape_32.setTransform(-64.35,1.275);
+
+	this.shape_33 = new cjs.Shape();
+	this.shape_33.graphics.f("#000000").s().p("AgWAgQgIgGAAgJQAAgMAJgFQAJgHAPAAIAMAAIAAgGQAAgGgDgEQgFgEgHAAQgGAAgFADQgEAEAAAEIgNAAQAAgFAEgFQAEgFAHgDQAGgDAIAAQAMgBAIAHQAGAGABALIAAAhQAAALADAGIAAABIgOAAIgCgIQgIAJgLAAQgMAAgGgGgAgRAOQAAAHAEADQAEADAGABQAFAAAFgDQAGgEACgEIAAgQIgKAAQgWAAAAANg");
+	this.shape_33.setTransform(-72,1.2);
+
+	this.shape_34 = new cjs.Shape();
+	this.shape_34.graphics.f("#000000").s().p("AgBApQgFgFAAgJIAAgtIgNAAIAAgKIANAAIAAgSIAMAAIAAASIAOAAIAAAKIgOAAIAAAtQAAAEACADQACACAEAAIAGgBIAAAKQgFACgFAAQgIAAgDgGg");
+	this.shape_34.setTransform(-78.275,0.375);
+
+	this.shape_35 = new cjs.Shape();
+	this.shape_35.graphics.f("#000000").s().p("AgWAgQgIgGAAgJQAAgMAJgFQAJgHAPAAIAMAAIAAgGQAAgGgDgEQgFgEgHAAQgGAAgFADQgEAEAAAEIgNAAQAAgFAEgFQAEgFAHgDQAGgDAIAAQAMgBAIAHQAGAGABALIAAAhQAAALADAGIAAABIgOAAIgCgIQgIAJgLAAQgMAAgGgGgAgRAOQAAAHAEADQAEADAGABQAFAAAFgDQAGgEACgEIAAgQIgKAAQgWAAAAANg");
+	this.shape_35.setTransform(-84.15,1.2);
+
+	this.shape_36 = new cjs.Shape();
+	this.shape_36.graphics.f("#000000").s().p("AgRAmIAAhJIAMAAIAAAIQAGgKALAAIAGABIAAAMIgHAAQgLAAgFAKIAAA0g");
+	this.shape_36.setTransform(-93.4,1.125);
+
+	this.shape_37 = new cjs.Shape();
+	this.shape_37.graphics.f("#000000").s().p("AgXAgQgGgGAAgJQAAgMAJgFQAIgHAPAAIANAAIAAgGQAAgGgFgEQgEgEgHAAQgGAAgEADQgGAEAAAEIgMAAQAAgFAEgFQAEgFAGgDQAHgDAHAAQANgBAHAHQAIAGAAALIAAAhQAAALACAGIAAABIgNAAIgBgIQgKAJgLAAQgKAAgIgGgAgRAOQAAAHAEADQAEADAGABQAFAAAGgDQAFgEADgEIAAgQIgKAAQgXAAAAANg");
+	this.shape_37.setTransform(-99.95,1.2);
+
+	this.shape_38 = new cjs.Shape();
+	this.shape_38.graphics.f("#000000").s().p("AgSArIgBAJIgLAAIAAhoIAMAAIAAAnQAIgKANAAQANAAAIALQAHAKAAAQIAAACQAAARgHAKQgIAKgNAAQgNAAgIgKgAgSAAIAAAfQAGALAMAAQAJAAAFgHQAFgHAAgOQAAgNgFgGQgFgHgJAAQgMAAgGAMg");
+	this.shape_38.setTransform(-107.525,-0.275);
+
+	this.shape_39 = new cjs.Shape();
+	this.shape_39.graphics.f("#000000").s().p("AAnAmIAAgwQAAgIgDgEQgEgEgIAAQgIAAgEAEQgFAFgBAHIAAAwIgLAAIAAgwQAAgQgQAAQgNAAgEALIAAA1IgNAAIAAhJIAMAAIABAIQAIgKAOAAQAPAAAFAMQADgFAGgDQAGgEAIAAQAZAAAAAaIAAAxg");
+	this.shape_39.setTransform(-117.725,1.125);
+
+	this.shape_40 = new cjs.Shape();
+	this.shape_40.graphics.f("#000000").s().p("AgWAgQgIgGABgJQgBgMAKgFQAIgHAPAAIANAAIAAgGQAAgGgFgEQgDgEgIAAQgGAAgEADQgFAEgBAEIgMAAQAAgFAEgFQAEgFAHgDQAHgDAGAAQANgBAHAHQAIAGAAALIAAAhQAAALADAGIAAABIgOAAIgBgIQgKAJgKAAQgMAAgGgGgAgRAOQAAAHAEADQAEADAGABQAFAAAFgDQAGgEADgEIAAgQIgKAAQgXAAAAANg");
+	this.shape_40.setTransform(-127.65,1.2);
+
+	this.shape_41 = new cjs.Shape();
+	this.shape_41.graphics.f("#000000").s().p("AgPAxQgHgDgEgGIAGgIQAIAKAMAAQAIAAAFgFQAGgFAAgKIAAgGQgIAJgMAAQgNAAgIgLQgIgKAAgRQAAgSAIgKQAIgKANAAQANAAAHAJIABgIIALAAIAABHQAAAPgIAIQgJAIgOAAQgHAAgIgDgAgMghQgFAHAAAOQAAAMAFAHQAFAHAIAAQAMAAAGgLIAAghQgGgKgMAAQgIAAgFAHg");
+	this.shape_41.setTransform(-135.525,2.575);
+
+	this.shape_42 = new cjs.Shape();
+	this.shape_42.graphics.f("#000000").s().p("AAQA0IgZghIgIAIIAAAZIgNAAIAAhnIANAAIAAA+IAHgIIAWgYIAPAAIgcAfIAgAqg");
+	this.shape_42.setTransform(-145.825,-0.35);
+
+	this.shape_43 = new cjs.Shape();
+	this.shape_43.graphics.f("#000000").s().p("AgFAyIAAhJIALAAIAABJgAgFglQgBgCAAgDQAAgDABgDQADgCACAAQAEAAABACQACADAAADQAAADgCACQgBACgEAAQgCAAgDgCg");
+	this.shape_43.setTransform(-151.55,-0.15);
+
+	this.shape_44 = new cjs.Shape();
+	this.shape_44.graphics.f("#000000").s().p("AgGA0IAAhnIANAAIAABng");
+	this.shape_44.setTransform(-154.95,-0.35);
+
+	this.shape_45 = new cjs.Shape();
+	this.shape_45.graphics.f("#000000").s().p("AAWAyIgigvIgMANIAAAiIgNAAIAAhjIANAAIAAAxIArgxIAQAAIgmAsIApA3g");
+	this.shape_45.setTransform(-160.475,-0.075);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-167.4,-10.4,334.9,20.8);
 
 
 (lib.Tween6 = function(mode,startPosition,loop) {
@@ -1217,6 +1413,398 @@ p.nominalBounds = new cjs.Rectangle(-421.8,-234.5,843.6,469.1);
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-13.7,-3.5,27.5,7.1);
+
+
+(lib.Tween2 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#000000").s().p("AgFA0IAAhnIAMAAIAABng");
+	this.shape.setTransform(163.6,-0.35);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#000000").s().p("AgFAyIAAhJIALAAIAABJgAgEglQgCgCAAgDQAAgDACgDQACgCACAAQAEAAABACQACADAAADQAAADgCACQgBACgEAAQgCAAgCgCg");
+	this.shape_1.setTransform(160.2,-0.15);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#000000").s().p("AgWAgQgIgGAAgJQAAgMAKgFQAIgHAPAAIAMAAIAAgGQAAgGgDgEQgFgEgHAAQgGAAgFADQgEAEAAAEIgNAAQAAgFAEgFQAEgFAHgDQAGgDAHAAQANgBAIAHQAGAGABALIAAAhQAAALADAGIAAABIgOAAIgCgIQgJAJgKAAQgMAAgGgGgAgRAOQAAAHAEADQAEADAGABQAFAAAFgDQAGgEACgEIAAgQIgJAAQgXAAAAANg");
+	this.shape_2.setTransform(154.7,1.2);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("#000000").s().p("AgBApQgFgFAAgJIAAgtIgNAAIAAgKIANAAIAAgSIAMAAIAAASIAOAAIAAAKIgOAAIAAAtQAAAEACADQACACAEAAIAGgBIAAAKQgFACgFAAQgIAAgDgGg");
+	this.shape_3.setTransform(148.425,0.375);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.f("#000000").s().p("AgVAcQgJgKAAgQIAAgCQAAgKAEgJQAEgJAIgFQAHgEAIAAQAOgBAIAKQAIAJAAATIAAADIgxAAQABAMAGAGQAGAHAIAAQAHAAAFgCQAEgEAEgEIAHAGQgJAOgSAAQgPABgJgLgAgLgWQgFAGgBAKIAkAAIAAgBQgBgJgEgGQgFgFgIAAQgHAAgFAFg");
+	this.shape_4.setTransform(142.725,1.2);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.f("#000000").s().p("AgWArQgIgLAAgRIAAgBQAAgQAIgKQAIgLANAAQAMAAAIAJIAAgmIAMAAIAABoIgLAAIgBgIQgIAJgMAAQgNAAgIgKgAgMgFQgGAHAAAOQAAAMAGAHQAFAHAIAAQAMAAAGgKIAAghQgGgLgMAAQgIAAgFAHg");
+	this.shape_5.setTransform(134.825,-0.275);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.f("#000000").s().p("AAQA0IAAgxQABgHgEgDQgDgEgIAAQgGAAgEADQgEADgDAFIAAA0IgNAAIAAhnIANAAIAAAnQAIgKAMAAQAYAAAAAZIAAAxg");
+	this.shape_6.setTransform(123.75,-0.35);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.f("#000000").s().p("AgGAyIAAhJIANAAIAABJgAgFglQgBgCgBgDQABgDABgDQACgCADAAQAEAAABACQADADAAADQAAADgDACQgBACgEAAQgDAAgCgCg");
+	this.shape_7.setTransform(118.2,-0.15);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.f("#000000").s().p("AgSArIgBAJIgLAAIAAhoIAMAAIAAAnQAIgKANAAQANAAAIALQAHAKAAAQIAAACQAAARgHAKQgIAKgNAAQgNAAgIgKgAgSAAIAAAfQAGALAMAAQAJAAAFgHQAFgHAAgOQAAgNgFgGQgFgHgJAAQgMAAgGAMg");
+	this.shape_8.setTransform(112.725,-0.275);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.f("#000000").s().p("AgVAcQgJgKAAgQIAAgCQAAgKAEgJQAEgJAIgFQAHgEAIAAQAOgBAIAKQAIAJAAATIAAADIgxAAQABAMAGAGQAGAHAIAAQAHAAAFgCQAEgEAEgEIAHAGQgJAOgSAAQgPABgJgLgAgLgWQgFAGgBAKIAkAAIAAgBQgBgJgEgGQgFgFgIAAQgHAAgFAFg");
+	this.shape_9.setTransform(105.025,1.2);
+
+	this.shape_10 = new cjs.Shape();
+	this.shape_10.graphics.f("#000000").s().p("AgFA0IAAhnIALAAIAABng");
+	this.shape_10.setTransform(99.55,-0.35);
+
+	this.shape_11 = new cjs.Shape();
+	this.shape_11.graphics.f("#000000").s().p("AgXAcQgKgKAAgSIAAAAQAAgKAFgJQAEgJAIgFQAHgEAJAAQAPgBAKALQAJALAAAQIAAABQAAAKgEAJQgEAJgIAFQgIAEgKAAQgOAAgJgKgAgOgTQgGAHAAANQAAAMAGAHQAGAIAIAAQAKAAAFgIQAGgHAAgNQAAgMgGgHQgFgIgKAAQgIAAgGAIg");
+	this.shape_11.setTransform(90.375,1.2);
+
+	this.shape_12 = new cjs.Shape();
+	this.shape_12.graphics.f("#000000").s().p("AgJA1IAAg/IgMAAIAAgKIAMAAIAAgHQgBgMAHgHQAFgGAMAAIAJABIgCAKIgGAAQgGAAgDADQgEAEAAAGIAAAIIAPAAIAAAKIgPAAIAAA/g");
+	this.shape_12.setTransform(84.2,-0.425);
+
+	this.shape_13 = new cjs.Shape();
+	this.shape_13.graphics.f("#000000").s().p("AAQAmIAAgwQAAgIgDgEQgDgEgIAAQgFAAgFADQgFAEgDAFIAAA0IgMAAIAAhJIAMAAIAAAJQAJgLANAAQAXAAAAAbIAAAwg");
+	this.shape_13.setTransform(77.65,1.125);
+
+	this.shape_14 = new cjs.Shape();
+	this.shape_14.graphics.f("#000000").s().p("AgFAyIAAhJIALAAIAABJgAgFglQgBgCAAgDQAAgDABgDQADgCACAAQAEAAABACQACADAAADQAAADgCACQgBACgEAAQgCAAgDgCg");
+	this.shape_14.setTransform(72.1,-0.15);
+
+	this.shape_15 = new cjs.Shape();
+	this.shape_15.graphics.f("#000000").s().p("AAQA0IgZghIgIAIIAAAZIgNAAIAAhnIANAAIAAA+IAHgIIAWgYIAPAAIgcAfIAgAqg");
+	this.shape_15.setTransform(63.875,-0.35);
+
+	this.shape_16 = new cjs.Shape();
+	this.shape_16.graphics.f("#000000").s().p("AgWAfQgGgHAAgOIAAgvIANAAIAAAvQAAARANAAQANAAAGgLIAAg1IAMAAIAABJIgMAAIAAgHQgIAJgNAAQgMAAgGgHg");
+	this.shape_16.setTransform(56,1.275);
+
+	this.shape_17 = new cjs.Shape();
+	this.shape_17.graphics.f("#000000").s().p("AgBApQgFgFAAgJIAAgtIgNAAIAAgKIANAAIAAgSIAMAAIAAASIAOAAIAAAKIgOAAIAAAtQAAAEACADQACACAEAAIAGgBIAAAKQgFACgFAAQgIAAgDgGg");
+	this.shape_17.setTransform(49.675,0.375);
+
+	this.shape_18 = new cjs.Shape();
+	this.shape_18.graphics.f("#000000").s().p("AARAmIAAgwQgBgIgDgEQgEgEgHAAQgGAAgEADQgFAEgDAFIAAA0IgMAAIAAhJIAMAAIAAAJQAJgLANAAQAXAAAAAbIAAAwg");
+	this.shape_18.setTransform(43.7,1.125);
+
+	this.shape_19 = new cjs.Shape();
+	this.shape_19.graphics.f("#000000").s().p("AgWAfQgGgHAAgOIAAgvIANAAIAAAvQAAARANAAQAOAAAEgLIAAg1IANAAIAABJIgMAAIgBgHQgGAJgOAAQgMAAgGgHg");
+	this.shape_19.setTransform(36,1.275);
+
+	this.shape_20 = new cjs.Shape();
+	this.shape_20.graphics.f("#000000").s().p("AgOAjQgHgDgDgFQgFgGAAgHIANAAQABAGAEAFQAFADAHAAQAHAAAFgDQADgDAAgEQABgGgEgCQgEgEgJgCQgJgCgGgCQgGgCgCgEQgDgEAAgGQAAgJAHgGQAJgHAKABQANgBAIAHQAIAGAAALIgNAAQAAgGgEgDQgFgEgHAAQgFAAgFADQgDADAAAFQAAAFADACIANAEQAJADAFACQAHACACAFQAEADAAAHQgBAJgHAGQgJAHgMgBQgIAAgHgDg");
+	this.shape_20.setTransform(25.1,1.2);
+
+	this.shape_21 = new cjs.Shape();
+	this.shape_21.graphics.f("#000000").s().p("AgWAgQgIgGABgJQgBgMAKgFQAIgHAPAAIANAAIAAgGQAAgGgFgEQgDgEgIAAQgGAAgEADQgFAEgBAEIgMAAQAAgFAEgFQAEgFAHgDQAHgDAGAAQANgBAHAHQAIAGAAALIAAAhQAAALADAGIAAABIgOAAIgBgIQgKAJgKAAQgMAAgGgGgAgRAOQAAAHAEADQAEADAGABQAFAAAFgDQAGgEADgEIAAgQIgKAAQgXAAAAANg");
+	this.shape_21.setTransform(17.7,1.2);
+
+	this.shape_22 = new cjs.Shape();
+	this.shape_22.graphics.f("#000000").s().p("AgBApQgFgFAAgJIAAgtIgNAAIAAgKIANAAIAAgSIAMAAIAAASIAOAAIAAAKIgOAAIAAAtQAAAEACADQACACAEAAIAGgBIAAAKQgFACgFAAQgIAAgDgGg");
+	this.shape_22.setTransform(11.425,0.375);
+
+	this.shape_23 = new cjs.Shape();
+	this.shape_23.graphics.f("#000000").s().p("AgWAgQgIgGABgJQgBgMAKgFQAIgHAPAAIANAAIAAgGQAAgGgFgEQgDgEgIAAQgGAAgEADQgFAEgBAEIgMAAQAAgFAEgFQAEgFAHgDQAHgDAGAAQANgBAHAHQAIAGAAALIAAAhQAAALADAGIAAABIgOAAIgBgIQgKAJgKAAQgMAAgGgGgAgRAOQAAAHAEADQAEADAGABQAFAAAFgDQAGgEADgEIAAgQIgKAAQgXAAAAANg");
+	this.shape_23.setTransform(5.55,1.2);
+
+	this.shape_24 = new cjs.Shape();
+	this.shape_24.graphics.f("#000000").s().p("AgGAyIAAhJIANAAIAABJgAgFglQgCgCAAgDQAAgDACgDQADgCACAAQAEAAACACQACADAAADQAAADgCACQgCACgEAAQgCAAgDgCg");
+	this.shape_24.setTransform(0.05,-0.15);
+
+	this.shape_25 = new cjs.Shape();
+	this.shape_25.graphics.f("#000000").s().p("AgWArQgIgLAAgRIAAgBQAAgQAIgKQAIgLANAAQAMAAAIAJIAAgmIAMAAIAABoIgLAAIgBgIQgIAJgMAAQgNAAgIgKgAgMgFQgGAHAAAOQAAAMAGAHQAFAHAIAAQAMAAAGgKIAAghQgGgLgMAAQgIAAgFAHg");
+	this.shape_25.setTransform(-5.775,-0.275);
+
+	this.shape_26 = new cjs.Shape();
+	this.shape_26.graphics.f("#000000").s().p("AgGA0IAAhnIANAAIAABng");
+	this.shape_26.setTransform(-14.7,-0.35);
+
+	this.shape_27 = new cjs.Shape();
+	this.shape_27.graphics.f("#000000").s().p("AgXAcQgKgKAAgSIAAAAQAAgKAFgJQAEgJAIgFQAHgEAJAAQAPgBAKALQAJALAAAQIAAABQAAAKgEAJQgEAJgIAFQgIAEgKAAQgOAAgJgKgAgOgTQgGAHAAANQAAAMAGAHQAGAIAIAAQAKAAAFgIQAGgHAAgNQAAgMgGgHQgFgIgKAAQgIAAgGAIg");
+	this.shape_27.setTransform(-20.425,1.2);
+
+	this.shape_28 = new cjs.Shape();
+	this.shape_28.graphics.f("#000000").s().p("AgSArIgBAJIgLAAIAAhoIAMAAIAAAnQAIgKANAAQANAAAIALQAHAKAAAQIAAACQAAARgHAKQgIAKgNAAQgNAAgIgKgAgSAAIAAAfQAGALAMAAQAJAAAFgHQAFgHAAgOQAAgNgFgGQgFgHgJAAQgMAAgGAMg");
+	this.shape_28.setTransform(-28.175,-0.275);
+
+	this.shape_29 = new cjs.Shape();
+	this.shape_29.graphics.f("#000000").s().p("AAnAmIAAgwQAAgIgDgEQgEgEgIAAQgIAAgEAEQgFAFgBAHIAAAwIgLAAIAAgwQAAgQgQAAQgNAAgEALIAAA1IgNAAIAAhJIAMAAIABAIQAIgKAOAAQAPAAAFAMQADgFAGgDQAGgEAIAAQAZAAAAAaIAAAxg");
+	this.shape_29.setTransform(-38.375,1.125);
+
+	this.shape_30 = new cjs.Shape();
+	this.shape_30.graphics.f("#000000").s().p("AgXAcQgKgKAAgSIAAAAQAAgKAFgJQAEgJAIgFQAHgEAJAAQAPgBAKALQAJALAAAQIAAABQAAAKgEAJQgEAJgIAFQgIAEgKAAQgOAAgJgKgAgOgTQgGAHAAANQAAAMAGAHQAGAIAIAAQAKAAAFgIQAGgHAAgNQAAgMgGgHQgFgIgKAAQgIAAgGAIg");
+	this.shape_30.setTransform(-48.525,1.2);
+
+	this.shape_31 = new cjs.Shape();
+	this.shape_31.graphics.f("#000000").s().p("AgBApQgFgFAAgJIAAgtIgNAAIAAgKIANAAIAAgSIAMAAIAAASIAOAAIAAAKIgOAAIAAAtQAAAEACADQACACAEAAIAGgBIAAAKQgFACgFAAQgIAAgDgGg");
+	this.shape_31.setTransform(-54.975,0.375);
+
+	this.shape_32 = new cjs.Shape();
+	this.shape_32.graphics.f("#000000").s().p("AgWAfQgGgHAAgOIAAgvIANAAIAAAvQAAARANAAQAOAAAEgLIAAg1IANAAIAABJIgMAAIgBgHQgGAJgOAAQgMAAgGgHg");
+	this.shape_32.setTransform(-64.35,1.275);
+
+	this.shape_33 = new cjs.Shape();
+	this.shape_33.graphics.f("#000000").s().p("AgWAgQgIgGAAgJQAAgMAJgFQAJgHAPAAIAMAAIAAgGQAAgGgDgEQgFgEgHAAQgGAAgFADQgEAEAAAEIgNAAQAAgFAEgFQAEgFAHgDQAGgDAIAAQAMgBAIAHQAGAGABALIAAAhQAAALADAGIAAABIgOAAIgCgIQgIAJgLAAQgMAAgGgGgAgRAOQAAAHAEADQAEADAGABQAFAAAFgDQAGgEACgEIAAgQIgKAAQgWAAAAANg");
+	this.shape_33.setTransform(-72,1.2);
+
+	this.shape_34 = new cjs.Shape();
+	this.shape_34.graphics.f("#000000").s().p("AgBApQgFgFAAgJIAAgtIgNAAIAAgKIANAAIAAgSIAMAAIAAASIAOAAIAAAKIgOAAIAAAtQAAAEACADQACACAEAAIAGgBIAAAKQgFACgFAAQgIAAgDgGg");
+	this.shape_34.setTransform(-78.275,0.375);
+
+	this.shape_35 = new cjs.Shape();
+	this.shape_35.graphics.f("#000000").s().p("AgWAgQgIgGAAgJQAAgMAJgFQAJgHAPAAIAMAAIAAgGQAAgGgDgEQgFgEgHAAQgGAAgFADQgEAEAAAEIgNAAQAAgFAEgFQAEgFAHgDQAGgDAIAAQAMgBAIAHQAGAGABALIAAAhQAAALADAGIAAABIgOAAIgCgIQgIAJgLAAQgMAAgGgGgAgRAOQAAAHAEADQAEADAGABQAFAAAFgDQAGgEACgEIAAgQIgKAAQgWAAAAANg");
+	this.shape_35.setTransform(-84.15,1.2);
+
+	this.shape_36 = new cjs.Shape();
+	this.shape_36.graphics.f("#000000").s().p("AgRAmIAAhJIAMAAIAAAIQAGgKALAAIAGABIAAAMIgHAAQgLAAgFAKIAAA0g");
+	this.shape_36.setTransform(-93.4,1.125);
+
+	this.shape_37 = new cjs.Shape();
+	this.shape_37.graphics.f("#000000").s().p("AgXAgQgGgGAAgJQAAgMAJgFQAIgHAPAAIANAAIAAgGQAAgGgFgEQgEgEgHAAQgGAAgEADQgGAEAAAEIgMAAQAAgFAEgFQAEgFAGgDQAHgDAHAAQANgBAHAHQAIAGAAALIAAAhQAAALACAGIAAABIgNAAIgBgIQgKAJgLAAQgKAAgIgGgAgRAOQAAAHAEADQAEADAGABQAFAAAGgDQAFgEADgEIAAgQIgKAAQgXAAAAANg");
+	this.shape_37.setTransform(-99.95,1.2);
+
+	this.shape_38 = new cjs.Shape();
+	this.shape_38.graphics.f("#000000").s().p("AgSArIgBAJIgLAAIAAhoIAMAAIAAAnQAIgKANAAQANAAAIALQAHAKAAAQIAAACQAAARgHAKQgIAKgNAAQgNAAgIgKgAgSAAIAAAfQAGALAMAAQAJAAAFgHQAFgHAAgOQAAgNgFgGQgFgHgJAAQgMAAgGAMg");
+	this.shape_38.setTransform(-107.525,-0.275);
+
+	this.shape_39 = new cjs.Shape();
+	this.shape_39.graphics.f("#000000").s().p("AAnAmIAAgwQAAgIgDgEQgEgEgIAAQgIAAgEAEQgFAFgBAHIAAAwIgLAAIAAgwQAAgQgQAAQgNAAgEALIAAA1IgNAAIAAhJIAMAAIABAIQAIgKAOAAQAPAAAFAMQADgFAGgDQAGgEAIAAQAZAAAAAaIAAAxg");
+	this.shape_39.setTransform(-117.725,1.125);
+
+	this.shape_40 = new cjs.Shape();
+	this.shape_40.graphics.f("#000000").s().p("AgWAgQgIgGABgJQgBgMAKgFQAIgHAPAAIANAAIAAgGQAAgGgFgEQgDgEgIAAQgGAAgEADQgFAEgBAEIgMAAQAAgFAEgFQAEgFAHgDQAHgDAGAAQANgBAHAHQAIAGAAALIAAAhQAAALADAGIAAABIgOAAIgBgIQgKAJgKAAQgMAAgGgGgAgRAOQAAAHAEADQAEADAGABQAFAAAFgDQAGgEADgEIAAgQIgKAAQgXAAAAANg");
+	this.shape_40.setTransform(-127.65,1.2);
+
+	this.shape_41 = new cjs.Shape();
+	this.shape_41.graphics.f("#000000").s().p("AgPAxQgHgDgEgGIAGgIQAIAKAMAAQAIAAAFgFQAGgFAAgKIAAgGQgIAJgMAAQgNAAgIgLQgIgKAAgRQAAgSAIgKQAIgKANAAQANAAAHAJIABgIIALAAIAABHQAAAPgIAIQgJAIgOAAQgHAAgIgDgAgMghQgFAHAAAOQAAAMAFAHQAFAHAIAAQAMAAAGgLIAAghQgGgKgMAAQgIAAgFAHg");
+	this.shape_41.setTransform(-135.525,2.575);
+
+	this.shape_42 = new cjs.Shape();
+	this.shape_42.graphics.f("#000000").s().p("AAQA0IgZghIgIAIIAAAZIgNAAIAAhnIANAAIAAA+IAHgIIAWgYIAPAAIgcAfIAgAqg");
+	this.shape_42.setTransform(-145.825,-0.35);
+
+	this.shape_43 = new cjs.Shape();
+	this.shape_43.graphics.f("#000000").s().p("AgFAyIAAhJIALAAIAABJgAgFglQgBgCAAgDQAAgDABgDQADgCACAAQAEAAABACQACADAAADQAAADgCACQgBACgEAAQgCAAgDgCg");
+	this.shape_43.setTransform(-151.55,-0.15);
+
+	this.shape_44 = new cjs.Shape();
+	this.shape_44.graphics.f("#000000").s().p("AgGA0IAAhnIANAAIAABng");
+	this.shape_44.setTransform(-154.95,-0.35);
+
+	this.shape_45 = new cjs.Shape();
+	this.shape_45.graphics.f("#000000").s().p("AAWAyIgigvIgMANIAAAiIgNAAIAAhjIANAAIAAAxIArgxIAQAAIgmAsIApA3g");
+	this.shape_45.setTransform(-160.475,-0.075);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-167.4,-10.4,334.9,20.8);
+
+
+(lib.Tween1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#000000").s().p("AgFA0IAAhnIAMAAIAABng");
+	this.shape.setTransform(163.6,-0.35);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#000000").s().p("AgFAyIAAhJIALAAIAABJgAgEglQgCgCAAgDQAAgDACgDQACgCACAAQAEAAABACQACADAAADQAAADgCACQgBACgEAAQgCAAgCgCg");
+	this.shape_1.setTransform(160.2,-0.15);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#000000").s().p("AgWAgQgIgGAAgJQAAgMAKgFQAIgHAPAAIAMAAIAAgGQAAgGgDgEQgFgEgHAAQgGAAgFADQgEAEAAAEIgNAAQAAgFAEgFQAEgFAHgDQAGgDAHAAQANgBAIAHQAGAGABALIAAAhQAAALADAGIAAABIgOAAIgCgIQgJAJgKAAQgMAAgGgGgAgRAOQAAAHAEADQAEADAGABQAFAAAFgDQAGgEACgEIAAgQIgJAAQgXAAAAANg");
+	this.shape_2.setTransform(154.7,1.2);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("#000000").s().p("AgBApQgFgFAAgJIAAgtIgNAAIAAgKIANAAIAAgSIAMAAIAAASIAOAAIAAAKIgOAAIAAAtQAAAEACADQACACAEAAIAGgBIAAAKQgFACgFAAQgIAAgDgGg");
+	this.shape_3.setTransform(148.425,0.375);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.f("#000000").s().p("AgVAcQgJgKAAgQIAAgCQAAgKAEgJQAEgJAIgFQAHgEAIAAQAOgBAIAKQAIAJAAATIAAADIgxAAQABAMAGAGQAGAHAIAAQAHAAAFgCQAEgEAEgEIAHAGQgJAOgSAAQgPABgJgLgAgLgWQgFAGgBAKIAkAAIAAgBQgBgJgEgGQgFgFgIAAQgHAAgFAFg");
+	this.shape_4.setTransform(142.725,1.2);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.f("#000000").s().p("AgWArQgIgLAAgRIAAgBQAAgQAIgKQAIgLANAAQAMAAAIAJIAAgmIAMAAIAABoIgLAAIgBgIQgIAJgMAAQgNAAgIgKgAgMgFQgGAHAAAOQAAAMAGAHQAFAHAIAAQAMAAAGgKIAAghQgGgLgMAAQgIAAgFAHg");
+	this.shape_5.setTransform(134.825,-0.275);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.f("#000000").s().p("AAQA0IAAgxQABgHgEgDQgDgEgIAAQgGAAgEADQgEADgDAFIAAA0IgNAAIAAhnIANAAIAAAnQAIgKAMAAQAYAAAAAZIAAAxg");
+	this.shape_6.setTransform(123.75,-0.35);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.f("#000000").s().p("AgGAyIAAhJIANAAIAABJgAgFglQgBgCgBgDQABgDABgDQACgCADAAQAEAAABACQADADAAADQAAADgDACQgBACgEAAQgDAAgCgCg");
+	this.shape_7.setTransform(118.2,-0.15);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.f("#000000").s().p("AgSArIgBAJIgLAAIAAhoIAMAAIAAAnQAIgKANAAQANAAAIALQAHAKAAAQIAAACQAAARgHAKQgIAKgNAAQgNAAgIgKgAgSAAIAAAfQAGALAMAAQAJAAAFgHQAFgHAAgOQAAgNgFgGQgFgHgJAAQgMAAgGAMg");
+	this.shape_8.setTransform(112.725,-0.275);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.f("#000000").s().p("AgVAcQgJgKAAgQIAAgCQAAgKAEgJQAEgJAIgFQAHgEAIAAQAOgBAIAKQAIAJAAATIAAADIgxAAQABAMAGAGQAGAHAIAAQAHAAAFgCQAEgEAEgEIAHAGQgJAOgSAAQgPABgJgLgAgLgWQgFAGgBAKIAkAAIAAgBQgBgJgEgGQgFgFgIAAQgHAAgFAFg");
+	this.shape_9.setTransform(105.025,1.2);
+
+	this.shape_10 = new cjs.Shape();
+	this.shape_10.graphics.f("#000000").s().p("AgFA0IAAhnIALAAIAABng");
+	this.shape_10.setTransform(99.55,-0.35);
+
+	this.shape_11 = new cjs.Shape();
+	this.shape_11.graphics.f("#000000").s().p("AgXAcQgKgKAAgSIAAAAQAAgKAFgJQAEgJAIgFQAHgEAJAAQAPgBAKALQAJALAAAQIAAABQAAAKgEAJQgEAJgIAFQgIAEgKAAQgOAAgJgKgAgOgTQgGAHAAANQAAAMAGAHQAGAIAIAAQAKAAAFgIQAGgHAAgNQAAgMgGgHQgFgIgKAAQgIAAgGAIg");
+	this.shape_11.setTransform(90.375,1.2);
+
+	this.shape_12 = new cjs.Shape();
+	this.shape_12.graphics.f("#000000").s().p("AgJA1IAAg/IgMAAIAAgKIAMAAIAAgHQgBgMAHgHQAFgGAMAAIAJABIgCAKIgGAAQgGAAgDADQgEAEAAAGIAAAIIAPAAIAAAKIgPAAIAAA/g");
+	this.shape_12.setTransform(84.2,-0.425);
+
+	this.shape_13 = new cjs.Shape();
+	this.shape_13.graphics.f("#000000").s().p("AAQAmIAAgwQAAgIgDgEQgDgEgIAAQgFAAgFADQgFAEgDAFIAAA0IgMAAIAAhJIAMAAIAAAJQAJgLANAAQAXAAAAAbIAAAwg");
+	this.shape_13.setTransform(77.65,1.125);
+
+	this.shape_14 = new cjs.Shape();
+	this.shape_14.graphics.f("#000000").s().p("AgFAyIAAhJIALAAIAABJgAgFglQgBgCAAgDQAAgDABgDQADgCACAAQAEAAABACQACADAAADQAAADgCACQgBACgEAAQgCAAgDgCg");
+	this.shape_14.setTransform(72.1,-0.15);
+
+	this.shape_15 = new cjs.Shape();
+	this.shape_15.graphics.f("#000000").s().p("AAQA0IgZghIgIAIIAAAZIgNAAIAAhnIANAAIAAA+IAHgIIAWgYIAPAAIgcAfIAgAqg");
+	this.shape_15.setTransform(63.875,-0.35);
+
+	this.shape_16 = new cjs.Shape();
+	this.shape_16.graphics.f("#000000").s().p("AgWAfQgGgHAAgOIAAgvIANAAIAAAvQAAARANAAQANAAAGgLIAAg1IAMAAIAABJIgMAAIAAgHQgIAJgNAAQgMAAgGgHg");
+	this.shape_16.setTransform(56,1.275);
+
+	this.shape_17 = new cjs.Shape();
+	this.shape_17.graphics.f("#000000").s().p("AgBApQgFgFAAgJIAAgtIgNAAIAAgKIANAAIAAgSIAMAAIAAASIAOAAIAAAKIgOAAIAAAtQAAAEACADQACACAEAAIAGgBIAAAKQgFACgFAAQgIAAgDgGg");
+	this.shape_17.setTransform(49.675,0.375);
+
+	this.shape_18 = new cjs.Shape();
+	this.shape_18.graphics.f("#000000").s().p("AARAmIAAgwQgBgIgDgEQgEgEgHAAQgGAAgEADQgFAEgDAFIAAA0IgMAAIAAhJIAMAAIAAAJQAJgLANAAQAXAAAAAbIAAAwg");
+	this.shape_18.setTransform(43.7,1.125);
+
+	this.shape_19 = new cjs.Shape();
+	this.shape_19.graphics.f("#000000").s().p("AgWAfQgGgHAAgOIAAgvIANAAIAAAvQAAARANAAQAOAAAEgLIAAg1IANAAIAABJIgMAAIgBgHQgGAJgOAAQgMAAgGgHg");
+	this.shape_19.setTransform(36,1.275);
+
+	this.shape_20 = new cjs.Shape();
+	this.shape_20.graphics.f("#000000").s().p("AgOAjQgHgDgDgFQgFgGAAgHIANAAQABAGAEAFQAFADAHAAQAHAAAFgDQADgDAAgEQABgGgEgCQgEgEgJgCQgJgCgGgCQgGgCgCgEQgDgEAAgGQAAgJAHgGQAJgHAKABQANgBAIAHQAIAGAAALIgNAAQAAgGgEgDQgFgEgHAAQgFAAgFADQgDADAAAFQAAAFADACIANAEQAJADAFACQAHACACAFQAEADAAAHQgBAJgHAGQgJAHgMgBQgIAAgHgDg");
+	this.shape_20.setTransform(25.1,1.2);
+
+	this.shape_21 = new cjs.Shape();
+	this.shape_21.graphics.f("#000000").s().p("AgWAgQgIgGABgJQgBgMAKgFQAIgHAPAAIANAAIAAgGQAAgGgFgEQgDgEgIAAQgGAAgEADQgFAEgBAEIgMAAQAAgFAEgFQAEgFAHgDQAHgDAGAAQANgBAHAHQAIAGAAALIAAAhQAAALADAGIAAABIgOAAIgBgIQgKAJgKAAQgMAAgGgGgAgRAOQAAAHAEADQAEADAGABQAFAAAFgDQAGgEADgEIAAgQIgKAAQgXAAAAANg");
+	this.shape_21.setTransform(17.7,1.2);
+
+	this.shape_22 = new cjs.Shape();
+	this.shape_22.graphics.f("#000000").s().p("AgBApQgFgFAAgJIAAgtIgNAAIAAgKIANAAIAAgSIAMAAIAAASIAOAAIAAAKIgOAAIAAAtQAAAEACADQACACAEAAIAGgBIAAAKQgFACgFAAQgIAAgDgGg");
+	this.shape_22.setTransform(11.425,0.375);
+
+	this.shape_23 = new cjs.Shape();
+	this.shape_23.graphics.f("#000000").s().p("AgWAgQgIgGABgJQgBgMAKgFQAIgHAPAAIANAAIAAgGQAAgGgFgEQgDgEgIAAQgGAAgEADQgFAEgBAEIgMAAQAAgFAEgFQAEgFAHgDQAHgDAGAAQANgBAHAHQAIAGAAALIAAAhQAAALADAGIAAABIgOAAIgBgIQgKAJgKAAQgMAAgGgGgAgRAOQAAAHAEADQAEADAGABQAFAAAFgDQAGgEADgEIAAgQIgKAAQgXAAAAANg");
+	this.shape_23.setTransform(5.55,1.2);
+
+	this.shape_24 = new cjs.Shape();
+	this.shape_24.graphics.f("#000000").s().p("AgGAyIAAhJIANAAIAABJgAgFglQgCgCAAgDQAAgDACgDQADgCACAAQAEAAACACQACADAAADQAAADgCACQgCACgEAAQgCAAgDgCg");
+	this.shape_24.setTransform(0.05,-0.15);
+
+	this.shape_25 = new cjs.Shape();
+	this.shape_25.graphics.f("#000000").s().p("AgWArQgIgLAAgRIAAgBQAAgQAIgKQAIgLANAAQAMAAAIAJIAAgmIAMAAIAABoIgLAAIgBgIQgIAJgMAAQgNAAgIgKgAgMgFQgGAHAAAOQAAAMAGAHQAFAHAIAAQAMAAAGgKIAAghQgGgLgMAAQgIAAgFAHg");
+	this.shape_25.setTransform(-5.775,-0.275);
+
+	this.shape_26 = new cjs.Shape();
+	this.shape_26.graphics.f("#000000").s().p("AgGA0IAAhnIANAAIAABng");
+	this.shape_26.setTransform(-14.7,-0.35);
+
+	this.shape_27 = new cjs.Shape();
+	this.shape_27.graphics.f("#000000").s().p("AgXAcQgKgKAAgSIAAAAQAAgKAFgJQAEgJAIgFQAHgEAJAAQAPgBAKALQAJALAAAQIAAABQAAAKgEAJQgEAJgIAFQgIAEgKAAQgOAAgJgKgAgOgTQgGAHAAANQAAAMAGAHQAGAIAIAAQAKAAAFgIQAGgHAAgNQAAgMgGgHQgFgIgKAAQgIAAgGAIg");
+	this.shape_27.setTransform(-20.425,1.2);
+
+	this.shape_28 = new cjs.Shape();
+	this.shape_28.graphics.f("#000000").s().p("AgSArIgBAJIgLAAIAAhoIAMAAIAAAnQAIgKANAAQANAAAIALQAHAKAAAQIAAACQAAARgHAKQgIAKgNAAQgNAAgIgKgAgSAAIAAAfQAGALAMAAQAJAAAFgHQAFgHAAgOQAAgNgFgGQgFgHgJAAQgMAAgGAMg");
+	this.shape_28.setTransform(-28.175,-0.275);
+
+	this.shape_29 = new cjs.Shape();
+	this.shape_29.graphics.f("#000000").s().p("AAnAmIAAgwQAAgIgDgEQgEgEgIAAQgIAAgEAEQgFAFgBAHIAAAwIgLAAIAAgwQAAgQgQAAQgNAAgEALIAAA1IgNAAIAAhJIAMAAIABAIQAIgKAOAAQAPAAAFAMQADgFAGgDQAGgEAIAAQAZAAAAAaIAAAxg");
+	this.shape_29.setTransform(-38.375,1.125);
+
+	this.shape_30 = new cjs.Shape();
+	this.shape_30.graphics.f("#000000").s().p("AgXAcQgKgKAAgSIAAAAQAAgKAFgJQAEgJAIgFQAHgEAJAAQAPgBAKALQAJALAAAQIAAABQAAAKgEAJQgEAJgIAFQgIAEgKAAQgOAAgJgKgAgOgTQgGAHAAANQAAAMAGAHQAGAIAIAAQAKAAAFgIQAGgHAAgNQAAgMgGgHQgFgIgKAAQgIAAgGAIg");
+	this.shape_30.setTransform(-48.525,1.2);
+
+	this.shape_31 = new cjs.Shape();
+	this.shape_31.graphics.f("#000000").s().p("AgBApQgFgFAAgJIAAgtIgNAAIAAgKIANAAIAAgSIAMAAIAAASIAOAAIAAAKIgOAAIAAAtQAAAEACADQACACAEAAIAGgBIAAAKQgFACgFAAQgIAAgDgGg");
+	this.shape_31.setTransform(-54.975,0.375);
+
+	this.shape_32 = new cjs.Shape();
+	this.shape_32.graphics.f("#000000").s().p("AgWAfQgGgHAAgOIAAgvIANAAIAAAvQAAARANAAQAOAAAEgLIAAg1IANAAIAABJIgMAAIgBgHQgGAJgOAAQgMAAgGgHg");
+	this.shape_32.setTransform(-64.35,1.275);
+
+	this.shape_33 = new cjs.Shape();
+	this.shape_33.graphics.f("#000000").s().p("AgWAgQgIgGAAgJQAAgMAJgFQAJgHAPAAIAMAAIAAgGQAAgGgDgEQgFgEgHAAQgGAAgFADQgEAEAAAEIgNAAQAAgFAEgFQAEgFAHgDQAGgDAIAAQAMgBAIAHQAGAGABALIAAAhQAAALADAGIAAABIgOAAIgCgIQgIAJgLAAQgMAAgGgGgAgRAOQAAAHAEADQAEADAGABQAFAAAFgDQAGgEACgEIAAgQIgKAAQgWAAAAANg");
+	this.shape_33.setTransform(-72,1.2);
+
+	this.shape_34 = new cjs.Shape();
+	this.shape_34.graphics.f("#000000").s().p("AgBApQgFgFAAgJIAAgtIgNAAIAAgKIANAAIAAgSIAMAAIAAASIAOAAIAAAKIgOAAIAAAtQAAAEACADQACACAEAAIAGgBIAAAKQgFACgFAAQgIAAgDgGg");
+	this.shape_34.setTransform(-78.275,0.375);
+
+	this.shape_35 = new cjs.Shape();
+	this.shape_35.graphics.f("#000000").s().p("AgWAgQgIgGAAgJQAAgMAJgFQAJgHAPAAIAMAAIAAgGQAAgGgDgEQgFgEgHAAQgGAAgFADQgEAEAAAEIgNAAQAAgFAEgFQAEgFAHgDQAGgDAIAAQAMgBAIAHQAGAGABALIAAAhQAAALADAGIAAABIgOAAIgCgIQgIAJgLAAQgMAAgGgGgAgRAOQAAAHAEADQAEADAGABQAFAAAFgDQAGgEACgEIAAgQIgKAAQgWAAAAANg");
+	this.shape_35.setTransform(-84.15,1.2);
+
+	this.shape_36 = new cjs.Shape();
+	this.shape_36.graphics.f("#000000").s().p("AgRAmIAAhJIAMAAIAAAIQAGgKALAAIAGABIAAAMIgHAAQgLAAgFAKIAAA0g");
+	this.shape_36.setTransform(-93.4,1.125);
+
+	this.shape_37 = new cjs.Shape();
+	this.shape_37.graphics.f("#000000").s().p("AgXAgQgGgGAAgJQAAgMAJgFQAIgHAPAAIANAAIAAgGQAAgGgFgEQgEgEgHAAQgGAAgEADQgGAEAAAEIgMAAQAAgFAEgFQAEgFAGgDQAHgDAHAAQANgBAHAHQAIAGAAALIAAAhQAAALACAGIAAABIgNAAIgBgIQgKAJgLAAQgKAAgIgGgAgRAOQAAAHAEADQAEADAGABQAFAAAGgDQAFgEADgEIAAgQIgKAAQgXAAAAANg");
+	this.shape_37.setTransform(-99.95,1.2);
+
+	this.shape_38 = new cjs.Shape();
+	this.shape_38.graphics.f("#000000").s().p("AgSArIgBAJIgLAAIAAhoIAMAAIAAAnQAIgKANAAQANAAAIALQAHAKAAAQIAAACQAAARgHAKQgIAKgNAAQgNAAgIgKgAgSAAIAAAfQAGALAMAAQAJAAAFgHQAFgHAAgOQAAgNgFgGQgFgHgJAAQgMAAgGAMg");
+	this.shape_38.setTransform(-107.525,-0.275);
+
+	this.shape_39 = new cjs.Shape();
+	this.shape_39.graphics.f("#000000").s().p("AAnAmIAAgwQAAgIgDgEQgEgEgIAAQgIAAgEAEQgFAFgBAHIAAAwIgLAAIAAgwQAAgQgQAAQgNAAgEALIAAA1IgNAAIAAhJIAMAAIABAIQAIgKAOAAQAPAAAFAMQADgFAGgDQAGgEAIAAQAZAAAAAaIAAAxg");
+	this.shape_39.setTransform(-117.725,1.125);
+
+	this.shape_40 = new cjs.Shape();
+	this.shape_40.graphics.f("#000000").s().p("AgWAgQgIgGABgJQgBgMAKgFQAIgHAPAAIANAAIAAgGQAAgGgFgEQgDgEgIAAQgGAAgEADQgFAEgBAEIgMAAQAAgFAEgFQAEgFAHgDQAHgDAGAAQANgBAHAHQAIAGAAALIAAAhQAAALADAGIAAABIgOAAIgBgIQgKAJgKAAQgMAAgGgGgAgRAOQAAAHAEADQAEADAGABQAFAAAFgDQAGgEADgEIAAgQIgKAAQgXAAAAANg");
+	this.shape_40.setTransform(-127.65,1.2);
+
+	this.shape_41 = new cjs.Shape();
+	this.shape_41.graphics.f("#000000").s().p("AgPAxQgHgDgEgGIAGgIQAIAKAMAAQAIAAAFgFQAGgFAAgKIAAgGQgIAJgMAAQgNAAgIgLQgIgKAAgRQAAgSAIgKQAIgKANAAQANAAAHAJIABgIIALAAIAABHQAAAPgIAIQgJAIgOAAQgHAAgIgDgAgMghQgFAHAAAOQAAAMAFAHQAFAHAIAAQAMAAAGgLIAAghQgGgKgMAAQgIAAgFAHg");
+	this.shape_41.setTransform(-135.525,2.575);
+
+	this.shape_42 = new cjs.Shape();
+	this.shape_42.graphics.f("#000000").s().p("AAQA0IgZghIgIAIIAAAZIgNAAIAAhnIANAAIAAA+IAHgIIAWgYIAPAAIgcAfIAgAqg");
+	this.shape_42.setTransform(-145.825,-0.35);
+
+	this.shape_43 = new cjs.Shape();
+	this.shape_43.graphics.f("#000000").s().p("AgFAyIAAhJIALAAIAABJgAgFglQgBgCAAgDQAAgDABgDQADgCACAAQAEAAABACQACADAAADQAAADgCACQgBACgEAAQgCAAgDgCg");
+	this.shape_43.setTransform(-151.55,-0.15);
+
+	this.shape_44 = new cjs.Shape();
+	this.shape_44.graphics.f("#000000").s().p("AgGA0IAAhnIANAAIAABng");
+	this.shape_44.setTransform(-154.95,-0.35);
+
+	this.shape_45 = new cjs.Shape();
+	this.shape_45.graphics.f("#000000").s().p("AAWAyIgigvIgMANIAAAiIgNAAIAAhjIANAAIAAAxIArgxIAQAAIgmAsIApA3g");
+	this.shape_45.setTransform(-160.475,-0.075);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-167.4,-10.4,334.9,20.8);
 
 
 (lib.tubuh2 = function(mode,startPosition,loop) {
@@ -3801,10 +4389,10 @@ p.nominalBounds = new cjs.Rectangle(-170.5,-41.5,341,73.7);
 	this.instance_6 = new lib.C();
 	this.instance_6.setTransform(-221,-150,1.1681,1.1653);
 
-	this.instance_7 = new lib.D();
+	this.instance_7 = new lib.D_1();
 	this.instance_7.setTransform(-221,-150,1.1681,1.1653);
 
-	this.instance_8 = new lib.D_1();
+	this.instance_8 = new lib.D();
 	this.instance_8.setTransform(-221,-150,1.168,1.1652);
 
 	this.instance_9 = new lib.E_1();
@@ -5044,6 +5632,30 @@ p.nominalBounds = new cjs.Rectangle(-207,-153,418,300);
 }).prototype = getMCSymbolPrototype(lib.asekBtn, new cjs.Rectangle(0,0,375.7,248.8), null);
 
 
+(lib.dhh = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.Tween1("synched",0);
+	this.instance.setTransform(167.45,10.4);
+
+	this.instance_1 = new lib.Tween2("synched",0);
+	this.instance_1.setTransform(239.5,10.4);
+	this.instance_1._off = true;
+
+	this.instance_2 = new lib.Tween7("synched",0);
+	this.instance_2.setTransform(167.45,10.4);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},45).to({state:[{t:this.instance_2}]},49).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true,x:239.5},45).wait(50));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({_off:false},45).to({_off:true,x:167.45},49).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,407,20.8);
+
+
 (lib.btnEit = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -5427,6 +6039,13 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.popUpSek._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.popUpSek).wait(5).to({_off:false},0).wait(1));
+
+	// Layer_1
+	this.instance = new lib.dhh();
+	this.instance.setTransform(243.5,489.6,1,1,0,0,0,167.5,10.4);
+	this.instance._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({_off:false},0).wait(1));
 
 	// base
 	this.shape = new cjs.Shape();
@@ -6755,11 +7374,11 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.btnMenuDasar1.setTransform(755.75,504.8);
 	new cjs.ButtonHelper(this.btnMenuDasar1, 0, 1, 2, false, new lib.btnMenuKI(), 3);
 
-	this.instance = new lib.Bitmap16();
-	this.instance.setTransform(7,4);
+	this.instance_1 = new lib.Bitmap16();
+	this.instance_1.setTransform(7,4);
 
-	this.instance_1 = new lib.Bitmap5();
-	this.instance_1.setTransform(-28,-39);
+	this.instance_2 = new lib.Bitmap5();
+	this.instance_2.setTransform(-28,-39);
 
 	this.btnMenuDasar2 = new lib.btnMenuKI();
 	this.btnMenuDasar2.name = "btnMenuDasar2";
@@ -6795,16 +7414,16 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.rongga.shadow = new cjs.Shadow("rgba(0,0,0,1)",1,1,8);
 	new cjs.ButtonHelper(this.rongga, 0, 1, 2);
 
-	this.instance_2 = new lib.panah();
-	this.instance_2.setTransform(476.25,266.45,1.2111,1.2111);
+	this.instance_3 = new lib.panah();
+	this.instance_3.setTransform(476.25,266.45,1.2111,1.2111);
 
 	this.judulKI = new lib.kriteria();
 	this.judulKI.name = "judulKI";
 	this.judulKI.setTransform(289.7,270.95,0.6945,0.6945,0,0,0,0.2,0.3);
 	this.judulKI.shadow = new cjs.Shadow("rgba(0,0,0,1)",1,1,8);
 
-	this.instance_3 = new lib.Bitmap18();
-	this.instance_3.setTransform(7,4);
+	this.instance_4 = new lib.Bitmap18();
+	this.instance_4.setTransform(7,4);
 
 	this.btnMenu3 = new lib.btnMenuKI();
 	this.btnMenu3.name = "btnMenu3";
@@ -6816,8 +7435,8 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.btnBack3.setTransform(885.85,504.8);
 	new cjs.ButtonHelper(this.btnBack3, 0, 1, 2, false, new lib.btnKIBack(), 3);
 
-	this.instance_4 = new lib.Bitmap6();
-	this.instance_4.setTransform(59,75,1.3502,1.3502);
+	this.instance_5 = new lib.Bitmap6();
+	this.instance_5.setTransform(59,75,1.3502,1.3502);
 
 	this.shape_329 = new cjs.Shape();
 	this.shape_329.graphics.f("#FFFFFF").s().p("AgGAGQgBgCAAgEQAAgCABgDQACgCAEAAQAEAAADACQACADAAACQAAAEgCACQgDACgEAAQgEAAgCgCg");
@@ -9929,8 +10548,8 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.judulKI_2.setTransform(714.9,185.05,1.184,4.251,0,0,0,0.3,0.5);
 	this.judulKI_2.shadow = new cjs.Shadow("rgba(0,0,0,1)",1,1,8);
 
-	this.instance_5 = new lib.Bitmap22();
-	this.instance_5.setTransform(7,4);
+	this.instance_6 = new lib.Bitmap22();
+	this.instance_6.setTransform(7,4);
 
 	this.shape_1104 = new cjs.Shape();
 	this.shape_1104.graphics.f("#FFFFFF").s().p("AhJCGQgjgVgUgjQgVgjgBgrQABgqAVgjQAUgjAjgVQAjgVArAAQAYAAAWAHQAXAHAUAOQATANAOATQAOASAJAWIABACIgDABIgOAFIgDABIAAgCQgIgTgMgQQgMgQgRgLQgRgMgUgHQgTgGgVAAQglABgeASQgfASgSAeQgSAfAAAkQAAAmASAeQASAeAfASQAeASAlABQAVAAATgGQAUgHARgMQARgLAMgQQAMgQAIgTIAAgCIADABIAOAFIADABIgBACQgJAWgOASQgOATgTANQgUAOgXAHQgWAHgYAAQgrAAgjgVg");
@@ -9959,14 +10578,14 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.judulKI_5.setTransform(106.85,334,0.1178,0.8008,0,0,0,2.1,0.6);
 	this.judulKI_5.shadow = new cjs.Shadow("rgba(0,0,0,1)",1,1,8);
 
-	this.instance_6 = new lib.Bitmap9();
-	this.instance_6.setTransform(316,175.75,1.267,1.267);
+	this.instance_7 = new lib.Bitmap9();
+	this.instance_7.setTransform(316,175.75,1.267,1.267);
 
-	this.instance_7 = new lib.Bitmap8();
-	this.instance_7.setTransform(182,176.75,1.267,1.267);
+	this.instance_8 = new lib.Bitmap8();
+	this.instance_8.setTransform(182,176.75,1.267,1.267);
 
-	this.instance_8 = new lib.Bitmap7();
-	this.instance_8.setTransform(56,175.75,1.267,1.267);
+	this.instance_9 = new lib.Bitmap7();
+	this.instance_9.setTransform(56,175.75,1.267,1.267);
 
 	this.shape_1107 = new cjs.Shape();
 	this.shape_1107.graphics.f("#FFFFFF").s().p("AgGAGQgBgCAAgEQAAgCABgDQADgCADAAQAEAAACACQADADAAACQAAAEgDACQgCACgEAAQgDAAgDgCg");
@@ -11120,11 +11739,11 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.shape_1394.graphics.f("#FFFFFF").s().p("AAhA1IgKgcIgsAAIgLAcIgOAAIAphpIALAAIApBpgAgRAOIAjAAIgSgxg");
 	this.shape_1394.setTransform(491.45,105.875);
 
-	this.instance_9 = new lib.Bitmap24();
-	this.instance_9.setTransform(7,4);
+	this.instance_10 = new lib.Bitmap24();
+	this.instance_10.setTransform(7,4);
 
-	this.instance_10 = new lib.Bitmap10();
-	this.instance_10.setTransform(62,148,1.4878,1.3907);
+	this.instance_11 = new lib.Bitmap10();
+	this.instance_11.setTransform(62,148,1.4878,1.3907);
 
 	this.shape_1395 = new cjs.Shape();
 	this.shape_1395.graphics.f("#FFFFFF").s().p("AgFAGQgCgCAAgEQAAgCACgCQADgCACgBQADAAACACQADADAAACQAAADgDACQgCACgDABQgCAAgDgCg");
@@ -13362,8 +13981,8 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.shape_1953.graphics.f("#FFFFFF").s().p("AAeAyIgJgaIgpAAIgJAaIgOAAIAmhjIALAAIAmBjgAgQANIAhAAIgRgug");
 	this.shape_1953.setTransform(491.125,100.875);
 
-	this.instance_11 = new lib.Bitmap26();
-	this.instance_11.setTransform(7,4);
+	this.instance_12 = new lib.Bitmap26();
+	this.instance_12.setTransform(7,4);
 
 	this.asekBtn = new lib.asekBtn();
 	this.asekBtn.name = "asekBtn";
@@ -13395,11 +14014,11 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.judulKI_7.setTransform(168.75,40.7,0.7842,0.7842);
 	this.judulKI_7.shadow = new cjs.Shadow("rgba(0,0,0,1)",1,1,8);
 
-	this.instance_12 = new lib.kotakBawah();
-	this.instance_12.setTransform(471.85,282.95,1,1.1558);
-	this.instance_12.shadow = new cjs.Shadow("rgba(0,0,0,1)",4,4,14);
+	this.instance_13 = new lib.kotakBawah();
+	this.instance_13.setTransform(471.85,282.95,1,1.1558);
+	this.instance_13.shadow = new cjs.Shadow("rgba(0,0,0,1)",4,4,14);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance},{t:this.btnMenuDasar1},{t:this.btnNextDasar1},{t:this.shape_328},{t:this.shape_327},{t:this.shape_326},{t:this.shape_325},{t:this.shape_324},{t:this.shape_323},{t:this.shape_322},{t:this.shape_321},{t:this.shape_320},{t:this.shape_319},{t:this.shape_318},{t:this.shape_317},{t:this.shape_316},{t:this.shape_315},{t:this.shape_314},{t:this.shape_313},{t:this.shape_312},{t:this.shape_311},{t:this.shape_310},{t:this.shape_309},{t:this.shape_308},{t:this.shape_307},{t:this.shape_306},{t:this.shape_305},{t:this.shape_304},{t:this.shape_303},{t:this.shape_302},{t:this.shape_301},{t:this.shape_300},{t:this.shape_299},{t:this.shape_298},{t:this.shape_297},{t:this.shape_296},{t:this.shape_295},{t:this.shape_294},{t:this.shape_293},{t:this.shape_292},{t:this.shape_291},{t:this.shape_290},{t:this.shape_289},{t:this.shape_288},{t:this.shape_287},{t:this.shape_286},{t:this.shape_285},{t:this.shape_284},{t:this.shape_283},{t:this.shape_282},{t:this.shape_281},{t:this.shape_280},{t:this.shape_279},{t:this.shape_278},{t:this.shape_277},{t:this.shape_276},{t:this.shape_275},{t:this.shape_274},{t:this.shape_273},{t:this.shape_272},{t:this.shape_271},{t:this.shape_270},{t:this.shape_269},{t:this.shape_268},{t:this.shape_267},{t:this.shape_266},{t:this.shape_265},{t:this.shape_264},{t:this.shape_263},{t:this.shape_262},{t:this.shape_261},{t:this.shape_260},{t:this.shape_259},{t:this.shape_258},{t:this.shape_257},{t:this.shape_256},{t:this.shape_255},{t:this.shape_254},{t:this.shape_253},{t:this.shape_252},{t:this.shape_251},{t:this.shape_250},{t:this.shape_249},{t:this.shape_248},{t:this.shape_247},{t:this.shape_246},{t:this.shape_245},{t:this.shape_244},{t:this.shape_243},{t:this.shape_242},{t:this.shape_241},{t:this.shape_240},{t:this.shape_239},{t:this.shape_238},{t:this.shape_237},{t:this.shape_236},{t:this.shape_235},{t:this.shape_234},{t:this.shape_233},{t:this.shape_232},{t:this.shape_231},{t:this.shape_230},{t:this.shape_229},{t:this.shape_228},{t:this.shape_227},{t:this.shape_226},{t:this.shape_225},{t:this.shape_224},{t:this.shape_223},{t:this.shape_222},{t:this.shape_221},{t:this.shape_220},{t:this.shape_219},{t:this.shape_218},{t:this.shape_217},{t:this.shape_216},{t:this.shape_215},{t:this.shape_214},{t:this.shape_213},{t:this.shape_212},{t:this.shape_211},{t:this.shape_210},{t:this.shape_209},{t:this.shape_208},{t:this.shape_207},{t:this.shape_206},{t:this.shape_205},{t:this.shape_204},{t:this.shape_203},{t:this.shape_202},{t:this.shape_201},{t:this.shape_200},{t:this.shape_199},{t:this.shape_198},{t:this.shape_197},{t:this.shape_196},{t:this.shape_195},{t:this.shape_194},{t:this.shape_193},{t:this.shape_192},{t:this.shape_191},{t:this.shape_190},{t:this.shape_189},{t:this.shape_188},{t:this.shape_187},{t:this.shape_186},{t:this.shape_185},{t:this.shape_184},{t:this.shape_183},{t:this.shape_182},{t:this.shape_181},{t:this.shape_180},{t:this.shape_179},{t:this.shape_178},{t:this.shape_177},{t:this.shape_176},{t:this.shape_175},{t:this.shape_174},{t:this.shape_173},{t:this.shape_172},{t:this.shape_171},{t:this.shape_170},{t:this.shape_169},{t:this.shape_168},{t:this.shape_167},{t:this.shape_166},{t:this.shape_165},{t:this.shape_164},{t:this.shape_163},{t:this.shape_162},{t:this.shape_161},{t:this.shape_160},{t:this.shape_159},{t:this.shape_158},{t:this.shape_157},{t:this.shape_156},{t:this.shape_155},{t:this.shape_154},{t:this.shape_153},{t:this.shape_152},{t:this.shape_151},{t:this.shape_150},{t:this.shape_149},{t:this.shape_148},{t:this.shape_147},{t:this.shape_146},{t:this.shape_145},{t:this.shape_144},{t:this.shape_143},{t:this.shape_142},{t:this.shape_141},{t:this.shape_140},{t:this.shape_139},{t:this.shape_138},{t:this.shape_137},{t:this.shape_136},{t:this.shape_135},{t:this.shape_134},{t:this.shape_133},{t:this.shape_132},{t:this.shape_131},{t:this.shape_130},{t:this.shape_129},{t:this.shape_128},{t:this.shape_127},{t:this.shape_126},{t:this.shape_125},{t:this.shape_124},{t:this.shape_123},{t:this.shape_122},{t:this.shape_121},{t:this.shape_120},{t:this.shape_119},{t:this.shape_118},{t:this.shape_117},{t:this.shape_116},{t:this.shape_115},{t:this.shape_114},{t:this.shape_113},{t:this.shape_112},{t:this.shape_111},{t:this.shape_110},{t:this.shape_109},{t:this.shape_108},{t:this.shape_107},{t:this.shape_106},{t:this.shape_105},{t:this.shape_104},{t:this.shape_103},{t:this.shape_102},{t:this.shape_101},{t:this.shape_100},{t:this.shape_99},{t:this.shape_98},{t:this.shape_97},{t:this.shape_96},{t:this.shape_95},{t:this.shape_94},{t:this.shape_93},{t:this.shape_92},{t:this.shape_91},{t:this.shape_90},{t:this.shape_89},{t:this.shape_88},{t:this.shape_87},{t:this.shape_86},{t:this.shape_85},{t:this.shape_84},{t:this.shape_83},{t:this.shape_82},{t:this.shape_81},{t:this.shape_80},{t:this.shape_79},{t:this.shape_78},{t:this.shape_77},{t:this.shape_76},{t:this.shape_75},{t:this.shape_74},{t:this.shape_73},{t:this.shape_72},{t:this.shape_71},{t:this.shape_70},{t:this.shape_69},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).to({state:[{t:this.instance_1},{t:this.instance_3},{t:this.judulKI},{t:this.instance_2},{t:this.rongga},{t:this.lapisan},{t:this.simetri},{t:this.reprod},{t:this.btnBackDasar2},{t:this.btnMenuDasar2}]},1).to({state:[{t:this.instance_1},{t:this.instance_5},{t:this.judulKI_2,p:{regX:0.3,regY:0.5,scaleX:1.184,scaleY:4.251,x:714.9,y:185.05}},{t:this.shape_1103},{t:this.shape_1102},{t:this.shape_1101},{t:this.shape_1100},{t:this.shape_1099},{t:this.shape_1098},{t:this.shape_1097},{t:this.shape_1096},{t:this.shape_1095},{t:this.shape_1094},{t:this.shape_1093},{t:this.shape_1092},{t:this.shape_1091},{t:this.shape_1090},{t:this.shape_1089},{t:this.shape_1088},{t:this.shape_1087},{t:this.shape_1086},{t:this.shape_1085},{t:this.shape_1084},{t:this.shape_1083},{t:this.shape_1082},{t:this.shape_1081},{t:this.shape_1080},{t:this.shape_1079},{t:this.shape_1078},{t:this.shape_1077},{t:this.shape_1076},{t:this.shape_1075},{t:this.shape_1074},{t:this.shape_1073},{t:this.shape_1072},{t:this.shape_1071},{t:this.shape_1070},{t:this.shape_1069},{t:this.shape_1068},{t:this.shape_1067},{t:this.shape_1066},{t:this.shape_1065},{t:this.shape_1064},{t:this.shape_1063},{t:this.shape_1062},{t:this.shape_1061},{t:this.shape_1060},{t:this.shape_1059},{t:this.shape_1058},{t:this.shape_1057},{t:this.shape_1056},{t:this.shape_1055},{t:this.shape_1054},{t:this.shape_1053},{t:this.shape_1052},{t:this.shape_1051},{t:this.shape_1050},{t:this.shape_1049},{t:this.shape_1048},{t:this.shape_1047},{t:this.shape_1046},{t:this.shape_1045},{t:this.shape_1044},{t:this.shape_1043},{t:this.shape_1042},{t:this.shape_1041},{t:this.shape_1040},{t:this.shape_1039},{t:this.shape_1038},{t:this.shape_1037},{t:this.shape_1036},{t:this.shape_1035},{t:this.shape_1034},{t:this.shape_1033},{t:this.shape_1032},{t:this.shape_1031},{t:this.shape_1030},{t:this.shape_1029},{t:this.shape_1028},{t:this.shape_1027},{t:this.shape_1026},{t:this.shape_1025},{t:this.shape_1024},{t:this.shape_1023},{t:this.shape_1022},{t:this.shape_1021},{t:this.shape_1020},{t:this.shape_1019},{t:this.shape_1018},{t:this.shape_1017},{t:this.shape_1016},{t:this.shape_1015},{t:this.shape_1014},{t:this.shape_1013},{t:this.shape_1012},{t:this.shape_1011},{t:this.shape_1010},{t:this.shape_1009},{t:this.shape_1008},{t:this.shape_1007},{t:this.shape_1006},{t:this.shape_1005},{t:this.shape_1004},{t:this.shape_1003},{t:this.shape_1002},{t:this.shape_1001},{t:this.shape_1000},{t:this.shape_999},{t:this.shape_998},{t:this.shape_997},{t:this.shape_996},{t:this.shape_995},{t:this.shape_994},{t:this.shape_993},{t:this.shape_992},{t:this.shape_991},{t:this.shape_990},{t:this.shape_989},{t:this.shape_988},{t:this.shape_987},{t:this.shape_986},{t:this.shape_985},{t:this.shape_984},{t:this.shape_983},{t:this.shape_982},{t:this.shape_981},{t:this.shape_980},{t:this.shape_979},{t:this.shape_978},{t:this.shape_977},{t:this.shape_976},{t:this.shape_975},{t:this.shape_974},{t:this.shape_973},{t:this.shape_972},{t:this.shape_971},{t:this.shape_970},{t:this.shape_969},{t:this.shape_968},{t:this.shape_967},{t:this.shape_966},{t:this.shape_965},{t:this.shape_964},{t:this.shape_963},{t:this.shape_962},{t:this.shape_961},{t:this.shape_960},{t:this.shape_959},{t:this.shape_958},{t:this.shape_957},{t:this.shape_956},{t:this.shape_955},{t:this.shape_954},{t:this.shape_953},{t:this.shape_952},{t:this.shape_951},{t:this.shape_950},{t:this.shape_949},{t:this.shape_948},{t:this.shape_947},{t:this.shape_946},{t:this.shape_945},{t:this.shape_944},{t:this.shape_943},{t:this.shape_942},{t:this.shape_941},{t:this.shape_940},{t:this.shape_939},{t:this.shape_938},{t:this.shape_937},{t:this.shape_936},{t:this.shape_935},{t:this.shape_934},{t:this.shape_933},{t:this.shape_932},{t:this.shape_931},{t:this.shape_930},{t:this.shape_929},{t:this.shape_928},{t:this.shape_927},{t:this.shape_926},{t:this.shape_925},{t:this.shape_924},{t:this.shape_923},{t:this.shape_922},{t:this.shape_921},{t:this.shape_920},{t:this.shape_919},{t:this.shape_918},{t:this.shape_917},{t:this.shape_916},{t:this.shape_915},{t:this.shape_914},{t:this.shape_913},{t:this.shape_912},{t:this.shape_911},{t:this.shape_910},{t:this.shape_909},{t:this.shape_908},{t:this.shape_907},{t:this.shape_906},{t:this.shape_905},{t:this.shape_904},{t:this.shape_903},{t:this.shape_902},{t:this.shape_901},{t:this.shape_900},{t:this.shape_899},{t:this.shape_898},{t:this.shape_897},{t:this.shape_896},{t:this.shape_895},{t:this.shape_894},{t:this.shape_893},{t:this.shape_892},{t:this.shape_891},{t:this.shape_890},{t:this.shape_889},{t:this.shape_888},{t:this.shape_887},{t:this.shape_886},{t:this.shape_885},{t:this.shape_884},{t:this.shape_883},{t:this.shape_882},{t:this.shape_881},{t:this.shape_880},{t:this.shape_879},{t:this.shape_878},{t:this.shape_877},{t:this.shape_876},{t:this.shape_875},{t:this.shape_874},{t:this.shape_873},{t:this.shape_872},{t:this.shape_871},{t:this.shape_870},{t:this.shape_869},{t:this.shape_868},{t:this.shape_867},{t:this.shape_866},{t:this.shape_865},{t:this.shape_864},{t:this.shape_863},{t:this.shape_862},{t:this.shape_861},{t:this.shape_860},{t:this.shape_859},{t:this.shape_858},{t:this.shape_857},{t:this.shape_856},{t:this.shape_855},{t:this.shape_854},{t:this.shape_853},{t:this.shape_852},{t:this.shape_851},{t:this.shape_850},{t:this.shape_849},{t:this.shape_848},{t:this.shape_847},{t:this.shape_846},{t:this.shape_845},{t:this.shape_844},{t:this.shape_843},{t:this.shape_842},{t:this.shape_841},{t:this.shape_840},{t:this.shape_839},{t:this.shape_838},{t:this.shape_837},{t:this.shape_836},{t:this.shape_835},{t:this.shape_834},{t:this.shape_833},{t:this.shape_832},{t:this.shape_831},{t:this.shape_830},{t:this.shape_829},{t:this.shape_828},{t:this.shape_827},{t:this.shape_826},{t:this.shape_825},{t:this.shape_824},{t:this.shape_823},{t:this.shape_822},{t:this.shape_821},{t:this.shape_820},{t:this.shape_819},{t:this.shape_818},{t:this.shape_817},{t:this.shape_816},{t:this.shape_815},{t:this.shape_814},{t:this.shape_813},{t:this.shape_812},{t:this.shape_811},{t:this.shape_810},{t:this.shape_809},{t:this.shape_808},{t:this.shape_807},{t:this.shape_806},{t:this.shape_805},{t:this.shape_804},{t:this.shape_803},{t:this.shape_802},{t:this.shape_801},{t:this.shape_800},{t:this.shape_799},{t:this.shape_798},{t:this.shape_797},{t:this.shape_796},{t:this.shape_795},{t:this.shape_794},{t:this.shape_793},{t:this.shape_792},{t:this.shape_791},{t:this.shape_790},{t:this.shape_789},{t:this.shape_788},{t:this.shape_787},{t:this.shape_786},{t:this.shape_785},{t:this.shape_784},{t:this.shape_783},{t:this.shape_782},{t:this.shape_781},{t:this.shape_780},{t:this.shape_779},{t:this.shape_778},{t:this.shape_777},{t:this.shape_776},{t:this.shape_775},{t:this.judulKI_1},{t:this.shape_774},{t:this.shape_773},{t:this.shape_772},{t:this.shape_771},{t:this.shape_770},{t:this.shape_769},{t:this.shape_768},{t:this.shape_767,p:{x:112.875,y:358.15}},{t:this.shape_766,p:{x:121.425,y:358.15}},{t:this.shape_765},{t:this.shape_764},{t:this.shape_763},{t:this.shape_762},{t:this.shape_761},{t:this.shape_760},{t:this.shape_759},{t:this.shape_758},{t:this.shape_757},{t:this.shape_756},{t:this.shape_755},{t:this.shape_754},{t:this.shape_753},{t:this.shape_752},{t:this.shape_751,p:{x:246,y:358.975}},{t:this.shape_750},{t:this.shape_749},{t:this.shape_748},{t:this.shape_747},{t:this.shape_746},{t:this.shape_745},{t:this.shape_744,p:{x:304.75,y:358.975}},{t:this.shape_743,p:{x:310.75,y:357.6}},{t:this.shape_742,p:{x:316.875,y:357.375}},{t:this.shape_741},{t:this.shape_740,p:{x:330.325,y:360.65}},{t:this.shape_739},{t:this.shape_738,p:{x:343.9,y:357.6}},{t:this.shape_737,p:{x:347.925,y:358.15}},{t:this.shape_736,p:{x:354.675,y:359.125}},{t:this.shape_735},{t:this.shape_734},{t:this.shape_733},{t:this.shape_732},{t:this.shape_731,p:{x:84.475,y:376.375}},{t:this.shape_730},{t:this.shape_729},{t:this.shape_728,p:{x:105.2,y:376.45}},{t:this.shape_727},{t:this.shape_726},{t:this.shape_725},{t:this.shape_724},{t:this.shape_723},{t:this.shape_722},{t:this.shape_721},{t:this.shape_720,p:{x:164.45,y:376.6}},{t:this.shape_719},{t:this.shape_718},{t:this.shape_717,p:{x:186.3,y:377.975}},{t:this.shape_716,p:{x:196.375,y:377.15}},{t:this.shape_715},{t:this.shape_714},{t:this.shape_713,p:{x:213.825,y:376.375}},{t:this.shape_712,p:{x:219.775,y:378.125}},{t:this.shape_711},{t:this.shape_710},{t:this.shape_709,p:{x:244.375,y:379.65}},{t:this.shape_708},{t:this.shape_707,p:{x:260.25,y:377.975}},{t:this.shape_706},{t:this.shape_705},{t:this.shape_704,p:{x:288.55,y:377.975}},{t:this.shape_703,p:{x:296.825,y:378.125}},{t:this.shape_702,p:{x:303.175,y:377.15}},{t:this.shape_701,p:{x:309.925,y:378.125}},{t:this.shape_700},{t:this.shape_699,p:{x:324.3,y:376.6}},{t:this.shape_698},{t:this.shape_697},{t:this.shape_696},{t:this.shape_695},{t:this.shape_694,p:{x:368.475,y:378.125}},{t:this.shape_693,p:{x:376.925,y:376.375}},{t:this.shape_692},{t:this.shape_691},{t:this.shape_690,p:{x:400.65,y:377.975}},{t:this.shape_689},{t:this.shape_688},{t:this.shape_687},{t:this.shape_686},{t:this.shape_685,p:{x:444.9,y:376.6}},{t:this.shape_684},{t:this.shape_683},{t:this.shape_682},{t:this.shape_681},{t:this.shape_680,p:{x:481.525,y:377.15}},{t:this.shape_679},{t:this.shape_678},{t:this.shape_677},{t:this.shape_676},{t:this.shape_675},{t:this.shape_674},{t:this.shape_673,p:{x:543.475,y:376.375}},{t:this.shape_672},{t:this.shape_671,p:{x:559.05,y:377.975}},{t:this.shape_670},{t:this.shape_669},{t:this.shape_668},{t:this.shape_667,p:{x:592.625,y:376.375}},{t:this.shape_666},{t:this.shape_665},{t:this.shape_664},{t:this.shape_663},{t:this.shape_662},{t:this.shape_661,p:{x:645.85,y:379.525}},{t:this.shape_660},{t:this.shape_659},{t:this.shape_658,p:{x:679.1,y:377.975}},{t:this.shape_657},{t:this.shape_656},{t:this.shape_655},{t:this.shape_654,p:{x:705.3,y:376.6}},{t:this.shape_653},{t:this.shape_652},{t:this.shape_651,p:{x:731.25,y:377.975}},{t:this.shape_650,p:{x:739.525,y:378.125}},{t:this.shape_649,p:{x:745.875,y:377.15}},{t:this.shape_648,p:{x:752.625,y:378.125}},{t:this.shape_647},{t:this.shape_646,p:{x:770.675,y:376.375}},{t:this.shape_645,p:{x:776.625,y:378.125}},{t:this.shape_644},{t:this.shape_643},{t:this.shape_642,p:{x:76.275,y:396.15}},{t:this.shape_641,p:{x:83.025,y:397.125}},{t:this.shape_640},{t:this.shape_639,p:{x:99.675,y:397.125}},{t:this.shape_638},{t:this.shape_637},{t:this.shape_636},{t:this.shape_635},{t:this.shape_634},{t:this.shape_633,p:{x:155.45,y:396.975}},{t:this.shape_632},{t:this.shape_631},{t:this.shape_630},{t:this.shape_629},{t:this.shape_628,p:{x:84.3,y:415.975}},{t:this.shape_627},{t:this.shape_626,p:{x:101.175,y:416.05}},{t:this.shape_625},{t:this.shape_624},{t:this.shape_623},{t:this.shape_622,p:{x:133.475,y:415.975}},{t:this.shape_621},{t:this.shape_620,p:{x:148.525,y:414.375}},{t:this.shape_619},{t:this.shape_618,p:{x:162.875,y:417.5}},{t:this.shape_617},{t:this.shape_616},{t:this.shape_615},{t:this.shape_614,p:{x:190.6,y:415.975}},{t:this.shape_613},{t:this.shape_612},{t:this.shape_611},{t:this.shape_610},{t:this.shape_609},{t:this.shape_608,p:{x:234.725,y:414.375}},{t:this.shape_607},{t:this.shape_606,p:{x:251.275,y:415.975}},{t:this.shape_605},{t:this.shape_604},{t:this.shape_603,p:{x:282.3,y:415.975}},{t:this.shape_602,p:{x:296.725,y:415.975}},{t:this.shape_601},{t:this.shape_600},{t:this.shape_599,p:{x:323.625,y:416.125}},{t:this.shape_598},{t:this.shape_597,p:{x:336.725,y:416.125}},{t:this.shape_596,p:{x:345.225,y:417.5}},{t:this.shape_595,p:{x:351.1,y:414.6}},{t:this.shape_594},{t:this.shape_593},{t:this.shape_592,p:{x:374.325,y:414.375}},{t:this.shape_591,p:{x:380.275,y:416.125}},{t:this.shape_590},{t:this.shape_589},{t:this.shape_588},{t:this.shape_587,p:{x:414.025,y:417.5}},{t:this.shape_586},{t:this.shape_585},{t:this.shape_584},{t:this.shape_583},{t:this.shape_582},{t:this.shape_581,p:{x:459.25,y:415.975}},{t:this.shape_580},{t:this.shape_579},{t:this.shape_578,p:{x:483.85,y:415.975}},{t:this.shape_577},{t:this.shape_576},{t:this.shape_575},{t:this.shape_574,p:{x:519.3,y:417.525}},{t:this.shape_573},{t:this.shape_572},{t:this.shape_571},{t:this.shape_570},{t:this.shape_569,p:{x:563.75,y:415.975}},{t:this.shape_568},{t:this.shape_567},{t:this.shape_566},{t:this.shape_565},{t:this.shape_564,p:{x:605.725,y:414.375}},{t:this.shape_563},{t:this.shape_562,p:{x:623.475,y:415.975}},{t:this.shape_561},{t:this.shape_560},{t:this.shape_559,p:{x:650.75,y:415.975}},{t:this.shape_558,p:{x:658.95,y:417.525}},{t:this.shape_557},{t:this.shape_556},{t:this.shape_555},{t:this.shape_554,p:{x:687.075,y:414.375}},{t:this.shape_553},{t:this.shape_552},{t:this.shape_551},{t:this.shape_550},{t:this.shape_549},{t:this.shape_548,p:{x:728.675,y:416.05}},{t:this.shape_547,p:{x:737.1,y:415.975}},{t:this.shape_546},{t:this.shape_545},{t:this.shape_544,p:{x:86.75,y:434.975}},{t:this.shape_543},{t:this.shape_542},{t:this.shape_541},{t:this.shape_540},{t:this.shape_539},{t:this.shape_538,p:{x:135.925,y:434.975}},{t:this.shape_537},{t:this.shape_536,p:{x:158.675,y:433.375}},{t:this.shape_535},{t:this.shape_534,p:{x:174.25,y:434.975}},{t:this.shape_533},{t:this.shape_532},{t:this.shape_531},{t:this.shape_530,p:{x:207.825,y:433.375}},{t:this.shape_529},{t:this.shape_528,p:{x:225.575,y:434.975}},{t:this.shape_527},{t:this.shape_526},{t:this.shape_525,p:{x:252.85,y:434.975}},{t:this.shape_524},{t:this.shape_523,p:{x:275.675,y:434.975}},{t:this.shape_522},{t:this.shape_521,p:{x:294.3,y:434.975}},{t:this.shape_520},{t:this.shape_519},{t:this.shape_518},{t:this.shape_517},{t:this.shape_516},{t:this.shape_515},{t:this.shape_514,p:{x:343.725,y:433.375}},{t:this.shape_513,p:{x:349.675,y:435.125}},{t:this.shape_512,p:{x:356.75,y:434.975}},{t:this.shape_511},{t:this.shape_510,p:{x:371.2,y:434.975}},{t:this.shape_509},{t:this.shape_508,p:{x:391.5,y:435.05}},{t:this.shape_507,p:{x:399.5,y:434.975}},{t:this.shape_506},{t:this.shape_505},{t:this.shape_504,p:{x:422.35,y:434.975}},{t:this.shape_503,p:{x:428.65,y:434.975}},{t:this.shape_502},{t:this.shape_501},{t:this.shape_500,p:{x:453.25,y:434.975}},{t:this.shape_499},{t:this.shape_498},{t:this.shape_497},{t:this.shape_496},{t:this.shape_495,p:{x:487.15,y:433.6}},{t:this.shape_494},{t:this.shape_493},{t:this.shape_492,p:{x:513.4,y:434.975}},{t:this.shape_491},{t:this.shape_490},{t:this.shape_489},{t:this.shape_488,p:{x:547.025,y:435.125}},{t:this.shape_487},{t:this.shape_486},{t:this.shape_485},{t:this.shape_484,p:{x:576.925,y:435.125}},{t:this.shape_483,p:{x:588.9,y:433.375}},{t:this.shape_482},{t:this.shape_481},{t:this.shape_480},{t:this.shape_479,p:{x:624.45,y:434.975}},{t:this.shape_478},{t:this.shape_477},{t:this.shape_476,p:{x:650.4,y:434.975}},{t:this.shape_475,p:{x:654.775,y:434.15}},{t:this.shape_474},{t:this.shape_473},{t:this.shape_472},{t:this.shape_471},{t:this.shape_470,p:{x:689.175,y:434.15}},{t:this.shape_469},{t:this.shape_468},{t:this.shape_467},{t:this.shape_466},{t:this.shape_465},{t:this.shape_464},{t:this.shape_463},{t:this.shape_462},{t:this.shape_461},{t:this.shape_460},{t:this.shape_459},{t:this.shape_458,p:{x:136.925,y:453.975}},{t:this.shape_457},{t:this.shape_456},{t:this.shape_455},{t:this.shape_454,p:{x:165.85,y:453.975}},{t:this.shape_453,p:{x:169.825,y:452.375}},{t:this.shape_452},{t:this.shape_451},{t:this.shape_450},{t:this.shape_449,p:{x:196.875,y:452.375}},{t:this.shape_448},{t:this.shape_447},{t:this.shape_446},{t:this.shape_445,p:{x:228.25,y:453.975}},{t:this.shape_444},{t:this.shape_443},{t:this.shape_442,p:{x:248.35,y:453.975}},{t:this.shape_441},{t:this.shape_440},{t:this.shape_439},{t:this.shape_438,p:{x:280.325,y:453.15}},{t:this.shape_437},{t:this.shape_436},{t:this.shape_435},{t:this.shape_434,p:{x:310.8,y:453.975}},{t:this.shape_433,p:{x:319.525,y:453.975}},{t:this.shape_432},{t:this.shape_431},{t:this.shape_430,p:{x:350.55,y:453.975}},{t:this.shape_429},{t:this.shape_428,p:{x:370.45,y:453.975}},{t:this.shape_427},{t:this.shape_426},{t:this.shape_425},{t:this.shape_424},{t:this.shape_423,p:{x:410.9,y:453.975}},{t:this.shape_422,p:{x:419.625,y:453.975}},{t:this.shape_421},{t:this.shape_420},{t:this.shape_419},{t:this.shape_418},{t:this.shape_417},{t:this.shape_416},{t:this.shape_415},{t:this.shape_414,p:{x:490.45,y:453.975}},{t:this.shape_413,p:{x:499.175,y:453.975}},{t:this.shape_412},{t:this.shape_411,p:{x:521.925,y:452.375}},{t:this.shape_410},{t:this.shape_409,p:{x:537.5,y:453.975}},{t:this.shape_408,p:{x:551.925,y:453.975}},{t:this.shape_407},{t:this.shape_406,p:{x:570.55,y:453.975}},{t:this.shape_405},{t:this.shape_404,p:{x:582.375,y:454.05}},{t:this.shape_403},{t:this.shape_402,p:{x:596.75,y:452.6}},{t:this.shape_401},{t:this.shape_400,p:{x:613.025,y:453.15}},{t:this.shape_399},{t:this.shape_398,p:{x:626.425,y:453.15}},{t:this.shape_397,p:{x:636.8,y:452.45}},{t:this.shape_396,p:{x:645.275,y:454.05}},{t:this.shape_395,p:{x:653.5,y:453.975}},{t:this.shape_394},{t:this.shape_393,p:{x:672.85,y:453.975}},{t:this.shape_392,p:{x:679.05,y:455.525}},{t:this.shape_391,p:{x:687.475,y:454.05}},{t:this.shape_390,p:{x:695.7,y:453.975}},{t:this.shape_389,p:{x:705.375,y:452.375}},{t:this.shape_388,p:{x:711.275,y:454.05}},{t:this.shape_387,p:{x:717.2,y:452.6}},{t:this.shape_386,p:{x:723.15,y:453.975}},{t:this.shape_385},{t:this.shape_384,p:{x:742.175,y:454.05}},{t:this.shape_383,p:{x:750.4,y:453.975}},{t:this.shape_382,p:{x:758.6,y:455.525}},{t:this.shape_381},{t:this.shape_380},{t:this.shape_379,p:{x:89.75,y:472.975}},{t:this.shape_378,p:{x:93.725,y:471.375}},{t:this.shape_377},{t:this.shape_376},{t:this.shape_375},{t:this.shape_374,p:{x:120.775,y:471.375}},{t:this.shape_373},{t:this.shape_372,p:{x:138.05,y:471.6}},{t:this.shape_371},{t:this.shape_370,p:{x:155.85,y:472.975}},{t:this.shape_369},{t:this.shape_368},{t:this.shape_367,p:{x:175.95,y:472.975}},{t:this.shape_366},{t:this.shape_365},{t:this.shape_364},{t:this.shape_363,p:{x:207.675,y:471.375}},{t:this.shape_362,p:{x:213.625,y:473.125}},{t:this.shape_361,p:{x:220.7,y:472.975}},{t:this.shape_360},{t:this.shape_359,p:{x:235.15,y:472.975}},{t:this.shape_358},{t:this.shape_357},{t:this.shape_356,p:{x:263.45,y:472.975}},{t:this.shape_355},{t:this.shape_354},{t:this.shape_353},{t:this.shape_352,p:{x:292.6,y:472.975}},{t:this.shape_351},{t:this.shape_350},{t:this.shape_349,p:{x:317.2,y:472.975}},{t:this.shape_348},{t:this.shape_347},{t:this.shape_346,p:{x:345.8,y:472.975}},{t:this.shape_345},{t:this.shape_344},{t:this.shape_343,p:{x:374.1,y:472.975}},{t:this.shape_342,p:{x:382.375,y:473.125}},{t:this.shape_341},{t:this.shape_340,p:{x:395.475,y:473.125}},{t:this.shape_339},{t:this.shape_338,p:{x:413.525,y:471.375}},{t:this.shape_337,p:{x:419.475,y:473.125}},{t:this.shape_336},{t:this.shape_335,p:{x:434.7,y:472.975}},{t:this.shape_334},{t:this.shape_333,p:{x:449.525,y:473.125}},{t:this.shape_332},{t:this.shape_331,p:{x:466.175,y:473.125}},{t:this.shape_330,p:{x:474.45,y:471.375}},{t:this.shape_329},{t:this.instance_4},{t:this.btnBack3},{t:this.btnMenu3}]},1).to({state:[{t:this.instance_1},{t:this.instance_9},{t:this.shape_1394},{t:this.shape_1393},{t:this.shape_1392},{t:this.shape_1391},{t:this.shape_1390},{t:this.shape_622,p:{x:531.675,y:107.175}},{t:this.shape_1389},{t:this.shape_642,p:{x:548.375,y:106.35}},{t:this.shape_512,p:{x:553.95,y:107.175}},{t:this.shape_1388},{t:this.shape_1387},{t:this.shape_1386},{t:this.shape_1385},{t:this.shape_1384},{t:this.shape_1383},{t:this.shape_1382},{t:this.shape_1381},{t:this.shape_1380},{t:this.shape_1379},{t:this.shape_1378},{t:this.shape_1377},{t:this.shape_1376},{t:this.shape_1375},{t:this.shape_1374},{t:this.shape_1373},{t:this.shape_1372},{t:this.shape_1371},{t:this.shape_442,p:{x:652.25,y:129.175}},{t:this.shape_1370},{t:this.shape_1369},{t:this.shape_1368},{t:this.shape_1367},{t:this.shape_1366},{t:this.shape_1365},{t:this.shape_1364},{t:this.shape_1363},{t:this.shape_1362},{t:this.shape_1361},{t:this.shape_504,p:{x:757.25,y:129.175}},{t:this.shape_1360},{t:this.shape_1359},{t:this.shape_1358},{t:this.shape_476,p:{x:783.6,y:129.175}},{t:this.shape_1357},{t:this.shape_1356},{t:this.shape_1355},{t:this.shape_1354},{t:this.shape_1353},{t:this.shape_1352},{t:this.shape_1351},{t:this.shape_1350},{t:this.shape_1349},{t:this.shape_1348},{t:this.shape_1347},{t:this.shape_1346},{t:this.shape_716,p:{x:488.775,y:150.35}},{t:this.shape_1345},{t:this.shape_1344},{t:this.shape_1343},{t:this.shape_1342},{t:this.shape_1341},{t:this.shape_709,p:{x:536.375,y:152.85}},{t:this.shape_1340},{t:this.shape_1339},{t:this.shape_1338},{t:this.shape_1337},{t:this.shape_1336},{t:this.shape_702,p:{x:591.075,y:150.35}},{t:this.shape_1335},{t:this.shape_707,p:{x:606.4,y:151.175}},{t:this.shape_382,p:{x:614.6,y:152.725}},{t:this.shape_1334},{t:this.shape_1333},{t:this.shape_1332},{t:this.shape_569,p:{x:652.85,y:151.175}},{t:this.shape_606,p:{x:669.425,y:151.175}},{t:this.shape_1331},{t:this.shape_1330},{t:this.shape_1329},{t:this.shape_1328},{t:this.shape_1327},{t:this.shape_1326},{t:this.shape_1325},{t:this.shape_713,p:{x:730.225,y:149.575}},{t:this.shape_1324},{t:this.shape_1323},{t:this.shape_717,p:{x:751.95,y:151.175}},{t:this.shape_1322},{t:this.shape_1321},{t:this.shape_680,p:{x:781.125,y:150.35}},{t:this.shape_1320},{t:this.shape_1319},{t:this.shape_1318},{t:this.shape_1317},{t:this.shape_1316},{t:this.shape_1315},{t:this.shape_1314},{t:this.shape_1313},{t:this.shape_649,p:{x:848.775,y:150.35}},{t:this.shape_1312},{t:this.shape_1311},{t:this.shape_1310},{t:this.shape_1309},{t:this.shape_744,p:{x:888.95,y:151.175}},{t:this.shape_438,p:{x:488.775,y:172.35}},{t:this.shape_736,p:{x:495.525,y:173.325}},{t:this.shape_1308},{t:this.shape_712,p:{x:512.175,y:173.325}},{t:this.shape_330,p:{x:520.45,y:171.575}},{t:this.shape_397,p:{x:532.3,y:171.65}},{t:this.shape_1307},{t:this.shape_704,p:{x:548.75,y:173.175}},{t:this.shape_1306},{t:this.shape_404,p:{x:565.375,y:173.25}},{t:this.shape_751,p:{x:573.6,y:173.175}},{t:this.shape_1305},{t:this.shape_1304},{t:this.shape_690,p:{x:601.9,y:173.175}},{t:this.shape_400,p:{x:608.275,y:172.35}},{t:this.shape_703,p:{x:615.025,y:173.325}},{t:this.shape_1303},{t:this.shape_1302},{t:this.shape_396,p:{x:641.625,y:173.25}},{t:this.shape_671,p:{x:649.85,y:173.175}},{t:this.shape_1301},{t:this.shape_398,p:{x:668.325,y:172.35}},{t:this.shape_391,p:{x:675.025,y:173.25}},{t:this.shape_742,p:{x:683.425,y:171.575}},{t:this.shape_1300},{t:this.shape_388,p:{x:702.225,y:173.25}},{t:this.shape_602,p:{x:712.875,y:173.175}},{t:this.shape_384,p:{x:723.525,y:173.25}},{t:this.shape_1299},{t:this.shape_1298},{t:this.shape_1297},{t:this.shape_1296},{t:this.shape_495,p:{x:514.25,y:215.8}},{t:this.shape_562,p:{x:522.625,y:217.175}},{t:this.shape_508,p:{x:533.25,y:217.25}},{t:this.shape_475,p:{x:539.325,y:216.35}},{t:this.shape_434,p:{x:544.9,y:217.175}},{t:this.shape_387,p:{x:548.9,y:215.8}},{t:this.shape_1295},{t:this.shape_402,p:{x:565.6,y:215.8}},{t:this.shape_646,p:{x:569.225,y:215.575}},{t:this.shape_1294},{t:this.shape_470,p:{x:581.425,y:216.35}},{t:this.shape_1293},{t:this.shape_454,p:{x:594.9,y:217.175}},{t:this.shape_1292},{t:this.shape_620,p:{x:607.025,y:215.575}},{t:this.shape_1291},{t:this.shape_1290},{t:this.shape_1289},{t:this.shape_1288},{t:this.shape_1287},{t:this.shape_578,p:{x:528.4,y:239.175}},{t:this.shape_1286},{t:this.shape_701,p:{x:546.775,y:239.325}},{t:this.shape_1285},{t:this.shape_694,p:{x:563.425,y:239.325}},{t:this.shape_1284},{t:this.shape_1283},{t:this.shape_1282},{t:this.shape_658,p:{x:600.45,y:239.175}},{t:this.shape_1281},{t:this.shape_1280},{t:this.shape_1279},{t:this.shape_367,p:{x:633.95,y:239.175}},{t:this.shape_1278},{t:this.shape_650,p:{x:647.975,y:239.325}},{t:this.shape_1277},{t:this.shape_648,p:{x:663.975,y:239.325}},{t:this.shape_510,p:{x:672.25,y:239.175}},{t:this.shape_538,p:{x:688.225,y:239.175}},{t:this.shape_1276},{t:this.shape_608,p:{x:704.525,y:237.575}},{t:this.shape_1275},{t:this.shape_547,p:{x:714.15,y:239.175}},{t:this.shape_661,p:{x:722.35,y:240.725}},{t:this.shape_731,p:{x:731.025,y:237.575}},{t:this.shape_1274},{t:this.shape_423,p:{x:745.4,y:239.175}},{t:this.shape_1273},{t:this.shape_1272},{t:this.shape_693,p:{x:764.375,y:237.575}},{t:this.shape_1271},{t:this.shape_1270},{t:this.shape_1269},{t:this.shape_1268},{t:this.shape_1267},{t:this.shape_1266},{t:this.shape_628,p:{x:821.95,y:239.175}},{t:this.shape_1265},{t:this.shape_645,p:{x:840.325,y:239.325}},{t:this.shape_1264},{t:this.shape_641,p:{x:856.975,y:239.325}},{t:this.shape_1263},{t:this.shape_1262},{t:this.shape_1261},{t:this.shape_1260},{t:this.shape_1259},{t:this.shape_1258},{t:this.shape_618,p:{x:513.575,y:262.7}},{t:this.shape_1257},{t:this.shape_1256},{t:this.shape_1255},{t:this.shape_534,p:{x:543.7,y:261.175}},{t:this.shape_1254},{t:this.shape_1253},{t:this.shape_673,p:{x:579.275,y:259.575}},{t:this.shape_1252},{t:this.shape_492,p:{x:594.85,y:261.175}},{t:this.shape_528,p:{x:616.125,y:261.175}},{t:this.shape_1251},{t:this.shape_614,p:{x:634.75,y:261.175}},{t:this.shape_1250},{t:this.shape_483,p:{x:651.45,y:259.575}},{t:this.shape_1249},{t:this.shape_1248},{t:this.shape_595,p:{x:673.3,y:259.8}},{t:this.shape_592,p:{x:676.925,y:259.575}},{t:this.shape_667,p:{x:683.075,y:259.575}},{t:this.shape_1247},{t:this.shape_603,p:{x:698.65,y:261.175}},{t:this.shape_596,p:{x:717.725,y:262.7}},{t:this.shape_1246},{t:this.shape_1245},{t:this.shape_1244},{t:this.shape_406,p:{x:747.85,y:261.175}},{t:this.shape_1243},{t:this.shape_1242},{t:this.shape_1241},{t:this.shape_1240},{t:this.shape_587,p:{x:785.375,y:262.7}},{t:this.shape_626,p:{x:793.675,y:261.25}},{t:this.shape_1239},{t:this.shape_548,p:{x:807.075,y:261.25}},{t:this.shape_500,p:{x:815.5,y:261.175}},{t:this.shape_1238},{t:this.shape_1237},{t:this.shape_633,p:{x:840.35,y:261.175}},{t:this.shape_1236},{t:this.shape_639,p:{x:864.025,y:261.325}},{t:this.shape_1235},{t:this.shape_599,p:{x:880.675,y:261.325}},{t:this.shape_1234},{t:this.shape_1233},{t:this.shape_1232},{t:this.shape_1231},{t:this.shape_574,p:{x:515.25,y:284.725}},{t:this.shape_1230},{t:this.shape_386,p:{x:531.9,y:283.175}},{t:this.shape_1229},{t:this.shape_1228},{t:this.shape_1227},{t:this.shape_1226},{t:this.shape_597,p:{x:573.325,y:283.325}},{t:this.shape_564,p:{x:581.775,y:281.575}},{t:this.shape_1225},{t:this.shape_1224},{t:this.shape_445,p:{x:608.15,y:283.175}},{t:this.shape_1223},{t:this.shape_1222},{t:this.shape_1221},{t:this.shape_523,p:{x:646.875,y:283.175}},{t:this.shape_1220},{t:this.shape_1219},{t:this.shape_1218},{t:this.shape_1217},{t:this.shape_1216},{t:this.shape_1215},{t:this.shape_458,p:{x:523.025,y:327.175}},{t:this.shape_1214},{t:this.shape_1213},{t:this.shape_335,p:{x:545.3,y:327.175}},{t:this.shape_1212},{t:this.shape_1211},{t:this.shape_1210},{t:this.shape_1209},{t:this.shape_372,p:{x:582.5,y:325.8}},{t:this.shape_1208},{t:this.shape_514,p:{x:594.275,y:325.575}},{t:this.shape_1207},{t:this.shape_1206},{t:this.shape_1205},{t:this.shape_1204},{t:this.shape_525,p:{x:528.7,y:355.175}},{t:this.shape_1203},{t:this.shape_1202},{t:this.shape_1201},{t:this.shape_1200},{t:this.shape_1199},{t:this.shape_591,p:{x:581.775,y:355.325}},{t:this.shape_1198},{t:this.shape_513,p:{x:598.425,y:355.325}},{t:this.shape_1197},{t:this.shape_581,p:{x:614.95,y:355.175}},{t:this.shape_1196},{t:this.shape_1195},{t:this.shape_1194},{t:this.shape_1193},{t:this.shape_414,p:{x:654.05,y:355.175}},{t:this.shape_1192},{t:this.shape_488,p:{x:668.075,y:355.325}},{t:this.shape_1191},{t:this.shape_484,p:{x:684.075,y:355.325}},{t:this.shape_503,p:{x:692.35,y:355.175}},{t:this.shape_1190},{t:this.shape_1189},{t:this.shape_393,p:{x:719.75,y:355.175}},{t:this.shape_1188},{t:this.shape_1187},{t:this.shape_1186},{t:this.shape_1185},{t:this.shape_453,p:{x:755.675,y:353.575}},{t:this.shape_1184},{t:this.shape_1183},{t:this.shape_1182},{t:this.shape_1181},{t:this.shape_1180},{t:this.shape_1179},{t:this.shape_544,p:{x:814.85,y:355.175}},{t:this.shape_392,p:{x:823.05,y:356.725}},{t:this.shape_1178},{t:this.shape_651,p:{x:839.7,y:355.175}},{t:this.shape_1177},{t:this.shape_1176},{t:this.shape_1175},{t:this.shape_1174},{t:this.shape_1173},{t:this.shape_521,p:{x:888.75,y:355.175}},{t:this.shape_389,p:{x:488.375,y:381.575}},{t:this.shape_1172},{t:this.shape_1171},{t:this.shape_1170},{t:this.shape_428,p:{x:514.45,y:383.175}},{t:this.shape_1169},{t:this.shape_1168},{t:this.shape_1167},{t:this.shape_1166},{t:this.shape_1165},{t:this.shape_554,p:{x:561.275,y:381.575}},{t:this.shape_1164},{t:this.shape_1163},{t:this.shape_1162},{t:this.shape_1161},{t:this.shape_1160},{t:this.shape_1159},{t:this.shape_383,p:{x:620.8,y:383.175}},{t:this.shape_1158},{t:this.shape_362,p:{x:641.125,y:383.325}},{t:this.shape_1157},{t:this.shape_342,p:{x:657.775,y:383.325}},{t:this.shape_1156},{t:this.shape_356,p:{x:674.3,y:383.175}},{t:this.shape_1155},{t:this.shape_1154},{t:this.shape_1153},{t:this.shape_1152},{t:this.shape_1151},{t:this.shape_1150},{t:this.shape_1149},{t:this.shape_1148},{t:this.shape_559,p:{x:747.5,y:383.175}},{t:this.shape_558,p:{x:755.7,y:384.725}},{t:this.shape_433,p:{x:773.825,y:383.175}},{t:this.shape_1147},{t:this.shape_378,p:{x:790.125,y:381.575}},{t:this.shape_1146},{t:this.shape_363,p:{x:801.925,y:381.575}},{t:this.shape_340,p:{x:807.875,y:383.325}},{t:this.shape_1145},{t:this.shape_422,p:{x:829.425,y:383.175}},{t:this.shape_337,p:{x:840.125,y:383.325}},{t:this.shape_338,p:{x:846.075,y:381.575}},{t:this.shape_333,p:{x:852.025,y:383.325}},{t:this.shape_1144},{t:this.shape_1143},{t:this.shape_1142},{t:this.shape_409,p:{x:888.95,y:383.175}},{t:this.shape_1141},{t:this.shape_370,p:{x:498.85,y:411.175}},{t:this.shape_331,p:{x:507.125,y:411.325}},{t:this.shape_1140},{t:this.shape_359,p:{x:523.15,y:411.175}},{t:this.shape_1139},{t:this.shape_1138},{t:this.shape_536,p:{x:553.425,y:409.575}},{t:this.shape_743,p:{x:558.55,y:409.8}},{t:this.shape_767,p:{x:562.575,y:410.35}},{t:this.shape_1137},{t:this.shape_1136},{t:this.shape_530,p:{x:592.375,y:409.575}},{t:this.shape_1135},{t:this.shape_430,p:{x:607.95,y:411.175}},{t:this.shape_413,p:{x:625.225,y:411.175}},{t:this.shape_1134},{t:this.shape_507,p:{x:643.85,y:411.175}},{t:this.shape_1133},{t:this.shape_1132},{t:this.shape_1131},{t:this.shape_1130},{t:this.shape_766,p:{x:683.375,y:410.35}},{t:this.shape_449,p:{x:690.325,y:409.575}},{t:this.shape_1129},{t:this.shape_479,p:{x:705.9,y:411.175}},{t:this.shape_1128},{t:this.shape_1127},{t:this.shape_1126},{t:this.shape_738,p:{x:743.4,y:409.8}},{t:this.shape_1125},{t:this.shape_343,p:{x:757.5,y:411.175}},{t:this.shape_740,p:{x:771.725,y:412.85}},{t:this.shape_1124},{t:this.shape_395,p:{x:787.6,y:411.175}},{t:this.shape_1123},{t:this.shape_1122},{t:this.shape_1121},{t:this.shape_408,p:{x:829.175,y:411.175}},{t:this.shape_1120},{t:this.shape_1119},{t:this.shape_352,p:{x:862.75,y:411.175}},{t:this.shape_737,p:{x:869.125,y:410.35}},{t:this.shape_1118},{t:this.shape_379,p:{x:882.85,y:411.175}},{t:this.shape_1117},{t:this.shape_1116},{t:this.shape_1115},{t:this.shape_1114},{t:this.shape_699,p:{x:507.55,y:437.8}},{t:this.shape_411,p:{x:517.375,y:437.575}},{t:this.shape_685,p:{x:522.5,y:437.8}},{t:this.shape_361,p:{x:527.25,y:439.175}},{t:this.shape_1113},{t:this.shape_728,p:{x:540.8,y:437.65}},{t:this.shape_1112},{t:this.shape_349,p:{x:557.5,y:439.175}},{t:this.shape_1111},{t:this.shape_654,p:{x:574.95,y:437.8}},{t:this.shape_1110},{t:this.shape_720,p:{x:586.35,y:437.8}},{t:this.shape_374,p:{x:596.175,y:437.575}},{t:this.shape_1109},{t:this.shape_346,p:{x:611.75,y:439.175}},{t:this.shape_1108},{t:this.shape_390,p:{x:628.2,y:439.175}},{t:this.shape_1107},{t:this.instance_8},{t:this.instance_7},{t:this.instance_6},{t:this.judulKI_5},{t:this.shape_1106},{t:this.judulKI_4},{t:this.shape_1105},{t:this.judulKI_3},{t:this.shape_1104},{t:this.btnBack3},{t:this.btnMenu3}]},1).to({state:[{t:this.instance_1},{t:this.instance_11},{t:this.shape_1953},{t:this.shape_1952},{t:this.shape_1951},{t:this.shape_1950},{t:this.shape_1949},{t:this.shape_1948},{t:this.shape_1947},{t:this.shape_1946},{t:this.shape_1945},{t:this.shape_1944},{t:this.shape_1943},{t:this.shape_1942},{t:this.shape_1941},{t:this.shape_1940},{t:this.shape_1939},{t:this.shape_1938},{t:this.shape_1937},{t:this.shape_1936},{t:this.shape_1935},{t:this.shape_1934},{t:this.shape_1933},{t:this.shape_1932},{t:this.shape_1931},{t:this.shape_1930},{t:this.shape_1929},{t:this.shape_1928},{t:this.shape_1927},{t:this.shape_1926},{t:this.shape_1925},{t:this.shape_1924},{t:this.shape_1923},{t:this.shape_1922},{t:this.shape_1921},{t:this.shape_1920},{t:this.shape_1919},{t:this.shape_1918},{t:this.shape_1917},{t:this.shape_1916},{t:this.shape_1915},{t:this.shape_1914},{t:this.shape_1913},{t:this.shape_1912},{t:this.shape_1911},{t:this.shape_1910},{t:this.shape_1909},{t:this.shape_1908},{t:this.shape_1907},{t:this.shape_1906},{t:this.shape_1905},{t:this.shape_1904},{t:this.shape_1903},{t:this.shape_1902},{t:this.shape_1901},{t:this.shape_1900},{t:this.shape_1899},{t:this.shape_1898},{t:this.shape_1897},{t:this.shape_1896},{t:this.shape_1895},{t:this.shape_1894},{t:this.shape_1893},{t:this.shape_1892},{t:this.shape_1891},{t:this.shape_1890},{t:this.shape_1889},{t:this.shape_1888},{t:this.shape_1887},{t:this.shape_1886},{t:this.shape_1885},{t:this.shape_1884},{t:this.shape_1883},{t:this.shape_1882},{t:this.shape_1881},{t:this.shape_1880},{t:this.shape_1879},{t:this.shape_1878},{t:this.shape_1877},{t:this.shape_1876},{t:this.shape_1875},{t:this.shape_1874},{t:this.shape_1873},{t:this.shape_1872},{t:this.shape_1871},{t:this.shape_1870},{t:this.shape_1869},{t:this.shape_1868},{t:this.shape_1867},{t:this.shape_1866},{t:this.shape_1865},{t:this.shape_1864},{t:this.shape_1863},{t:this.shape_1862},{t:this.shape_1861},{t:this.shape_1860},{t:this.shape_1859},{t:this.shape_1858},{t:this.shape_1857},{t:this.shape_1856},{t:this.shape_1855},{t:this.shape_1854},{t:this.shape_1853},{t:this.shape_1852},{t:this.shape_1851},{t:this.shape_1850},{t:this.shape_1849},{t:this.shape_1848},{t:this.shape_1847},{t:this.shape_1846},{t:this.shape_1845},{t:this.shape_1844},{t:this.shape_1843},{t:this.shape_1842},{t:this.shape_1841},{t:this.shape_1840},{t:this.shape_1839},{t:this.shape_1838},{t:this.shape_1837},{t:this.shape_1836},{t:this.shape_1835},{t:this.shape_1834},{t:this.shape_1833},{t:this.shape_1832},{t:this.shape_1831},{t:this.shape_1830},{t:this.shape_1829},{t:this.shape_1828},{t:this.shape_1827},{t:this.shape_1826},{t:this.shape_1825},{t:this.shape_1824},{t:this.shape_1823},{t:this.shape_1822},{t:this.shape_1821},{t:this.shape_1820},{t:this.shape_1819},{t:this.shape_1818},{t:this.shape_1817},{t:this.shape_1816},{t:this.shape_1815},{t:this.shape_1814},{t:this.shape_1813},{t:this.shape_1812},{t:this.shape_1811},{t:this.shape_1810},{t:this.shape_1809},{t:this.shape_1808},{t:this.shape_1807},{t:this.shape_1806},{t:this.shape_1805},{t:this.shape_1804},{t:this.shape_1803},{t:this.shape_1802},{t:this.shape_1801},{t:this.shape_1800},{t:this.shape_1799},{t:this.shape_1798},{t:this.shape_1797},{t:this.shape_1796},{t:this.shape_1795},{t:this.shape_1794},{t:this.shape_1793},{t:this.shape_1792},{t:this.shape_1791},{t:this.shape_1790},{t:this.shape_1789},{t:this.shape_1788},{t:this.shape_1787},{t:this.shape_1786},{t:this.shape_1785},{t:this.shape_1784},{t:this.shape_1783},{t:this.shape_1782},{t:this.shape_1781},{t:this.shape_1780},{t:this.shape_1779},{t:this.shape_1778},{t:this.shape_1777},{t:this.shape_1776},{t:this.shape_1775},{t:this.shape_1774},{t:this.shape_1773},{t:this.shape_1772},{t:this.shape_1771},{t:this.shape_1770},{t:this.shape_1769},{t:this.shape_1768},{t:this.shape_1767},{t:this.shape_1766},{t:this.shape_1765},{t:this.shape_1764},{t:this.shape_1763},{t:this.shape_1762},{t:this.shape_1761},{t:this.shape_1760},{t:this.shape_1759},{t:this.shape_1758},{t:this.shape_1757},{t:this.shape_1756},{t:this.shape_1755},{t:this.shape_1754},{t:this.shape_1753},{t:this.shape_1752},{t:this.shape_1751},{t:this.shape_1750},{t:this.shape_1749},{t:this.shape_1748},{t:this.shape_1747},{t:this.shape_1746},{t:this.shape_1745},{t:this.shape_1744},{t:this.shape_1743},{t:this.shape_1742},{t:this.shape_1741},{t:this.shape_1740},{t:this.shape_1739},{t:this.shape_1738},{t:this.shape_1737},{t:this.shape_1736},{t:this.shape_1735},{t:this.shape_1734},{t:this.shape_1733},{t:this.shape_1732},{t:this.shape_1731},{t:this.shape_1730},{t:this.shape_1729},{t:this.shape_1728},{t:this.shape_1727},{t:this.shape_1726},{t:this.shape_1725},{t:this.shape_1724},{t:this.shape_1723},{t:this.shape_1722},{t:this.shape_1721},{t:this.shape_1720},{t:this.shape_1719},{t:this.shape_1718},{t:this.shape_1717},{t:this.shape_1716},{t:this.shape_1715},{t:this.shape_1714},{t:this.shape_1713},{t:this.shape_1712},{t:this.shape_1711},{t:this.shape_1710},{t:this.shape_1709},{t:this.shape_1708},{t:this.shape_1707},{t:this.shape_1706},{t:this.shape_1705},{t:this.shape_1704},{t:this.shape_1703},{t:this.shape_1702},{t:this.shape_1701},{t:this.shape_1700},{t:this.shape_1699},{t:this.shape_1698},{t:this.shape_1697},{t:this.shape_1696},{t:this.shape_1695},{t:this.shape_1694},{t:this.shape_1693},{t:this.shape_1692},{t:this.shape_1691},{t:this.shape_1690},{t:this.shape_1689},{t:this.shape_1688},{t:this.shape_1687},{t:this.shape_1686},{t:this.shape_1685},{t:this.shape_1684},{t:this.shape_1683},{t:this.shape_1682},{t:this.shape_1681},{t:this.shape_1680},{t:this.shape_1679},{t:this.shape_1678},{t:this.shape_1677},{t:this.shape_1676},{t:this.shape_1675},{t:this.shape_1674},{t:this.shape_1673},{t:this.shape_1672},{t:this.shape_1671},{t:this.shape_1670},{t:this.shape_1669},{t:this.shape_1668},{t:this.shape_1667},{t:this.shape_1666},{t:this.shape_1665},{t:this.shape_1664},{t:this.shape_1663},{t:this.shape_1662},{t:this.shape_1661},{t:this.shape_1660},{t:this.shape_1659},{t:this.shape_1658},{t:this.shape_1657},{t:this.shape_1656},{t:this.shape_1655},{t:this.shape_1654},{t:this.shape_1653},{t:this.shape_1652},{t:this.shape_1651},{t:this.shape_1650},{t:this.shape_1649},{t:this.shape_1648},{t:this.shape_1647},{t:this.shape_1646},{t:this.shape_1645},{t:this.shape_1644},{t:this.shape_1643},{t:this.shape_1642},{t:this.shape_1641},{t:this.shape_1640},{t:this.shape_1639},{t:this.shape_1638},{t:this.shape_1637},{t:this.shape_1636},{t:this.shape_1635},{t:this.shape_1634},{t:this.shape_1633},{t:this.shape_1632},{t:this.shape_1631},{t:this.shape_1630},{t:this.shape_1629},{t:this.shape_1628},{t:this.shape_1627},{t:this.shape_1626},{t:this.shape_1625},{t:this.shape_1624},{t:this.shape_1623},{t:this.shape_1622},{t:this.shape_1621},{t:this.shape_1620},{t:this.shape_1619},{t:this.shape_1618},{t:this.shape_1617},{t:this.shape_1616},{t:this.shape_1615},{t:this.shape_1614},{t:this.shape_1613},{t:this.shape_1612},{t:this.shape_1611},{t:this.shape_1610},{t:this.shape_1609},{t:this.shape_1608},{t:this.shape_1607},{t:this.shape_1606},{t:this.shape_1605},{t:this.shape_1604},{t:this.shape_1603},{t:this.shape_1602},{t:this.shape_1601},{t:this.shape_1600},{t:this.shape_1599},{t:this.shape_1598},{t:this.shape_1597},{t:this.shape_1596},{t:this.shape_1595},{t:this.shape_1594},{t:this.shape_1593},{t:this.shape_1592},{t:this.shape_1591},{t:this.shape_1590},{t:this.shape_1589},{t:this.shape_1588},{t:this.shape_1587},{t:this.shape_1586},{t:this.shape_1585},{t:this.shape_1584},{t:this.shape_1583},{t:this.shape_1582},{t:this.shape_1581},{t:this.shape_1580},{t:this.shape_1579},{t:this.shape_1578},{t:this.shape_1577},{t:this.shape_1576},{t:this.shape_1575},{t:this.shape_1574},{t:this.shape_1573},{t:this.shape_1572},{t:this.shape_1571},{t:this.shape_1570},{t:this.shape_1569},{t:this.shape_1568},{t:this.shape_1567},{t:this.shape_1566},{t:this.shape_1565},{t:this.shape_1564},{t:this.shape_1563},{t:this.shape_1562},{t:this.shape_1561},{t:this.shape_1560},{t:this.shape_1559},{t:this.shape_1558},{t:this.shape_1557},{t:this.shape_1556},{t:this.shape_1555},{t:this.shape_1554},{t:this.shape_1553},{t:this.shape_1552},{t:this.shape_1551},{t:this.shape_1550},{t:this.shape_1549},{t:this.shape_1548},{t:this.shape_1547},{t:this.shape_1546},{t:this.shape_1545},{t:this.shape_1544},{t:this.shape_1543},{t:this.shape_1542},{t:this.shape_1541},{t:this.shape_1540},{t:this.shape_1539},{t:this.shape_1538},{t:this.shape_1537},{t:this.shape_1536},{t:this.shape_1535},{t:this.shape_1534},{t:this.shape_1533},{t:this.shape_1532},{t:this.shape_1531},{t:this.shape_1530},{t:this.shape_1529},{t:this.shape_1528},{t:this.shape_1527},{t:this.shape_1526},{t:this.shape_1525},{t:this.shape_1524},{t:this.shape_1523},{t:this.shape_1522},{t:this.shape_1521},{t:this.shape_1520},{t:this.shape_1519},{t:this.shape_1518},{t:this.shape_1517},{t:this.shape_1516},{t:this.shape_1515},{t:this.shape_1514},{t:this.shape_1513},{t:this.shape_1512},{t:this.shape_1511},{t:this.shape_1510},{t:this.shape_1509},{t:this.shape_1508},{t:this.shape_1507},{t:this.shape_1506},{t:this.shape_1505},{t:this.shape_1504},{t:this.shape_1503},{t:this.shape_1502},{t:this.shape_1501},{t:this.shape_1500},{t:this.shape_1499},{t:this.shape_1498},{t:this.shape_1497},{t:this.shape_1496},{t:this.shape_1495},{t:this.shape_1494},{t:this.shape_1493},{t:this.shape_1492},{t:this.shape_1491},{t:this.shape_1490},{t:this.shape_1489},{t:this.shape_1488},{t:this.shape_1487},{t:this.shape_1486},{t:this.shape_1485},{t:this.shape_1484},{t:this.shape_1483},{t:this.shape_1482},{t:this.shape_1481},{t:this.shape_1480},{t:this.shape_1479},{t:this.shape_1478},{t:this.shape_1477},{t:this.shape_1476},{t:this.shape_1475},{t:this.shape_1474},{t:this.shape_1473},{t:this.shape_1472},{t:this.shape_1471},{t:this.shape_1470},{t:this.shape_1469},{t:this.shape_1468},{t:this.shape_1467},{t:this.shape_1466},{t:this.shape_1465},{t:this.shape_1464},{t:this.shape_1463},{t:this.shape_1462},{t:this.shape_1461},{t:this.shape_1460},{t:this.shape_1459},{t:this.shape_1458},{t:this.shape_1457},{t:this.shape_1456},{t:this.shape_1455},{t:this.shape_1454},{t:this.shape_1453},{t:this.shape_1452},{t:this.shape_1451},{t:this.shape_1450},{t:this.shape_1449},{t:this.shape_1448},{t:this.shape_1447},{t:this.shape_1446},{t:this.shape_1445},{t:this.shape_1444},{t:this.shape_1443},{t:this.shape_1442},{t:this.shape_1441},{t:this.shape_1440},{t:this.shape_1439},{t:this.shape_1438},{t:this.shape_1437},{t:this.shape_1436},{t:this.shape_1435},{t:this.shape_1434},{t:this.shape_1433},{t:this.shape_1432},{t:this.shape_1431},{t:this.shape_1430},{t:this.shape_1429},{t:this.shape_1428},{t:this.shape_1427},{t:this.shape_1426},{t:this.shape_1425},{t:this.shape_1424},{t:this.shape_1423},{t:this.shape_1422},{t:this.shape_1421},{t:this.shape_1420},{t:this.shape_1419},{t:this.shape_1418},{t:this.shape_1417},{t:this.shape_1416},{t:this.shape_1415},{t:this.shape_1414},{t:this.shape_1413},{t:this.shape_1412},{t:this.shape_1411},{t:this.shape_1410},{t:this.shape_1409},{t:this.shape_1408},{t:this.shape_1407},{t:this.shape_1406},{t:this.shape_1405},{t:this.shape_1404},{t:this.shape_1403},{t:this.shape_1402},{t:this.shape_1401},{t:this.shape_1400},{t:this.shape_1399},{t:this.shape_1398},{t:this.shape_1397},{t:this.shape_1396},{t:this.shape_1395},{t:this.instance_10},{t:this.btnBack3},{t:this.btnMenu3}]},1).to({state:[{t:this.instance_1},{t:this.instance_12},{t:this.judulKI_7},{t:this.judulKI_6},{t:this.judulKI_2,p:{regX:0.4,regY:0.3,scaleX:1.0697,scaleY:4.824,x:718.75,y:229.05}},{t:this.btnReprSek},{t:this.Asekbtn},{t:this.sekBtn},{t:this.asekBtn},{t:this.btnBack3},{t:this.btnMenu3}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.btnMenuDasar1},{t:this.btnNextDasar1},{t:this.shape_328},{t:this.shape_327},{t:this.shape_326},{t:this.shape_325},{t:this.shape_324},{t:this.shape_323},{t:this.shape_322},{t:this.shape_321},{t:this.shape_320},{t:this.shape_319},{t:this.shape_318},{t:this.shape_317},{t:this.shape_316},{t:this.shape_315},{t:this.shape_314},{t:this.shape_313},{t:this.shape_312},{t:this.shape_311},{t:this.shape_310},{t:this.shape_309},{t:this.shape_308},{t:this.shape_307},{t:this.shape_306},{t:this.shape_305},{t:this.shape_304},{t:this.shape_303},{t:this.shape_302},{t:this.shape_301},{t:this.shape_300},{t:this.shape_299},{t:this.shape_298},{t:this.shape_297},{t:this.shape_296},{t:this.shape_295},{t:this.shape_294},{t:this.shape_293},{t:this.shape_292},{t:this.shape_291},{t:this.shape_290},{t:this.shape_289},{t:this.shape_288},{t:this.shape_287},{t:this.shape_286},{t:this.shape_285},{t:this.shape_284},{t:this.shape_283},{t:this.shape_282},{t:this.shape_281},{t:this.shape_280},{t:this.shape_279},{t:this.shape_278},{t:this.shape_277},{t:this.shape_276},{t:this.shape_275},{t:this.shape_274},{t:this.shape_273},{t:this.shape_272},{t:this.shape_271},{t:this.shape_270},{t:this.shape_269},{t:this.shape_268},{t:this.shape_267},{t:this.shape_266},{t:this.shape_265},{t:this.shape_264},{t:this.shape_263},{t:this.shape_262},{t:this.shape_261},{t:this.shape_260},{t:this.shape_259},{t:this.shape_258},{t:this.shape_257},{t:this.shape_256},{t:this.shape_255},{t:this.shape_254},{t:this.shape_253},{t:this.shape_252},{t:this.shape_251},{t:this.shape_250},{t:this.shape_249},{t:this.shape_248},{t:this.shape_247},{t:this.shape_246},{t:this.shape_245},{t:this.shape_244},{t:this.shape_243},{t:this.shape_242},{t:this.shape_241},{t:this.shape_240},{t:this.shape_239},{t:this.shape_238},{t:this.shape_237},{t:this.shape_236},{t:this.shape_235},{t:this.shape_234},{t:this.shape_233},{t:this.shape_232},{t:this.shape_231},{t:this.shape_230},{t:this.shape_229},{t:this.shape_228},{t:this.shape_227},{t:this.shape_226},{t:this.shape_225},{t:this.shape_224},{t:this.shape_223},{t:this.shape_222},{t:this.shape_221},{t:this.shape_220},{t:this.shape_219},{t:this.shape_218},{t:this.shape_217},{t:this.shape_216},{t:this.shape_215},{t:this.shape_214},{t:this.shape_213},{t:this.shape_212},{t:this.shape_211},{t:this.shape_210},{t:this.shape_209},{t:this.shape_208},{t:this.shape_207},{t:this.shape_206},{t:this.shape_205},{t:this.shape_204},{t:this.shape_203},{t:this.shape_202},{t:this.shape_201},{t:this.shape_200},{t:this.shape_199},{t:this.shape_198},{t:this.shape_197},{t:this.shape_196},{t:this.shape_195},{t:this.shape_194},{t:this.shape_193},{t:this.shape_192},{t:this.shape_191},{t:this.shape_190},{t:this.shape_189},{t:this.shape_188},{t:this.shape_187},{t:this.shape_186},{t:this.shape_185},{t:this.shape_184},{t:this.shape_183},{t:this.shape_182},{t:this.shape_181},{t:this.shape_180},{t:this.shape_179},{t:this.shape_178},{t:this.shape_177},{t:this.shape_176},{t:this.shape_175},{t:this.shape_174},{t:this.shape_173},{t:this.shape_172},{t:this.shape_171},{t:this.shape_170},{t:this.shape_169},{t:this.shape_168},{t:this.shape_167},{t:this.shape_166},{t:this.shape_165},{t:this.shape_164},{t:this.shape_163},{t:this.shape_162},{t:this.shape_161},{t:this.shape_160},{t:this.shape_159},{t:this.shape_158},{t:this.shape_157},{t:this.shape_156},{t:this.shape_155},{t:this.shape_154},{t:this.shape_153},{t:this.shape_152},{t:this.shape_151},{t:this.shape_150},{t:this.shape_149},{t:this.shape_148},{t:this.shape_147},{t:this.shape_146},{t:this.shape_145},{t:this.shape_144},{t:this.shape_143},{t:this.shape_142},{t:this.shape_141},{t:this.shape_140},{t:this.shape_139},{t:this.shape_138},{t:this.shape_137},{t:this.shape_136},{t:this.shape_135},{t:this.shape_134},{t:this.shape_133},{t:this.shape_132},{t:this.shape_131},{t:this.shape_130},{t:this.shape_129},{t:this.shape_128},{t:this.shape_127},{t:this.shape_126},{t:this.shape_125},{t:this.shape_124},{t:this.shape_123},{t:this.shape_122},{t:this.shape_121},{t:this.shape_120},{t:this.shape_119},{t:this.shape_118},{t:this.shape_117},{t:this.shape_116},{t:this.shape_115},{t:this.shape_114},{t:this.shape_113},{t:this.shape_112},{t:this.shape_111},{t:this.shape_110},{t:this.shape_109},{t:this.shape_108},{t:this.shape_107},{t:this.shape_106},{t:this.shape_105},{t:this.shape_104},{t:this.shape_103},{t:this.shape_102},{t:this.shape_101},{t:this.shape_100},{t:this.shape_99},{t:this.shape_98},{t:this.shape_97},{t:this.shape_96},{t:this.shape_95},{t:this.shape_94},{t:this.shape_93},{t:this.shape_92},{t:this.shape_91},{t:this.shape_90},{t:this.shape_89},{t:this.shape_88},{t:this.shape_87},{t:this.shape_86},{t:this.shape_85},{t:this.shape_84},{t:this.shape_83},{t:this.shape_82},{t:this.shape_81},{t:this.shape_80},{t:this.shape_79},{t:this.shape_78},{t:this.shape_77},{t:this.shape_76},{t:this.shape_75},{t:this.shape_74},{t:this.shape_73},{t:this.shape_72},{t:this.shape_71},{t:this.shape_70},{t:this.shape_69},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).to({state:[{t:this.instance_2},{t:this.instance_4},{t:this.judulKI},{t:this.instance_3},{t:this.rongga},{t:this.lapisan},{t:this.simetri},{t:this.reprod},{t:this.btnBackDasar2},{t:this.btnMenuDasar2}]},1).to({state:[{t:this.instance_2},{t:this.instance_6},{t:this.judulKI_2,p:{regX:0.3,regY:0.5,scaleX:1.184,scaleY:4.251,x:714.9,y:185.05}},{t:this.shape_1103},{t:this.shape_1102},{t:this.shape_1101},{t:this.shape_1100},{t:this.shape_1099},{t:this.shape_1098},{t:this.shape_1097},{t:this.shape_1096},{t:this.shape_1095},{t:this.shape_1094},{t:this.shape_1093},{t:this.shape_1092},{t:this.shape_1091},{t:this.shape_1090},{t:this.shape_1089},{t:this.shape_1088},{t:this.shape_1087},{t:this.shape_1086},{t:this.shape_1085},{t:this.shape_1084},{t:this.shape_1083},{t:this.shape_1082},{t:this.shape_1081},{t:this.shape_1080},{t:this.shape_1079},{t:this.shape_1078},{t:this.shape_1077},{t:this.shape_1076},{t:this.shape_1075},{t:this.shape_1074},{t:this.shape_1073},{t:this.shape_1072},{t:this.shape_1071},{t:this.shape_1070},{t:this.shape_1069},{t:this.shape_1068},{t:this.shape_1067},{t:this.shape_1066},{t:this.shape_1065},{t:this.shape_1064},{t:this.shape_1063},{t:this.shape_1062},{t:this.shape_1061},{t:this.shape_1060},{t:this.shape_1059},{t:this.shape_1058},{t:this.shape_1057},{t:this.shape_1056},{t:this.shape_1055},{t:this.shape_1054},{t:this.shape_1053},{t:this.shape_1052},{t:this.shape_1051},{t:this.shape_1050},{t:this.shape_1049},{t:this.shape_1048},{t:this.shape_1047},{t:this.shape_1046},{t:this.shape_1045},{t:this.shape_1044},{t:this.shape_1043},{t:this.shape_1042},{t:this.shape_1041},{t:this.shape_1040},{t:this.shape_1039},{t:this.shape_1038},{t:this.shape_1037},{t:this.shape_1036},{t:this.shape_1035},{t:this.shape_1034},{t:this.shape_1033},{t:this.shape_1032},{t:this.shape_1031},{t:this.shape_1030},{t:this.shape_1029},{t:this.shape_1028},{t:this.shape_1027},{t:this.shape_1026},{t:this.shape_1025},{t:this.shape_1024},{t:this.shape_1023},{t:this.shape_1022},{t:this.shape_1021},{t:this.shape_1020},{t:this.shape_1019},{t:this.shape_1018},{t:this.shape_1017},{t:this.shape_1016},{t:this.shape_1015},{t:this.shape_1014},{t:this.shape_1013},{t:this.shape_1012},{t:this.shape_1011},{t:this.shape_1010},{t:this.shape_1009},{t:this.shape_1008},{t:this.shape_1007},{t:this.shape_1006},{t:this.shape_1005},{t:this.shape_1004},{t:this.shape_1003},{t:this.shape_1002},{t:this.shape_1001},{t:this.shape_1000},{t:this.shape_999},{t:this.shape_998},{t:this.shape_997},{t:this.shape_996},{t:this.shape_995},{t:this.shape_994},{t:this.shape_993},{t:this.shape_992},{t:this.shape_991},{t:this.shape_990},{t:this.shape_989},{t:this.shape_988},{t:this.shape_987},{t:this.shape_986},{t:this.shape_985},{t:this.shape_984},{t:this.shape_983},{t:this.shape_982},{t:this.shape_981},{t:this.shape_980},{t:this.shape_979},{t:this.shape_978},{t:this.shape_977},{t:this.shape_976},{t:this.shape_975},{t:this.shape_974},{t:this.shape_973},{t:this.shape_972},{t:this.shape_971},{t:this.shape_970},{t:this.shape_969},{t:this.shape_968},{t:this.shape_967},{t:this.shape_966},{t:this.shape_965},{t:this.shape_964},{t:this.shape_963},{t:this.shape_962},{t:this.shape_961},{t:this.shape_960},{t:this.shape_959},{t:this.shape_958},{t:this.shape_957},{t:this.shape_956},{t:this.shape_955},{t:this.shape_954},{t:this.shape_953},{t:this.shape_952},{t:this.shape_951},{t:this.shape_950},{t:this.shape_949},{t:this.shape_948},{t:this.shape_947},{t:this.shape_946},{t:this.shape_945},{t:this.shape_944},{t:this.shape_943},{t:this.shape_942},{t:this.shape_941},{t:this.shape_940},{t:this.shape_939},{t:this.shape_938},{t:this.shape_937},{t:this.shape_936},{t:this.shape_935},{t:this.shape_934},{t:this.shape_933},{t:this.shape_932},{t:this.shape_931},{t:this.shape_930},{t:this.shape_929},{t:this.shape_928},{t:this.shape_927},{t:this.shape_926},{t:this.shape_925},{t:this.shape_924},{t:this.shape_923},{t:this.shape_922},{t:this.shape_921},{t:this.shape_920},{t:this.shape_919},{t:this.shape_918},{t:this.shape_917},{t:this.shape_916},{t:this.shape_915},{t:this.shape_914},{t:this.shape_913},{t:this.shape_912},{t:this.shape_911},{t:this.shape_910},{t:this.shape_909},{t:this.shape_908},{t:this.shape_907},{t:this.shape_906},{t:this.shape_905},{t:this.shape_904},{t:this.shape_903},{t:this.shape_902},{t:this.shape_901},{t:this.shape_900},{t:this.shape_899},{t:this.shape_898},{t:this.shape_897},{t:this.shape_896},{t:this.shape_895},{t:this.shape_894},{t:this.shape_893},{t:this.shape_892},{t:this.shape_891},{t:this.shape_890},{t:this.shape_889},{t:this.shape_888},{t:this.shape_887},{t:this.shape_886},{t:this.shape_885},{t:this.shape_884},{t:this.shape_883},{t:this.shape_882},{t:this.shape_881},{t:this.shape_880},{t:this.shape_879},{t:this.shape_878},{t:this.shape_877},{t:this.shape_876},{t:this.shape_875},{t:this.shape_874},{t:this.shape_873},{t:this.shape_872},{t:this.shape_871},{t:this.shape_870},{t:this.shape_869},{t:this.shape_868},{t:this.shape_867},{t:this.shape_866},{t:this.shape_865},{t:this.shape_864},{t:this.shape_863},{t:this.shape_862},{t:this.shape_861},{t:this.shape_860},{t:this.shape_859},{t:this.shape_858},{t:this.shape_857},{t:this.shape_856},{t:this.shape_855},{t:this.shape_854},{t:this.shape_853},{t:this.shape_852},{t:this.shape_851},{t:this.shape_850},{t:this.shape_849},{t:this.shape_848},{t:this.shape_847},{t:this.shape_846},{t:this.shape_845},{t:this.shape_844},{t:this.shape_843},{t:this.shape_842},{t:this.shape_841},{t:this.shape_840},{t:this.shape_839},{t:this.shape_838},{t:this.shape_837},{t:this.shape_836},{t:this.shape_835},{t:this.shape_834},{t:this.shape_833},{t:this.shape_832},{t:this.shape_831},{t:this.shape_830},{t:this.shape_829},{t:this.shape_828},{t:this.shape_827},{t:this.shape_826},{t:this.shape_825},{t:this.shape_824},{t:this.shape_823},{t:this.shape_822},{t:this.shape_821},{t:this.shape_820},{t:this.shape_819},{t:this.shape_818},{t:this.shape_817},{t:this.shape_816},{t:this.shape_815},{t:this.shape_814},{t:this.shape_813},{t:this.shape_812},{t:this.shape_811},{t:this.shape_810},{t:this.shape_809},{t:this.shape_808},{t:this.shape_807},{t:this.shape_806},{t:this.shape_805},{t:this.shape_804},{t:this.shape_803},{t:this.shape_802},{t:this.shape_801},{t:this.shape_800},{t:this.shape_799},{t:this.shape_798},{t:this.shape_797},{t:this.shape_796},{t:this.shape_795},{t:this.shape_794},{t:this.shape_793},{t:this.shape_792},{t:this.shape_791},{t:this.shape_790},{t:this.shape_789},{t:this.shape_788},{t:this.shape_787},{t:this.shape_786},{t:this.shape_785},{t:this.shape_784},{t:this.shape_783},{t:this.shape_782},{t:this.shape_781},{t:this.shape_780},{t:this.shape_779},{t:this.shape_778},{t:this.shape_777},{t:this.shape_776},{t:this.shape_775},{t:this.judulKI_1},{t:this.shape_774},{t:this.shape_773},{t:this.shape_772},{t:this.shape_771},{t:this.shape_770},{t:this.shape_769},{t:this.shape_768},{t:this.shape_767,p:{x:112.875,y:358.15}},{t:this.shape_766,p:{x:121.425,y:358.15}},{t:this.shape_765},{t:this.shape_764},{t:this.shape_763},{t:this.shape_762},{t:this.shape_761},{t:this.shape_760},{t:this.shape_759},{t:this.shape_758},{t:this.shape_757},{t:this.shape_756},{t:this.shape_755},{t:this.shape_754},{t:this.shape_753},{t:this.shape_752},{t:this.shape_751,p:{x:246,y:358.975}},{t:this.shape_750},{t:this.shape_749},{t:this.shape_748},{t:this.shape_747},{t:this.shape_746},{t:this.shape_745},{t:this.shape_744,p:{x:304.75,y:358.975}},{t:this.shape_743,p:{x:310.75,y:357.6}},{t:this.shape_742,p:{x:316.875,y:357.375}},{t:this.shape_741},{t:this.shape_740,p:{x:330.325,y:360.65}},{t:this.shape_739},{t:this.shape_738,p:{x:343.9,y:357.6}},{t:this.shape_737,p:{x:347.925,y:358.15}},{t:this.shape_736,p:{x:354.675,y:359.125}},{t:this.shape_735},{t:this.shape_734},{t:this.shape_733},{t:this.shape_732},{t:this.shape_731,p:{x:84.475,y:376.375}},{t:this.shape_730},{t:this.shape_729},{t:this.shape_728,p:{x:105.2,y:376.45}},{t:this.shape_727},{t:this.shape_726},{t:this.shape_725},{t:this.shape_724},{t:this.shape_723},{t:this.shape_722},{t:this.shape_721},{t:this.shape_720,p:{x:164.45,y:376.6}},{t:this.shape_719},{t:this.shape_718},{t:this.shape_717,p:{x:186.3,y:377.975}},{t:this.shape_716,p:{x:196.375,y:377.15}},{t:this.shape_715},{t:this.shape_714},{t:this.shape_713,p:{x:213.825,y:376.375}},{t:this.shape_712,p:{x:219.775,y:378.125}},{t:this.shape_711},{t:this.shape_710},{t:this.shape_709,p:{x:244.375,y:379.65}},{t:this.shape_708},{t:this.shape_707,p:{x:260.25,y:377.975}},{t:this.shape_706},{t:this.shape_705},{t:this.shape_704,p:{x:288.55,y:377.975}},{t:this.shape_703,p:{x:296.825,y:378.125}},{t:this.shape_702,p:{x:303.175,y:377.15}},{t:this.shape_701,p:{x:309.925,y:378.125}},{t:this.shape_700},{t:this.shape_699,p:{x:324.3,y:376.6}},{t:this.shape_698},{t:this.shape_697},{t:this.shape_696},{t:this.shape_695},{t:this.shape_694,p:{x:368.475,y:378.125}},{t:this.shape_693,p:{x:376.925,y:376.375}},{t:this.shape_692},{t:this.shape_691},{t:this.shape_690,p:{x:400.65,y:377.975}},{t:this.shape_689},{t:this.shape_688},{t:this.shape_687},{t:this.shape_686},{t:this.shape_685,p:{x:444.9,y:376.6}},{t:this.shape_684},{t:this.shape_683},{t:this.shape_682},{t:this.shape_681},{t:this.shape_680,p:{x:481.525,y:377.15}},{t:this.shape_679},{t:this.shape_678},{t:this.shape_677},{t:this.shape_676},{t:this.shape_675},{t:this.shape_674},{t:this.shape_673,p:{x:543.475,y:376.375}},{t:this.shape_672},{t:this.shape_671,p:{x:559.05,y:377.975}},{t:this.shape_670},{t:this.shape_669},{t:this.shape_668},{t:this.shape_667,p:{x:592.625,y:376.375}},{t:this.shape_666},{t:this.shape_665},{t:this.shape_664},{t:this.shape_663},{t:this.shape_662},{t:this.shape_661,p:{x:645.85,y:379.525}},{t:this.shape_660},{t:this.shape_659},{t:this.shape_658,p:{x:679.1,y:377.975}},{t:this.shape_657},{t:this.shape_656},{t:this.shape_655},{t:this.shape_654,p:{x:705.3,y:376.6}},{t:this.shape_653},{t:this.shape_652},{t:this.shape_651,p:{x:731.25,y:377.975}},{t:this.shape_650,p:{x:739.525,y:378.125}},{t:this.shape_649,p:{x:745.875,y:377.15}},{t:this.shape_648,p:{x:752.625,y:378.125}},{t:this.shape_647},{t:this.shape_646,p:{x:770.675,y:376.375}},{t:this.shape_645,p:{x:776.625,y:378.125}},{t:this.shape_644},{t:this.shape_643},{t:this.shape_642,p:{x:76.275,y:396.15}},{t:this.shape_641,p:{x:83.025,y:397.125}},{t:this.shape_640},{t:this.shape_639,p:{x:99.675,y:397.125}},{t:this.shape_638},{t:this.shape_637},{t:this.shape_636},{t:this.shape_635},{t:this.shape_634},{t:this.shape_633,p:{x:155.45,y:396.975}},{t:this.shape_632},{t:this.shape_631},{t:this.shape_630},{t:this.shape_629},{t:this.shape_628,p:{x:84.3,y:415.975}},{t:this.shape_627},{t:this.shape_626,p:{x:101.175,y:416.05}},{t:this.shape_625},{t:this.shape_624},{t:this.shape_623},{t:this.shape_622,p:{x:133.475,y:415.975}},{t:this.shape_621},{t:this.shape_620,p:{x:148.525,y:414.375}},{t:this.shape_619},{t:this.shape_618,p:{x:162.875,y:417.5}},{t:this.shape_617},{t:this.shape_616},{t:this.shape_615},{t:this.shape_614,p:{x:190.6,y:415.975}},{t:this.shape_613},{t:this.shape_612},{t:this.shape_611},{t:this.shape_610},{t:this.shape_609},{t:this.shape_608,p:{x:234.725,y:414.375}},{t:this.shape_607},{t:this.shape_606,p:{x:251.275,y:415.975}},{t:this.shape_605},{t:this.shape_604},{t:this.shape_603,p:{x:282.3,y:415.975}},{t:this.shape_602,p:{x:296.725,y:415.975}},{t:this.shape_601},{t:this.shape_600},{t:this.shape_599,p:{x:323.625,y:416.125}},{t:this.shape_598},{t:this.shape_597,p:{x:336.725,y:416.125}},{t:this.shape_596,p:{x:345.225,y:417.5}},{t:this.shape_595,p:{x:351.1,y:414.6}},{t:this.shape_594},{t:this.shape_593},{t:this.shape_592,p:{x:374.325,y:414.375}},{t:this.shape_591,p:{x:380.275,y:416.125}},{t:this.shape_590},{t:this.shape_589},{t:this.shape_588},{t:this.shape_587,p:{x:414.025,y:417.5}},{t:this.shape_586},{t:this.shape_585},{t:this.shape_584},{t:this.shape_583},{t:this.shape_582},{t:this.shape_581,p:{x:459.25,y:415.975}},{t:this.shape_580},{t:this.shape_579},{t:this.shape_578,p:{x:483.85,y:415.975}},{t:this.shape_577},{t:this.shape_576},{t:this.shape_575},{t:this.shape_574,p:{x:519.3,y:417.525}},{t:this.shape_573},{t:this.shape_572},{t:this.shape_571},{t:this.shape_570},{t:this.shape_569,p:{x:563.75,y:415.975}},{t:this.shape_568},{t:this.shape_567},{t:this.shape_566},{t:this.shape_565},{t:this.shape_564,p:{x:605.725,y:414.375}},{t:this.shape_563},{t:this.shape_562,p:{x:623.475,y:415.975}},{t:this.shape_561},{t:this.shape_560},{t:this.shape_559,p:{x:650.75,y:415.975}},{t:this.shape_558,p:{x:658.95,y:417.525}},{t:this.shape_557},{t:this.shape_556},{t:this.shape_555},{t:this.shape_554,p:{x:687.075,y:414.375}},{t:this.shape_553},{t:this.shape_552},{t:this.shape_551},{t:this.shape_550},{t:this.shape_549},{t:this.shape_548,p:{x:728.675,y:416.05}},{t:this.shape_547,p:{x:737.1,y:415.975}},{t:this.shape_546},{t:this.shape_545},{t:this.shape_544,p:{x:86.75,y:434.975}},{t:this.shape_543},{t:this.shape_542},{t:this.shape_541},{t:this.shape_540},{t:this.shape_539},{t:this.shape_538,p:{x:135.925,y:434.975}},{t:this.shape_537},{t:this.shape_536,p:{x:158.675,y:433.375}},{t:this.shape_535},{t:this.shape_534,p:{x:174.25,y:434.975}},{t:this.shape_533},{t:this.shape_532},{t:this.shape_531},{t:this.shape_530,p:{x:207.825,y:433.375}},{t:this.shape_529},{t:this.shape_528,p:{x:225.575,y:434.975}},{t:this.shape_527},{t:this.shape_526},{t:this.shape_525,p:{x:252.85,y:434.975}},{t:this.shape_524},{t:this.shape_523,p:{x:275.675,y:434.975}},{t:this.shape_522},{t:this.shape_521,p:{x:294.3,y:434.975}},{t:this.shape_520},{t:this.shape_519},{t:this.shape_518},{t:this.shape_517},{t:this.shape_516},{t:this.shape_515},{t:this.shape_514,p:{x:343.725,y:433.375}},{t:this.shape_513,p:{x:349.675,y:435.125}},{t:this.shape_512,p:{x:356.75,y:434.975}},{t:this.shape_511},{t:this.shape_510,p:{x:371.2,y:434.975}},{t:this.shape_509},{t:this.shape_508,p:{x:391.5,y:435.05}},{t:this.shape_507,p:{x:399.5,y:434.975}},{t:this.shape_506},{t:this.shape_505},{t:this.shape_504,p:{x:422.35,y:434.975}},{t:this.shape_503,p:{x:428.65,y:434.975}},{t:this.shape_502},{t:this.shape_501},{t:this.shape_500,p:{x:453.25,y:434.975}},{t:this.shape_499},{t:this.shape_498},{t:this.shape_497},{t:this.shape_496},{t:this.shape_495,p:{x:487.15,y:433.6}},{t:this.shape_494},{t:this.shape_493},{t:this.shape_492,p:{x:513.4,y:434.975}},{t:this.shape_491},{t:this.shape_490},{t:this.shape_489},{t:this.shape_488,p:{x:547.025,y:435.125}},{t:this.shape_487},{t:this.shape_486},{t:this.shape_485},{t:this.shape_484,p:{x:576.925,y:435.125}},{t:this.shape_483,p:{x:588.9,y:433.375}},{t:this.shape_482},{t:this.shape_481},{t:this.shape_480},{t:this.shape_479,p:{x:624.45,y:434.975}},{t:this.shape_478},{t:this.shape_477},{t:this.shape_476,p:{x:650.4,y:434.975}},{t:this.shape_475,p:{x:654.775,y:434.15}},{t:this.shape_474},{t:this.shape_473},{t:this.shape_472},{t:this.shape_471},{t:this.shape_470,p:{x:689.175,y:434.15}},{t:this.shape_469},{t:this.shape_468},{t:this.shape_467},{t:this.shape_466},{t:this.shape_465},{t:this.shape_464},{t:this.shape_463},{t:this.shape_462},{t:this.shape_461},{t:this.shape_460},{t:this.shape_459},{t:this.shape_458,p:{x:136.925,y:453.975}},{t:this.shape_457},{t:this.shape_456},{t:this.shape_455},{t:this.shape_454,p:{x:165.85,y:453.975}},{t:this.shape_453,p:{x:169.825,y:452.375}},{t:this.shape_452},{t:this.shape_451},{t:this.shape_450},{t:this.shape_449,p:{x:196.875,y:452.375}},{t:this.shape_448},{t:this.shape_447},{t:this.shape_446},{t:this.shape_445,p:{x:228.25,y:453.975}},{t:this.shape_444},{t:this.shape_443},{t:this.shape_442,p:{x:248.35,y:453.975}},{t:this.shape_441},{t:this.shape_440},{t:this.shape_439},{t:this.shape_438,p:{x:280.325,y:453.15}},{t:this.shape_437},{t:this.shape_436},{t:this.shape_435},{t:this.shape_434,p:{x:310.8,y:453.975}},{t:this.shape_433,p:{x:319.525,y:453.975}},{t:this.shape_432},{t:this.shape_431},{t:this.shape_430,p:{x:350.55,y:453.975}},{t:this.shape_429},{t:this.shape_428,p:{x:370.45,y:453.975}},{t:this.shape_427},{t:this.shape_426},{t:this.shape_425},{t:this.shape_424},{t:this.shape_423,p:{x:410.9,y:453.975}},{t:this.shape_422,p:{x:419.625,y:453.975}},{t:this.shape_421},{t:this.shape_420},{t:this.shape_419},{t:this.shape_418},{t:this.shape_417},{t:this.shape_416},{t:this.shape_415},{t:this.shape_414,p:{x:490.45,y:453.975}},{t:this.shape_413,p:{x:499.175,y:453.975}},{t:this.shape_412},{t:this.shape_411,p:{x:521.925,y:452.375}},{t:this.shape_410},{t:this.shape_409,p:{x:537.5,y:453.975}},{t:this.shape_408,p:{x:551.925,y:453.975}},{t:this.shape_407},{t:this.shape_406,p:{x:570.55,y:453.975}},{t:this.shape_405},{t:this.shape_404,p:{x:582.375,y:454.05}},{t:this.shape_403},{t:this.shape_402,p:{x:596.75,y:452.6}},{t:this.shape_401},{t:this.shape_400,p:{x:613.025,y:453.15}},{t:this.shape_399},{t:this.shape_398,p:{x:626.425,y:453.15}},{t:this.shape_397,p:{x:636.8,y:452.45}},{t:this.shape_396,p:{x:645.275,y:454.05}},{t:this.shape_395,p:{x:653.5,y:453.975}},{t:this.shape_394},{t:this.shape_393,p:{x:672.85,y:453.975}},{t:this.shape_392,p:{x:679.05,y:455.525}},{t:this.shape_391,p:{x:687.475,y:454.05}},{t:this.shape_390,p:{x:695.7,y:453.975}},{t:this.shape_389,p:{x:705.375,y:452.375}},{t:this.shape_388,p:{x:711.275,y:454.05}},{t:this.shape_387,p:{x:717.2,y:452.6}},{t:this.shape_386,p:{x:723.15,y:453.975}},{t:this.shape_385},{t:this.shape_384,p:{x:742.175,y:454.05}},{t:this.shape_383,p:{x:750.4,y:453.975}},{t:this.shape_382,p:{x:758.6,y:455.525}},{t:this.shape_381},{t:this.shape_380},{t:this.shape_379,p:{x:89.75,y:472.975}},{t:this.shape_378,p:{x:93.725,y:471.375}},{t:this.shape_377},{t:this.shape_376},{t:this.shape_375},{t:this.shape_374,p:{x:120.775,y:471.375}},{t:this.shape_373},{t:this.shape_372,p:{x:138.05,y:471.6}},{t:this.shape_371},{t:this.shape_370,p:{x:155.85,y:472.975}},{t:this.shape_369},{t:this.shape_368},{t:this.shape_367,p:{x:175.95,y:472.975}},{t:this.shape_366},{t:this.shape_365},{t:this.shape_364},{t:this.shape_363,p:{x:207.675,y:471.375}},{t:this.shape_362,p:{x:213.625,y:473.125}},{t:this.shape_361,p:{x:220.7,y:472.975}},{t:this.shape_360},{t:this.shape_359,p:{x:235.15,y:472.975}},{t:this.shape_358},{t:this.shape_357},{t:this.shape_356,p:{x:263.45,y:472.975}},{t:this.shape_355},{t:this.shape_354},{t:this.shape_353},{t:this.shape_352,p:{x:292.6,y:472.975}},{t:this.shape_351},{t:this.shape_350},{t:this.shape_349,p:{x:317.2,y:472.975}},{t:this.shape_348},{t:this.shape_347},{t:this.shape_346,p:{x:345.8,y:472.975}},{t:this.shape_345},{t:this.shape_344},{t:this.shape_343,p:{x:374.1,y:472.975}},{t:this.shape_342,p:{x:382.375,y:473.125}},{t:this.shape_341},{t:this.shape_340,p:{x:395.475,y:473.125}},{t:this.shape_339},{t:this.shape_338,p:{x:413.525,y:471.375}},{t:this.shape_337,p:{x:419.475,y:473.125}},{t:this.shape_336},{t:this.shape_335,p:{x:434.7,y:472.975}},{t:this.shape_334},{t:this.shape_333,p:{x:449.525,y:473.125}},{t:this.shape_332},{t:this.shape_331,p:{x:466.175,y:473.125}},{t:this.shape_330,p:{x:474.45,y:471.375}},{t:this.shape_329},{t:this.instance_5},{t:this.btnBack3},{t:this.btnMenu3}]},1).to({state:[{t:this.instance_2},{t:this.instance_10},{t:this.shape_1394},{t:this.shape_1393},{t:this.shape_1392},{t:this.shape_1391},{t:this.shape_1390},{t:this.shape_622,p:{x:531.675,y:107.175}},{t:this.shape_1389},{t:this.shape_642,p:{x:548.375,y:106.35}},{t:this.shape_512,p:{x:553.95,y:107.175}},{t:this.shape_1388},{t:this.shape_1387},{t:this.shape_1386},{t:this.shape_1385},{t:this.shape_1384},{t:this.shape_1383},{t:this.shape_1382},{t:this.shape_1381},{t:this.shape_1380},{t:this.shape_1379},{t:this.shape_1378},{t:this.shape_1377},{t:this.shape_1376},{t:this.shape_1375},{t:this.shape_1374},{t:this.shape_1373},{t:this.shape_1372},{t:this.shape_1371},{t:this.shape_442,p:{x:652.25,y:129.175}},{t:this.shape_1370},{t:this.shape_1369},{t:this.shape_1368},{t:this.shape_1367},{t:this.shape_1366},{t:this.shape_1365},{t:this.shape_1364},{t:this.shape_1363},{t:this.shape_1362},{t:this.shape_1361},{t:this.shape_504,p:{x:757.25,y:129.175}},{t:this.shape_1360},{t:this.shape_1359},{t:this.shape_1358},{t:this.shape_476,p:{x:783.6,y:129.175}},{t:this.shape_1357},{t:this.shape_1356},{t:this.shape_1355},{t:this.shape_1354},{t:this.shape_1353},{t:this.shape_1352},{t:this.shape_1351},{t:this.shape_1350},{t:this.shape_1349},{t:this.shape_1348},{t:this.shape_1347},{t:this.shape_1346},{t:this.shape_716,p:{x:488.775,y:150.35}},{t:this.shape_1345},{t:this.shape_1344},{t:this.shape_1343},{t:this.shape_1342},{t:this.shape_1341},{t:this.shape_709,p:{x:536.375,y:152.85}},{t:this.shape_1340},{t:this.shape_1339},{t:this.shape_1338},{t:this.shape_1337},{t:this.shape_1336},{t:this.shape_702,p:{x:591.075,y:150.35}},{t:this.shape_1335},{t:this.shape_707,p:{x:606.4,y:151.175}},{t:this.shape_382,p:{x:614.6,y:152.725}},{t:this.shape_1334},{t:this.shape_1333},{t:this.shape_1332},{t:this.shape_569,p:{x:652.85,y:151.175}},{t:this.shape_606,p:{x:669.425,y:151.175}},{t:this.shape_1331},{t:this.shape_1330},{t:this.shape_1329},{t:this.shape_1328},{t:this.shape_1327},{t:this.shape_1326},{t:this.shape_1325},{t:this.shape_713,p:{x:730.225,y:149.575}},{t:this.shape_1324},{t:this.shape_1323},{t:this.shape_717,p:{x:751.95,y:151.175}},{t:this.shape_1322},{t:this.shape_1321},{t:this.shape_680,p:{x:781.125,y:150.35}},{t:this.shape_1320},{t:this.shape_1319},{t:this.shape_1318},{t:this.shape_1317},{t:this.shape_1316},{t:this.shape_1315},{t:this.shape_1314},{t:this.shape_1313},{t:this.shape_649,p:{x:848.775,y:150.35}},{t:this.shape_1312},{t:this.shape_1311},{t:this.shape_1310},{t:this.shape_1309},{t:this.shape_744,p:{x:888.95,y:151.175}},{t:this.shape_438,p:{x:488.775,y:172.35}},{t:this.shape_736,p:{x:495.525,y:173.325}},{t:this.shape_1308},{t:this.shape_712,p:{x:512.175,y:173.325}},{t:this.shape_330,p:{x:520.45,y:171.575}},{t:this.shape_397,p:{x:532.3,y:171.65}},{t:this.shape_1307},{t:this.shape_704,p:{x:548.75,y:173.175}},{t:this.shape_1306},{t:this.shape_404,p:{x:565.375,y:173.25}},{t:this.shape_751,p:{x:573.6,y:173.175}},{t:this.shape_1305},{t:this.shape_1304},{t:this.shape_690,p:{x:601.9,y:173.175}},{t:this.shape_400,p:{x:608.275,y:172.35}},{t:this.shape_703,p:{x:615.025,y:173.325}},{t:this.shape_1303},{t:this.shape_1302},{t:this.shape_396,p:{x:641.625,y:173.25}},{t:this.shape_671,p:{x:649.85,y:173.175}},{t:this.shape_1301},{t:this.shape_398,p:{x:668.325,y:172.35}},{t:this.shape_391,p:{x:675.025,y:173.25}},{t:this.shape_742,p:{x:683.425,y:171.575}},{t:this.shape_1300},{t:this.shape_388,p:{x:702.225,y:173.25}},{t:this.shape_602,p:{x:712.875,y:173.175}},{t:this.shape_384,p:{x:723.525,y:173.25}},{t:this.shape_1299},{t:this.shape_1298},{t:this.shape_1297},{t:this.shape_1296},{t:this.shape_495,p:{x:514.25,y:215.8}},{t:this.shape_562,p:{x:522.625,y:217.175}},{t:this.shape_508,p:{x:533.25,y:217.25}},{t:this.shape_475,p:{x:539.325,y:216.35}},{t:this.shape_434,p:{x:544.9,y:217.175}},{t:this.shape_387,p:{x:548.9,y:215.8}},{t:this.shape_1295},{t:this.shape_402,p:{x:565.6,y:215.8}},{t:this.shape_646,p:{x:569.225,y:215.575}},{t:this.shape_1294},{t:this.shape_470,p:{x:581.425,y:216.35}},{t:this.shape_1293},{t:this.shape_454,p:{x:594.9,y:217.175}},{t:this.shape_1292},{t:this.shape_620,p:{x:607.025,y:215.575}},{t:this.shape_1291},{t:this.shape_1290},{t:this.shape_1289},{t:this.shape_1288},{t:this.shape_1287},{t:this.shape_578,p:{x:528.4,y:239.175}},{t:this.shape_1286},{t:this.shape_701,p:{x:546.775,y:239.325}},{t:this.shape_1285},{t:this.shape_694,p:{x:563.425,y:239.325}},{t:this.shape_1284},{t:this.shape_1283},{t:this.shape_1282},{t:this.shape_658,p:{x:600.45,y:239.175}},{t:this.shape_1281},{t:this.shape_1280},{t:this.shape_1279},{t:this.shape_367,p:{x:633.95,y:239.175}},{t:this.shape_1278},{t:this.shape_650,p:{x:647.975,y:239.325}},{t:this.shape_1277},{t:this.shape_648,p:{x:663.975,y:239.325}},{t:this.shape_510,p:{x:672.25,y:239.175}},{t:this.shape_538,p:{x:688.225,y:239.175}},{t:this.shape_1276},{t:this.shape_608,p:{x:704.525,y:237.575}},{t:this.shape_1275},{t:this.shape_547,p:{x:714.15,y:239.175}},{t:this.shape_661,p:{x:722.35,y:240.725}},{t:this.shape_731,p:{x:731.025,y:237.575}},{t:this.shape_1274},{t:this.shape_423,p:{x:745.4,y:239.175}},{t:this.shape_1273},{t:this.shape_1272},{t:this.shape_693,p:{x:764.375,y:237.575}},{t:this.shape_1271},{t:this.shape_1270},{t:this.shape_1269},{t:this.shape_1268},{t:this.shape_1267},{t:this.shape_1266},{t:this.shape_628,p:{x:821.95,y:239.175}},{t:this.shape_1265},{t:this.shape_645,p:{x:840.325,y:239.325}},{t:this.shape_1264},{t:this.shape_641,p:{x:856.975,y:239.325}},{t:this.shape_1263},{t:this.shape_1262},{t:this.shape_1261},{t:this.shape_1260},{t:this.shape_1259},{t:this.shape_1258},{t:this.shape_618,p:{x:513.575,y:262.7}},{t:this.shape_1257},{t:this.shape_1256},{t:this.shape_1255},{t:this.shape_534,p:{x:543.7,y:261.175}},{t:this.shape_1254},{t:this.shape_1253},{t:this.shape_673,p:{x:579.275,y:259.575}},{t:this.shape_1252},{t:this.shape_492,p:{x:594.85,y:261.175}},{t:this.shape_528,p:{x:616.125,y:261.175}},{t:this.shape_1251},{t:this.shape_614,p:{x:634.75,y:261.175}},{t:this.shape_1250},{t:this.shape_483,p:{x:651.45,y:259.575}},{t:this.shape_1249},{t:this.shape_1248},{t:this.shape_595,p:{x:673.3,y:259.8}},{t:this.shape_592,p:{x:676.925,y:259.575}},{t:this.shape_667,p:{x:683.075,y:259.575}},{t:this.shape_1247},{t:this.shape_603,p:{x:698.65,y:261.175}},{t:this.shape_596,p:{x:717.725,y:262.7}},{t:this.shape_1246},{t:this.shape_1245},{t:this.shape_1244},{t:this.shape_406,p:{x:747.85,y:261.175}},{t:this.shape_1243},{t:this.shape_1242},{t:this.shape_1241},{t:this.shape_1240},{t:this.shape_587,p:{x:785.375,y:262.7}},{t:this.shape_626,p:{x:793.675,y:261.25}},{t:this.shape_1239},{t:this.shape_548,p:{x:807.075,y:261.25}},{t:this.shape_500,p:{x:815.5,y:261.175}},{t:this.shape_1238},{t:this.shape_1237},{t:this.shape_633,p:{x:840.35,y:261.175}},{t:this.shape_1236},{t:this.shape_639,p:{x:864.025,y:261.325}},{t:this.shape_1235},{t:this.shape_599,p:{x:880.675,y:261.325}},{t:this.shape_1234},{t:this.shape_1233},{t:this.shape_1232},{t:this.shape_1231},{t:this.shape_574,p:{x:515.25,y:284.725}},{t:this.shape_1230},{t:this.shape_386,p:{x:531.9,y:283.175}},{t:this.shape_1229},{t:this.shape_1228},{t:this.shape_1227},{t:this.shape_1226},{t:this.shape_597,p:{x:573.325,y:283.325}},{t:this.shape_564,p:{x:581.775,y:281.575}},{t:this.shape_1225},{t:this.shape_1224},{t:this.shape_445,p:{x:608.15,y:283.175}},{t:this.shape_1223},{t:this.shape_1222},{t:this.shape_1221},{t:this.shape_523,p:{x:646.875,y:283.175}},{t:this.shape_1220},{t:this.shape_1219},{t:this.shape_1218},{t:this.shape_1217},{t:this.shape_1216},{t:this.shape_1215},{t:this.shape_458,p:{x:523.025,y:327.175}},{t:this.shape_1214},{t:this.shape_1213},{t:this.shape_335,p:{x:545.3,y:327.175}},{t:this.shape_1212},{t:this.shape_1211},{t:this.shape_1210},{t:this.shape_1209},{t:this.shape_372,p:{x:582.5,y:325.8}},{t:this.shape_1208},{t:this.shape_514,p:{x:594.275,y:325.575}},{t:this.shape_1207},{t:this.shape_1206},{t:this.shape_1205},{t:this.shape_1204},{t:this.shape_525,p:{x:528.7,y:355.175}},{t:this.shape_1203},{t:this.shape_1202},{t:this.shape_1201},{t:this.shape_1200},{t:this.shape_1199},{t:this.shape_591,p:{x:581.775,y:355.325}},{t:this.shape_1198},{t:this.shape_513,p:{x:598.425,y:355.325}},{t:this.shape_1197},{t:this.shape_581,p:{x:614.95,y:355.175}},{t:this.shape_1196},{t:this.shape_1195},{t:this.shape_1194},{t:this.shape_1193},{t:this.shape_414,p:{x:654.05,y:355.175}},{t:this.shape_1192},{t:this.shape_488,p:{x:668.075,y:355.325}},{t:this.shape_1191},{t:this.shape_484,p:{x:684.075,y:355.325}},{t:this.shape_503,p:{x:692.35,y:355.175}},{t:this.shape_1190},{t:this.shape_1189},{t:this.shape_393,p:{x:719.75,y:355.175}},{t:this.shape_1188},{t:this.shape_1187},{t:this.shape_1186},{t:this.shape_1185},{t:this.shape_453,p:{x:755.675,y:353.575}},{t:this.shape_1184},{t:this.shape_1183},{t:this.shape_1182},{t:this.shape_1181},{t:this.shape_1180},{t:this.shape_1179},{t:this.shape_544,p:{x:814.85,y:355.175}},{t:this.shape_392,p:{x:823.05,y:356.725}},{t:this.shape_1178},{t:this.shape_651,p:{x:839.7,y:355.175}},{t:this.shape_1177},{t:this.shape_1176},{t:this.shape_1175},{t:this.shape_1174},{t:this.shape_1173},{t:this.shape_521,p:{x:888.75,y:355.175}},{t:this.shape_389,p:{x:488.375,y:381.575}},{t:this.shape_1172},{t:this.shape_1171},{t:this.shape_1170},{t:this.shape_428,p:{x:514.45,y:383.175}},{t:this.shape_1169},{t:this.shape_1168},{t:this.shape_1167},{t:this.shape_1166},{t:this.shape_1165},{t:this.shape_554,p:{x:561.275,y:381.575}},{t:this.shape_1164},{t:this.shape_1163},{t:this.shape_1162},{t:this.shape_1161},{t:this.shape_1160},{t:this.shape_1159},{t:this.shape_383,p:{x:620.8,y:383.175}},{t:this.shape_1158},{t:this.shape_362,p:{x:641.125,y:383.325}},{t:this.shape_1157},{t:this.shape_342,p:{x:657.775,y:383.325}},{t:this.shape_1156},{t:this.shape_356,p:{x:674.3,y:383.175}},{t:this.shape_1155},{t:this.shape_1154},{t:this.shape_1153},{t:this.shape_1152},{t:this.shape_1151},{t:this.shape_1150},{t:this.shape_1149},{t:this.shape_1148},{t:this.shape_559,p:{x:747.5,y:383.175}},{t:this.shape_558,p:{x:755.7,y:384.725}},{t:this.shape_433,p:{x:773.825,y:383.175}},{t:this.shape_1147},{t:this.shape_378,p:{x:790.125,y:381.575}},{t:this.shape_1146},{t:this.shape_363,p:{x:801.925,y:381.575}},{t:this.shape_340,p:{x:807.875,y:383.325}},{t:this.shape_1145},{t:this.shape_422,p:{x:829.425,y:383.175}},{t:this.shape_337,p:{x:840.125,y:383.325}},{t:this.shape_338,p:{x:846.075,y:381.575}},{t:this.shape_333,p:{x:852.025,y:383.325}},{t:this.shape_1144},{t:this.shape_1143},{t:this.shape_1142},{t:this.shape_409,p:{x:888.95,y:383.175}},{t:this.shape_1141},{t:this.shape_370,p:{x:498.85,y:411.175}},{t:this.shape_331,p:{x:507.125,y:411.325}},{t:this.shape_1140},{t:this.shape_359,p:{x:523.15,y:411.175}},{t:this.shape_1139},{t:this.shape_1138},{t:this.shape_536,p:{x:553.425,y:409.575}},{t:this.shape_743,p:{x:558.55,y:409.8}},{t:this.shape_767,p:{x:562.575,y:410.35}},{t:this.shape_1137},{t:this.shape_1136},{t:this.shape_530,p:{x:592.375,y:409.575}},{t:this.shape_1135},{t:this.shape_430,p:{x:607.95,y:411.175}},{t:this.shape_413,p:{x:625.225,y:411.175}},{t:this.shape_1134},{t:this.shape_507,p:{x:643.85,y:411.175}},{t:this.shape_1133},{t:this.shape_1132},{t:this.shape_1131},{t:this.shape_1130},{t:this.shape_766,p:{x:683.375,y:410.35}},{t:this.shape_449,p:{x:690.325,y:409.575}},{t:this.shape_1129},{t:this.shape_479,p:{x:705.9,y:411.175}},{t:this.shape_1128},{t:this.shape_1127},{t:this.shape_1126},{t:this.shape_738,p:{x:743.4,y:409.8}},{t:this.shape_1125},{t:this.shape_343,p:{x:757.5,y:411.175}},{t:this.shape_740,p:{x:771.725,y:412.85}},{t:this.shape_1124},{t:this.shape_395,p:{x:787.6,y:411.175}},{t:this.shape_1123},{t:this.shape_1122},{t:this.shape_1121},{t:this.shape_408,p:{x:829.175,y:411.175}},{t:this.shape_1120},{t:this.shape_1119},{t:this.shape_352,p:{x:862.75,y:411.175}},{t:this.shape_737,p:{x:869.125,y:410.35}},{t:this.shape_1118},{t:this.shape_379,p:{x:882.85,y:411.175}},{t:this.shape_1117},{t:this.shape_1116},{t:this.shape_1115},{t:this.shape_1114},{t:this.shape_699,p:{x:507.55,y:437.8}},{t:this.shape_411,p:{x:517.375,y:437.575}},{t:this.shape_685,p:{x:522.5,y:437.8}},{t:this.shape_361,p:{x:527.25,y:439.175}},{t:this.shape_1113},{t:this.shape_728,p:{x:540.8,y:437.65}},{t:this.shape_1112},{t:this.shape_349,p:{x:557.5,y:439.175}},{t:this.shape_1111},{t:this.shape_654,p:{x:574.95,y:437.8}},{t:this.shape_1110},{t:this.shape_720,p:{x:586.35,y:437.8}},{t:this.shape_374,p:{x:596.175,y:437.575}},{t:this.shape_1109},{t:this.shape_346,p:{x:611.75,y:439.175}},{t:this.shape_1108},{t:this.shape_390,p:{x:628.2,y:439.175}},{t:this.shape_1107},{t:this.instance_9},{t:this.instance_8},{t:this.instance_7},{t:this.judulKI_5},{t:this.shape_1106},{t:this.judulKI_4},{t:this.shape_1105},{t:this.judulKI_3},{t:this.shape_1104},{t:this.btnBack3},{t:this.btnMenu3}]},1).to({state:[{t:this.instance_2},{t:this.instance_12},{t:this.shape_1953},{t:this.shape_1952},{t:this.shape_1951},{t:this.shape_1950},{t:this.shape_1949},{t:this.shape_1948},{t:this.shape_1947},{t:this.shape_1946},{t:this.shape_1945},{t:this.shape_1944},{t:this.shape_1943},{t:this.shape_1942},{t:this.shape_1941},{t:this.shape_1940},{t:this.shape_1939},{t:this.shape_1938},{t:this.shape_1937},{t:this.shape_1936},{t:this.shape_1935},{t:this.shape_1934},{t:this.shape_1933},{t:this.shape_1932},{t:this.shape_1931},{t:this.shape_1930},{t:this.shape_1929},{t:this.shape_1928},{t:this.shape_1927},{t:this.shape_1926},{t:this.shape_1925},{t:this.shape_1924},{t:this.shape_1923},{t:this.shape_1922},{t:this.shape_1921},{t:this.shape_1920},{t:this.shape_1919},{t:this.shape_1918},{t:this.shape_1917},{t:this.shape_1916},{t:this.shape_1915},{t:this.shape_1914},{t:this.shape_1913},{t:this.shape_1912},{t:this.shape_1911},{t:this.shape_1910},{t:this.shape_1909},{t:this.shape_1908},{t:this.shape_1907},{t:this.shape_1906},{t:this.shape_1905},{t:this.shape_1904},{t:this.shape_1903},{t:this.shape_1902},{t:this.shape_1901},{t:this.shape_1900},{t:this.shape_1899},{t:this.shape_1898},{t:this.shape_1897},{t:this.shape_1896},{t:this.shape_1895},{t:this.shape_1894},{t:this.shape_1893},{t:this.shape_1892},{t:this.shape_1891},{t:this.shape_1890},{t:this.shape_1889},{t:this.shape_1888},{t:this.shape_1887},{t:this.shape_1886},{t:this.shape_1885},{t:this.shape_1884},{t:this.shape_1883},{t:this.shape_1882},{t:this.shape_1881},{t:this.shape_1880},{t:this.shape_1879},{t:this.shape_1878},{t:this.shape_1877},{t:this.shape_1876},{t:this.shape_1875},{t:this.shape_1874},{t:this.shape_1873},{t:this.shape_1872},{t:this.shape_1871},{t:this.shape_1870},{t:this.shape_1869},{t:this.shape_1868},{t:this.shape_1867},{t:this.shape_1866},{t:this.shape_1865},{t:this.shape_1864},{t:this.shape_1863},{t:this.shape_1862},{t:this.shape_1861},{t:this.shape_1860},{t:this.shape_1859},{t:this.shape_1858},{t:this.shape_1857},{t:this.shape_1856},{t:this.shape_1855},{t:this.shape_1854},{t:this.shape_1853},{t:this.shape_1852},{t:this.shape_1851},{t:this.shape_1850},{t:this.shape_1849},{t:this.shape_1848},{t:this.shape_1847},{t:this.shape_1846},{t:this.shape_1845},{t:this.shape_1844},{t:this.shape_1843},{t:this.shape_1842},{t:this.shape_1841},{t:this.shape_1840},{t:this.shape_1839},{t:this.shape_1838},{t:this.shape_1837},{t:this.shape_1836},{t:this.shape_1835},{t:this.shape_1834},{t:this.shape_1833},{t:this.shape_1832},{t:this.shape_1831},{t:this.shape_1830},{t:this.shape_1829},{t:this.shape_1828},{t:this.shape_1827},{t:this.shape_1826},{t:this.shape_1825},{t:this.shape_1824},{t:this.shape_1823},{t:this.shape_1822},{t:this.shape_1821},{t:this.shape_1820},{t:this.shape_1819},{t:this.shape_1818},{t:this.shape_1817},{t:this.shape_1816},{t:this.shape_1815},{t:this.shape_1814},{t:this.shape_1813},{t:this.shape_1812},{t:this.shape_1811},{t:this.shape_1810},{t:this.shape_1809},{t:this.shape_1808},{t:this.shape_1807},{t:this.shape_1806},{t:this.shape_1805},{t:this.shape_1804},{t:this.shape_1803},{t:this.shape_1802},{t:this.shape_1801},{t:this.shape_1800},{t:this.shape_1799},{t:this.shape_1798},{t:this.shape_1797},{t:this.shape_1796},{t:this.shape_1795},{t:this.shape_1794},{t:this.shape_1793},{t:this.shape_1792},{t:this.shape_1791},{t:this.shape_1790},{t:this.shape_1789},{t:this.shape_1788},{t:this.shape_1787},{t:this.shape_1786},{t:this.shape_1785},{t:this.shape_1784},{t:this.shape_1783},{t:this.shape_1782},{t:this.shape_1781},{t:this.shape_1780},{t:this.shape_1779},{t:this.shape_1778},{t:this.shape_1777},{t:this.shape_1776},{t:this.shape_1775},{t:this.shape_1774},{t:this.shape_1773},{t:this.shape_1772},{t:this.shape_1771},{t:this.shape_1770},{t:this.shape_1769},{t:this.shape_1768},{t:this.shape_1767},{t:this.shape_1766},{t:this.shape_1765},{t:this.shape_1764},{t:this.shape_1763},{t:this.shape_1762},{t:this.shape_1761},{t:this.shape_1760},{t:this.shape_1759},{t:this.shape_1758},{t:this.shape_1757},{t:this.shape_1756},{t:this.shape_1755},{t:this.shape_1754},{t:this.shape_1753},{t:this.shape_1752},{t:this.shape_1751},{t:this.shape_1750},{t:this.shape_1749},{t:this.shape_1748},{t:this.shape_1747},{t:this.shape_1746},{t:this.shape_1745},{t:this.shape_1744},{t:this.shape_1743},{t:this.shape_1742},{t:this.shape_1741},{t:this.shape_1740},{t:this.shape_1739},{t:this.shape_1738},{t:this.shape_1737},{t:this.shape_1736},{t:this.shape_1735},{t:this.shape_1734},{t:this.shape_1733},{t:this.shape_1732},{t:this.shape_1731},{t:this.shape_1730},{t:this.shape_1729},{t:this.shape_1728},{t:this.shape_1727},{t:this.shape_1726},{t:this.shape_1725},{t:this.shape_1724},{t:this.shape_1723},{t:this.shape_1722},{t:this.shape_1721},{t:this.shape_1720},{t:this.shape_1719},{t:this.shape_1718},{t:this.shape_1717},{t:this.shape_1716},{t:this.shape_1715},{t:this.shape_1714},{t:this.shape_1713},{t:this.shape_1712},{t:this.shape_1711},{t:this.shape_1710},{t:this.shape_1709},{t:this.shape_1708},{t:this.shape_1707},{t:this.shape_1706},{t:this.shape_1705},{t:this.shape_1704},{t:this.shape_1703},{t:this.shape_1702},{t:this.shape_1701},{t:this.shape_1700},{t:this.shape_1699},{t:this.shape_1698},{t:this.shape_1697},{t:this.shape_1696},{t:this.shape_1695},{t:this.shape_1694},{t:this.shape_1693},{t:this.shape_1692},{t:this.shape_1691},{t:this.shape_1690},{t:this.shape_1689},{t:this.shape_1688},{t:this.shape_1687},{t:this.shape_1686},{t:this.shape_1685},{t:this.shape_1684},{t:this.shape_1683},{t:this.shape_1682},{t:this.shape_1681},{t:this.shape_1680},{t:this.shape_1679},{t:this.shape_1678},{t:this.shape_1677},{t:this.shape_1676},{t:this.shape_1675},{t:this.shape_1674},{t:this.shape_1673},{t:this.shape_1672},{t:this.shape_1671},{t:this.shape_1670},{t:this.shape_1669},{t:this.shape_1668},{t:this.shape_1667},{t:this.shape_1666},{t:this.shape_1665},{t:this.shape_1664},{t:this.shape_1663},{t:this.shape_1662},{t:this.shape_1661},{t:this.shape_1660},{t:this.shape_1659},{t:this.shape_1658},{t:this.shape_1657},{t:this.shape_1656},{t:this.shape_1655},{t:this.shape_1654},{t:this.shape_1653},{t:this.shape_1652},{t:this.shape_1651},{t:this.shape_1650},{t:this.shape_1649},{t:this.shape_1648},{t:this.shape_1647},{t:this.shape_1646},{t:this.shape_1645},{t:this.shape_1644},{t:this.shape_1643},{t:this.shape_1642},{t:this.shape_1641},{t:this.shape_1640},{t:this.shape_1639},{t:this.shape_1638},{t:this.shape_1637},{t:this.shape_1636},{t:this.shape_1635},{t:this.shape_1634},{t:this.shape_1633},{t:this.shape_1632},{t:this.shape_1631},{t:this.shape_1630},{t:this.shape_1629},{t:this.shape_1628},{t:this.shape_1627},{t:this.shape_1626},{t:this.shape_1625},{t:this.shape_1624},{t:this.shape_1623},{t:this.shape_1622},{t:this.shape_1621},{t:this.shape_1620},{t:this.shape_1619},{t:this.shape_1618},{t:this.shape_1617},{t:this.shape_1616},{t:this.shape_1615},{t:this.shape_1614},{t:this.shape_1613},{t:this.shape_1612},{t:this.shape_1611},{t:this.shape_1610},{t:this.shape_1609},{t:this.shape_1608},{t:this.shape_1607},{t:this.shape_1606},{t:this.shape_1605},{t:this.shape_1604},{t:this.shape_1603},{t:this.shape_1602},{t:this.shape_1601},{t:this.shape_1600},{t:this.shape_1599},{t:this.shape_1598},{t:this.shape_1597},{t:this.shape_1596},{t:this.shape_1595},{t:this.shape_1594},{t:this.shape_1593},{t:this.shape_1592},{t:this.shape_1591},{t:this.shape_1590},{t:this.shape_1589},{t:this.shape_1588},{t:this.shape_1587},{t:this.shape_1586},{t:this.shape_1585},{t:this.shape_1584},{t:this.shape_1583},{t:this.shape_1582},{t:this.shape_1581},{t:this.shape_1580},{t:this.shape_1579},{t:this.shape_1578},{t:this.shape_1577},{t:this.shape_1576},{t:this.shape_1575},{t:this.shape_1574},{t:this.shape_1573},{t:this.shape_1572},{t:this.shape_1571},{t:this.shape_1570},{t:this.shape_1569},{t:this.shape_1568},{t:this.shape_1567},{t:this.shape_1566},{t:this.shape_1565},{t:this.shape_1564},{t:this.shape_1563},{t:this.shape_1562},{t:this.shape_1561},{t:this.shape_1560},{t:this.shape_1559},{t:this.shape_1558},{t:this.shape_1557},{t:this.shape_1556},{t:this.shape_1555},{t:this.shape_1554},{t:this.shape_1553},{t:this.shape_1552},{t:this.shape_1551},{t:this.shape_1550},{t:this.shape_1549},{t:this.shape_1548},{t:this.shape_1547},{t:this.shape_1546},{t:this.shape_1545},{t:this.shape_1544},{t:this.shape_1543},{t:this.shape_1542},{t:this.shape_1541},{t:this.shape_1540},{t:this.shape_1539},{t:this.shape_1538},{t:this.shape_1537},{t:this.shape_1536},{t:this.shape_1535},{t:this.shape_1534},{t:this.shape_1533},{t:this.shape_1532},{t:this.shape_1531},{t:this.shape_1530},{t:this.shape_1529},{t:this.shape_1528},{t:this.shape_1527},{t:this.shape_1526},{t:this.shape_1525},{t:this.shape_1524},{t:this.shape_1523},{t:this.shape_1522},{t:this.shape_1521},{t:this.shape_1520},{t:this.shape_1519},{t:this.shape_1518},{t:this.shape_1517},{t:this.shape_1516},{t:this.shape_1515},{t:this.shape_1514},{t:this.shape_1513},{t:this.shape_1512},{t:this.shape_1511},{t:this.shape_1510},{t:this.shape_1509},{t:this.shape_1508},{t:this.shape_1507},{t:this.shape_1506},{t:this.shape_1505},{t:this.shape_1504},{t:this.shape_1503},{t:this.shape_1502},{t:this.shape_1501},{t:this.shape_1500},{t:this.shape_1499},{t:this.shape_1498},{t:this.shape_1497},{t:this.shape_1496},{t:this.shape_1495},{t:this.shape_1494},{t:this.shape_1493},{t:this.shape_1492},{t:this.shape_1491},{t:this.shape_1490},{t:this.shape_1489},{t:this.shape_1488},{t:this.shape_1487},{t:this.shape_1486},{t:this.shape_1485},{t:this.shape_1484},{t:this.shape_1483},{t:this.shape_1482},{t:this.shape_1481},{t:this.shape_1480},{t:this.shape_1479},{t:this.shape_1478},{t:this.shape_1477},{t:this.shape_1476},{t:this.shape_1475},{t:this.shape_1474},{t:this.shape_1473},{t:this.shape_1472},{t:this.shape_1471},{t:this.shape_1470},{t:this.shape_1469},{t:this.shape_1468},{t:this.shape_1467},{t:this.shape_1466},{t:this.shape_1465},{t:this.shape_1464},{t:this.shape_1463},{t:this.shape_1462},{t:this.shape_1461},{t:this.shape_1460},{t:this.shape_1459},{t:this.shape_1458},{t:this.shape_1457},{t:this.shape_1456},{t:this.shape_1455},{t:this.shape_1454},{t:this.shape_1453},{t:this.shape_1452},{t:this.shape_1451},{t:this.shape_1450},{t:this.shape_1449},{t:this.shape_1448},{t:this.shape_1447},{t:this.shape_1446},{t:this.shape_1445},{t:this.shape_1444},{t:this.shape_1443},{t:this.shape_1442},{t:this.shape_1441},{t:this.shape_1440},{t:this.shape_1439},{t:this.shape_1438},{t:this.shape_1437},{t:this.shape_1436},{t:this.shape_1435},{t:this.shape_1434},{t:this.shape_1433},{t:this.shape_1432},{t:this.shape_1431},{t:this.shape_1430},{t:this.shape_1429},{t:this.shape_1428},{t:this.shape_1427},{t:this.shape_1426},{t:this.shape_1425},{t:this.shape_1424},{t:this.shape_1423},{t:this.shape_1422},{t:this.shape_1421},{t:this.shape_1420},{t:this.shape_1419},{t:this.shape_1418},{t:this.shape_1417},{t:this.shape_1416},{t:this.shape_1415},{t:this.shape_1414},{t:this.shape_1413},{t:this.shape_1412},{t:this.shape_1411},{t:this.shape_1410},{t:this.shape_1409},{t:this.shape_1408},{t:this.shape_1407},{t:this.shape_1406},{t:this.shape_1405},{t:this.shape_1404},{t:this.shape_1403},{t:this.shape_1402},{t:this.shape_1401},{t:this.shape_1400},{t:this.shape_1399},{t:this.shape_1398},{t:this.shape_1397},{t:this.shape_1396},{t:this.shape_1395},{t:this.instance_11},{t:this.btnBack3},{t:this.btnMenu3}]},1).to({state:[{t:this.instance_2},{t:this.instance_13},{t:this.judulKI_7},{t:this.judulKI_6},{t:this.judulKI_2,p:{regX:0.4,regY:0.3,scaleX:1.0697,scaleY:4.824,x:718.75,y:229.05}},{t:this.btnReprSek},{t:this.Asekbtn},{t:this.sekBtn},{t:this.asekBtn},{t:this.btnBack3},{t:this.btnMenu3}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -13416,34 +14035,34 @@ lib.properties = {
 	manifest: [
 		{src:"images/_2.jpeg", id:"_2"},
 		{src:"images/A.png", id:"A"},
-		{src:"images/B.png", id:"B"},
 		{src:"images/A_1.png", id:"A_1"},
-		{src:"images/Bitmap10.png", id:"Bitmap10"},
-		{src:"images/BAseksual_.png", id:"BAseksual_"},
-		{src:"images/Bitmap16.png", id:"Bitmap16"},
-		{src:"images/AAseksual_.png", id:"AAseksual_"},
-		{src:"images/Bitmap24.png", id:"Bitmap24"},
+		{src:"images/B.png", id:"B"},
 		{src:"images/B_1.png", id:"B_1"},
+		{src:"images/BAseksual_.png", id:"BAseksual_"},
+		{src:"images/Bitmap10.png", id:"Bitmap10"},
+		{src:"images/Bitmap16.png", id:"Bitmap16"},
 		{src:"images/Bitmap18.png", id:"Bitmap18"},
-		{src:"images/Bitmap6.png", id:"Bitmap6"},
+		{src:"images/Bitmap22.png", id:"Bitmap22"},
+		{src:"images/Bitmap26.png", id:"Bitmap26"},
+		{src:"images/Bitmap24.png", id:"Bitmap24"},
 		{src:"images/Bitmap5.png", id:"Bitmap5"},
 		{src:"images/Bitmap7.png", id:"Bitmap7"},
-		{src:"images/Bitmap26.png", id:"Bitmap26"},
+		{src:"images/Bitmap8.png", id:"Bitmap8"},
+		{src:"images/Bitmap6.png", id:"Bitmap6"},
+		{src:"images/AAseksual_.png", id:"AAseksual_"},
 		{src:"images/Bitmap9.png", id:"Bitmap9"},
-		{src:"images/Bitmap22.png", id:"Bitmap22"},
 		{src:"images/C.png", id:"C"},
 		{src:"images/C_1.png", id:"C_1"},
-		{src:"images/Bitmap8.png", id:"Bitmap8"},
 		{src:"images/D.png", id:"D"},
+		{src:"images/CAseksual_.png", id:"CAseksual_"},
 		{src:"images/D_1.png", id:"D_1"},
 		{src:"images/E.png", id:"E"},
-		{src:"images/DAseksual_.png", id:"DAseksual_"},
 		{src:"images/E_1.png", id:"E_1"},
+		{src:"images/DAseksual_.png", id:"DAseksual_"},
 		{src:"images/F.png", id:"F"},
+		{src:"images/G.png", id:"G"},
 		{src:"images/Judul.png", id:"Judul"},
-		{src:"images/CAseksual_.png", id:"CAseksual_"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/G.png", id:"G"}
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"}
 	],
 	preloads: []
 };

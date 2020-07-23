@@ -141,62 +141,8 @@ lib.ssMetadata = [];
 p.nominalBounds = new cjs.Rectangle(0,0,962,564);
 
 
-(lib.aa11 = function() {
-	this.initialize(img.aa11);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,563);
-
-
-(lib.aa10 = function() {
-	this.initialize(img.aa10);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,564);
-
-
 (lib.aa1 = function() {
 	this.initialize(img.aa1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,560);
-
-
-(lib.aa12 = function() {
-	this.initialize(img.aa12);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,564);
-
-
-(lib.aa17 = function() {
-	this.initialize(img.aa17);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,564);
-
-
-(lib.aa15 = function() {
-	this.initialize(img.aa15);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,564);
-
-
-(lib.aa14 = function() {
-	this.initialize(img.aa14);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,564);
-
-
-(lib.aa19 = function() {
-	this.initialize(img.aa19);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,564);
-
-
-(lib.aa3 = function() {
-	this.initialize(img.aa3);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,560);
-
-
-(lib.aa2 = function() {
-	this.initialize(img.aa2);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 
@@ -207,14 +153,74 @@ p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 p.nominalBounds = new cjs.Rectangle(0,0,962,564);
 
 
+(lib.aa14 = function() {
+	this.initialize(img.aa14);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,564);
+
+
+(lib.aa15 = function() {
+	this.initialize(img.aa15);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,564);
+
+
+(lib.aa17 = function() {
+	this.initialize(img.aa17);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,564);
+
+
+(lib.aa18 = function() {
+	this.initialize(img.aa18);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,564);
+
+
+(lib.aa12 = function() {
+	this.initialize(img.aa12);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,564);
+
+
+(lib.aa10 = function() {
+	this.initialize(img.aa10);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,564);
+
+
+(lib.aa2 = function() {
+	this.initialize(img.aa2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,560);
+
+
+(lib.aa3 = function() {
+	this.initialize(img.aa3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,560);
+
+
 (lib.aa4 = function() {
 	this.initialize(img.aa4);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 
 
-(lib.aa6 = function() {
-	this.initialize(img.aa6);
+(lib.aa11 = function() {
+	this.initialize(img.aa11);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,563);
+
+
+(lib.aa19 = function() {
+	this.initialize(img.aa19);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,564);
+
+
+(lib.aa8 = function() {
+	this.initialize(img.aa8);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 
@@ -225,28 +231,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 
 
-(lib.aa8 = function() {
-	this.initialize(img.aa8);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,560);
-
-
-(lib.aa9 = function() {
-	this.initialize(img.aa9);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,560);
-
-
 (lib.Bitmap2 = function() {
 	this.initialize(img.Bitmap2);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,998,600);
-
-
-(lib.bookpngcopy = function() {
-	this.initialize(img.bookpngcopy);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
 (lib.aa5 = function() {
@@ -255,10 +243,22 @@ p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 
 
-(lib.aa18 = function() {
-	this.initialize(img.aa18);
+(lib.bookpngcopy = function() {
+	this.initialize(img.bookpngcopy);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,564);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,288,399);
+
+
+(lib.aa9 = function() {
+	this.initialize(img.aa9);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,560);
+
+
+(lib.aa6 = function() {
+	this.initialize(img.aa6);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,560);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -1235,11 +1235,11 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		//   root.pp11.gotoAndPlay(0);
 		// });
 		
-		_this.setup = function(){
+		root.setup = function(){
 			document.body.style.backgroundColor = lib.properties.color;
 		}
 		
-		_this.setup();
+		root.setup();
 		
 		root.popUpAnim1.gotoAndStop(0);
 		
@@ -1574,27 +1574,27 @@ lib.properties = {
 	color: "#3867D6",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_10pngcopy.png", id:"_10pngcopy"},
-		{src:"images/aa11.png", id:"aa11"},
-		{src:"images/aa10.png", id:"aa10"},
-		{src:"images/aa1.png", id:"aa1"},
-		{src:"images/aa12.png", id:"aa12"},
-		{src:"images/aa17.png", id:"aa17"},
-		{src:"images/aa15.png", id:"aa15"},
-		{src:"images/aa14.png", id:"aa14"},
-		{src:"images/aa19.png", id:"aa19"},
-		{src:"images/aa3.png", id:"aa3"},
-		{src:"images/aa2.png", id:"aa2"},
-		{src:"images/aa13.png", id:"aa13"},
-		{src:"images/aa4.png", id:"aa4"},
-		{src:"images/aa6.png", id:"aa6"},
-		{src:"images/aa7.png", id:"aa7"},
-		{src:"images/aa8.png", id:"aa8"},
-		{src:"images/aa9.png", id:"aa9"},
-		{src:"images/Bitmap2.png", id:"Bitmap2"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/aa5.png", id:"aa5"},
-		{src:"images/aa18.png", id:"aa18"}
+		{src:"images/_10pngcopy.png?1595494203381", id:"_10pngcopy"},
+		{src:"images/aa1.png?1595494203381", id:"aa1"},
+		{src:"images/aa13.png?1595494203381", id:"aa13"},
+		{src:"images/aa14.png?1595494203381", id:"aa14"},
+		{src:"images/aa15.png?1595494203381", id:"aa15"},
+		{src:"images/aa17.png?1595494203382", id:"aa17"},
+		{src:"images/aa18.png?1595494203382", id:"aa18"},
+		{src:"images/aa12.png?1595494203382", id:"aa12"},
+		{src:"images/aa10.png?1595494203382", id:"aa10"},
+		{src:"images/aa2.png?1595494203382", id:"aa2"},
+		{src:"images/aa3.png?1595494203382", id:"aa3"},
+		{src:"images/aa4.png?1595494203382", id:"aa4"},
+		{src:"images/aa11.png?1595494203382", id:"aa11"},
+		{src:"images/aa19.png?1595494203382", id:"aa19"},
+		{src:"images/aa8.png?1595494203382", id:"aa8"},
+		{src:"images/aa7.png?1595494203382", id:"aa7"},
+		{src:"images/Bitmap2.png?1595494203382", id:"Bitmap2"},
+		{src:"images/aa5.png?1595494203382", id:"aa5"},
+		{src:"images/bookpngcopy.png?1595494203382", id:"bookpngcopy"},
+		{src:"images/aa9.png?1595494203382", id:"aa9"},
+		{src:"images/aa6.png?1595494203382", id:"aa6"}
 	],
 	preloads: []
 };
