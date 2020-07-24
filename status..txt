@@ -165,3 +165,35 @@ Update Revisi 23 July 2020 Revisi 2:
    1. Memiringkan kata "Sustainability":
       a. https://cobamedia.netlify.app/data/menu
       b. https://cobamedia.netlify.app/data/materi3
+      c. https://cobamedia.netlify.app/data/materi15
+      d. https://cobamedia.netlify.app/data/materi16
+      e. https://cobamedia.netlify.app/data/materi8
+      f. https://cobamedia.netlify.app/data/materi9
+      g. https://cobamedia.netlify.app/data/materi10
+      h. https://cobamedia.netlify.app/data/materi11
+      i. https://cobamedia.netlify.app/data/materi12
+      j. https://cobamedia.netlify.app/data/materi13
+      k. https://cobamedia.netlify.app/data/materi14
+      l. https://cobamedia.netlify.app/data/materi17
+      m. https://cobamedia.netlify.app/data/game1
+      n. https://cobamedia.netlify.app/data/game2
+      o. https://cobamedia.netlify.app/data/game3
+      p. https://cobamedia.netlify.app/data/game4
+      q. https://cobamedia.netlify.app/data/game5
+      r. https://cobamedia.netlify.app/data/game6
+      s. https://cobamedia.netlify.app/data/game7
+      t. https://cobamedia.netlify.app/data/game8
+      u. https://cobamedia.netlify.app/data/game9
+      v. https://cobamedia.netlify.app/data/game10
+      w. https://cobamedia.netlify.app/data/game11
+      x. https://cobamedia.netlify.app/data/game12
+      y. https://cobamedia.netlify.app/data/game13
+      z. https://cobamedia.netlify.app/data/game14
+      aa. https://cobamedia.netlify.app/data/game15
+      ab. https://cobamedia.netlify.app/data/game16
+      ac. https://cobamedia.netlify.app/data/game17
+   2. Menambahkan kalimat petunjuk:
+      a. https://cobamedia.netlify.app/data/materi3
+   3. Fix minor error code:
+      a. https://cobamedia.netlify.app/data/materi16
+      b. https://cobamedia.netlify.app/data/materi8
