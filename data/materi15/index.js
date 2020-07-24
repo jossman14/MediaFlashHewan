@@ -147,16 +147,22 @@ p.nominalBounds = new cjs.Rectangle(0,0,963,560);
 p.nominalBounds = new cjs.Rectangle(0,0,966,560);
 
 
+(lib.ant = function() {
+	this.initialize(img.ant);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,825,290);
+
+
 (lib._34e = function() {
 	this.initialize(img._34e);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,966,560);
 
 
-(lib.ant = function() {
-	this.initialize(img.ant);
+(lib.Bitmap28 = function() {
+	this.initialize(img.Bitmap28);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,825,290);
+p.nominalBounds = new cjs.Rectangle(0,0,960,545);
 
 
 (lib._35e = function() {
@@ -169,12 +175,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,966,560);
 	this.initialize(img.Bitmap5);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,998,600);
-
-
-(lib.bookpngcopy = function() {
-	this.initialize(img.bookpngcopy);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
 (lib.cacing1 = function() {
@@ -195,10 +195,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,376,233);
 p.nominalBounds = new cjs.Rectangle(0,0,788,365);
 
 
-(lib.lintah = function() {
-	this.initialize(img.lintah);
+(lib._33pngcopy = function() {
+	this.initialize(img._33pngcopy);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,147,428);
+p.nominalBounds = new cjs.Rectangle(0,0,966,560);
 
 
 (lib.worm = function() {
@@ -207,16 +207,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,147,428);
 p.nominalBounds = new cjs.Rectangle(0,0,636,265);
 
 
-(lib.Bitmap28 = function() {
-	this.initialize(img.Bitmap28);
+(lib.bookpngcopy = function() {
+	this.initialize(img.bookpngcopy);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,960,545);
+p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
-(lib._33pngcopy = function() {
-	this.initialize(img._33pngcopy);
+(lib.lintah = function() {
+	this.initialize(img.lintah);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,966,560);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,147,428);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -5587,18 +5587,18 @@ lib.properties = {
 	manifest: [
 		{src:"images/_31pngcopy.png", id:"_31pngcopy"},
 		{src:"images/_32pngcopy.png", id:"_32pngcopy"},
-		{src:"images/_34e.png", id:"_34e"},
 		{src:"images/ant.png", id:"ant"},
+		{src:"images/_34e.png", id:"_34e"},
+		{src:"images/Bitmap28.png", id:"Bitmap28"},
 		{src:"images/_35e.png", id:"_35e"},
 		{src:"images/Bitmap5.png", id:"Bitmap5"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
 		{src:"images/cacing1.png", id:"cacing1"},
 		{src:"images/cacingruubelus.png", id:"cacingruubelus"},
 		{src:"images/kelabang.png", id:"kelabang"},
-		{src:"images/lintah.png", id:"lintah"},
+		{src:"images/_33pngcopy.png", id:"_33pngcopy"},
 		{src:"images/worm.png", id:"worm"},
-		{src:"images/Bitmap28.png", id:"Bitmap28"},
-		{src:"images/_33pngcopy.png", id:"_33pngcopy"}
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"images/lintah.png", id:"lintah"}
 	],
 	preloads: []
 };

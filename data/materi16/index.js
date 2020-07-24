@@ -153,58 +153,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
 
-(lib._5et = function() {
-	this.initialize(img._5et);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,961,561);
-
-
 (lib.Bitmap28 = function() {
 	this.initialize(img.Bitmap28);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,960,545);
-
-
-(lib.Bitmap5 = function() {
-	this.initialize(img.Bitmap5);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,998,600);
-
-
-(lib.bookpngcopy = function() {
-	this.initialize(img.bookpngcopy);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,288,399);
-
-
-(lib.bulubabi = function() {
-	this.initialize(img.bulubabi);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,495,480);
-
-
-(lib.cacingruubelus = function() {
-	this.initialize(img.cacingruubelus);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,376,233);
-
-
-(lib.porifera = function() {
-	this.initialize(img.porifera);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,390,403);
-
-
-(lib.teripang = function() {
-	this.initialize(img.teripang);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,738,347);
-
-
-(lib.kelabang = function() {
-	this.initialize(img.kelabang);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,788,365);
 
 
 (lib.bintanglaut = function() {
@@ -213,10 +165,58 @@ p.nominalBounds = new cjs.Rectangle(0,0,788,365);
 p.nominalBounds = new cjs.Rectangle(0,0,433,371);
 
 
+(lib._5et = function() {
+	this.initialize(img._5et);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,566,330);
+
+
+(lib.bulubabi = function() {
+	this.initialize(img.bulubabi);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,495,480);
+
+
+(lib.bookpngcopy = function() {
+	this.initialize(img.bookpngcopy);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,288,399);
+
+
 (lib._4e = function() {
 	this.initialize(img._4e);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,961,561);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+
+
+(lib.kelabang = function() {
+	this.initialize(img.kelabang);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,788,365);
+
+
+(lib.teripang = function() {
+	this.initialize(img.teripang);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,738,347);
+
+
+(lib.porifera = function() {
+	this.initialize(img.porifera);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,390,403);
+
+
+(lib.Bitmap5 = function() {
+	this.initialize(img.Bitmap5);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,998,600);
+
+
+(lib.cacingruubelus = function() {
+	this.initialize(img.cacingruubelus);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,376,233);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -3324,6 +3324,7 @@ p.nominalBounds = new cjs.Rectangle(-21.3,-19.2,42.7,38.5);
 
 	// Layer_1
 	this.instance = new lib._5et();
+	this.instance.setTransform(0,0,1.0018,1.0031);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -5253,7 +5254,7 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.instance_3.setTransform(-285,-167,0.59,0.59);
 
 	this.instance_4 = new lib._5et();
-	this.instance_4.setTransform(-285,-167);
+	this.instance_4.setTransform(-285,-167,1.0018,1.0031);
 
 	this.instance_5 = new lib.selesai();
 	this.instance_5.setTransform(-1.5,-1.5,1,1,0,0,0,85,25.7);
@@ -5694,20 +5695,20 @@ lib.properties = {
 	color: "#2980B9",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_1pngcopy.png", id:"_1pngcopy"},
-		{src:"images/_2pngcopy.png", id:"_2pngcopy"},
-		{src:"images/_3.png", id:"_3"},
-		{src:"images/_5et.png", id:"_5et"},
-		{src:"images/Bitmap28.png", id:"Bitmap28"},
-		{src:"images/Bitmap5.png", id:"Bitmap5"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/bulubabi.png", id:"bulubabi"},
-		{src:"images/cacingruubelus.png", id:"cacingruubelus"},
-		{src:"images/porifera.png", id:"porifera"},
-		{src:"images/teripang.png", id:"teripang"},
-		{src:"images/kelabang.png", id:"kelabang"},
-		{src:"images/bintanglaut.png", id:"bintanglaut"},
-		{src:"images/_4e.png", id:"_4e"}
+		{src:"images/_1pngcopy.png?1595547086781", id:"_1pngcopy"},
+		{src:"images/_2pngcopy.png?1595547086781", id:"_2pngcopy"},
+		{src:"images/_3.png?1595547086781", id:"_3"},
+		{src:"images/Bitmap28.png?1595547086781", id:"Bitmap28"},
+		{src:"images/bintanglaut.png?1595547086781", id:"bintanglaut"},
+		{src:"images/_5et.png?1595547086781", id:"_5et"},
+		{src:"images/bulubabi.png?1595547086781", id:"bulubabi"},
+		{src:"images/bookpngcopy.png?1595547086781", id:"bookpngcopy"},
+		{src:"images/_4e.png?1595547086781", id:"_4e"},
+		{src:"images/kelabang.png?1595547086781", id:"kelabang"},
+		{src:"images/teripang.png?1595547086781", id:"teripang"},
+		{src:"images/porifera.png?1595547086781", id:"porifera"},
+		{src:"images/Bitmap5.png?1595547086781", id:"Bitmap5"},
+		{src:"images/cacingruubelus.png?1595547086781", id:"cacingruubelus"}
 	],
 	preloads: []
 };
