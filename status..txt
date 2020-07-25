@@ -161,7 +161,7 @@ Update Revisi 23 July 2020:
       h. https://cobamedia.netlify.app/data/materi13
       i. https://cobamedia.netlify.app/data/materi14
 
-Update Revisi 23 July 2020 Revisi 2:
+Update Revisi 24 July 2020:
    1. Memiringkan kata "Sustainability":
       a. https://cobamedia.netlify.app/data/menu
       b. https://cobamedia.netlify.app/data/materi3
@@ -197,3 +197,13 @@ Update Revisi 23 July 2020 Revisi 2:
    3. Fix minor error code:
       a. https://cobamedia.netlify.app/data/materi16
       b. https://cobamedia.netlify.app/data/materi8
+
+Update Revisi 24 July 2020:
+   1. revisi kata [fillum] menjadi kata [Fillum] dan [namaKelasHewan] diubah menjadi format Capitalize Each Word:
+      a. https://cobamedia.netlify.app/data/game5
+      b. https://cobamedia.netlify.app/data/game6
+      c. https://cobamedia.netlify.app/data/game7
+      d. https://cobamedia.netlify.app/data/game8
+      e. https://cobamedia.netlify.app/data/game9
+   2. fix minor code:
+      a. https://cobamedia.netlify.app/data/materi14

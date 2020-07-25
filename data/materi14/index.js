@@ -147,20 +147,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,962,564);
 p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 
 
-(lib.aa11 = function() {
-	this.initialize(img.aa11);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,563);
-
-
-(lib.aa14 = function() {
-	this.initialize(img.aa14);
+(lib.aa13 = function() {
+	this.initialize(img.aa13);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,962,564);
 
 
-(lib.aa12 = function() {
-	this.initialize(img.aa12);
+(lib.aa14 = function() {
+	this.initialize(img.aa14);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,962,564);
 
@@ -183,16 +177,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,962,564);
 p.nominalBounds = new cjs.Rectangle(0,0,962,564);
 
 
-(lib.aa13 = function() {
-	this.initialize(img.aa13);
+(lib.aa19 = function() {
+	this.initialize(img.aa19);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,962,564);
-
-
-(lib.aa2 = function() {
-	this.initialize(img.aa2);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 
 
 (lib.aa3 = function() {
@@ -201,8 +189,20 @@ p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 
 
+(lib.aa12 = function() {
+	this.initialize(img.aa12);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,564);
+
+
 (lib.aa4 = function() {
 	this.initialize(img.aa4);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,560);
+
+
+(lib.aa5 = function() {
+	this.initialize(img.aa5);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 
@@ -219,22 +219,22 @@ p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 
 
+(lib.aa8 = function() {
+	this.initialize(img.aa8);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,962,560);
+
+
 (lib.aa9 = function() {
 	this.initialize(img.aa9);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 
 
-(lib.aa10 = function() {
-	this.initialize(img.aa10);
+(lib.Bitmap2 = function() {
+	this.initialize(img.Bitmap2);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,564);
-
-
-(lib.aa5 = function() {
-	this.initialize(img.aa5);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,560);
+p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 
 
 (lib.bookpngcopy = function() {
@@ -243,22 +243,22 @@ p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
-(lib.aa8 = function() {
-	this.initialize(img.aa8);
+(lib.aa2 = function() {
+	this.initialize(img.aa2);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 
 
-(lib.aa19 = function() {
-	this.initialize(img.aa19);
+(lib.aa11 = function() {
+	this.initialize(img.aa11);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,564);
+p.nominalBounds = new cjs.Rectangle(0,0,962,563);
 
 
-(lib.Bitmap2 = function() {
-	this.initialize(img.Bitmap2);
+(lib.aa10 = function() {
+	this.initialize(img.aa10);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,998,600);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,962,564);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -916,7 +916,7 @@ p.nominalBounds = new cjs.Rectangle(-105.7,-28.8,197.8,48.8);
 	// timeline functions:
 	this.frame_0 = function() {
 		var s =
-		  "Bioremediasi merupakan  penggunaan mikroorganisme yang telah  dipilih untuk ditumbuhkan pada polutan  tertentu sebagai upaya untuk menurunkan  kadar polutan tersebut. Pada saat proses  bioremediasi berlangsung, enzim-enzim yang diproduksi oleh mikroorganisme memodifikasi struktur polutan beracun  menjadi tidak kompleks sehingga menjadi  metabolit yang tidak beracun dan berbahaya             ";
+		  "Bioremediasi merupakan  penggunaan mikroorganisme yang telah  dipilih untuk ditumbuhkan pada polutan  tertentu sebagai upaya untuk menurunkan  kadar polutan tersebut. Pada saat proses  bioremediasi berlangsung, enzim-enzim yang diproduksi oleh mikroorganisme memodifikasi struktur polutan beracun  menjadi tidak kompleks sehingga menjadi  metabolit yang tidak beracun dan berbahaya";
 		
 		
 		var F = f.bind(this);
@@ -941,40 +941,28 @@ p.nominalBounds = new cjs.Rectangle(-105.7,-28.8,197.8,48.8);
 		
 		_this.gotoAndPlay(269);
 		});
-	}
-	this.frame_267 = function() {
+		
 		this.stop();
-		
-		var _this = this;
-		
-		_this.btnNextDasar1.on('click', function(){
-		
-		_this.gotoAndPlay(269);
-		});
 	}
-	this.frame_861 = function() {
+	this.frame_860 = function() {
 		this.stop();
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(267).call(this.frame_267).wait(594).call(this.frame_861).wait(87));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(860).call(this.frame_860).wait(87));
 
 	// Layer_1
-	this.coba = new cjs.Text("", "30px 'Roboto'");
+	this.coba = new cjs.Text("", "31px 'Roboto'");
 	this.coba.name = "coba";
-	this.coba.lineHeight = 41;
-	this.coba.lineWidth = 734;
+	this.coba.lineHeight = 42;
+	this.coba.lineWidth = 753;
 	this.coba.parent = this;
-	this.coba.setTransform(-382.95,-175);
+	this.coba.setTransform(-383.95,-178.45);
 
 	this.btnNextDasar1 = new lib.btnKINext();
 	this.btnNextDasar1.name = "btnNextDasar1";
 	this.btnNextDasar1.setTransform(352.6,191.2);
 	new cjs.ButtonHelper(this.btnNextDasar1, 0, 1, 2, false, new lib.btnKINext(), 3);
-
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("Eg0xAanQmPAAAAj7MAAAgtYQAAj6GPAAMBpkAAAQGOAAAAD6MAAAAtYQAAD7mOAAg");
-	this.shape.setTransform(-1.025,-1.45);
 
 	this.instance = new lib.aa1();
 	this.instance.setTransform(-332,-194,1.0003,1.0041);
@@ -1038,12 +1026,12 @@ p.nominalBounds = new cjs.Rectangle(-105.7,-28.8,197.8,48.8);
 	this.instance_19.filters = [new cjs.ColorFilter(0.42, 0.42, 0.42, 1, 0, 0, 0, 0)];
 	this.instance_19.cache(-2,-2,668,392);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btnNextDasar1},{t:this.coba,p:{scaleX:1,scaleY:1,x:-382.95,y:-175,font:"30px 'Roboto'",lineHeight:41,lineWidth:734}}]}).to({state:[{t:this.shape},{t:this.coba,p:{scaleX:1.4554,scaleY:1.4554,x:-330.6,y:-140.85,font:"12px 'Roboto Medium'",lineHeight:16.4,lineWidth:453}},{t:this.btnNextDasar1}]},267).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance_1}]},33).to({state:[{t:this.instance_2}]},31).to({state:[{t:this.instance_3}]},33).to({state:[{t:this.instance_4}]},31).to({state:[{t:this.instance_5}]},33).to({state:[{t:this.instance_6}]},32).to({state:[{t:this.instance_7}]},33).to({state:[{t:this.instance_8}]},32).to({state:[{t:this.instance_9}]},33).to({state:[{t:this.instance_10}]},32).to({state:[{t:this.instance_11}]},33).to({state:[{t:this.instance_12}]},32).to({state:[{t:this.instance_13}]},33).to({state:[{t:this.instance_14}]},32).to({state:[{t:this.instance_15}]},33).to({state:[{t:this.instance_16}]},33).to({state:[{t:this.instance_17}]},33).to({state:[{t:this.instance_19},{t:this.instance_18}]},41).wait(87));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btnNextDasar1},{t:this.coba}]}).to({state:[{t:this.instance}]},267).to({state:[{t:this.instance_1}]},33).to({state:[{t:this.instance_2}]},31).to({state:[{t:this.instance_3}]},33).to({state:[{t:this.instance_4}]},31).to({state:[{t:this.instance_5}]},33).to({state:[{t:this.instance_6}]},32).to({state:[{t:this.instance_7}]},33).to({state:[{t:this.instance_8}]},32).to({state:[{t:this.instance_9}]},33).to({state:[{t:this.instance_10}]},32).to({state:[{t:this.instance_11}]},33).to({state:[{t:this.instance_12}]},32).to({state:[{t:this.instance_13}]},33).to({state:[{t:this.instance_14}]},32).to({state:[{t:this.instance_15}]},33).to({state:[{t:this.instance_16}]},33).to({state:[{t:this.instance_17}]},33).to({state:[{t:this.instance_19},{t:this.instance_18}]},41).wait(87));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-384.9,-194,796.2,409.1);
+p.nominalBounds = new cjs.Rectangle(-385.9,-194,797.2,409.1);
 
 
 (lib.popUpAnimasi = function(mode,startPosition,loop) {
@@ -1599,27 +1587,27 @@ lib.properties = {
 	color: "#3867D6",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_10pngcopy.png?1595549382225", id:"_10pngcopy"},
-		{src:"images/aa1.png?1595549382225", id:"aa1"},
-		{src:"images/aa11.png?1595549382225", id:"aa11"},
-		{src:"images/aa14.png?1595549382225", id:"aa14"},
-		{src:"images/aa12.png?1595549382225", id:"aa12"},
-		{src:"images/aa15.png?1595549382225", id:"aa15"},
-		{src:"images/aa17.png?1595549382225", id:"aa17"},
-		{src:"images/aa18.png?1595549382225", id:"aa18"},
-		{src:"images/aa13.png?1595549382225", id:"aa13"},
-		{src:"images/aa2.png?1595549382225", id:"aa2"},
-		{src:"images/aa3.png?1595549382225", id:"aa3"},
-		{src:"images/aa4.png?1595549382225", id:"aa4"},
-		{src:"images/aa6.png?1595549382225", id:"aa6"},
-		{src:"images/aa7.png?1595549382225", id:"aa7"},
-		{src:"images/aa9.png?1595549382225", id:"aa9"},
-		{src:"images/aa10.png?1595549382225", id:"aa10"},
-		{src:"images/aa5.png?1595549382225", id:"aa5"},
-		{src:"images/bookpngcopy.png?1595549382225", id:"bookpngcopy"},
-		{src:"images/aa8.png?1595549382225", id:"aa8"},
-		{src:"images/aa19.png?1595549382225", id:"aa19"},
-		{src:"images/Bitmap2.png?1595549382225", id:"Bitmap2"}
+		{src:"images/_10pngcopy.png", id:"_10pngcopy"},
+		{src:"images/aa1.png", id:"aa1"},
+		{src:"images/aa13.png", id:"aa13"},
+		{src:"images/aa14.png", id:"aa14"},
+		{src:"images/aa15.png", id:"aa15"},
+		{src:"images/aa17.png", id:"aa17"},
+		{src:"images/aa18.png", id:"aa18"},
+		{src:"images/aa19.png", id:"aa19"},
+		{src:"images/aa3.png", id:"aa3"},
+		{src:"images/aa12.png", id:"aa12"},
+		{src:"images/aa4.png", id:"aa4"},
+		{src:"images/aa5.png", id:"aa5"},
+		{src:"images/aa6.png", id:"aa6"},
+		{src:"images/aa7.png", id:"aa7"},
+		{src:"images/aa8.png", id:"aa8"},
+		{src:"images/aa9.png", id:"aa9"},
+		{src:"images/Bitmap2.png", id:"Bitmap2"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"images/aa2.png", id:"aa2"},
+		{src:"images/aa11.png", id:"aa11"},
+		{src:"images/aa10.png", id:"aa10"}
 	],
 	preloads: []
 };
