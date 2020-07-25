@@ -198,7 +198,7 @@ Update Revisi 24 July 2020:
       a. https://cobamedia.netlify.app/data/materi16
       b. https://cobamedia.netlify.app/data/materi8
 
-Update Revisi 24 July 2020:
+Update Revisi 25 July 2020:
    1. revisi kata [fillum] menjadi kata [Fillum] dan [namaKelasHewan] diubah menjadi format Capitalize Each Word:
       a. https://cobamedia.netlify.app/data/game5
       b. https://cobamedia.netlify.app/data/game6
