@@ -207,3 +207,6 @@ Update Revisi 25 July 2020:
       e. https://cobamedia.netlify.app/data/game9
    2. fix minor code:
       a. https://cobamedia.netlify.app/data/materi14
+      
+Update Revisi 29 July 2020:
+   1. Revisi halaman KD --> https://cobamedia.netlify.app/data/materi2
