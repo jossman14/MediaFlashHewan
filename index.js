@@ -135,6 +135,12 @@ lib.ssMetadata = [];
 
 
 
+(lib.Bitmap1 = function() {
+	this.initialize(img.Bitmap1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,987,663);
+
+
 (lib.Bitmap13 = function() {
 	this.initialize(img.Bitmap13);
 }).prototype = p = new cjs.Bitmap();
@@ -144,13 +150,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,675,535);
 (lib.bookpngcopy = function() {
 	this.initialize(img.bookpngcopy);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,288,399);
-
-
-(lib.Bitmap1 = function() {
-	this.initialize(img.Bitmap1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,987,663);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,288,399);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -437,17 +437,13 @@ p.nominalBounds = new cjs.Rectangle(-562.9,-5,712.0999999999999,57);
 	this.initialize(mode,startPosition,loop,{awal:0});
 
 	this.actionFrames = [0];
-	this.isSingleFrame = false;
+	this.streamSoundSymbolsList[0] = [{id:"POLdailyspecialshortwav",startFrame:0,endFrame:10,loop:0,offset:0}];
 	// timeline functions:
 	this.frame_0 = function() {
-		if(this.isSingleFrame) {
-			return;
-		}
-		if(this.totalFrames == 1) {
-			this.isSingleFrame = true;
-		}
 		this.clearAllSoundStreams();
 		 
+		var soundInstance = playSound("POLdailyspecialshortwav",-1);
+		this.InsertIntoSoundStreamData(soundInstance,0,10,0);
 		var _this = this
 		
 		_this.setup = function(){
@@ -465,7 +461,7 @@ p.nominalBounds = new cjs.Rectangle(-562.9,-5,712.0999999999999,57);
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(10));
 
 	// slide
 	this.btnAwalNext = new lib.btnAwalNext();
@@ -476,7 +472,7 @@ p.nominalBounds = new cjs.Rectangle(-562.9,-5,712.0999999999999,57);
 	this.instance = new lib.bgAwal();
 	this.instance.setTransform(480.7,250.3,1,1,0,0,0,493.7,331.3);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.btnAwalNext}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.btnAwalNext}]}).wait(10));
 
 	this._renderFirstFrame();
 
@@ -491,9 +487,10 @@ lib.properties = {
 	color: "#2ECC71",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Bitmap13.png?1595550336175", id:"Bitmap13"},
-		{src:"images/bookpngcopy.png?1595550336175", id:"bookpngcopy"},
-		{src:"images/Bitmap1.png?1595550336175", id:"Bitmap1"}
+		{src:"images/Bitmap1.png?1597204963236", id:"Bitmap1"},
+		{src:"images/Bitmap13.png?1597204963236", id:"Bitmap13"},
+		{src:"images/bookpngcopy.png?1597204963236", id:"bookpngcopy"},
+		{src:"sounds/POLdailyspecialshortwav.mp3?1597204963236", id:"POLdailyspecialshortwav"}
 	],
 	preloads: []
 };
