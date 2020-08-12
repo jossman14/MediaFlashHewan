@@ -25,7 +25,7 @@
       }
     </style>
     <script src="libs/1.0.0/createjs.min.js"></script>
-    <script src="index.js?1597212524609"></script>
+    <script src="index.js?1597217849460"></script>
     <script>
       var canvas,
         stage,
@@ -71,7 +71,7 @@
         }
         var preloaderDiv = document.getElementById("_preload_div_");
         preloaderDiv.style.display = "none";
-        dom_overlay_container.style.display = canvas.style.display = "block";
+        canvas.style.display = "block";
         exportRoot = new lib.Main();
         stage = new lib.Stage(canvas);
         stage.enableMouseOver();
@@ -142,7 +142,7 @@
       <span
         style="display: inline-block; height: 100%; vertical-align: middle;"
       ></span>
-      <img src=images/_preloader.gif?1597212524610 style='vertical-align:
+      <img src=images/_preloader.gif?1597217849460 style='vertical-align:
       middle; max-height: 100%'/>
     </div>
     <audio id="audioID" loop>
