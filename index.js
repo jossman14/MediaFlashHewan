@@ -135,6 +135,12 @@ lib.ssMetadata = [];
 
 
 
+(lib.bookpngcopy = function() {
+	this.initialize(img.bookpngcopy);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,288,399);
+
+
 (lib.Bitmap13 = function() {
 	this.initialize(img.Bitmap13);
 }).prototype = p = new cjs.Bitmap();
@@ -144,13 +150,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,675,535);
 (lib.Bitmap1 = function() {
 	this.initialize(img.Bitmap1);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,987,663);
-
-
-(lib.bookpngcopy = function() {
-	this.initialize(img.bookpngcopy);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,288,399);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,987,663);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -484,7 +484,7 @@ p.nominalBounds = new cjs.Rectangle(-562.9,-5,712.0999999999999,57);
 	// Layer_1
 	this.instance = new lib.jl_audio({'id': '', 'src':'assets/musicBG.mp3', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'preload':'auto', 'class':'audio'});
 
-	this.instance.setTransform(903.25,31,0.1799,1,0,0,0,200.3,16);
+	this.instance.setTransform(875.85,43,0.4059,2.381,0,0,0,200.6,16);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -512,13 +512,13 @@ lib.properties = {
 	color: "#2ECC71",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Bitmap13.png?1597219974546", id:"Bitmap13"},
-		{src:"images/Bitmap1.png?1597219974546", id:"Bitmap1"},
-		{src:"images/bookpngcopy.png?1597219974546", id:"bookpngcopy"},
-		{src:"sounds/musicBG.mp3?1597219974546", id:"musicBG"},
-		{src:"components/lib/jquery-3.4.1.min.js?1597219974546", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1597219974546", id:"sdk/anwidget.js"},
-		{src:"components/audio/src/audio.js?1597219974546", id:"jl.audio"}
+		{src:"images/bookpngcopy.png?1597220240605", id:"bookpngcopy"},
+		{src:"images/Bitmap13.png?1597220240605", id:"Bitmap13"},
+		{src:"images/Bitmap1.png?1597220240605", id:"Bitmap1"},
+		{src:"sounds/musicBG.mp3?1597220240605", id:"musicBG"},
+		{src:"components/lib/jquery-3.4.1.min.js?1597220240605", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1597220240605", id:"sdk/anwidget.js"},
+		{src:"components/audio/src/audio.js?1597220240605", id:"jl.audio"}
 	],
 	preloads: []
 };
