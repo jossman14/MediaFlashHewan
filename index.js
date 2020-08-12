@@ -135,16 +135,16 @@ lib.ssMetadata = [];
 
 
 
-(lib.Bitmap1 = function() {
-	this.initialize(img.Bitmap1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,987,663);
-
-
 (lib.Bitmap13 = function() {
 	this.initialize(img.Bitmap13);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,675,535);
+
+
+(lib.Bitmap1 = function() {
+	this.initialize(img.Bitmap1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,987,663);
 
 
 (lib.bookpngcopy = function() {
@@ -353,6 +353,20 @@ p.nominalBounds = new cjs.Rectangle(-59.4,-25.6,118.1,49.5);
 }).prototype = getMCSymbolPrototype(lib.awan1Dalem, new cjs.Rectangle(0,0,149.2,42.8), null);
 
 
+(lib.jl_audio = function(options) {
+	this.initialize();
+	this._element = new $.jl.audio(options);
+	this._el = this._element.create();
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,400,32);
+
+p._tick = _tick;
+p._handleDrawEnd = _handleDrawEnd;
+p._updateVisibility = _updateVisibility;
+p.draw = _componentDraw;
+
+
+
 (lib.semak1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -403,7 +417,7 @@ p.nominalBounds = new cjs.Rectangle(-562.9,-5,712.0999999999999,57);
 
 	// Layer_1
 	this.instance = new lib.Bitmap13();
-	this.instance.setTransform(134,112);
+	this.instance.setTransform(134,125);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -437,7 +451,6 @@ p.nominalBounds = new cjs.Rectangle(-562.9,-5,712.0999999999999,57);
 	this.initialize(mode,startPosition,loop,{awal:0});
 
 	this.actionFrames = [0];
-	this.streamSoundSymbolsList[0] = [{id:"POLdailyspecialshortwav",startFrame:0,endFrame:1,loop:0,offset:0}];
 	this.isSingleFrame = false;
 	// timeline functions:
 	this.frame_0 = function() {
@@ -449,8 +462,6 @@ p.nominalBounds = new cjs.Rectangle(-562.9,-5,712.0999999999999,57);
 		}
 		this.clearAllSoundStreams();
 		 
-		var soundInstance = playSound("POLdailyspecialshortwav",-1);
-		this.InsertIntoSoundStreamData(soundInstance,0,1,0);
 		var _this = this
 		
 		_this.setup = function(){
@@ -470,16 +481,23 @@ p.nominalBounds = new cjs.Rectangle(-562.9,-5,712.0999999999999,57);
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
+	// Layer_1
+	this.instance = new lib.jl_audio({'id': '', 'src':'assets/POL-daily-special-short.ogg', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'preload':'auto', 'class':'audio'});
+
+	this.instance.setTransform(733.95,26,1.0025,1,0,0,0,200.1,16);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
 	// slide
 	this.btnAwalNext = new lib.btnAwalNext();
 	this.btnAwalNext.name = "btnAwalNext";
 	this.btnAwalNext.setTransform(885.6,504.9);
 	new cjs.ButtonHelper(this.btnAwalNext, 0, 1, 2, false, new lib.btnAwalNext(), 3);
 
-	this.instance = new lib.bgAwal();
-	this.instance.setTransform(480.7,250.3,1,1,0,0,0,493.7,331.3);
+	this.instance_1 = new lib.bgAwal();
+	this.instance_1.setTransform(480.7,250.3,1,1,0,0,0,493.7,331.3);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.btnAwalNext}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.btnAwalNext}]}).wait(1));
 
 	this._renderFirstFrame();
 
@@ -494,10 +512,12 @@ lib.properties = {
 	color: "#2ECC71",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Bitmap1.png", id:"Bitmap1"},
-		{src:"images/Bitmap13.png", id:"Bitmap13"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"sounds/POLdailyspecialshortwav.mp3", id:"POLdailyspecialshortwav"}
+		{src:"images/Bitmap13.png?1597212524562", id:"Bitmap13"},
+		{src:"images/Bitmap1.png?1597212524562", id:"Bitmap1"},
+		{src:"images/bookpngcopy.png?1597212524562", id:"bookpngcopy"},
+		{src:"components/lib/jquery-3.4.1.min.js?1597212524562", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1597212524562", id:"sdk/anwidget.js"},
+		{src:"components/audio/src/audio.js?1597212524562", id:"jl.audio"}
 	],
 	preloads: []
 };
@@ -589,6 +609,43 @@ an.makeResponsive = function(isResp, respDim, isScale, scaleType, domContainers)
 		stage.tickOnUpdate = false;            
 		stage.update();            
 		stage.tickOnUpdate = true;		
+	}
+}
+function _updateVisibility(evt) {
+	if((this.stage == null || this._off || this._lastAddedFrame != this.parent.currentFrame) && this._element && this._element._attached) {
+		this._element.detach();
+		stage.removeEventListener('drawstart', this._updateVisibilityCbk);
+		this._updateVisibilityCbk = false;
+	}
+}
+function _handleDrawEnd(evt) {
+	if(this._element && this._element._attached) {
+		var props = this.getConcatenatedDisplayProps(this._props), mat = props.matrix;
+		var tx1 = mat.decompose(); var sx = tx1.scaleX; var sy = tx1.scaleY;
+		var dp = window.devicePixelRatio || 1; var w = this.nominalBounds.width * sx; var h = this.nominalBounds.height * sy;
+		mat.tx/=dp;mat.ty/=dp; mat.a/=(dp*sx);mat.b/=(dp*sx);mat.c/=(dp*sy);mat.d/=(dp*sy);
+		this._element.setProperty('transform-origin', this.regX + 'px ' + this.regY + 'px');
+		var x = (mat.tx + this.regX*mat.a + this.regY*mat.c - this.regX);
+		var y = (mat.ty + this.regX*mat.b + this.regY*mat.d - this.regY);
+		var tx = 'matrix(' + mat.a + ',' + mat.b + ',' + mat.c + ',' + mat.d + ',' + x + ',' + y + ')';
+		this._element.setProperty('transform', tx);
+		this._element.setProperty('width', w);
+		this._element.setProperty('height', h);
+		this._element.update();
+	}
+}
+
+function _tick(evt) {
+	this._lastAddedFrame = this.parent.currentFrame;
+	var stage = this.stage;
+	stage&&stage.on('drawend', this._handleDrawEnd, this, true);
+	if(!this._updateVisibilityCbk) {
+		this._updateVisibilityCbk = stage.on('drawstart', this._updateVisibility, this, false);
+	}
+}
+function _componentDraw(ctx) {
+	if(this._element && !this._element._attached) {
+		this._element.attach($('#dom_overlay_container'));
 	}
 }
 an.handleSoundStreamOnTick = function(event) {
