@@ -437,13 +437,20 @@ p.nominalBounds = new cjs.Rectangle(-562.9,-5,712.0999999999999,57);
 	this.initialize(mode,startPosition,loop,{awal:0});
 
 	this.actionFrames = [0];
-	this.streamSoundSymbolsList[0] = [{id:"POLdailyspecialshortwav",startFrame:0,endFrame:10,loop:0,offset:0}];
+	this.streamSoundSymbolsList[0] = [{id:"POLdailyspecialshortwav",startFrame:0,endFrame:1,loop:0,offset:0}];
+	this.isSingleFrame = false;
 	// timeline functions:
 	this.frame_0 = function() {
+		if(this.isSingleFrame) {
+			return;
+		}
+		if(this.totalFrames == 1) {
+			this.isSingleFrame = true;
+		}
 		this.clearAllSoundStreams();
 		 
 		var soundInstance = playSound("POLdailyspecialshortwav",-1);
-		this.InsertIntoSoundStreamData(soundInstance,0,10,0);
+		this.InsertIntoSoundStreamData(soundInstance,0,1,0);
 		var _this = this
 		
 		_this.setup = function(){
@@ -461,7 +468,7 @@ p.nominalBounds = new cjs.Rectangle(-562.9,-5,712.0999999999999,57);
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// slide
 	this.btnAwalNext = new lib.btnAwalNext();
@@ -472,7 +479,7 @@ p.nominalBounds = new cjs.Rectangle(-562.9,-5,712.0999999999999,57);
 	this.instance = new lib.bgAwal();
 	this.instance.setTransform(480.7,250.3,1,1,0,0,0,493.7,331.3);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.btnAwalNext}]}).wait(10));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.btnAwalNext}]}).wait(1));
 
 	this._renderFirstFrame();
 
@@ -487,10 +494,10 @@ lib.properties = {
 	color: "#2ECC71",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Bitmap1.png?1597204963236", id:"Bitmap1"},
-		{src:"images/Bitmap13.png?1597204963236", id:"Bitmap13"},
-		{src:"images/bookpngcopy.png?1597204963236", id:"bookpngcopy"},
-		{src:"sounds/POLdailyspecialshortwav.mp3?1597204963236", id:"POLdailyspecialshortwav"}
+		{src:"images/Bitmap1.png", id:"Bitmap1"},
+		{src:"images/Bitmap13.png", id:"Bitmap13"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"sounds/POLdailyspecialshortwav.mp3", id:"POLdailyspecialshortwav"}
 	],
 	preloads: []
 };
