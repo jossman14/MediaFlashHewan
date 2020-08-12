@@ -1,129 +1,43 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <title>SoundJS demo: Internal Preloading</title>
-    <link href="../_shared/demo.css" rel="stylesheet" type="text/css" />
-    <script src="https://code.createjs.com/soundjs-0.6.2.min.js"></script>
-
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
     <script>
-      //   // Load the sound
-      //   createjs.Sound.alternateExtensions = ["mp3"];
+      var soundID = "Thunder";
 
-      //   createjs.Sound.addEventListener("fileload", coba);
-      //   createjs.Sound.registerSound({
-      //     id: "mySound",
-      //     src: "/sounds/POL-daily-special-short.ogg",
-      //   });
-      //   function coba(event) {
-      //     createjs.Sound.play(event.src);
-      //   }
-      //   function load() {
-      //     // Update the UI
-      //     document.getElementById("display").innerText = "Loading...";
-      //     document.getElementById("loadBtn").disabled = "disabled";
+      function loadSound() {
+        createjs.Sound.registerSound("assets/thunder.ogg", soundID);
+      }
 
-      //     // Load the sound
-      //     createjs.Sound.alternateExtensions = ["mp3"];
-      //     createjs.Sound.addEventListener("fileload", handleFileLoad);
-      //     createjs.Sound.registerSound({
-      //       id: "mySound",
-      //       src: "/sounds/POL-daily-special-short.ogg",
-      //     });
-      //   }
+      function playSound() {
+        createjs.Sound.play(soundID);
+      }
 
-      //   function handleFileLoad(event) {
-      //     // Update the UI
-      //     document.getElementById("display").innerHTML =
-      //       "Loaded: " +
-      //       event.src +
-      //       " using " +
-      //       createjs.Sound.activePlugin.toString();
-      //     document.getElementById("stopBtn").disabled = "";
+      var tombol;
 
-      //     // Play the loaded sound
-      //     createjs.Sound.play(event.src);
-      //   }
+      function init() {
+        stage.enableMouseOver(20);
+
+        var preload = new createjs.LoadQueue();
+        preload.addEventListener("fileload", handleFileComplete);
+        preload.loadFile("/sounds/musicBG.mp3", "tombolGan");
+
+        function handleFileComplete(e) {
+          createjs.Sound.registerSound("/sounds/musicBG.mp3", "tombolGan");
+
+          tombolKlik = createjs.Sound.play("tombolGan", { loop: -1 });
+        }
+
+        tmbl.addEventListener("click", tombolKlikEd.bind(this));
+
+        function tombolKlikEd() {
+          tombolKlik.play();
+        }
+      }
+
+      init();
     </script>
   </head>
-  <body>
-    <!-- <iframe
-      src="/sounds/POL-daily-special-short.ogg"
-      allow="autoplay"
-      id="audio"
-      style="display: none;"
-    ></iframe>
-    <audio id="player" autoplay loop>
-      <source src="/sounds/POL-daily-special-short.ogg" type="audio/mp3" />
-    </audio> -->
-
-    <!-- <iframe
-      src="/sounds/POL-daily-special-short.ogg"
-      type="audio/mp3"
-      allow="autoplay"
-      id="audio"
-      style="display: none;"
-    ></iframe>
-    <audio autoplay>
-      <source src="/sounds/POL-daily-special-short.ogg" type="audio/ogg" />
-    </audio> -->
-
-    <!-- <input id="loadBtn" type="button" value="Begin Loading" onclick="load()" />
-    <input
-      id="stopBtn"
-      type="button"
-      value="Stop Playing"
-      onclick="createjs.Sound.stop();"
-      disabled="disabled"
-    /> -->
-    <!-- <label id="display">Waiting for User Input. Click "Begin Loading".</label> -->
-    <!-- <audio controls autoplay>
-      <source src="/sounds/POL-daily-special-short.ogg" type="audio/ogg" />
-      <p>
-        Your browser doesn't support HTML5 audio. Here is a
-        <a href="/sounds/POL-daily-special-short.ogg">link to the audio</a>
-        instead.
-      </p>
-    </audio> -->
-
-    <!-- <iframe
-      src="/sounds/POL-daily-special-short.ogg"
-      allow="autoplay"
-      id="audio"
-      style="display: none;"
-    ></iframe>
-
-    <button id="test" onclick="PlayStop()" type="button">Play</button>
-
-    <audio id="audioID" autoplay loop>
-      <source src="/sounds/POL-daily-special-short.ogg" type="audio/ogg" />
-    </audio>
-
-    <script>
-      var myaudio = document.getElementById("audioID");
-      var elem = document.getElementById("test");
-
-      function PlayStop() {
-        if (elem.innerText == "Play") {
-          elem.innerText = "Stop";
-        } else {
-          elem.innerText = "Play";
-        }
-        return myaudio.paused ? myaudio.play() : myaudio.pause();
-      }
-    </script> -->
-    <!-- <iframe
-      src="silence.mp3"
-      allow="autoplay"
-      id="audio"
-      style="display: none;"
-    ></iframe> -->
-
-    <audio id="audioID" loop>
-      <source src="/sounds/POL-daily-special-short.ogg" type="audio/ogg" />
-    </audio>
-
-    <script>
-      var myaudio = (document.getElementById("audioID").autoplay = true);
-    </script>
+  <body onload="loadSound();">
+    <button onclick="playSound();" class="playSound">Play Sound</button>
   </body>
 </html>
