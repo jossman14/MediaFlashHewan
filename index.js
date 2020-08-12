@@ -135,6 +135,12 @@ lib.ssMetadata = [];
 
 
 
+(lib.Bitmap1 = function() {
+	this.initialize(img.Bitmap1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,987,663);
+
+
 (lib.Bitmap13 = function() {
 	this.initialize(img.Bitmap13);
 }).prototype = p = new cjs.Bitmap();
@@ -144,13 +150,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,675,535);
 (lib.bookpngcopy = function() {
 	this.initialize(img.bookpngcopy);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,288,399);
-
-
-(lib.Bitmap1 = function() {
-	this.initialize(img.Bitmap1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,987,663);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,288,399);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -462,6 +462,8 @@ p.nominalBounds = new cjs.Rectangle(-562.9,-5,712.0999999999999,57);
 		
 		window.location.replace('data/menu/index.html');
 		});
+		
+		createjs.Sound.play("musicBG");
 	}
 
 	// actions tween:
@@ -491,9 +493,10 @@ lib.properties = {
 	color: "#2ECC71",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Bitmap13.png", id:"Bitmap13"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/Bitmap1.png", id:"Bitmap1"}
+		{src:"images/Bitmap1.png?1597219000120", id:"Bitmap1"},
+		{src:"images/Bitmap13.png?1597219000120", id:"Bitmap13"},
+		{src:"images/bookpngcopy.png?1597219000120", id:"bookpngcopy"},
+		{src:"sounds/musicBG.mp3?1597219000120", id:"musicBG"}
 	],
 	preloads: []
 };
