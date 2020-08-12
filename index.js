@@ -463,7 +463,7 @@ p.nominalBounds = new cjs.Rectangle(-562.9,-5,712.0999999999999,57);
 		window.location.replace('data/menu/index.html');
 		});
 		
-		createjs.Sound.play("musicBG", "none", 0, 0, -1, 1);
+		createjs.Sound.play("musicBG", "none", 0, 0, -1, 0.5);
 	}
 
 	// actions tween:
@@ -493,10 +493,10 @@ lib.properties = {
 	color: "#2ECC71",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Bitmap1.png?1597219233564", id:"Bitmap1"},
-		{src:"images/Bitmap13.png?1597219233564", id:"Bitmap13"},
-		{src:"images/bookpngcopy.png?1597219233564", id:"bookpngcopy"},
-		{src:"sounds/musicBG.mp3?1597219233564", id:"musicBG"}
+		{src:"images/Bitmap1.png", id:"Bitmap1"},
+		{src:"images/Bitmap13.png", id:"Bitmap13"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"sounds/musicBG.mp3", id:"musicBG"}
 	],
 	preloads: []
 };
