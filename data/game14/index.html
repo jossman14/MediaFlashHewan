@@ -52,7 +52,7 @@ function handleComplete(evt,comp) {
 	}
 	var preloaderDiv = document.getElementById("_preload_div_");
 	preloaderDiv.style.display = 'none';
-	canvas.style.display = 'block';
+	dom_overlay_container.style.display = canvas.style.display = 'block';
 	exportRoot = new lib.game14_temp();
 	stage = new lib.Stage(canvas);
 	stage.enableMouseOver();	
