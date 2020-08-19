@@ -259,15 +259,15 @@ function init() {
 
   queue.loadManifest([
     {
-      src: "/sounds/musicBG.mp3",
+      src: "./sounds/musicBG.mp3",
       id: "tombolGan",
     },
     {
-      src: "/sounds/benar.mp3",
+      src: "./sounds/benar.mp3",
       id: "benar",
     },
     {
-      src: "/sounds/salah.mp3",
+      src: "./sounds/salah.mp3",
       id: "salah",
     },
   ]);
