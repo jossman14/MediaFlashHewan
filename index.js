@@ -141,16 +141,16 @@ lib.ssMetadata = [];
 p.nominalBounds = new cjs.Rectangle(0,0,987,663);
 
 
-(lib.bookpngcopy = function() {
-	this.initialize(img.bookpngcopy);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,288,399);
-
-
 (lib.Bitmap13 = function() {
 	this.initialize(img.Bitmap13);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,675,535);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,675,535);
+
+
+(lib.bookpngcopy = function() {
+	this.initialize(img.bookpngcopy);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,288,399);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -579,15 +579,13 @@ p.nominalBounds = new cjs.Rectangle(-562.9,-5,712.0999999999999,57);
 		var _this = this;
 		function init() {
 		  _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
-		  _this.nyala.visible = !_this.nyala.visible;
+		  _this.hening.visible = !_this.hening.visible;
 		
 		  var queue = new createjs.LoadQueue();
 		  queue.installPlugin(createjs.Sound);
 		  queue.addEventListener("complete", handleComplete);
 		
-		  queue.loadManifest([
-		    { src: "/sounds/musicBG.mp3", id: "tombolGan" }
-		  ]);
+		  queue.loadManifest([{ src: "/sounds/musicBG.mp3", id: "tombolGan" }]);
 		
 		  function handleComplete(event) {
 		    // assign each sound to unique variable
@@ -708,14 +706,14 @@ lib.properties = {
 	color: "#2ECC71",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Bitmap1.png?1597739369110", id:"Bitmap1"},
-		{src:"images/bookpngcopy.png?1597739369110", id:"bookpngcopy"},
-		{src:"images/Bitmap13.png?1597739369110", id:"Bitmap13"},
-		{src:"sounds/musicBG.mp3?1597739369110", id:"musicBG"},
-		{src:"components/lib/jquery-3.4.1.min.js?1597739369110", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1597739369110", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/image.js?1597739369110", id:"an.Image"},
-		{src:"components/ui/src/image.js?1597739369110", id:"an.Image"}
+		{src:"images/Bitmap1.png", id:"Bitmap1"},
+		{src:"images/Bitmap13.png", id:"Bitmap13"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"sounds/musicBG.mp3", id:"musicBG"},
+		{src:"components/lib/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/image.js", id:"an.Image"},
+		{src:"components/ui/src/image.js", id:"an.Image"}
 	],
 	preloads: []
 };

@@ -141,28 +141,34 @@ lib.ssMetadata = [];
 p.nominalBounds = new cjs.Rectangle(0,0,963,560);
 
 
-(lib._33pngcopy = function() {
-	this.initialize(img._33pngcopy);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,966,560);
-
-
 (lib._32pngcopy = function() {
 	this.initialize(img._32pngcopy);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,966,560);
 
 
-(lib._34e = function() {
-	this.initialize(img._34e);
+(lib._33pngcopy = function() {
+	this.initialize(img._33pngcopy);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,966,560);
 
 
-(lib.Bitmap28 = function() {
-	this.initialize(img.Bitmap28);
+(lib._35e = function() {
+	this.initialize(img._35e);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,960,545);
+p.nominalBounds = new cjs.Rectangle(0,0,966,560);
+
+
+(lib.ant = function() {
+	this.initialize(img.ant);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,825,290);
+
+
+(lib.Bitmap5 = function() {
+	this.initialize(img.Bitmap5);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 
 
 (lib.bookpngcopy = function() {
@@ -177,34 +183,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 p.nominalBounds = new cjs.Rectangle(0,0,946,275);
 
 
-(lib.cacingruubelus = function() {
-	this.initialize(img.cacingruubelus);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,376,233);
-
-
-(lib.Bitmap5 = function() {
-	this.initialize(img.Bitmap5);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,998,600);
-
-
-(lib._35e = function() {
-	this.initialize(img._35e);
+(lib._34e = function() {
+	this.initialize(img._34e);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,966,560);
-
-
-(lib.lintah = function() {
-	this.initialize(img.lintah);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,147,428);
-
-
-(lib.worm = function() {
-	this.initialize(img.worm);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,636,265);
 
 
 (lib.kelabang = function() {
@@ -213,10 +195,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,636,265);
 p.nominalBounds = new cjs.Rectangle(0,0,788,365);
 
 
-(lib.ant = function() {
-	this.initialize(img.ant);
+(lib.lintah = function() {
+	this.initialize(img.lintah);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,825,290);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,147,428);
+
+
+(lib.Bitmap28 = function() {
+	this.initialize(img.Bitmap28);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,545);
+
+
+(lib.cacingruubelus = function() {
+	this.initialize(img.cacingruubelus);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,376,233);
+
+
+(lib.worm = function() {
+	this.initialize(img.worm);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,636,265);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -5450,34 +5450,37 @@ p.nominalBounds = new cjs.Rectangle(-486.4,-304.4,960.2,543.0999999999999);
 		var tombol;
 		var _this = this;
 		function init() {
-		  stage.enableMouseOver(20);
 		  _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
-		  _this.hening.visible = !_this.hening.visible;
-		  var preload = new createjs.LoadQueue();
-		  preload.addEventListener("fileload", handleFileComplete);
-		  preload.loadFile("/sounds/musicBG.mp3", "tombolGan");
+		  _this.nyala.visible = !_this.nyala.visible;
 		
-		  function handleFileComplete(e) {
-		    createjs.Sound.registerSound("/sounds/musicBG.mp3", "tombolGan");
+		  var queue = new createjs.LoadQueue();
+		  queue.installPlugin(createjs.Sound);
+		  queue.addEventListener("complete", handleComplete);
 		
-		    tombol = createjs.Sound.play("tombolGan", { loop: -1 });
+		  queue.loadManifest([{ src: "/sounds/musicBG.mp3", id: "tombolGan" }]);
+		
+		  function handleComplete(event) {
+		    // assign each sound to unique variable
+		    _this.sound1 = createjs.Sound.createInstance("tombolGan");
+		    _this.sound1.play({ loop: -1 });
+		
+		    _this.nyala.on("click", function tombolKlikEd() {
+		      _this.sound1.play({ loop: -1 });
+		      _this.nyala.visible = !_this.nyala.visible;
+		      _this.tandaSuaraOff.visible = !_this.tandaSuaraOff.visible;
+		      _this.hening.visible = !_this.hening.visible;
+		      _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
+		    });
+		
+		    _this.hening.on("click", function tombolKlikEd() {
+		      // _this.sound3.play();
+		      createjs.Sound.stop();
+		      _this.hening.visible = !_this.hening.visible;
+		      _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
+		      _this.nyala.visible = !_this.nyala.visible;
+		      _this.tandaSuaraOff.visible = !_this.tandaSuaraOff.visible;
+		    });
 		  }
-		
-		  _this.nyala.on("click", function tombolKlikEd() {
-		    tombol.play();
-		    _this.nyala.visible = !_this.nyala.visible;
-		    _this.tandaSuaraOff.visible = !_this.tandaSuaraOff.visible;
-		    _this.hening.visible = !_this.hening.visible;
-		    _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
-		  });
-		
-		  _this.hening.on("click", function tombolKlikEd() {
-		    createjs.Sound.stop();
-		    _this.hening.visible = !_this.hening.visible;
-		    _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
-		    _this.nyala.visible = !_this.nyala.visible;
-		    _this.tandaSuaraOff.visible = !_this.tandaSuaraOff.visible;
-		  });
 		}
 		
 		init();
@@ -5534,24 +5537,24 @@ p.nominalBounds = new cjs.Rectangle(-486.4,-304.4,960.2,543.0999999999999);
 	this.tandaSuaraOff.setTransform(851.85,37.05,0.4105,0.4105,0,0,0,50.2,45.2);
 
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AgNATQgEgEAAgFQAAgHAFgDQAFgDAJgBIAHAAIAAgDQAAgEgDgCQgCgCgEAAQgDAAgDACQgDABAAADIgHAAQAAgDACgDQADgDADgCQAEgBAEgBQAHABAFADQAEAEAAAHIAAATQAAAFACAEIAAABIgIAAIgBgFQgFAFgGAAQgHAAgEgDgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgCACgCIAAgJIgGAAQgNAAAAAHg");
-	this.shape.setTransform(858.525,64.8);
+	this.shape.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgEAJAAIAHAAIAAgDQAAgEgDgCQgCgCgEgBQgDAAgDACQgDACAAAEIgHAAQAAgEACgDQADgDADgBQAEgCAEgBQAHABAFAEQAEADAAAHIAAASQAAAHACADIAAAAIgIAAIgBgEQgFAGgGgBQgHAAgEgEgAgKAJQAAADADACQACACAEAAQACAAADgCQADgCACgDIAAgJIgGAAQgNAAAAAJg");
+	this.shape.setTransform(858.475,64.75);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("AgKAWIAAgqIAIAAIAAAFQADgGAGAAIADABIAAAGIgDAAQgHABgCAGIAAAdg");
-	this.shape_1.setTransform(855.15,64.75);
+	this.shape_1.graphics.f("#FFFFFF").s().p("AgKAWIAAgqIAHAAIABAFQACgGAHAAIAEABIAAAHIgFAAQgGAAgCAFIAAAeg");
+	this.shape_1.setTransform(855.1,64.7);
 
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#FFFFFF").s().p("AgNATQgEgEAAgFQAAgHAFgDQAFgDAJgBIAHAAIAAgDQAAgEgDgCQgCgCgEAAQgDAAgDACQgDABAAADIgHAAQAAgDACgDQADgDADgCQAEgBAEgBQAHABAFADQAEAEAAAHIAAATQAAAFACAEIAAABIgIAAIgBgFQgFAFgGAAQgHAAgEgDgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgCACgCIAAgJIgGAAQgNAAAAAHg");
-	this.shape_2.setTransform(851.325,64.8);
+	this.shape_2.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgEAJAAIAHAAIAAgDQAAgEgDgCQgCgCgEgBQgDAAgDACQgDACAAAEIgHAAQAAgEACgDQADgDADgBQAEgCAEgBQAHABAFAEQAEADAAAHIAAASQAAAHACADIAAAAIgIAAIgBgEQgFAGgGgBQgHAAgEgEgAgKAJQAAADADACQACACAEAAQACAAADgCQADgCACgDIAAgJIgGAAQgNAAAAAJg");
+	this.shape_2.setTransform(851.275,64.75);
 
 	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("#FFFFFF").s().p("AgMASQgEgEAAgIIAAgbIAHAAIAAAbQAAAKAIAAQAIAAADgHIAAgeIAHAAIAAAqIgHAAIAAgEQgEAFgIAAQgHAAgDgEg");
-	this.shape_3.setTransform(846.875,64.85);
+	this.shape_3.graphics.f("#FFFFFF").s().p("AgMASQgEgEAAgIIAAgbIAHAAIAAAbQAAAJAIAAQAIAAADgFIAAgfIAHAAIAAAqIgHAAIAAgEQgEAFgIAAQgHAAgDgEg");
+	this.shape_3.setTransform(846.825,64.8);
 
 	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFADADQAEADAGAAQAGAAADgCQAEgDAAgEQAAgEgEgCQgDgDgHgCQgJgDgEgDQgFgEAAgGQAAgHAGgEQAFgFAHAAQAGAAAGACQAEADACAEQADAEAAAFIgHAAQgBgGgDgDQgDgDgHAAQgEAAgDADQgDACgBAFQABADACADQAEACAGACQAHACAEACQAFACABADQACAEAAAEQAAAHgGAEQgFAFgJAAQgFAAgFgDg");
-	this.shape_4.setTransform(842.2,64.075);
+	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFAEADQAEADAFAAQAGAAAEgCQACgDAAgEQAAgEgCgCQgDgDgIgCQgJgDgFgDQgEgEAAgGQAAgHAFgEQAGgFAIAAQAGAAAEACQAFADADAEQACAEAAAFIgIAAQABgGgEgDQgEgDgFAAQgFAAgDADQgEACAAAFQABADADADQADACAGACQAHACAEACQAFACACADQABAEAAAEQAAAHgGAEQgFAFgJAAQgFAAgFgDg");
+	this.shape_4.setTransform(842.15,64.025);
 
 	this.shape_5 = new cjs.Shape();
 	this.shape_5.graphics.f("#3498DB").s().p("Aj8D9QhphpAAiUQAAiTBphqQBphoCTAAQCVAABoBoQBpBqAACTQAACUhpBpQhoBpiVAAQiTAAhphpg");
@@ -5828,19 +5831,19 @@ lib.properties = {
 	opacity: 1.00,
 	manifest: [
 		{src:"images/_31pngcopy.png", id:"_31pngcopy"},
-		{src:"images/_33pngcopy.png", id:"_33pngcopy"},
 		{src:"images/_32pngcopy.png", id:"_32pngcopy"},
-		{src:"images/_34e.png", id:"_34e"},
-		{src:"images/Bitmap28.png", id:"Bitmap28"},
+		{src:"images/_33pngcopy.png", id:"_33pngcopy"},
+		{src:"images/_35e.png", id:"_35e"},
+		{src:"images/ant.png", id:"ant"},
+		{src:"images/Bitmap5.png", id:"Bitmap5"},
 		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
 		{src:"images/cacing1.png", id:"cacing1"},
-		{src:"images/cacingruubelus.png", id:"cacingruubelus"},
-		{src:"images/Bitmap5.png", id:"Bitmap5"},
-		{src:"images/_35e.png", id:"_35e"},
-		{src:"images/lintah.png", id:"lintah"},
-		{src:"images/worm.png", id:"worm"},
+		{src:"images/_34e.png", id:"_34e"},
 		{src:"images/kelabang.png", id:"kelabang"},
-		{src:"images/ant.png", id:"ant"},
+		{src:"images/lintah.png", id:"lintah"},
+		{src:"images/Bitmap28.png", id:"Bitmap28"},
+		{src:"images/cacingruubelus.png", id:"cacingruubelus"},
+		{src:"images/worm.png", id:"worm"},
 		{src:"components/lib/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
 		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
 		{src:"components/ui/src/image.js", id:"an.Image"},

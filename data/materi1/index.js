@@ -135,16 +135,16 @@ lib.ssMetadata = [];
 
 
 
-(lib.Bitmap5 = function() {
-	this.initialize(img.Bitmap5);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,998,600);
-
-
 (lib.Bitmap4 = function() {
 	this.initialize(img.Bitmap4);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,960,545);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,960,545);
+
+
+(lib.Bitmap5 = function() {
+	this.initialize(img.Bitmap5);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,998,600);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -3990,12 +3990,12 @@ lib.properties = {
 	color: "#3498DB",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Bitmap5.png", id:"Bitmap5"},
-		{src:"images/Bitmap4.png", id:"Bitmap4"},
-		{src:"components/lib/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/image.js", id:"an.Image"},
-		{src:"components/ui/src/image.js", id:"an.Image"}
+		{src:"images/Bitmap4.png?1597754645034", id:"Bitmap4"},
+		{src:"images/Bitmap5.png?1597754645034", id:"Bitmap5"},
+		{src:"components/lib/jquery-3.4.1.min.js?1597754645034", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1597754645034", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/image.js?1597754645034", id:"an.Image"},
+		{src:"components/ui/src/image.js?1597754645034", id:"an.Image"}
 	],
 	preloads: []
 };

@@ -171,12 +171,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,729,600);
 p.nominalBounds = new cjs.Rectangle(0,0,624,375);
 
 
-(lib._28 = function() {
-	this.initialize(img._28);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,259,194);
-
-
 (lib._3 = function() {
 	this.initialize(img._3);
 }).prototype = p = new cjs.Bitmap();
@@ -189,10 +183,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,638,479);
 p.nominalBounds = new cjs.Rectangle(0,0,768,437);
 
 
-(lib._32 = function() {
-	this.initialize(img._32);
+(lib._28 = function() {
+	this.initialize(img._28);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,720,489);
+p.nominalBounds = new cjs.Rectangle(0,0,259,194);
 
 
 (lib._34 = function() {
@@ -201,8 +195,26 @@ p.nominalBounds = new cjs.Rectangle(0,0,720,489);
 p.nominalBounds = new cjs.Rectangle(0,0,440,302);
 
 
+(lib._17 = function() {
+	this.initialize(img._17);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,700,467);
+
+
 (lib._5 = function() {
 	this.initialize(img._5);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,700,450);
+
+
+(lib._32 = function() {
+	this.initialize(img._32);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,720,489);
+
+
+(lib._5jpegcopy = function() {
+	this.initialize(img._5jpegcopy);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,700,450);
 
@@ -211,24 +223,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,700,450);
 	this.initialize(img._36);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,690,518);
-
-
-(lib._6 = function() {
-	this.initialize(img._6);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1024,683);
-
-
-(lib._7 = function() {
-	this.initialize(img._7);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,300,201);
-
-
-(lib._20 = function() {
-	this.initialize(img._20);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,720,580);
 
 
 (lib._7jpegcopy = function() {
@@ -249,10 +243,22 @@ p.nominalBounds = new cjs.Rectangle(0,0,823,518);
 p.nominalBounds = new cjs.Rectangle(0,0,97,120);
 
 
+(lib._7 = function() {
+	this.initialize(img._7);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,300,201);
+
+
 (lib.Bitmap2 = function() {
 	this.initialize(img.Bitmap2);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,998,600);
+
+
+(lib._6 = function() {
+	this.initialize(img._6);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1024,683);
 
 
 (lib.Bitmap3 = function() {
@@ -261,28 +267,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 
 
-(lib.Bitmap45 = function() {
-	this.initialize(img.Bitmap45);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,202,177);
-
-
 (lib.Bitmap72 = function() {
 	this.initialize(img.Bitmap72);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,267,177);
-
-
-(lib.Bitmap44 = function() {
-	this.initialize(img.Bitmap44);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,267,177);
-
-
-(lib._17 = function() {
-	this.initialize(img._17);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,700,467);
 
 
 (lib.Bitmap73 = function() {
@@ -291,22 +279,34 @@ p.nominalBounds = new cjs.Rectangle(0,0,700,467);
 p.nominalBounds = new cjs.Rectangle(0,0,202,177);
 
 
+(lib.Bitmap44 = function() {
+	this.initialize(img.Bitmap44);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,267,177);
+
+
+(lib.bookpngcopy = function() {
+	this.initialize(img.bookpngcopy);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,288,399);
+
+
+(lib._20 = function() {
+	this.initialize(img._20);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,720,580);
+
+
 (lib.fix = function() {
 	this.initialize(img.fix);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,516,564);
 
 
-(lib._5jpegcopy = function() {
-	this.initialize(img._5jpegcopy);
+(lib.Bitmap45 = function() {
+	this.initialize(img.Bitmap45);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,700,450);
-
-
-(lib.bookpngcopy = function() {
-	this.initialize(img.bookpngcopy);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,288,399);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,202,177);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -4655,35 +4655,22 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		var tombol;
 		var _this = this;
 		function init() {
-		  stage.enableMouseOver(20);
 		  _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
-		  _this.hening.visible = !_this.hening.visible;
-		  // var preload = new createjs.LoadQueue();
-		  // preload.addEventListener("fileload", handleFileComplete);
-		  // preload.loadFile("/sounds/musicBG.mp3", "tombolGan");
+		  _this.nyala.visible = !_this.nyala.visible;
 		
 		  var queue = new createjs.LoadQueue();
 		  queue.installPlugin(createjs.Sound);
 		  queue.addEventListener("complete", handleComplete);
 		
-		  queue.loadManifest([
-		    { src: "/sounds/musicBG.mp3", id: "tombolGan" },
-		    { src: "/sounds/benar.mp3", id: "benar" },
-		    { src: "/sounds/salah.mp3", id: "salah" },
-		  ]);
+		  queue.loadManifest([{ src: "/sounds/musicBG.mp3", id: "tombolGan" }]);
 		
 		  function handleComplete(event) {
 		    // assign each sound to unique variable
 		    _this.sound1 = createjs.Sound.createInstance("tombolGan");
-		    _this.sound2 = createjs.Sound.createInstance("benar");
-		    _this.sound3 = createjs.Sound.createInstance("salah");
-		    // start playing sound1
-		    // tombol = createjs.Sound.play("tombolGan", { loop: -1 });
-		    // benar = createjs.Sound.play("benar", { loop: -1 });
-		    // salah = createjs.Sound.play("salah", { loop: -1 });
 		    _this.sound1.play({ loop: -1 });
 		
 		    _this.nyala.on("click", function tombolKlikEd() {
+		      _this.sound1.play({ loop: -1 });
 		      _this.nyala.visible = !_this.nyala.visible;
 		      _this.tandaSuaraOff.visible = !_this.tandaSuaraOff.visible;
 		      _this.hening.visible = !_this.hening.visible;
@@ -4699,12 +4686,6 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		      _this.tandaSuaraOff.visible = !_this.tandaSuaraOff.visible;
 		    });
 		  }
-		
-		  // function handleFileComplete(e) {
-		  //   createjs.Sound.registerSound("/sounds/musicBG.mp3", "tombolGan");
-		
-		  //   tombol = createjs.Sound.play("tombolGan", { loop: -1 });
-		  // }
 		}
 		
 		init();
@@ -5181,39 +5162,39 @@ lib.properties = {
 	color: "#34495E",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_10.jpeg?1597739063195", id:"_10"},
-		{src:"images/_10_tripo.jpg?1597739063195", id:"_10_tripo"},
-		{src:"images/_13.jpeg?1597739063195", id:"_13"},
-		{src:"images/_16.jpeg?1597739063195", id:"_16"},
-		{src:"images/_25.jpeg?1597739063195", id:"_25"},
-		{src:"images/_26.jpeg?1597739063195", id:"_26"},
-		{src:"images/_28.jpeg?1597739063195", id:"_28"},
-		{src:"images/_3.jpeg?1597739063195", id:"_3"},
-		{src:"images/_30.jpeg?1597739063195", id:"_30"},
-		{src:"images/_32.jpeg?1597739063195", id:"_32"},
-		{src:"images/_34.jpeg?1597739063195", id:"_34"},
-		{src:"images/_5.jpeg?1597739063195", id:"_5"},
-		{src:"images/_36.jpeg?1597739063195", id:"_36"},
-		{src:"images/_6.jpeg?1597739063195", id:"_6"},
-		{src:"images/_7.jpeg?1597739063195", id:"_7"},
-		{src:"images/_20.jpeg?1597739063195", id:"_20"},
-		{src:"images/_7jpegcopy.jpg?1597739063195", id:"_7jpegcopy"},
-		{src:"images/_9_tripo.jpg?1597739063196", id:"_9_tripo"},
-		{src:"images/Bitmap1.png?1597739063196", id:"Bitmap1"},
-		{src:"images/Bitmap2.png?1597739063196", id:"Bitmap2"},
-		{src:"images/Bitmap3.png?1597739063196", id:"Bitmap3"},
-		{src:"images/Bitmap45.png?1597739063196", id:"Bitmap45"},
-		{src:"images/Bitmap72.png?1597739063196", id:"Bitmap72"},
-		{src:"images/Bitmap44.png?1597739063196", id:"Bitmap44"},
-		{src:"images/_17.jpeg?1597739063196", id:"_17"},
-		{src:"images/Bitmap73.png?1597739063196", id:"Bitmap73"},
-		{src:"images/fix.png?1597739063196", id:"fix"},
-		{src:"images/_5jpegcopy.jpg?1597739063196", id:"_5jpegcopy"},
-		{src:"images/bookpngcopy.png?1597739063196", id:"bookpngcopy"},
-		{src:"components/lib/jquery-3.4.1.min.js?1597739063196", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1597739063196", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/image.js?1597739063196", id:"an.Image"},
-		{src:"components/ui/src/image.js?1597739063196", id:"an.Image"}
+		{src:"images/_10.jpeg", id:"_10"},
+		{src:"images/_10_tripo.jpg", id:"_10_tripo"},
+		{src:"images/_13.jpeg", id:"_13"},
+		{src:"images/_16.jpeg", id:"_16"},
+		{src:"images/_25.jpeg", id:"_25"},
+		{src:"images/_26.jpeg", id:"_26"},
+		{src:"images/_3.jpeg", id:"_3"},
+		{src:"images/_30.jpeg", id:"_30"},
+		{src:"images/_28.jpeg", id:"_28"},
+		{src:"images/_34.jpeg", id:"_34"},
+		{src:"images/_17.jpeg", id:"_17"},
+		{src:"images/_5.jpeg", id:"_5"},
+		{src:"images/_32.jpeg", id:"_32"},
+		{src:"images/_5jpegcopy.jpg", id:"_5jpegcopy"},
+		{src:"images/_36.jpeg", id:"_36"},
+		{src:"images/_7jpegcopy.jpg", id:"_7jpegcopy"},
+		{src:"images/_9_tripo.jpg", id:"_9_tripo"},
+		{src:"images/Bitmap1.png", id:"Bitmap1"},
+		{src:"images/_7.jpeg", id:"_7"},
+		{src:"images/Bitmap2.png", id:"Bitmap2"},
+		{src:"images/_6.jpeg", id:"_6"},
+		{src:"images/Bitmap3.png", id:"Bitmap3"},
+		{src:"images/Bitmap72.png", id:"Bitmap72"},
+		{src:"images/Bitmap73.png", id:"Bitmap73"},
+		{src:"images/Bitmap44.png", id:"Bitmap44"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"images/_20.jpeg", id:"_20"},
+		{src:"images/fix.png", id:"fix"},
+		{src:"images/Bitmap45.png", id:"Bitmap45"},
+		{src:"components/lib/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/image.js", id:"an.Image"},
+		{src:"components/ui/src/image.js", id:"an.Image"}
 	],
 	preloads: []
 };

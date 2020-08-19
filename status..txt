@@ -210,3 +210,12 @@ Update Revisi 25 July 2020:
       
 Update Revisi 29 July 2020:
    1. Revisi halaman KD --> https://cobamedia.netlify.app/data/materi2
+
+Update Revisi 18 Agustus 2020:
+   1. Revisi Suara:
+      catatan --> sudah menambahkan suara pada masing-masing halaman media. sedang proses membuat suara terputar otomatis ketika halaman sudah muncul. sudah ada beberapa yang bisa terputar otomatis. 
+
+   2. proses menambahkan suara interaktif ketika user bermain game dengan suara benar atau  salah.
+
+   3. proses mengubah tombol play
+   

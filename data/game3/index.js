@@ -141,16 +141,10 @@ lib.ssMetadata = [];
 p.nominalBounds = new cjs.Rectangle(0,0,708,526);
 
 
-(lib._17 = function() {
-	this.initialize(img._17);
+(lib._16 = function() {
+	this.initialize(img._16);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,700,467);
-
-
-(lib._20 = function() {
-	this.initialize(img._20);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,720,580);
+p.nominalBounds = new cjs.Rectangle(0,0,320,292);
 
 
 (lib._23 = function() {
@@ -159,16 +153,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,720,580);
 p.nominalBounds = new cjs.Rectangle(0,0,337,362);
 
 
-(lib._32 = function() {
-	this.initialize(img._32);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,720,489);
-
-
 (lib._28 = function() {
 	this.initialize(img._28);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,259,194);
+
+
+(lib._20 = function() {
+	this.initialize(img._20);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,720,580);
 
 
 (lib._34 = function() {
@@ -177,22 +171,34 @@ p.nominalBounds = new cjs.Rectangle(0,0,259,194);
 p.nominalBounds = new cjs.Rectangle(0,0,440,302);
 
 
+(lib._36 = function() {
+	this.initialize(img._36);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,690,518);
+
+
+(lib._32 = function() {
+	this.initialize(img._32);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,720,489);
+
+
 (lib._5 = function() {
 	this.initialize(img._5);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,700,450);
 
 
-(lib._16 = function() {
-	this.initialize(img._16);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,320,292);
-
-
 (lib._6 = function() {
 	this.initialize(img._6);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,1024,683);
+
+
+(lib._7 = function() {
+	this.initialize(img._7);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,300,201);
 
 
 (lib._11 = function() {
@@ -207,18 +213,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,379,448);
 p.nominalBounds = new cjs.Rectangle(0,0,595,340);
 
 
-(lib._36 = function() {
-	this.initialize(img._36);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,690,518);
-
-
-(lib.Bitmap1 = function() {
-	this.initialize(img.Bitmap1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,97,120);
-
-
 (lib.Bitmap2 = function() {
 	this.initialize(img.Bitmap2);
 }).prototype = p = new cjs.Bitmap();
@@ -229,6 +223,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 	this.initialize(img.Bitmap3);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,249,87);
+
+
+(lib.Bitmap1 = function() {
+	this.initialize(img.Bitmap1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,97,120);
 
 
 (lib.Bitmap44 = function() {
@@ -261,10 +261,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,516,564);
 p.nominalBounds = new cjs.Rectangle(0,0,379,257);
 
 
-(lib._26 = function() {
-	this.initialize(img._26);
+(lib._17 = function() {
+	this.initialize(img._17);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,624,375);
+p.nominalBounds = new cjs.Rectangle(0,0,700,467);
 
 
 (lib.bookpngcopy = function() {
@@ -273,10 +273,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,624,375);
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
-(lib._7 = function() {
-	this.initialize(img._7);
+(lib._26 = function() {
+	this.initialize(img._26);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,300,201);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,624,375);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -17391,34 +17391,37 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		var tombol;
 		var _this = this;
 		function init() {
-		  stage.enableMouseOver(20);
 		  _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
-		  _this.hening.visible = !_this.hening.visible;
-		  var preload = new createjs.LoadQueue();
-		  preload.addEventListener("fileload", handleFileComplete);
-		  preload.loadFile("/sounds/musicBG.mp3", "tombolGan");
+		  _this.nyala.visible = !_this.nyala.visible;
 		
-		  function handleFileComplete(e) {
-		    createjs.Sound.registerSound("/sounds/musicBG.mp3", "tombolGan");
+		  var queue = new createjs.LoadQueue();
+		  queue.installPlugin(createjs.Sound);
+		  queue.addEventListener("complete", handleComplete);
 		
-		    tombol = createjs.Sound.play("tombolGan", { loop: -1 });
+		  queue.loadManifest([{ src: "/sounds/musicBG.mp3", id: "tombolGan" }]);
+		
+		  function handleComplete(event) {
+		    // assign each sound to unique variable
+		    _this.sound1 = createjs.Sound.createInstance("tombolGan");
+		    _this.sound1.play({ loop: -1 });
+		
+		    _this.nyala.on("click", function tombolKlikEd() {
+		      _this.sound1.play({ loop: -1 });
+		      _this.nyala.visible = !_this.nyala.visible;
+		      _this.tandaSuaraOff.visible = !_this.tandaSuaraOff.visible;
+		      _this.hening.visible = !_this.hening.visible;
+		      _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
+		    });
+		
+		    _this.hening.on("click", function tombolKlikEd() {
+		      // _this.sound3.play();
+		      createjs.Sound.stop();
+		      _this.hening.visible = !_this.hening.visible;
+		      _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
+		      _this.nyala.visible = !_this.nyala.visible;
+		      _this.tandaSuaraOff.visible = !_this.tandaSuaraOff.visible;
+		    });
 		  }
-		
-		  _this.nyala.on("click", function tombolKlikEd() {
-		    tombol.play();
-		    _this.nyala.visible = !_this.nyala.visible;
-		    _this.tandaSuaraOff.visible = !_this.tandaSuaraOff.visible;
-		    _this.hening.visible = !_this.hening.visible;
-		    _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
-		  });
-		
-		  _this.hening.on("click", function tombolKlikEd() {
-		    createjs.Sound.stop();
-		    _this.hening.visible = !_this.hening.visible;
-		    _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
-		    _this.nyala.visible = !_this.nyala.visible;
-		    _this.tandaSuaraOff.visible = !_this.tandaSuaraOff.visible;
-		  });
 		}
 		
 		init();
@@ -17527,24 +17530,24 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.tandaSuaraOff.setTransform(438,32.05,0.4105,0.4105,0,0,0,50.2,45.2);
 
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgDAJAAIAHAAIAAgEQAAgEgDgCQgCgCgEAAQgDAAgDACQgDABAAADIgHAAQAAgDACgDQADgDADgCQAEgBAEAAQAHAAAFADQAEAEAAAGIAAAUQAAAFACAEIAAABIgIAAIgBgFQgFAFgGABQgHAAgEgFgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgBACgEIAAgJIgGAAQgNABAAAHg");
-	this.shape.setTransform(444.625,59.75);
+	this.shape.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgEAJABIAHAAIAAgEQAAgEgDgCQgCgDgEAAQgDABgDACQgDACAAACIgHAAQAAgDACgDQADgDADgCQAEgBAEAAQAHAAAFADQAEAEAAAGIAAAUQAAAGACADIAAABIgIAAIgBgFQgFAFgGABQgHAAgEgFgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgBACgEIAAgJIgGAAQgNABAAAHg");
+	this.shape.setTransform(444.575,59.65);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("AgKAWIAAgqIAIAAIAAAFQADgGAGAAIADABIAAAGIgEAAQgGAAgCAHIAAAdg");
-	this.shape_1.setTransform(441.25,59.7);
+	this.shape_1.graphics.f("#FFFFFF").s().p("AgJAWIAAgqIAGAAIABAFQADgGAGAAIAEABIAAAGIgFAAQgGAAgCAHIAAAdg");
+	this.shape_1.setTransform(441.2,59.6);
 
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgDAJAAIAHAAIAAgEQAAgEgDgCQgCgCgEAAQgDAAgDACQgDABAAADIgHAAQAAgDACgDQADgDADgCQAEgBAEAAQAHAAAFADQAEAEAAAGIAAAUQAAAFACAEIAAABIgIAAIgBgFQgFAFgGABQgHAAgEgFgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgBACgEIAAgJIgGAAQgNABAAAHg");
-	this.shape_2.setTransform(437.425,59.75);
+	this.shape_2.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgEAJABIAHAAIAAgEQAAgEgDgCQgCgDgEAAQgDABgDACQgDACAAACIgHAAQAAgDACgDQADgDADgCQAEgBAEAAQAHAAAFADQAEAEAAAGIAAAUQAAAGACADIAAABIgIAAIgBgFQgFAFgGABQgHAAgEgFgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgBACgEIAAgJIgGAAQgNABAAAHg");
+	this.shape_2.setTransform(437.375,59.65);
 
 	this.shape_3 = new cjs.Shape();
 	this.shape_3.graphics.f("#FFFFFF").s().p("AgMASQgEgEAAgIIAAgbIAHAAIAAAbQAAAKAIAAQAIgBADgFIAAgfIAHAAIAAAqIgHAAIAAgEQgEAFgIAAQgHAAgDgEg");
-	this.shape_3.setTransform(432.975,59.8);
+	this.shape_3.setTransform(432.925,59.7);
 
 	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFADADQAFADAFAAQAGAAAEgCQADgDAAgEQAAgEgDgCQgEgDgHgCQgJgDgEgDQgFgEAAgGQAAgHAGgEQAFgFAHAAQAGAAAGACQAEADACAEQADAEAAAFIgHAAQgBgGgDgDQgDgDgHAAQgEAAgDADQgDACgBAFQAAADADADQAEACAGACQAHACAEACQAEACADADQABAEAAAEQAAAHgGAEQgFAFgJAAQgFAAgFgDg");
-	this.shape_4.setTransform(428.3,59.025);
+	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFAEADQAEADAFAAQAGAAADgCQADgDAAgEQAAgEgDgCQgCgDgIgCQgJgDgFgDQgEgEAAgGQAAgHAFgEQAGgFAIAAQAFAAAFACQAFADADAEQACAEAAAFIgIAAQABgGgEgDQgEgDgFAAQgFAAgDADQgDACAAAFQAAADADADQACACAHACQAHACAEACQAEACACADQACAEAAAEQAAAHgFAEQgGAFgJAAQgFAAgFgDg");
+	this.shape_4.setTransform(428.25,58.925);
 
 	this.shape_5 = new cjs.Shape();
 	this.shape_5.graphics.f("#3498DB").s().p("Aj8D9QhphpAAiUQAAiTBphqQBphoCTAAQCVAABoBoQBpBqAACTQAACUhpBpQhoBpiVAAQiTAAhphpg");
@@ -17895,34 +17898,34 @@ lib.properties = {
 	color: "#34495E",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_10_tripo.jpg", id:"_10_tripo"},
-		{src:"images/_17.jpeg", id:"_17"},
-		{src:"images/_20.jpeg", id:"_20"},
-		{src:"images/_23.png", id:"_23"},
-		{src:"images/_32.jpeg", id:"_32"},
-		{src:"images/_28.jpeg", id:"_28"},
-		{src:"images/_34.jpeg", id:"_34"},
-		{src:"images/_5.jpeg", id:"_5"},
-		{src:"images/_16.jpeg", id:"_16"},
-		{src:"images/_6.jpeg", id:"_6"},
-		{src:"images/_11.jpeg", id:"_11"},
-		{src:"images/_33.jpeg", id:"_33"},
-		{src:"images/_36.jpeg", id:"_36"},
-		{src:"images/Bitmap1.png", id:"Bitmap1"},
-		{src:"images/Bitmap2.png", id:"Bitmap2"},
-		{src:"images/Bitmap3.png", id:"Bitmap3"},
-		{src:"images/Bitmap44.png", id:"Bitmap44"},
-		{src:"images/Bitmap45.png", id:"Bitmap45"},
-		{src:"images/CAseksual_.png", id:"CAseksual_"},
-		{src:"images/fix.png", id:"fix"},
-		{src:"images/G.png", id:"G"},
-		{src:"images/_26.jpeg", id:"_26"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/_7.jpeg", id:"_7"},
-		{src:"components/lib/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/image.js", id:"an.Image"},
-		{src:"components/ui/src/image.js", id:"an.Image"}
+		{src:"images/_10_tripo.jpg?1597803575248", id:"_10_tripo"},
+		{src:"images/_16.jpeg?1597803575248", id:"_16"},
+		{src:"images/_23.png?1597803575248", id:"_23"},
+		{src:"images/_28.jpeg?1597803575248", id:"_28"},
+		{src:"images/_20.jpeg?1597803575248", id:"_20"},
+		{src:"images/_34.jpeg?1597803575248", id:"_34"},
+		{src:"images/_36.jpeg?1597803575248", id:"_36"},
+		{src:"images/_32.jpeg?1597803575248", id:"_32"},
+		{src:"images/_5.jpeg?1597803575248", id:"_5"},
+		{src:"images/_6.jpeg?1597803575248", id:"_6"},
+		{src:"images/_7.jpeg?1597803575248", id:"_7"},
+		{src:"images/_11.jpeg?1597803575248", id:"_11"},
+		{src:"images/_33.jpeg?1597803575248", id:"_33"},
+		{src:"images/Bitmap2.png?1597803575248", id:"Bitmap2"},
+		{src:"images/Bitmap3.png?1597803575248", id:"Bitmap3"},
+		{src:"images/Bitmap1.png?1597803575248", id:"Bitmap1"},
+		{src:"images/Bitmap44.png?1597803575248", id:"Bitmap44"},
+		{src:"images/Bitmap45.png?1597803575248", id:"Bitmap45"},
+		{src:"images/CAseksual_.png?1597803575248", id:"CAseksual_"},
+		{src:"images/fix.png?1597803575248", id:"fix"},
+		{src:"images/G.png?1597803575248", id:"G"},
+		{src:"images/_17.jpeg?1597803575248", id:"_17"},
+		{src:"images/bookpngcopy.png?1597803575248", id:"bookpngcopy"},
+		{src:"images/_26.jpeg?1597803575248", id:"_26"},
+		{src:"components/lib/jquery-3.4.1.min.js?1597803575248", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1597803575248", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/image.js?1597803575248", id:"an.Image"},
+		{src:"components/ui/src/image.js?1597803575248", id:"an.Image"}
 	],
 	preloads: []
 };

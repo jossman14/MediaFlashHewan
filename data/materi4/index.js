@@ -141,14 +141,20 @@ lib.ssMetadata = [];
 p.nominalBounds = new cjs.Rectangle(0,0,681,451);
 
 
-(lib.AAseksual_ = function() {
-	this.initialize(img.AAseksual_);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,681,451);
-
-
 (lib.A = function() {
 	this.initialize(img.A);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,903,613);
+
+
+(lib.A_1 = function() {
+	this.initialize(img.A_1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,903,613);
+
+
+(lib.B = function() {
+	this.initialize(img.B);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,903,613);
 
@@ -159,22 +165,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,903,613);
 p.nominalBounds = new cjs.Rectangle(0,0,681,451);
 
 
-(lib.Bitmap10 = function() {
-	this.initialize(img.Bitmap10);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,239,179);
-
-
 (lib.Bitmap16 = function() {
 	this.initialize(img.Bitmap16);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,960,545);
 
 
-(lib.B = function() {
-	this.initialize(img.B);
+(lib.AAseksual_ = function() {
+	this.initialize(img.AAseksual_);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,903,613);
+p.nominalBounds = new cjs.Rectangle(0,0,681,451);
 
 
 (lib.Bitmap18 = function() {
@@ -201,94 +201,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,960,545);
 p.nominalBounds = new cjs.Rectangle(0,0,960,545);
 
 
-(lib.Bitmap7 = function() {
-	this.initialize(img.Bitmap7);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,78,106);
-
-
 (lib.Bitmap5 = function() {
 	this.initialize(img.Bitmap5);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 
 
-(lib.Bitmap6 = function() {
-	this.initialize(img.Bitmap6);
+(lib.Bitmap7 = function() {
+	this.initialize(img.Bitmap7);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,270,170);
-
-
-(lib.Bitmap8 = function() {
-	this.initialize(img.Bitmap8);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,89,105);
-
-
-(lib.C = function() {
-	this.initialize(img.C);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,903,613);
-
-
-(lib.C_1 = function() {
-	this.initialize(img.C_1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,903,613);
-
-
-(lib.CAseksual_ = function() {
-	this.initialize(img.CAseksual_);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,681,451);
-
-
-(lib.D = function() {
-	this.initialize(img.D);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,903,613);
-
-
-(lib.D_1 = function() {
-	this.initialize(img.D_1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,903,613);
-
-
-(lib.DAseksual_ = function() {
-	this.initialize(img.DAseksual_);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,681,451);
-
-
-(lib.E = function() {
-	this.initialize(img.E);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,903,613);
-
-
-(lib.E_1 = function() {
-	this.initialize(img.E_1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,903,613);
-
-
-(lib.F = function() {
-	this.initialize(img.F);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,903,613);
-
-
-(lib.G = function() {
-	this.initialize(img.G);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,903,613);
-
-
-(lib.Judul = function() {
-	this.initialize(img.Judul);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,903,613);
+p.nominalBounds = new cjs.Rectangle(0,0,78,106);
 
 
 (lib.Bitmap9 = function() {
@@ -303,14 +225,92 @@ p.nominalBounds = new cjs.Rectangle(0,0,89,107);
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
-(lib.A_1 = function() {
-	this.initialize(img.A_1);
+(lib.C = function() {
+	this.initialize(img.C);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,903,613);
+
+
+(lib.C_1 = function() {
+	this.initialize(img.C_1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,903,613);
+
+
+(lib.Bitmap6 = function() {
+	this.initialize(img.Bitmap6);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,270,170);
+
+
+(lib.CAseksual_ = function() {
+	this.initialize(img.CAseksual_);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,681,451);
+
+
+(lib.D = function() {
+	this.initialize(img.D);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,903,613);
+
+
+(lib.Bitmap10 = function() {
+	this.initialize(img.Bitmap10);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,239,179);
+
+
+(lib.DAseksual_ = function() {
+	this.initialize(img.DAseksual_);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,681,451);
+
+
+(lib.Bitmap8 = function() {
+	this.initialize(img.Bitmap8);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,89,105);
+
+
+(lib.E = function() {
+	this.initialize(img.E);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,903,613);
+
+
+(lib.G = function() {
+	this.initialize(img.G);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,903,613);
+
+
+(lib.F = function() {
+	this.initialize(img.F);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,903,613);
+
+
+(lib.Judul = function() {
+	this.initialize(img.Judul);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,903,613);
 
 
 (lib.B_1 = function() {
 	this.initialize(img.B_1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,903,613);
+
+
+(lib.D_1 = function() {
+	this.initialize(img.D_1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,903,613);
+
+
+(lib.E_1 = function() {
+	this.initialize(img.E_1);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,903,613);// helper functions:
 
@@ -4371,16 +4371,16 @@ p.nominalBounds = new cjs.Rectangle(-170.5,-41.5,341,73.7);
 	this.instance = new lib.Judul();
 	this.instance.setTransform(-221,-150,1.1681,1.1652);
 
-	this.instance_1 = new lib.A();
+	this.instance_1 = new lib.A_1();
 	this.instance_1.setTransform(-221,-150,1.1681,1.1653);
 
-	this.instance_2 = new lib.A_1();
+	this.instance_2 = new lib.A();
 	this.instance_2.setTransform(-221,-150,1.168,1.1652);
 
-	this.instance_3 = new lib.B_1();
+	this.instance_3 = new lib.B();
 	this.instance_3.setTransform(-221,-150,1.1681,1.1652);
 
-	this.instance_4 = new lib.B();
+	this.instance_4 = new lib.B_1();
 	this.instance_4.setTransform(-221,-150,1.1681,1.1652);
 
 	this.instance_5 = new lib.C_1();
@@ -14250,41 +14250,41 @@ lib.properties = {
 	color: "#3498DB",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_2.jpeg?1597739616805", id:"_2"},
-		{src:"images/AAseksual_.png?1597739616805", id:"AAseksual_"},
-		{src:"images/A.png?1597739616805", id:"A"},
-		{src:"images/BAseksual_.png?1597739616805", id:"BAseksual_"},
-		{src:"images/Bitmap10.png?1597739616805", id:"Bitmap10"},
-		{src:"images/Bitmap16.png?1597739616805", id:"Bitmap16"},
-		{src:"images/B.png?1597739616805", id:"B"},
-		{src:"images/Bitmap18.png?1597739616805", id:"Bitmap18"},
-		{src:"images/Bitmap22.png?1597739616805", id:"Bitmap22"},
-		{src:"images/Bitmap24.png?1597739616805", id:"Bitmap24"},
-		{src:"images/Bitmap26.png?1597739616805", id:"Bitmap26"},
-		{src:"images/Bitmap7.png?1597739616805", id:"Bitmap7"},
-		{src:"images/Bitmap5.png?1597739616805", id:"Bitmap5"},
-		{src:"images/Bitmap6.png?1597739616805", id:"Bitmap6"},
-		{src:"images/Bitmap8.png?1597739616805", id:"Bitmap8"},
-		{src:"images/C.png?1597739616805", id:"C"},
-		{src:"images/C_1.png?1597739616805", id:"C_1"},
-		{src:"images/CAseksual_.png?1597739616805", id:"CAseksual_"},
-		{src:"images/D.png?1597739616805", id:"D"},
-		{src:"images/D_1.png?1597739616805", id:"D_1"},
-		{src:"images/DAseksual_.png?1597739616805", id:"DAseksual_"},
-		{src:"images/E.png?1597739616805", id:"E"},
-		{src:"images/E_1.png?1597739616805", id:"E_1"},
-		{src:"images/F.png?1597739616805", id:"F"},
-		{src:"images/G.png?1597739616805", id:"G"},
-		{src:"images/Judul.png?1597739616805", id:"Judul"},
-		{src:"images/Bitmap9.png?1597739616805", id:"Bitmap9"},
-		{src:"images/bookpngcopy.png?1597739616805", id:"bookpngcopy"},
-		{src:"images/A_1.png?1597739616805", id:"A_1"},
-		{src:"images/B_1.png?1597739616805", id:"B_1"},
-		{src:"sounds/tombolGan.mp3?1597739616805", id:"tombolGan"},
-		{src:"components/lib/jquery-3.4.1.min.js?1597739616805", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1597739616805", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/image.js?1597739616805", id:"an.Image"},
-		{src:"components/ui/src/image.js?1597739616805", id:"an.Image"}
+		{src:"images/_2.jpeg", id:"_2"},
+		{src:"images/A.png", id:"A"},
+		{src:"images/A_1.png", id:"A_1"},
+		{src:"images/B.png", id:"B"},
+		{src:"images/BAseksual_.png", id:"BAseksual_"},
+		{src:"images/Bitmap16.png", id:"Bitmap16"},
+		{src:"images/AAseksual_.png", id:"AAseksual_"},
+		{src:"images/Bitmap18.png", id:"Bitmap18"},
+		{src:"images/Bitmap22.png", id:"Bitmap22"},
+		{src:"images/Bitmap24.png", id:"Bitmap24"},
+		{src:"images/Bitmap26.png", id:"Bitmap26"},
+		{src:"images/Bitmap5.png", id:"Bitmap5"},
+		{src:"images/Bitmap7.png", id:"Bitmap7"},
+		{src:"images/Bitmap9.png", id:"Bitmap9"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"images/C.png", id:"C"},
+		{src:"images/C_1.png", id:"C_1"},
+		{src:"images/Bitmap6.png", id:"Bitmap6"},
+		{src:"images/CAseksual_.png", id:"CAseksual_"},
+		{src:"images/D.png", id:"D"},
+		{src:"images/Bitmap10.png", id:"Bitmap10"},
+		{src:"images/DAseksual_.png", id:"DAseksual_"},
+		{src:"images/Bitmap8.png", id:"Bitmap8"},
+		{src:"images/E.png", id:"E"},
+		{src:"images/G.png", id:"G"},
+		{src:"images/F.png", id:"F"},
+		{src:"images/Judul.png", id:"Judul"},
+		{src:"images/B_1.png", id:"B_1"},
+		{src:"images/D_1.png", id:"D_1"},
+		{src:"images/E_1.png", id:"E_1"},
+		{src:"sounds/tombolGan.mp3", id:"tombolGan"},
+		{src:"components/lib/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/image.js", id:"an.Image"},
+		{src:"components/ui/src/image.js", id:"an.Image"}
 	],
 	preloads: []
 };

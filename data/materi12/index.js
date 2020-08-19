@@ -141,20 +141,14 @@ lib.ssMetadata = [];
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
 
-(lib._2e = function() {
-	this.initialize(img._2e);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,961,561);
-
-
 (lib._1e = function() {
 	this.initialize(img._1e);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
 
-(lib._5e = function() {
-	this.initialize(img._5e);
+(lib._4e = function() {
+	this.initialize(img._4e);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
@@ -165,10 +159,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);
 
 
+(lib._3e = function() {
+	this.initialize(img._3e);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+
+
 (lib.Bitmap2 = function() {
 	this.initialize(img.Bitmap2);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,998,600);
+
+
+(lib._2e = function() {
+	this.initialize(img._2e);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,961,561);
+
+
+(lib.Bitmap86 = function() {
+	this.initialize(img.Bitmap86);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,202,177);
 
 
 (lib.Bitmap3 = function() {
@@ -183,26 +195,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,249,87);
 p.nominalBounds = new cjs.Rectangle(0,0,285,183);
 
 
-(lib.Bitmap86 = function() {
-	this.initialize(img.Bitmap86);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,202,177);
-
-
 (lib.bookpngcopy = function() {
 	this.initialize(img.bookpngcopy);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
-(lib._3e = function() {
-	this.initialize(img._3e);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,961,561);
-
-
-(lib._4e = function() {
-	this.initialize(img._4e);
+(lib._5e = function() {
+	this.initialize(img._5e);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,961,561);// helper functions:
 
@@ -3567,34 +3567,37 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		var tombol;
 		var _this = this;
 		function init() {
-		  stage.enableMouseOver(20);
 		  _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
-		  _this.hening.visible = !_this.hening.visible;
-		  var preload = new createjs.LoadQueue();
-		  preload.addEventListener("fileload", handleFileComplete);
-		  preload.loadFile("/sounds/musicBG.mp3", "tombolGan");
+		  _this.nyala.visible = !_this.nyala.visible;
 		
-		  function handleFileComplete(e) {
-		    createjs.Sound.registerSound("/sounds/musicBG.mp3", "tombolGan");
+		  var queue = new createjs.LoadQueue();
+		  queue.installPlugin(createjs.Sound);
+		  queue.addEventListener("complete", handleComplete);
 		
-		    tombol = createjs.Sound.play("tombolGan", { loop: -1 });
+		  queue.loadManifest([{ src: "/sounds/musicBG.mp3", id: "tombolGan" }]);
+		
+		  function handleComplete(event) {
+		    // assign each sound to unique variable
+		    _this.sound1 = createjs.Sound.createInstance("tombolGan");
+		    _this.sound1.play({ loop: -1 });
+		
+		    _this.nyala.on("click", function tombolKlikEd() {
+		      _this.sound1.play({ loop: -1 });
+		      _this.nyala.visible = !_this.nyala.visible;
+		      _this.tandaSuaraOff.visible = !_this.tandaSuaraOff.visible;
+		      _this.hening.visible = !_this.hening.visible;
+		      _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
+		    });
+		
+		    _this.hening.on("click", function tombolKlikEd() {
+		      // _this.sound3.play();
+		      createjs.Sound.stop();
+		      _this.hening.visible = !_this.hening.visible;
+		      _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
+		      _this.nyala.visible = !_this.nyala.visible;
+		      _this.tandaSuaraOff.visible = !_this.tandaSuaraOff.visible;
+		    });
 		  }
-		
-		  _this.nyala.on("click", function tombolKlikEd() {
-		    tombol.play();
-		    _this.nyala.visible = !_this.nyala.visible;
-		    _this.tandaSuaraOff.visible = !_this.tandaSuaraOff.visible;
-		    _this.hening.visible = !_this.hening.visible;
-		    _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
-		  });
-		
-		  _this.hening.on("click", function tombolKlikEd() {
-		    createjs.Sound.stop();
-		    _this.hening.visible = !_this.hening.visible;
-		    _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
-		    _this.nyala.visible = !_this.nyala.visible;
-		    _this.tandaSuaraOff.visible = !_this.tandaSuaraOff.visible;
-		  });
 		}
 		
 		init();
@@ -3640,24 +3643,24 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 	this.tandaSuaraOff.setTransform(433,32.05,0.4105,0.4105,0,0,0,50.2,45.2);
 
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AgNATQgEgEAAgFQAAgHAFgDQAFgDAJgBIAHAAIAAgDQAAgEgDgCQgCgCgEAAQgDAAgDACQgDABAAADIgHAAQAAgDACgDQADgDADgCQAEgCAEAAQAHAAAFAEQAEAEAAAHIAAATQAAAFACAEIAAABIgIAAIgBgFQgFAFgGAAQgHAAgEgDgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgCACgCIAAgJIgGAAQgNAAAAAHg");
-	this.shape.setTransform(439.725,59.85);
+	this.shape.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgDAJAAIAHAAIAAgEQAAgEgDgCQgCgCgEAAQgDAAgDACQgDABAAADIgHAAQAAgDACgDQADgDADgCQAEgBAEAAQAHAAAFADQAEAEAAAGIAAAUQAAAFACAEIAAABIgIAAIgBgFQgFAFgGABQgHAAgEgFgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgBACgEIAAgJIgGAAQgNABAAAHg");
+	this.shape.setTransform(439.625,59.75);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("AgJAWIAAgqIAGAAIABAFQADgGAGAAIADABIAAAGIgDAAQgHABgCAGIAAAdg");
-	this.shape_1.setTransform(436.35,59.8);
+	this.shape_1.graphics.f("#FFFFFF").s().p("AgJAWIAAgqIAGAAIABAFQADgGAGAAIAEABIAAAGIgFAAQgGAAgCAHIAAAdg");
+	this.shape_1.setTransform(436.25,59.7);
 
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#FFFFFF").s().p("AgNATQgEgEAAgFQAAgHAFgDQAFgDAJgBIAHAAIAAgDQAAgEgDgCQgCgCgEAAQgDAAgDACQgDABAAADIgHAAQAAgDACgDQADgDADgCQAEgCAEAAQAHAAAFAEQAEAEAAAHIAAATQAAAFACAEIAAABIgIAAIgBgFQgFAFgGAAQgHAAgEgDgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgCACgCIAAgJIgGAAQgNAAAAAHg");
-	this.shape_2.setTransform(432.525,59.85);
+	this.shape_2.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgDAJAAIAHAAIAAgEQAAgEgDgCQgCgCgEAAQgDAAgDACQgDABAAADIgHAAQAAgDACgDQADgDADgCQAEgBAEAAQAHAAAFADQAEAEAAAGIAAAUQAAAFACAEIAAABIgIAAIgBgFQgFAFgGABQgHAAgEgFgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgBACgEIAAgJIgGAAQgNABAAAHg");
+	this.shape_2.setTransform(432.425,59.75);
 
 	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("#FFFFFF").s().p("AgMASQgEgEAAgIIAAgbIAHAAIAAAbQAAAKAIAAQAIAAADgHIAAgeIAHAAIAAAqIgHAAIAAgEQgEAFgIAAQgHAAgDgEg");
-	this.shape_3.setTransform(428.075,59.9);
+	this.shape_3.graphics.f("#FFFFFF").s().p("AgMASQgEgEAAgIIAAgbIAHAAIAAAbQAAAKAIAAQAIgBADgFIAAgfIAHAAIAAAqIgHAAIAAgEQgEAFgIAAQgHAAgDgEg");
+	this.shape_3.setTransform(427.975,59.8);
 
 	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFAEADQADADAGAAQAGAAADgCQADgDAAgEQAAgEgDgCQgCgDgIgCQgJgDgFgDQgEgEAAgGQAAgHAFgEQAGgFAHAAQAGAAAFACQAFADADAEQACAEAAAFIgIAAQAAgGgDgDQgEgDgGAAQgEAAgDADQgEACABAFQAAADACADQADACAHACQAHACAEACQAEACACADQACAEAAAEQAAAHgFAEQgGAFgJAAQgFAAgFgDg");
-	this.shape_4.setTransform(423.4,59.125);
+	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFAEADQAEADAFAAQAGAAAEgCQACgDAAgEQAAgEgCgCQgDgDgIgCQgJgDgFgDQgEgEAAgGQAAgHAFgEQAGgFAIAAQAFAAAFACQAFADADAEQACAEAAAFIgIAAQABgGgEgDQgEgDgFAAQgFAAgDADQgDACAAAFQAAADADADQACACAHACQAHACAEACQAEACADADQABAEAAAEQAAAHgFAEQgGAFgJAAQgFAAgFgDg");
+	this.shape_4.setTransform(423.3,59.025);
 
 	this.shape_5 = new cjs.Shape();
 	this.shape_5.graphics.f("#3498DB").s().p("Aj8D9QhphpAAiUQAAiTBphqQBphoCTAAQCVAABoBoQBpBqAACTQAACUhpBpQhoBpiVAAQiTAAhphpg");
@@ -4880,17 +4883,17 @@ lib.properties = {
 	opacity: 1.00,
 	manifest: [
 		{src:"images/_1.png", id:"_1"},
-		{src:"images/_2e.png", id:"_2e"},
 		{src:"images/_1e.png", id:"_1e"},
-		{src:"images/_5e.png", id:"_5e"},
+		{src:"images/_4e.png", id:"_4e"},
 		{src:"images/_6e.png", id:"_6e"},
+		{src:"images/_3e.png", id:"_3e"},
 		{src:"images/Bitmap2.png", id:"Bitmap2"},
+		{src:"images/_2e.png", id:"_2e"},
+		{src:"images/Bitmap86.png", id:"Bitmap86"},
 		{src:"images/Bitmap3.png", id:"Bitmap3"},
 		{src:"images/Bitmap85.png", id:"Bitmap85"},
-		{src:"images/Bitmap86.png", id:"Bitmap86"},
 		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/_3e.png", id:"_3e"},
-		{src:"images/_4e.png", id:"_4e"},
+		{src:"images/_5e.png", id:"_5e"},
 		{src:"components/lib/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
 		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
 		{src:"components/ui/src/image.js", id:"an.Image"},

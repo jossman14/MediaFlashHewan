@@ -1488,11 +1488,11 @@ lib.properties = {
 	color: "#009999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Bitmap3.png", id:"Bitmap3"},
-		{src:"components/lib/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/image.js", id:"an.Image"},
-		{src:"components/ui/src/image.js", id:"an.Image"}
+		{src:"images/Bitmap3.png?1597754990532", id:"Bitmap3"},
+		{src:"components/lib/jquery-3.4.1.min.js?1597754990532", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1597754990532", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/image.js?1597754990532", id:"an.Image"},
+		{src:"components/ui/src/image.js?1597754990532", id:"an.Image"}
 	],
 	preloads: []
 };
