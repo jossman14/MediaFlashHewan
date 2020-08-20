@@ -1,4 +1,5 @@
 var root = this;
+var _this = this;
 var pieces = root.pieces;
 var slots = root.slots;
 var restart = root.restart;
@@ -8,70 +9,21 @@ var positions1 = [];
 
 root.stop();
 
-root.pGam1.gotoAndStop(0);
-
-root.pieces.laut.on("click", function () {
-  root.pGam1.gotoAndPlay(0);
-});
-
-root.pp3.gotoAndStop(0);
-
-root.pieces.tana.on("click", function () {
-  root.pp3.gotoAndPlay(0);
-});
-
-root.pp4.gotoAndStop(0);
-
-root.pieces.tana1.on("click", function () {
-  root.pp4.gotoAndPlay(0);
-});
-
-root.pp5.gotoAndStop(0);
-
-root.pieces.laut1.on("click", function () {
-  root.pp5.gotoAndPlay(0);
-});
-
-root.pp6.gotoAndStop(0);
-
-root.pieces.laut2.on("click", function () {
-  root.pp6.gotoAndPlay(0);
-});
-
-root.pp7.gotoAndStop(0);
-
-root.pieces.laut3.on("click", function () {
-  root.pp7.gotoAndPlay(0);
-});
-
-root.pp8.gotoAndStop(0);
-
-root.pieces.laut4.on("click", function () {
-  root.pp8.gotoAndPlay(0);
-});
-
-root.pp9.gotoAndStop(0);
-
-root.pieces.laut5.on("click", function () {
-  root.pp9.gotoAndPlay(0);
-});
-
-root.pp10.gotoAndStop(0);
-
-root.pieces.gaga1.on("click", function () {
-  root.pp10.gotoAndPlay(0);
-});
-
-root.pp11.gotoAndStop(0);
-
-root.pieces.gaga2.on("click", function () {
-  root.pp11.gotoAndPlay(0);
-});
+_this.popUpSalah.visible = !_this.popUpSalah.visible;
+_this.popUpBenar.visible = !_this.popUpBenar.visible;
+_this.popUpSelesai.visible = !_this.popUpSelesai.visible;
+_this.popUpDanger.visible = !_this.popUpDanger.visible;
 
 root.popUpInfo.gotoAndStop(0);
 
 root.btnInfo.on("click", function () {
   root.popUpInfo.gotoAndPlay(0);
+});
+
+root.popUpAnim1.gotoAndStop(0);
+
+root.btnAnim1.on("click", function () {
+  root.popUpAnim1.gotoAndPlay(0);
 });
 
 root.setup = function () {
@@ -192,6 +144,10 @@ root.letakin = function () {
 
 root.salahJawab = function () {
   _this.sound3.play();
+  _this.popUpSalah.visible = !_this.popUpSalah.visible;
+  setTimeout(function () {
+    _this.popUpSalah.visible = !_this.popUpSalah.visible;
+  }, 3000);
 
   winMessage.text = "Hemm, sepertinya Tebakan Anda Salah";
 
@@ -206,9 +162,13 @@ root.salahJawab = function () {
 
 root.onMatch = function () {
   _this.sound2.play();
+  _this.popUpBenar.visible = !_this.popUpBenar.visible;
+  setTimeout(function () {
+    _this.popUpBenar.visible = !_this.popUpBenar.visible;
+  }, 3000);
   winMessage.text = "Selamat! Tebakan Anda Benar!";
   pieces.skor++;
-  Score.text = pieces.skor * 12.5;
+  Score.text = pieces.skor * 20;
   winMessage.alpha = 0;
   winMessage.y = winMessage.originalY + 60;
   createjs.Tween.get(winMessage).to(
@@ -219,6 +179,11 @@ root.onMatch = function () {
 };
 
 root.onWin = function () {
+  _this.sound2.play();
+  _this.popUpSelesai.visible = !_this.popUpSelesai.visible;
+  setTimeout(function () {
+    _this.popUpSelesai.visible = !_this.popUpSelesai.visible;
+  }, 3000);
   winMessage.text = "Yey!, Anda Berhasil Menyelesaikan Tantangan. Selamat!";
   winMessage.alpha = 0;
   winMessage.y = winMessage.originalY + 60;
@@ -231,6 +196,10 @@ root.onWin = function () {
 
 root.onMiss = function () {
   _this.sound3.play();
+  _this.popUpDanger.visible = !_this.popUpDanger.visible;
+  setTimeout(function () {
+    _this.popUpDanger.visible = !_this.popUpDanger.visible;
+  }, 3000);
 
   createjs.Tween.get(pieces.target).to(
     { x: pieces.target.originalX, y: pieces.target.originalY },
