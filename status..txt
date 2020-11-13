@@ -223,3 +223,6 @@ Update Revisi 24 Agustus 2020:
    1. revisi mengubah letak notifikasi quiz --> https://cobamedia.netlify.app/data/game1 dan seterusnya
 
    2. revisi tombol play --> https://cobamedia.netlify.app/data/materi8 dan seterusnya
+
+Update Revisi 13 November 2020:
+   1. revisi tambah slide lembar jawaban
