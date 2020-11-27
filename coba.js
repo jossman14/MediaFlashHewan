@@ -226,7 +226,7 @@ root.onMatch = function () {
   }, 3000);
   winMessage.text = "Selamat! Tebakan Anda Benar!";
   pieces.skor++;
-  Score.text = pieces.skor * 12.5;
+  Score.text = pieces.skor * 10;
   winMessage.alpha = 0;
   winMessage.y = winMessage.originalY + 60;
   createjs.Tween.get(winMessage).to(
