@@ -15,7 +15,7 @@ _this.popUpDanger.visible = !_this.popUpDanger.visible;
 
 root.pGam1.gotoAndStop(0);
 
-root.pieces.laut.on("click", function () {
+root.pieces.tana2.on("click", function () {
   root.pGam1.gotoAndPlay(0);
 });
 
@@ -203,7 +203,6 @@ root.onMatch = function () {
   setTimeout(function () {
     _this.popUpBenar.visible = !_this.popUpBenar.visible;
   }, 3000);
-
   pieces.skor++;
   Score.text = pieces.skor * 10;
 };
@@ -219,6 +218,11 @@ root.onWin = function () {
 };
 
 root.onMiss = function () {
+  _this.sound3.play();
+  _this.popUpDanger.visible = !_this.popUpDanger.visible;
+  setTimeout(function () {
+    _this.popUpDanger.visible = !_this.popUpDanger.visible;
+  }, 3000);
   createjs.Tween.get(pieces.target).to(
     { x: pieces.target.originalX, y: pieces.target.originalY },
     350,

@@ -226,3 +226,11 @@ Update Revisi 24 Agustus 2020:
 
 Update Revisi 13 November 2020:
    1. revisi tambah slide lembar jawaban
+
+Update Revisi 16 Desember 2020:
+   1. Menyesuaikan revisi dari game1 - game4
+      a. https://cobamedia.netlify.app/data/game1/
+      b. https://cobamedia.netlify.app/data/game2/
+      c. https://cobamedia.netlify.app/data/game3/
+      d. https://cobamedia.netlify.app/data/game4/
+      
