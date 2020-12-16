@@ -1,96 +1,149 @@
-var root1 = this;
-var pieces1 = root1.pieces1;
-var slots1 = root1.slots1;
-var restart1 = root1.restart1;
-var winMessage1 = root1.winMessage1;
-var Score1 = root1.Score1;
-var positions2 = [];
+var root = this;
 var _this = this;
+var pieces = root.pieces;
+var slots = root.slots;
+var restart = root.restart;
+var Score = root.Score;
+var positions1 = [];
 
-root1.stop();
+root.stop();
 
 _this.popUpSalah.visible = !_this.popUpSalah.visible;
 _this.popUpBenar.visible = !_this.popUpBenar.visible;
 _this.popUpSelesai.visible = !_this.popUpSelesai.visible;
 _this.popUpDanger.visible = !_this.popUpDanger.visible;
 
-root1.setup = function () {
+root.pGam1.gotoAndStop(0);
+
+root.pieces.laut.on("click", function () {
+  root.pGam1.gotoAndPlay(0);
+});
+
+root.popUpJawabanAkhir.gotoAndStop(0);
+
+root.pp3.gotoAndStop(0);
+
+root.pieces.tana.on("click", function () {
+  root.pp3.gotoAndPlay(0);
+});
+
+root.pp4.gotoAndStop(0);
+
+root.pieces.tana1.on("click", function () {
+  root.pp4.gotoAndPlay(0);
+});
+
+root.pp5.gotoAndStop(0);
+
+root.pieces.laut1.on("click", function () {
+  root.pp5.gotoAndPlay(0);
+});
+
+root.pp6.gotoAndStop(0);
+
+root.pieces.laut2.on("click", function () {
+  root.pp6.gotoAndPlay(0);
+});
+
+root.pp7.gotoAndStop(0);
+
+root.pieces.laut3.on("click", function () {
+  root.pp7.gotoAndPlay(0);
+});
+
+root.pp8.gotoAndStop(0);
+
+root.pieces.laut4.on("click", function () {
+  root.pp8.gotoAndPlay(0);
+});
+
+root.pp9.gotoAndStop(0);
+
+root.pieces.laut5.on("click", function () {
+  root.pp9.gotoAndPlay(0);
+});
+
+root.pp10.gotoAndStop(0);
+
+root.pieces.gaga1.on("click", function () {
+  root.pp10.gotoAndPlay(0);
+});
+
+root.pp11.gotoAndStop(0);
+
+root.pieces.gaga2.on("click", function () {
+  root.pp11.gotoAndPlay(0);
+});
+
+root.popUpInfo.gotoAndStop(0);
+
+root.btnInfo.on("click", function () {
+  root.popUpInfo.gotoAndPlay(0);
+});
+
+root.setup = function () {
   document.body.style.backgroundColor = lib.properties.color;
   createjs.Touch.enable(stage);
   stage.mouseMoveOutside = true;
-  root1.drawStart = stage.on("drawstart", root1.start, null, true);
+  root.drawStart = stage.on("drawstart", root.start, null, true);
 };
 
-root1.start = function (e) {
-  stage.off("drawstart", root1.drawStart);
-  winMessage1.originalY = winMessage1.y;
-  pieces1.children.forEach(function (child, index) {
-    positions2[index] = { x: child.x, y: child.y };
+root.start = function (e) {
+  stage.off("drawstart", root.drawStart);
+  pieces.children.forEach(function (child, index) {
+    positions1[index] = { x: child.x, y: child.y };
   });
 
-  slots1.children.forEach(function (child, index) {
+  slots.children.forEach(function (child, index) {
     child.mouseChildren = false;
   });
 
-  root1.restart1Handler(null);
-  restart1.on("click", root1.restart1Handler);
-  pieces1.on("mousedown", root1.mouseDownHandler);
+  root.restartHandler(null);
+  restart.on("click", root.restartHandler);
+  pieces.on("mousedown", root.mouseDownHandler);
 };
 
-root1.restart1Handler = function (e) {
-  pieces1.skor = 0;
-  pieces1.count = 0;
-  winMessage1.text = "";
-  root1.shuffle();
+root.restartHandler = function (e) {
+  pieces.skor = 0;
+  pieces.count = 0;
+  root.shuffle();
 };
 
-root1.mouseDownHandler = function (e) {
-  winMessage1.text = "Ayo, Letakkan pada kotak yang sesuai!";
-  winMessage1.alpha = 0;
-  winMessage1.y = winMessage1.originalY + 60;
-  createjs.Tween.get(winMessage1).to(
-    { alpha: 1, y: winMessage1.originalY },
-    500,
-    createjs.Ease.backInOut
-  );
+root.mouseDownHandler = function (e) {
   e.currentTarget.setChildIndex(e.target, e.currentTarget.children.length - 1);
   e.target.offsetX = e.stageX / stage.scaleX - e.target.x;
   e.target.offsetY = e.stageY / stage.scaleY - e.target.y;
-  pieces1.target = e.target;
-  root1.stageMouseMove = stage.on(
-    "stagemousemove",
-    root1.stageMouseMoveHandler
-  );
-  root1.stageMouseUp = stage.on("stagemouseup", root1.stageMouseUpHandler);
+  pieces.target = e.target;
+  root.stageMouseMove = stage.on("stagemousemove", root.stageMouseMoveHandler);
+  root.stageMouseUp = stage.on("stagemouseup", root.stageMouseUpHandler);
 };
 
-root1.stageMouseMoveHandler = function (e) {
-  if (pieces1.target) {
-    pieces1.target.x = e.stageX / stage.scaleX - pieces1.target.offsetX;
-    pieces1.target.y = e.stageY / stage.scaleY - pieces1.target.offsetY;
+root.stageMouseMoveHandler = function (e) {
+  if (pieces.target) {
+    pieces.target.x = e.stageX / stage.scaleX - pieces.target.offsetX;
+    pieces.target.y = e.stageY / stage.scaleY - pieces.target.offsetY;
   }
 };
 
-root1.stageMouseUpHandler = function (e) {
-  stage.off("stagemousemove", root1.stageMouseMove);
-  stage.off("stagemouseup", root1.stageMouseUp);
+root.stageMouseUpHandler = function (e) {
+  stage.off("stagemousemove", root.stageMouseMove);
+  stage.off("stagemouseup", root.stageMouseUp);
 
-  if (pieces1.target) {
-    root1.check();
-    pieces1.target = null;
+  if (pieces.target) {
+    root.check();
+    pieces.target = null;
   }
 };
 
-root1.shuffle = function () {
-  Score1.text = "score1";
-  positions2.sort(function (a, b) {
+root.shuffle = function () {
+  Score.text = "score";
+  positions1.sort(function (a, b) {
     return 0.5 - Math.random();
   });
-  console.log(pieces1);
-  console.log(pieces1.children);
-  pieces1.children.forEach(function (child, index) {
-    child.originalX = positions2[index].x;
-    child.originalY = positions2[index].y;
+
+  pieces.children.forEach(function (child, index) {
+    child.originalX = positions1[index].x;
+    child.originalY = positions1[index].y;
     child.mouseEnabled = true;
     createjs.Tween.get(child).to(
       { x: child.originalX, y: child.originalY },
@@ -100,120 +153,85 @@ root1.shuffle = function () {
   });
 };
 
-root1.check = function () {
-  var spot = slots1.getObjectUnderPoint(pieces1.target.x, pieces1.target.y);
+root.check = function () {
+  var spot = slots.getObjectUnderPoint(pieces.target.x, pieces.target.y);
 
   if (!spot) {
-    root1.onMiss();
+    root.onMiss();
     return;
   }
 
-  root1.slot = spot.parent;
+  root.slot = spot.parent;
 
-  if (root1.slot) {
-    console.log(root1.slot.name, pieces1.target.name);
-    if (
-      pieces1.target.name.substring(0, 4) === root1.slot.name.substring(0, 4)
-    ) {
-      root1.letakin();
-      root1.onMatch();
+  if (root.slot) {
+    if (pieces.target.name.substring(0, 4) === root.slot.name.substring(0, 4)) {
+      root.letakin();
+      root.onMatch();
     } else {
-      root1.letakin();
-      root1.salahJawab();
+      root.letakin();
+      root.salahJawab();
     }
-    if (pieces1.count === pieces1.children.length) root1.onWin();
+    if (pieces.count === pieces.children.length) root.onWin();
 
-    root1.slot = null;
-  } else root1.onMiss();
+    root.slot = null;
+  } else {
+    root.onMiss();
+  }
 };
 
-root1.letakin = function () {
-  pieces1.target.mouseEnabled = false;
-  pieces1.count++;
-  createjs.Tween.get(pieces1.target).to(
-    { x: root1.slots1.kotakKartu2.x, y: root1.slots1.kotakKartu2.y },
+root.letakin = function () {
+  pieces.target.mouseEnabled = false;
+  pieces.count++;
+  createjs.Tween.get(pieces.target).to(
+    { x: root.slots.kotakKartu2.x, y: root.slots.kotakKartu2.y },
     350,
     createjs.Ease.backInOut
   );
 };
 
-root1.salahJawab = function () {
+root.salahJawab = function () {
   _this.sound3.play();
   _this.popUpSalah.visible = !_this.popUpSalah.visible;
   setTimeout(function () {
     _this.popUpSalah.visible = !_this.popUpSalah.visible;
   }, 3000);
-  winMessage1.text = "Hemm, sepertinya Tebakan Anda Salah";
-  winMessage1.alpha = 0;
-  winMessage1.y = winMessage1.originalY + 60;
-  createjs.Tween.get(winMessage1).to(
-    { alpha: 1, y: winMessage1.originalY },
-    500,
-    createjs.Ease.backInOut
-  );
 };
 
-root1.onMatch = function () {
+root.onMatch = function () {
   _this.sound2.play();
   _this.popUpBenar.visible = !_this.popUpBenar.visible;
   setTimeout(function () {
     _this.popUpBenar.visible = !_this.popUpBenar.visible;
   }, 3000);
-  winMessage1.text = "Selamat! Tebakan Anda Benar!";
-  pieces1.skor++;
-  Score1.text = pieces1.skor * 25;
-  winMessage1.alpha = 0;
-  winMessage1.y = winMessage1.originalY + 60;
-  createjs.Tween.get(winMessage1).to(
-    { alpha: 1, y: winMessage1.originalY },
-    500,
-    createjs.Ease.backInOut
-  );
+
+  pieces.skor++;
+  Score.text = pieces.skor * 10;
 };
 
-root1.onWin = function () {
+root.onWin = function () {
   _this.sound2.play();
   _this.popUpSelesai.visible = !_this.popUpSelesai.visible;
   setTimeout(function () {
     _this.popUpSelesai.visible = !_this.popUpSelesai.visible;
   }, 3000);
-  winMessage1.text = "Yey!, Anda Berhasil Menyelesaikan Tantangan. Selamat!";
-  winMessage1.alpha = 0;
-  winMessage1.y = winMessage1.originalY + 60;
-  createjs.Tween.get(winMessage1).to(
-    { alpha: 1, y: winMessage1.originalY },
-    500,
-    createjs.Ease.backInOut
-  );
-  root1.popUpJawabanAkhir.gotoAndPlay(0);
+
+  root.popUpJawabanAkhir.gotoAndPlay(0);
 };
 
-root1.onMiss = function () {
-  _this.sound3.play();
-  _this.popUpDanger.visible = !_this.popUpDanger.visible;
-  setTimeout(function () {
-    _this.popUpDanger.visible = !_this.popUpDanger.visible;
-  }, 3000);
-  createjs.Tween.get(pieces1.target).to(
-    { x: pieces1.target.originalX, y: pieces1.target.originalY },
+root.onMiss = function () {
+  createjs.Tween.get(pieces.target).to(
+    { x: pieces.target.originalX, y: pieces.target.originalY },
     350,
     createjs.Ease.backInOut
   );
-  winMessage1.text = "Silahkan letakkan pada kotak yang sesuai ya..";
-  winMessage1.alpha = 0;
-  winMessage1.y = winMessage1.originalY + 60;
-  createjs.Tween.get(winMessage1).to(
-    { alpha: 1, y: winMessage1.originalY },
-    500,
-    createjs.Ease.backInOut
-  );
-  
 };
 
 var tombol;
 var _this = this;
-
 function init() {
+  _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
+  _this.nyala.visible = !_this.nyala.visible;
+
   var queue = new createjs.LoadQueue();
   queue.installPlugin(createjs.Sound);
   queue.addEventListener("complete", handleComplete);
@@ -238,9 +256,27 @@ function init() {
     _this.sound1 = createjs.Sound.createInstance("tombolGan");
     _this.sound2 = createjs.Sound.createInstance("benar");
     _this.sound3 = createjs.Sound.createInstance("salah");
+    _this.sound1.play({ loop: -1 });
+
+    _this.nyala.on("click", function tombolKlikEd() {
+      _this.sound1.play({ loop: -1 });
+      _this.nyala.visible = !_this.nyala.visible;
+      _this.tandaSuaraOff.visible = !_this.tandaSuaraOff.visible;
+      _this.hening.visible = !_this.hening.visible;
+      _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
+    });
+
+    _this.hening.on("click", function tombolKlikEd() {
+      // _this.sound3.play();
+      createjs.Sound.stop();
+      _this.hening.visible = !_this.hening.visible;
+      _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
+      _this.nyala.visible = !_this.nyala.visible;
+      _this.tandaSuaraOff.visible = !_this.tandaSuaraOff.visible;
+    });
   }
 }
 
 init();
-root1.setup();
+root.setup();
 createjs.Sound.stop();
