@@ -5,6 +5,7 @@ var slots = root.slots;
 var restart = root.restart;
 var Score = root.Score;
 var positions1 = [];
+var jawaban = [];
 
 root.stop();
 
@@ -13,66 +14,28 @@ _this.popUpBenar.visible = !_this.popUpBenar.visible;
 _this.popUpSelesai.visible = !_this.popUpSelesai.visible;
 _this.popUpDanger.visible = !_this.popUpDanger.visible;
 
-root.pGam1.gotoAndStop(0);
-
-root.pieces.tana2.on("click", function () {
-  root.pGam1.gotoAndPlay(0);
-});
-
-root.popUpJawabanAkhir.gotoAndStop(0);
-
-root.pp3.gotoAndStop(0);
-
-root.pieces.tana.on("click", function () {
-  root.pp3.gotoAndPlay(0);
-});
-
 root.pp4.gotoAndStop(0);
 
-root.pieces.tana1.on("click", function () {
+root.slots.simetri.on("click", function () {
   root.pp4.gotoAndPlay(0);
 });
 
-root.pp5.gotoAndStop(0);
+root.pp3.gotoAndStop(0);
 
-root.pieces.laut1.on("click", function () {
-  root.pp5.gotoAndPlay(0);
+root.slots.bentuk.on("click", function () {
+  root.pp3.gotoAndPlay(0);
 });
 
-root.pp6.gotoAndStop(0);
+root.pp2.gotoAndStop(0);
 
-root.pieces.laut2.on("click", function () {
-  root.pp6.gotoAndPlay(0);
+root.slots.rongga.on("click", function () {
+  root.pp2.gotoAndPlay(0);
 });
 
-root.pp7.gotoAndStop(0);
+root.pp1.gotoAndStop(0);
 
-root.pieces.laut3.on("click", function () {
-  root.pp7.gotoAndPlay(0);
-});
-
-root.pp8.gotoAndStop(0);
-
-root.pieces.laut4.on("click", function () {
-  root.pp8.gotoAndPlay(0);
-});
-
-root.pp9.gotoAndStop(0);
-
-root.pieces.laut5.on("click", function () {
-  root.pp9.gotoAndPlay(0);
-});
-
-root.pp10.gotoAndStop(0);
-
-root.pieces.gaga1.on("click", function () {
-  root.pp10.gotoAndPlay(0);
-});
-
-root.pp11.gotoAndStop(0);
-
-root.pieces.gaga2.on("click", function () {
-  root.pp11.gotoAndPlay(0);
+root.slots.lapisan.on("click", function () {
+  root.pp1.gotoAndPlay(0);
 });
 
 root.popUpInfo.gotoAndStop(0);
@@ -80,7 +43,6 @@ root.popUpInfo.gotoAndStop(0);
 root.btnInfo.on("click", function () {
   root.popUpInfo.gotoAndPlay(0);
 });
-
 root.setup = function () {
   document.body.style.backgroundColor = lib.properties.color;
   createjs.Touch.enable(stage);
@@ -107,6 +69,7 @@ root.restartHandler = function (e) {
   pieces.skor = 0;
   pieces.count = 0;
   root.shuffle();
+  jawaban = [];
 };
 
 root.mouseDownHandler = function (e) {
@@ -177,6 +140,15 @@ root.check = function () {
   } else {
     root.onMiss();
   }
+  // root.sembunyiin();
+
+  jawaban.push(pieces.target);
+
+  if (jawaban.length >= 2) {
+    hapus = jawaban.shift();
+    root.sembunyiin(hapus);
+  }
+  console.log(jawaban);
 };
 
 root.letakin = function () {
@@ -184,6 +156,14 @@ root.letakin = function () {
   pieces.count++;
   createjs.Tween.get(pieces.target).to(
     { x: root.slots.kotakKartu2.x, y: root.slots.kotakKartu2.y },
+    350,
+    createjs.Ease.backInOut
+  );
+};
+
+root.sembunyiin = function (hapus) {
+  createjs.Tween.get(hapus).to(
+    { x: root.slots.kotakKartuSembunyi.x, y: root.slots.kotakKartuSembunyi.y },
     350,
     createjs.Ease.backInOut
   );
@@ -204,7 +184,7 @@ root.onMatch = function () {
     _this.popUpBenar.visible = !_this.popUpBenar.visible;
   }, 3000);
   pieces.skor++;
-  Score.text = pieces.skor * 10;
+  Score.text = pieces.skor * 25;
 };
 
 root.onWin = function () {
