@@ -239,3 +239,14 @@ Update Revisi 17 Desember 2020:
       a. https://cobamedia.netlify.app/data/game5/
       b. https://cobamedia.netlify.app/data/game6/
    2. menghapus jawaban yang telah terisi sebelumnya agar tidak menumpuk
+
+Update Revisi 18 Desember 2020:
+   1. fix minor revisi game5-game6
+      a. https://cobamedia.netlify.app/data/game5/
+      b. https://cobamedia.netlify.app/data/game6/
+   2. Menyesuaikan revisi game 7-game 11:
+      a. https://cobamedia.netlify.app/data/game7/
+      b. https://cobamedia.netlify.app/data/game8/
+      c. https://cobamedia.netlify.app/data/game9/
+      d. https://cobamedia.netlify.app/data/game10/
+      e. https://cobamedia.netlify.app/data/game11/

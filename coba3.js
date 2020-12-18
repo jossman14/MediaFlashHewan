@@ -1,11 +1,11 @@
 var root = this;
+var _this = this;
 var pieces = root.pieces;
 var slots = root.slots;
 var restart = root.restart;
-var winMessage = root.winMessage;
 var Score = root.Score;
 var positions1 = [];
-var _this = this;
+var jawaban = [];
 
 root.stop();
 
@@ -14,6 +14,29 @@ _this.popUpBenar.visible = !_this.popUpBenar.visible;
 _this.popUpSelesai.visible = !_this.popUpSelesai.visible;
 _this.popUpDanger.visible = !_this.popUpDanger.visible;
 
+root.pp1.gotoAndStop(0);
+
+root.g1.on("click", function () {
+  root.pp1.gotoAndPlay(0);
+});
+
+root.pp2.gotoAndStop(0);
+
+root.g2.on("click", function () {
+  root.pp2.gotoAndPlay(0);
+});
+
+root.pp3.gotoAndStop(0);
+
+root.g3.on("click", function () {
+  root.pp3.gotoAndPlay(0);
+});
+
+root.popUpInfo.gotoAndStop(0);
+
+root.btnInfo.on("click", function () {
+  root.popUpInfo.gotoAndPlay(0);
+});
 root.setup = function () {
   document.body.style.backgroundColor = lib.properties.color;
   createjs.Touch.enable(stage);
@@ -23,7 +46,6 @@ root.setup = function () {
 
 root.start = function (e) {
   stage.off("drawstart", root.drawStart);
-  winMessage.originalY = winMessage.y;
   pieces.children.forEach(function (child, index) {
     positions1[index] = { x: child.x, y: child.y };
   });
@@ -40,19 +62,11 @@ root.start = function (e) {
 root.restartHandler = function (e) {
   pieces.skor = 0;
   pieces.count = 0;
-  winMessage.text = "";
+  jawaban = [];
   root.shuffle();
 };
 
 root.mouseDownHandler = function (e) {
-  winMessage.text = "Ayo, Letakkan pada kotak yang sesuai!";
-  winMessage.alpha = 0;
-  winMessage.y = winMessage.originalY + 60;
-  createjs.Tween.get(winMessage).to(
-    { alpha: 1, y: winMessage.originalY },
-    500,
-    createjs.Ease.backInOut
-  );
   e.currentTarget.setChildIndex(e.target, e.currentTarget.children.length - 1);
   e.target.offsetX = e.stageX / stage.scaleX - e.target.x;
   e.target.offsetY = e.stageY / stage.scaleY - e.target.y;
@@ -83,8 +97,7 @@ root.shuffle = function () {
   positions1.sort(function (a, b) {
     return 0.5 - Math.random();
   });
-  console.log(pieces);
-  console.log(pieces.children);
+
   pieces.children.forEach(function (child, index) {
     child.originalX = positions1[index].x;
     child.originalY = positions1[index].y;
@@ -108,7 +121,6 @@ root.check = function () {
   root.slot = spot.parent;
 
   if (root.slot) {
-    console.log(root.slot.name, pieces.target.name);
     if (pieces.target.name.substring(0, 4) === root.slot.name.substring(0, 4)) {
       root.letakin();
       root.onMatch();
@@ -117,9 +129,22 @@ root.check = function () {
       root.salahJawab();
     }
     if (pieces.count === pieces.children.length) root.onWin();
+    if (Score.text === 100) {
+      root.onWin();
+    }
 
     root.slot = null;
-  } else root.onMiss();
+  } else {
+    root.onMiss();
+  }
+
+  jawaban.push(pieces.target);
+
+  if (jawaban.length >= 2) {
+    hapus = jawaban.shift();
+    root.sembunyiin(hapus);
+  }
+  console.log(jawaban);
 };
 
 root.letakin = function () {
@@ -131,21 +156,19 @@ root.letakin = function () {
     createjs.Ease.backInOut
   );
 };
-
+root.sembunyiin = function (hapus) {
+  createjs.Tween.get(hapus).to(
+    { x: root.slots.kotakKartuSembunyi.x, y: root.slots.kotakKartuSembunyi.y },
+    350,
+    createjs.Ease.backInOut
+  );
+};
 root.salahJawab = function () {
   _this.sound3.play();
   _this.popUpSalah.visible = !_this.popUpSalah.visible;
   setTimeout(function () {
     _this.popUpSalah.visible = !_this.popUpSalah.visible;
   }, 3000);
-  winMessage.text = "Hemm, sepertinya Tebakan Anda Salah";
-  winMessage.alpha = 0;
-  winMessage.y = winMessage.originalY + 60;
-  createjs.Tween.get(winMessage).to(
-    { alpha: 1, y: winMessage.originalY },
-    500,
-    createjs.Ease.backInOut
-  );
 };
 
 root.onMatch = function () {
@@ -154,16 +177,8 @@ root.onMatch = function () {
   setTimeout(function () {
     _this.popUpBenar.visible = !_this.popUpBenar.visible;
   }, 3000);
-  winMessage.text = "Selamat! Tebakan Anda Benar!";
   pieces.skor++;
-  Score.text = pieces.skor * 10;
-  winMessage.alpha = 0;
-  winMessage.y = winMessage.originalY + 60;
-  createjs.Tween.get(winMessage).to(
-    { alpha: 1, y: winMessage.originalY },
-    500,
-    createjs.Ease.backInOut
-  );
+  Score.text = pieces.skor * 20;
 };
 
 root.onWin = function () {
@@ -172,14 +187,8 @@ root.onWin = function () {
   setTimeout(function () {
     _this.popUpSelesai.visible = !_this.popUpSelesai.visible;
   }, 3000);
-  winMessage.text = "Yey!, Anda Berhasil Menyelesaikan Tantangan. Selamat!";
-  winMessage.alpha = 0;
-  winMessage.y = winMessage.originalY + 60;
-  createjs.Tween.get(winMessage).to(
-    { alpha: 1, y: winMessage.originalY },
-    500,
-    createjs.Ease.backInOut
-  );
+
+  root.popUpJawabanAkhirUtama.gotoAndPlay(0);
 };
 
 root.onMiss = function () {
@@ -193,20 +202,14 @@ root.onMiss = function () {
     350,
     createjs.Ease.backInOut
   );
-  winMessage.text = "Silahkan letakkan pada kotak yang sesuai ya..";
-  winMessage.alpha = 0;
-  winMessage.y = winMessage.originalY + 60;
-  createjs.Tween.get(winMessage).to(
-    { alpha: 1, y: winMessage.originalY },
-    500,
-    createjs.Ease.backInOut
-  );
 };
 
 var tombol;
 var _this = this;
-
 function init() {
+  _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
+  _this.nyala.visible = !_this.nyala.visible;
+
   var queue = new createjs.LoadQueue();
   queue.installPlugin(createjs.Sound);
   queue.addEventListener("complete", handleComplete);
@@ -231,6 +234,24 @@ function init() {
     _this.sound1 = createjs.Sound.createInstance("tombolGan");
     _this.sound2 = createjs.Sound.createInstance("benar");
     _this.sound3 = createjs.Sound.createInstance("salah");
+    _this.sound1.play({ loop: -1 });
+
+    _this.nyala.on("click", function tombolKlikEd() {
+      _this.sound1.play({ loop: -1 });
+      _this.nyala.visible = !_this.nyala.visible;
+      _this.tandaSuaraOff.visible = !_this.tandaSuaraOff.visible;
+      _this.hening.visible = !_this.hening.visible;
+      _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
+    });
+
+    _this.hening.on("click", function tombolKlikEd() {
+      // _this.sound3.play();
+      createjs.Sound.stop();
+      _this.hening.visible = !_this.hening.visible;
+      _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
+      _this.nyala.visible = !_this.nyala.visible;
+      _this.tandaSuaraOff.visible = !_this.tandaSuaraOff.visible;
+    });
   }
 }
 
