@@ -118,6 +118,7 @@ root1.check = function () {
     if (Score1.text === 100) {
       root1.onWin();
     }
+
     root1.slot = null;
   } else root1.onMiss();
   jawaban1.push(pieces1.target);
@@ -163,7 +164,10 @@ root1.onMatch = function () {
     _this.popUpBenar.visible = !_this.popUpBenar.visible;
   }, 3000);
   pieces1.skor++;
-  Score1.text = pieces1.skor * 25;
+  Score1.text = pieces1.skor * 33;
+  if (pieces1.skor === 3) {
+    Score1.text = pieces1.skor * 33 + 1;
+  }
 };
 
 root1.onWin = function () {

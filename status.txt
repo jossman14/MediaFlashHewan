@@ -244,9 +244,16 @@ Update Revisi 18 Desember 2020:
    1. fix minor revisi game5-game6
       a. https://cobamedia.netlify.app/data/game5/
       b. https://cobamedia.netlify.app/data/game6/
-   2. Menyesuaikan revisi game 7-game 11:
+   2. Menyesuaikan revisi game 7-game 18:
       a. https://cobamedia.netlify.app/data/game7/
       b. https://cobamedia.netlify.app/data/game8/
       c. https://cobamedia.netlify.app/data/game9/
       d. https://cobamedia.netlify.app/data/game10/
       e. https://cobamedia.netlify.app/data/game11/
+      f. https://cobamedia.netlify.app/data/game12/
+      g. https://cobamedia.netlify.app/data/game13/
+      h. https://cobamedia.netlify.app/data/game14/
+      i. https://cobamedia.netlify.app/data/game15/
+      j. https://cobamedia.netlify.app/data/game16/
+      k. https://cobamedia.netlify.app/data/game17/
+      l. https://cobamedia.netlify.app/data/game18/
