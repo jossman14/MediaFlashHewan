@@ -258,7 +258,7 @@ Update Revisi 18 Desember 2020:
       k. https://cobamedia.netlify.app/data/game17/
       l. https://cobamedia.netlify.app/data/game18/
 
-Update Revisi 19 Desember 2020:
+Update Revisi 20 Desember 2020:
    1. fix minor revisi game10-game18:
       a. https://cobamedia.netlify.app/data/game10/
       b. https://cobamedia.netlify.app/data/game11/
@@ -269,3 +269,11 @@ Update Revisi 19 Desember 2020:
       g. https://cobamedia.netlify.app/data/game16/
       h. https://cobamedia.netlify.app/data/game17/
       i. https://cobamedia.netlify.app/data/game18/
+   2. Menyesuaikan revisi game di materi 8 - 12 dan game 13 (ubah warna font jadi hitam):
+      a. https://cobamedia.netlify.app/data/materi13/
+      b. https://cobamedia.netlify.app/data/game13/
+      c. https://cobamedia.netlify.app/data/materi8/
+      d. https://cobamedia.netlify.app/data/materi9/
+      e. https://cobamedia.netlify.app/data/materi10/
+      f. https://cobamedia.netlify.app/data/materi11/
+      g. https://cobamedia.netlify.app/data/materi12/

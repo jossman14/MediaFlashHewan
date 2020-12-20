@@ -1,89 +1,96 @@
-var root1 = this;
-var pieces1 = root1.pieces1;
-var slots1 = root1.slots1;
-var restart1 = root1.restart1;
-var Score1 = root1.Score1;
-var positions2 = [];
-var jawaban1 = [];
-
+var root = this;
 var _this = this;
+var pieces = root.pieces;
+var slots = root.slots;
+var restart = root.restart;
+var Score = root.Score;
+var positions1 = [];
+var jawaban = [];
 
-root1.stop();
+root.stop();
 
 _this.popUpSalah.visible = !_this.popUpSalah.visible;
 _this.popUpBenar.visible = !_this.popUpBenar.visible;
 _this.popUpSelesai.visible = !_this.popUpSelesai.visible;
 _this.popUpDanger.visible = !_this.popUpDanger.visible;
 
-root1.setup = function () {
+root.popUpInfo.gotoAndStop(0);
+
+root.btnInfo.on("click", function () {
+  root.popUpInfo.gotoAndPlay(0);
+});
+
+root.popUpAnim1.gotoAndStop(0);
+
+root.btnAnim1.on("click", function () {
+  root.popUpAnim1.gotoAndPlay(0);
+});
+
+root.setup = function () {
   document.body.style.backgroundColor = lib.properties.color;
   createjs.Touch.enable(stage);
   stage.mouseMoveOutside = true;
-  root1.drawStart = stage.on("drawstart", root1.start, null, true);
+  root.drawStart = stage.on("drawstart", root.start, null, true);
 };
 
-root1.start = function (e) {
-  stage.off("drawstart", root1.drawStart);
-  pieces1.children.forEach(function (child, index) {
-    positions2[index] = { x: child.x, y: child.y };
+root.start = function (e) {
+  stage.off("drawstart", root.drawStart);
+  pieces.children.forEach(function (child, index) {
+    positions1[index] = { x: child.x, y: child.y };
   });
 
-  slots1.children.forEach(function (child, index) {
+  slots.children.forEach(function (child, index) {
     child.mouseChildren = false;
   });
 
-  root1.restart1Handler(null);
-  restart1.on("click", root1.restart1Handler);
-  pieces1.on("mousedown", root1.mouseDownHandler);
+  root.restartHandler(null);
+  restart.on("click", root.restartHandler);
+  pieces.on("mousedown", root.mouseDownHandler);
 };
 
-root1.restart1Handler = function (e) {
-  pieces1.skor = 0;
-  pieces1.count = 0;
-  jawaban1 = [];
+root.restartHandler = function (e) {
+  pieces.skor = 0;
+  pieces.count = 0;
+  jawaban = [];
 
-  root1.shuffle();
+  root.shuffle();
 };
 
-root1.mouseDownHandler = function (e) {
+root.mouseDownHandler = function (e) {
   e.currentTarget.setChildIndex(e.target, e.currentTarget.children.length - 1);
   e.target.offsetX = e.stageX / stage.scaleX - e.target.x;
   e.target.offsetY = e.stageY / stage.scaleY - e.target.y;
-  pieces1.target = e.target;
-  root1.stageMouseMove = stage.on(
-    "stagemousemove",
-    root1.stageMouseMoveHandler
-  );
-  root1.stageMouseUp = stage.on("stagemouseup", root1.stageMouseUpHandler);
+  pieces.target = e.target;
+  root.stageMouseMove = stage.on("stagemousemove", root.stageMouseMoveHandler);
+  root.stageMouseUp = stage.on("stagemouseup", root.stageMouseUpHandler);
 };
 
-root1.stageMouseMoveHandler = function (e) {
-  if (pieces1.target) {
-    pieces1.target.x = e.stageX / stage.scaleX - pieces1.target.offsetX;
-    pieces1.target.y = e.stageY / stage.scaleY - pieces1.target.offsetY;
+root.stageMouseMoveHandler = function (e) {
+  if (pieces.target) {
+    pieces.target.x = e.stageX / stage.scaleX - pieces.target.offsetX;
+    pieces.target.y = e.stageY / stage.scaleY - pieces.target.offsetY;
   }
 };
 
-root1.stageMouseUpHandler = function (e) {
-  stage.off("stagemousemove", root1.stageMouseMove);
-  stage.off("stagemouseup", root1.stageMouseUp);
+root.stageMouseUpHandler = function (e) {
+  stage.off("stagemousemove", root.stageMouseMove);
+  stage.off("stagemouseup", root.stageMouseUp);
 
-  if (pieces1.target) {
-    root1.check();
-    pieces1.target = null;
+  if (pieces.target) {
+    root.check();
+    pieces.target = null;
   }
 };
 
-root1.shuffle = function () {
-  Score1.text = "score1";
-  positions2.sort(function (a, b) {
+root.shuffle = function () {
+  Score.text = "score";
+  positions1.sort(function (a, b) {
     return 0.5 - Math.random();
   });
-  console.log(pieces1);
-  console.log(pieces1.children);
-  pieces1.children.forEach(function (child, index) {
-    child.originalX = positions2[index].x;
-    child.originalY = positions2[index].y;
+
+  pieces.children.forEach(function (child, index) {
+    child.originalX = positions1[index].x;
+    child.originalY = positions1[index].y;
     child.mouseEnabled = true;
     createjs.Tween.get(child).to(
       { x: child.originalX, y: child.originalY },
@@ -93,63 +100,57 @@ root1.shuffle = function () {
   });
 };
 
-root1.check = function () {
-  var spot = slots1.getObjectUnderPoint(pieces1.target.x, pieces1.target.y);
+root.check = function () {
+  var spot = slots.getObjectUnderPoint(pieces.target.x, pieces.target.y);
 
   if (!spot) {
-    root1.onMiss();
+    root.onMiss();
     return;
   }
 
-  root1.slot = spot.parent;
+  root.slot = spot.parent;
 
-  if (root1.slot) {
-    console.log(root1.slot.name, pieces1.target.name);
-    if (
-      pieces1.target.name.substring(0, 4) === root1.slot.name.substring(0, 4)
-    ) {
-      root1.letakin();
-      root1.onMatch();
+  if (root.slot) {
+    if (pieces.target.name.substring(0, 4) === root.slot.name.substring(0, 4)) {
+      root.letakin();
+      root.onMatch();
     } else {
-      root1.letakin();
-      root1.salahJawab();
+      root.letakin();
+      root.salahJawab();
     }
-    if (pieces1.count === pieces1.children.length) root1.onWin();
-    if (Score1.text === 100) {
-      root1.onWin();
+    if (pieces.count === pieces.children.length) root.onWin();
+    if (Score.text === 100) {
+      root.onWin();
     }
 
-    root1.slot = null;
-  } else root1.onMiss();
-  jawaban1.push(pieces1.target);
+    root.slot = null;
+  } else root.onMiss();
+  jawaban.push(pieces.target);
 
-  if (jawaban1.length >= 2) {
-    hapus = jawaban1.shift();
-    root1.sembunyiin(hapus);
+  if (jawaban.length >= 2) {
+    hapus = jawaban.shift();
+    root.sembunyiin(hapus);
   }
-  console.log(jawaban1);
+  console.log(jawaban);
 };
 
-root1.letakin = function () {
-  pieces1.target.mouseEnabled = false;
-  pieces1.count++;
-  createjs.Tween.get(pieces1.target).to(
-    { x: root1.slots1.kotakKartu2.x, y: root1.slots1.kotakKartu2.y },
+root.letakin = function () {
+  pieces.target.mouseEnabled = false;
+  pieces.count++;
+  createjs.Tween.get(pieces.target).to(
+    { x: root.slots.kotakKartu2.x, y: root.slots.kotakKartu2.y },
     350,
     createjs.Ease.backInOut
   );
 };
-root1.sembunyiin = function (hapus) {
+root.sembunyiin = function (hapus) {
   createjs.Tween.get(hapus).to(
-    {
-      x: root1.slots1.kotakKartuSembunyi.x,
-      y: root1.slots1.kotakKartuSembunyi.y,
-    },
+    { x: root.slots.kotakKartuSembunyi.x, y: root.slots.kotakKartuSembunyi.y },
     350,
     createjs.Ease.backInOut
   );
 };
-root1.salahJawab = function () {
+root.salahJawab = function () {
   _this.sound3.play();
   _this.popUpSalah.visible = !_this.popUpSalah.visible;
   setTimeout(function () {
@@ -157,37 +158,35 @@ root1.salahJawab = function () {
   }, 3000);
 };
 
-root1.onMatch = function () {
+root.onMatch = function () {
   _this.sound2.play();
   _this.popUpBenar.visible = !_this.popUpBenar.visible;
   setTimeout(function () {
     _this.popUpBenar.visible = !_this.popUpBenar.visible;
   }, 3000);
-  pieces1.skor++;
-  Score1.text = pieces1.skor * 33;
-  if (pieces1.skor === 3) {
-    Score1.text = pieces1.skor * 33 + 1;
-  }
+  pieces.skor++;
+  Score.text = pieces.skor * 100;
 };
 
-root1.onWin = function () {
+root.onWin = function () {
   _this.sound2.play();
   _this.popUpSelesai.visible = !_this.popUpSelesai.visible;
   setTimeout(function () {
     _this.popUpSelesai.visible = !_this.popUpSelesai.visible;
   }, 3000);
 
-  root1.popUpJawabanAkhir.gotoAndPlay(0);
+  root.popUpJawabanAkhir.gotoAndPlay(0);
 };
 
-root1.onMiss = function () {
+root.onMiss = function () {
   _this.sound3.play();
   _this.popUpDanger.visible = !_this.popUpDanger.visible;
   setTimeout(function () {
     _this.popUpDanger.visible = !_this.popUpDanger.visible;
   }, 3000);
-  createjs.Tween.get(pieces1.target).to(
-    { x: pieces1.target.originalX, y: pieces1.target.originalY },
+
+  createjs.Tween.get(pieces.target).to(
+    { x: pieces.target.originalX, y: pieces.target.originalY },
     350,
     createjs.Ease.backInOut
   );
@@ -195,8 +194,10 @@ root1.onMiss = function () {
 
 var tombol;
 var _this = this;
-
 function init() {
+  _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
+  _this.nyala.visible = !_this.nyala.visible;
+
   var queue = new createjs.LoadQueue();
   queue.installPlugin(createjs.Sound);
   queue.addEventListener("complete", handleComplete);
@@ -221,9 +222,27 @@ function init() {
     _this.sound1 = createjs.Sound.createInstance("tombolGan");
     _this.sound2 = createjs.Sound.createInstance("benar");
     _this.sound3 = createjs.Sound.createInstance("salah");
+    _this.sound1.play({ loop: -1 });
+
+    _this.nyala.on("click", function tombolKlikEd() {
+      _this.sound1.play({ loop: -1 });
+      _this.nyala.visible = !_this.nyala.visible;
+      _this.tandaSuaraOff.visible = !_this.tandaSuaraOff.visible;
+      _this.hening.visible = !_this.hening.visible;
+      _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
+    });
+
+    _this.hening.on("click", function tombolKlikEd() {
+      // _this.sound3.play();
+      createjs.Sound.stop();
+      _this.hening.visible = !_this.hening.visible;
+      _this.tandaSuaraOn.visible = !_this.tandaSuaraOn.visible;
+      _this.nyala.visible = !_this.nyala.visible;
+      _this.tandaSuaraOff.visible = !_this.tandaSuaraOff.visible;
+    });
   }
 }
 
 init();
-root1.setup();
+root.setup();
 createjs.Sound.stop();
