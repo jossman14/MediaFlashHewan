@@ -14,18 +14,35 @@ _this.popUpBenar.visible = !_this.popUpBenar.visible;
 _this.popUpSelesai.visible = !_this.popUpSelesai.visible;
 _this.popUpDanger.visible = !_this.popUpDanger.visible;
 
+root.pp4.gotoAndStop(0);
+
+root.slots.simetri.on("click", function () {
+  root.pp4.gotoAndPlay(0);
+});
+
+root.pp3.gotoAndStop(0);
+
+root.slots.bentuk.on("click", function () {
+  root.pp3.gotoAndPlay(0);
+});
+
+root.pp2.gotoAndStop(0);
+
+root.slots.rongga.on("click", function () {
+  root.pp2.gotoAndPlay(0);
+});
+
+root.pp1.gotoAndStop(0);
+
+root.slots.lapisan.on("click", function () {
+  root.pp1.gotoAndPlay(0);
+});
+
 root.popUpInfo.gotoAndStop(0);
 
 root.btnInfo.on("click", function () {
   root.popUpInfo.gotoAndPlay(0);
 });
-
-root.popUpAnim1.gotoAndStop(0);
-
-root.btnAnim1.on("click", function () {
-  root.popUpAnim1.gotoAndPlay(0);
-});
-
 root.setup = function () {
   document.body.style.backgroundColor = lib.properties.color;
   createjs.Touch.enable(stage);
@@ -51,9 +68,8 @@ root.start = function (e) {
 root.restartHandler = function (e) {
   pieces.skor = 0;
   pieces.count = 0;
-  jawaban = [];
-
   root.shuffle();
+  jawaban = [];
 };
 
 root.mouseDownHandler = function (e) {
@@ -83,7 +99,7 @@ root.stageMouseUpHandler = function (e) {
 };
 
 root.shuffle = function () {
-  Score.text = "score";
+  Score.text = 0;
   positions1.sort(function (a, b) {
     return 0.5 - Math.random();
   });
@@ -118,13 +134,18 @@ root.check = function () {
       root.letakin();
       root.salahJawab();
     }
+    if (pieces.count === 4) root.onWin();
     if (pieces.count === pieces.children.length) root.onWin();
+
     if (Score.text === 100) {
       root.onWin();
     }
-
     root.slot = null;
-  } else root.onMiss();
+  } else {
+    root.onMiss();
+  }
+  // root.sembunyiin();
+
   jawaban.push(pieces.target);
 
   if (jawaban.length >= 2) {
@@ -143,6 +164,7 @@ root.letakin = function () {
     createjs.Ease.backInOut
   );
 };
+
 root.sembunyiin = function (hapus) {
   createjs.Tween.get(hapus).to(
     { x: root.slots.kotakKartuSembunyi.x, y: root.slots.kotakKartuSembunyi.y },
@@ -150,6 +172,7 @@ root.sembunyiin = function (hapus) {
     createjs.Ease.backInOut
   );
 };
+
 root.salahJawab = function () {
   _this.sound3.play();
   _this.popUpSalah.visible = !_this.popUpSalah.visible;
@@ -165,7 +188,7 @@ root.onMatch = function () {
     _this.popUpBenar.visible = !_this.popUpBenar.visible;
   }, 3000);
   pieces.skor++;
-  Score.text = pieces.skor * 100;
+  Score.text = pieces.skor * 25;
 };
 
 root.onWin = function () {
@@ -184,7 +207,6 @@ root.onMiss = function () {
   setTimeout(function () {
     _this.popUpDanger.visible = !_this.popUpDanger.visible;
   }, 3000);
-
   createjs.Tween.get(pieces.target).to(
     { x: pieces.target.originalX, y: pieces.target.originalY },
     350,

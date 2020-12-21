@@ -141,22 +141,34 @@ lib.ssMetadata = [];
 p.nominalBounds = new cjs.Rectangle(0,0,708,526);
 
 
-(lib._17 = function() {
-	this.initialize(img._17);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,700,467);
-
-
 (lib._16 = function() {
 	this.initialize(img._16);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,320,292);
 
 
+(lib._17 = function() {
+	this.initialize(img._17);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,700,467);
+
+
 (lib._23 = function() {
 	this.initialize(img._23);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,337,362);
+
+
+(lib._32 = function() {
+	this.initialize(img._32);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,720,489);
+
+
+(lib._36 = function() {
+	this.initialize(img._36);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,690,518);
 
 
 (lib._28 = function() {
@@ -171,10 +183,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,259,194);
 p.nominalBounds = new cjs.Rectangle(0,0,440,302);
 
 
-(lib._36 = function() {
-	this.initialize(img._36);
+(lib._6 = function() {
+	this.initialize(img._6);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,690,518);
+p.nominalBounds = new cjs.Rectangle(0,0,1024,683);
 
 
 (lib._5 = function() {
@@ -183,22 +195,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,690,518);
 p.nominalBounds = new cjs.Rectangle(0,0,700,450);
 
 
-(lib._6 = function() {
-	this.initialize(img._6);
+(lib._20 = function() {
+	this.initialize(img._20);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1024,683);
-
-
-(lib._7 = function() {
-	this.initialize(img._7);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,300,201);
-
-
-(lib._32 = function() {
-	this.initialize(img._32);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,720,489);
+p.nominalBounds = new cjs.Rectangle(0,0,720,580);
 
 
 (lib._11 = function() {
@@ -213,6 +213,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,379,448);
 p.nominalBounds = new cjs.Rectangle(0,0,97,120);
 
 
+(lib._7 = function() {
+	this.initialize(img._7);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,300,201);
+
+
 (lib.Bitmap2 = function() {
 	this.initialize(img.Bitmap2);
 }).prototype = p = new cjs.Bitmap();
@@ -225,10 +231,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,998,600);
 p.nominalBounds = new cjs.Rectangle(0,0,267,177);
 
 
-(lib.Bitmap45 = function() {
-	this.initialize(img.Bitmap45);
+(lib.bookpngcopy = function() {
+	this.initialize(img.bookpngcopy);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,202,177);
+p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 
 
 (lib.CAseksual_ = function() {
@@ -261,10 +267,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,369,180);
 p.nominalBounds = new cjs.Rectangle(0,0,153,152);
 
 
-(lib.bookpngcopy = function() {
-	this.initialize(img.bookpngcopy);
+(lib.Bitmap45 = function() {
+	this.initialize(img.Bitmap45);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,288,399);
+p.nominalBounds = new cjs.Rectangle(0,0,202,177);
+
+
+(lib.G = function() {
+	this.initialize(img.G);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,379,257);
 
 
 (lib.flash0aiAssets_3 = function() {
@@ -282,19 +294,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,595,340);
 (lib._26 = function() {
 	this.initialize(img._26);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,624,375);
-
-
-(lib._20 = function() {
-	this.initialize(img._20);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,720,580);
-
-
-(lib.G = function() {
-	this.initialize(img.G);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,379,257);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,624,375);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -20234,7 +20234,7 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 
 
 // stage content:
-(lib.RECOVER_game3_temp = function(mode,startPosition,loop) {
+(lib.game3 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	this.actionFrames = [0];
@@ -20400,7 +20400,7 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		};
 		
 		root.shuffle = function () {
-		  Score.text = "score";
+		  Score.text = 0;
 		  positions1.sort(function (a, b) {
 		    return 0.5 - Math.random();
 		  });
@@ -21035,32 +21035,32 @@ lib.properties = {
 	opacity: 1.00,
 	manifest: [
 		{src:"images/_10_tripo.jpg", id:"_10_tripo"},
-		{src:"images/_17.jpeg", id:"_17"},
 		{src:"images/_16.jpeg", id:"_16"},
+		{src:"images/_17.jpeg", id:"_17"},
 		{src:"images/_23.png", id:"_23"},
+		{src:"images/_32.jpeg", id:"_32"},
+		{src:"images/_36.jpeg", id:"_36"},
 		{src:"images/_28.jpeg", id:"_28"},
 		{src:"images/_34.jpeg", id:"_34"},
-		{src:"images/_36.jpeg", id:"_36"},
-		{src:"images/_5.jpeg", id:"_5"},
 		{src:"images/_6.jpeg", id:"_6"},
-		{src:"images/_7.jpeg", id:"_7"},
-		{src:"images/_32.jpeg", id:"_32"},
+		{src:"images/_5.jpeg", id:"_5"},
+		{src:"images/_20.jpeg", id:"_20"},
 		{src:"images/_11.jpeg", id:"_11"},
 		{src:"images/Bitmap1.png", id:"Bitmap1"},
+		{src:"images/_7.jpeg", id:"_7"},
 		{src:"images/Bitmap2.png", id:"Bitmap2"},
 		{src:"images/Bitmap44.png", id:"Bitmap44"},
-		{src:"images/Bitmap45.png", id:"Bitmap45"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
 		{src:"images/CAseksual_.png", id:"CAseksual_"},
 		{src:"images/fix.png", id:"fix"},
 		{src:"images/flash0aiAssets.png", id:"flash0aiAssets"},
 		{src:"images/flash0aiAssets_1.png", id:"flash0aiAssets_1"},
 		{src:"images/flash0aiAssets_2.png", id:"flash0aiAssets_2"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"images/Bitmap45.png", id:"Bitmap45"},
+		{src:"images/G.png", id:"G"},
 		{src:"images/flash0aiAssets_3.png", id:"flash0aiAssets_3"},
 		{src:"images/_33.jpeg", id:"_33"},
 		{src:"images/_26.jpeg", id:"_26"},
-		{src:"images/_20.jpeg", id:"_20"},
-		{src:"images/G.png", id:"G"},
 		{src:"components/lib/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
 		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
 		{src:"components/ui/src/image.js", id:"an.Image"},
