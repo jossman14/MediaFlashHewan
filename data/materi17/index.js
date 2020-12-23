@@ -720,7 +720,7 @@ p.nominalBounds = new cjs.Rectangle(-59.4,-25.6,118.1,49);
 		});
 		
 		var s =
-		  "Peristiwa kebocoran pipa minyak PT. Suka Minyak disebabkan kurangnya perawatan dan pengawasan dalam operasional pabrik. Lingkungan sekitar pabrik mengalami kerusakan akibat tercemar limbah minyak tersebut, sehingga beberapa tumbuhan dan hewan yang terkena dampak menjadi mati. Beberapa kehati yang mati tersebut karena habitatnya tercemar oleh minyak bumi. Tanah mengalami penurunan fungsi sehingga unsur hara yang terserap oleh tumbuhan tidak optimal. Selain itu, perairan yang tercemar oleh minyak mengalami hipoksia karena pengikatan oksigen oleh air tengganggu oleh minyak tersebut. Kehati yang mati akan mengganggu ekosistem lingkungan, kejadian ini juga akan mempengaruhi pemanfaatan kehati tersebut sebagai sumber penghasilan sehingga masyarakat sekitar pabrik menjadi kehilangan mata pencahariannya sehingga berdampak pada perekonomian masyarakat.";
+		  "Peristiwa kebocoran pipa minyak PT. Suka Minyak disebabkan kurangnya perawatan dan pengawasan dalam operasional pabrik. Lingkungan di sekitar pabrik mengalami kerusakan akibat tercemar tumpahan minyak tersebut, sehingga tanah maupun perairan sekitar pabrik mengalami hipoksia atau  disebut sebagai pengikatan oksigen di tanah maupun air. Akibatnya banyak hewan dan tumbuhan yang mati. Banyaknya hewan dan tumbuhan yang mati baik di tanah maupun air juga memberikan dampak pada ekosistem lingkungan. Selain itu, dampak tesebut juga mempengaruhi perekonomian masyarakat sekitar yang memanfaatkan hewan dan tumbuhan sebagai sumber penghasilan mereka.";
 		
 		var F = f.bind(this);
 		
@@ -764,24 +764,24 @@ p.nominalBounds = new cjs.Rectangle(-59.4,-25.6,118.1,49);
 	this.tandaSuaraOff.setTransform(852.85,35.05,0.4105,0.4105,0,0,0,50.2,45.2);
 
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AgNATQgEgEAAgFQAAgHAFgDQAFgEAJAAIAHAAIAAgDQAAgEgDgCQgCgCgEAAQgDgBgDACQgDADAAADIgHAAQAAgEACgDQADgDADgBQAEgDAEAAQAHAAAFAFQAEADAAAHIAAASQAAAGACAEIAAAAIgIAAIgBgEQgFAGgGgBQgHAAgEgDgAgKAJQAAADADACQACACAEAAQACAAADgCQADgBACgDIAAgJIgGAAQgNgBAAAJg");
-	this.shape.setTransform(859.575,62.85);
+	this.shape.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgEAJABIAHAAIAAgEQAAgEgDgCQgCgDgEAAQgDABgDACQgDACAAACIgHAAQAAgDACgDQADgDADgBQAEgCAEAAQAHAAAFADQAEAEAAAGIAAAUQAAAGACADIAAABIgIAAIgBgFQgFAFgGABQgHAAgEgFgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgBACgEIAAgJIgGAAQgNABAAAHg");
+	this.shape.setTransform(859.525,62.8);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("AgJAWIAAgqIAGAAIABAFQADgGAGAAIADABIAAAHIgDAAQgHAAgCAFIAAAeg");
-	this.shape_1.setTransform(856.2,62.8);
+	this.shape_1.graphics.f("#FFFFFF").s().p("AgKAWIAAgqIAIAAIAAAFQADgGAGAAIADABIAAAGIgEAAQgGAAgCAHIAAAdg");
+	this.shape_1.setTransform(856.15,62.75);
 
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#FFFFFF").s().p("AgNATQgEgEAAgFQAAgHAFgDQAFgEAJAAIAHAAIAAgDQAAgEgDgCQgCgCgEAAQgDgBgDACQgDADAAADIgHAAQAAgEACgDQADgDADgBQAEgDAEAAQAHAAAFAFQAEADAAAHIAAASQAAAGACAEIAAAAIgIAAIgBgEQgFAGgGgBQgHAAgEgDgAgKAJQAAADADACQACACAEAAQACAAADgCQADgBACgDIAAgJIgGAAQgNgBAAAJg");
-	this.shape_2.setTransform(852.375,62.85);
+	this.shape_2.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgEAJABIAHAAIAAgEQAAgEgDgCQgCgDgEAAQgDABgDACQgDACAAACIgHAAQAAgDACgDQADgDADgBQAEgCAEAAQAHAAAFADQAEAEAAAGIAAAUQAAAGACADIAAABIgIAAIgBgFQgFAFgGABQgHAAgEgFgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgBACgEIAAgJIgGAAQgNABAAAHg");
+	this.shape_2.setTransform(852.325,62.8);
 
 	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("#FFFFFF").s().p("AgMASQgEgEAAgIIAAgbIAHAAIAAAbQAAAJAIAAQAIABADgHIAAgeIAHAAIAAAqIgHAAIAAgEQgEAFgIAAQgHAAgDgEg");
-	this.shape_3.setTransform(847.925,62.9);
+	this.shape_3.graphics.f("#FFFFFF").s().p("AgMASQgEgEAAgIIAAgbIAHAAIAAAbQAAAKAIAAQAIgBADgFIAAgfIAHAAIAAAqIgHAAIAAgEQgEAFgIAAQgHAAgDgEg");
+	this.shape_3.setTransform(847.875,62.85);
 
 	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFAEADQADADAGAAQAGAAADgCQADgDAAgEQAAgEgDgCQgCgDgIgCQgJgDgFgDQgEgEAAgGQAAgHAFgEQAGgFAHAAQAGAAAFACQAFADACAEQADAEAAAFIgIAAQAAgGgDgDQgEgDgGAAQgEAAgDADQgEACABAFQAAADACADQADACAHACQAHACAEACQAEACACADQACAEAAAEQAAAHgFAEQgGAFgJAAQgFAAgFgDg");
-	this.shape_4.setTransform(843.25,62.125);
+	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFADADQAEADAGAAQAGAAAEgCQADgDAAgEQAAgEgDgCQgEgDgHgCQgJgDgEgDQgFgEAAgGQAAgHAGgEQAFgFAHAAQAGAAAGACQAEADACAEQADAEAAAFIgHAAQgBgGgDgDQgDgDgHAAQgEAAgDADQgDACgBAFQAAADADADQAEACAGACQAHACAEACQAEACADADQABAEAAAEQAAAHgGAEQgFAFgJAAQgFAAgFgDg");
+	this.shape_4.setTransform(843.2,62.075);
 
 	this.shape_5 = new cjs.Shape();
 	this.shape_5.graphics.f("#3498DB").s().p("Aj8D9QhphpAAiUQAAiTBphqQBphoCTAAQCVAABoBoQBpBqAACTQAACUhpBpQhoBpiVAAQiTAAhphpg");
@@ -806,7 +806,7 @@ p.nominalBounds = new cjs.Rectangle(-59.4,-25.6,118.1,49);
 	this.coba.lineHeight = 29;
 	this.coba.lineWidth = 795;
 	this.coba.parent = this;
-	this.coba.setTransform(82.35,162.3);
+	this.coba.setTransform(82.35,182.3);
 
 	this.btnBack3 = new lib.btnKIBack();
 	this.btnBack3.name = "btnBack3";
