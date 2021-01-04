@@ -1,0 +1,8 @@
+list revisi media:
+1. kotak hewan disamain dengan kotak jawaban di game1-game4
+2. game9 sama game13 diubah yg random nama kelas
+3. atur urutan petunjuk bermain yg pop up ditaruh ke atas
+4. yg materi8 textwriternya dirapikan sama gambar --
+5. revisi kata tipes menjadi typus dan cacing-cacingan menjadi jenis cacing -- DONE
+6. rapikan kotak suara semua kotak
+7. ubah kata Osteatritis menjadi italic di materi13 -- DONE

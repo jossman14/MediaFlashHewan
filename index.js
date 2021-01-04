@@ -135,16 +135,16 @@ lib.ssMetadata = [];
 
 
 
-(lib.Bitmap1 = function() {
-	this.initialize(img.Bitmap1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,987,663);
-
-
 (lib.Bitmap13 = function() {
 	this.initialize(img.Bitmap13);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,675,535);
+
+
+(lib.Bitmap1 = function() {
+	this.initialize(img.Bitmap1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,987,663);
 
 
 (lib.bookpngcopy = function() {
@@ -706,14 +706,14 @@ lib.properties = {
 	color: "#2ECC71",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Bitmap1.png?1607560801883", id:"Bitmap1"},
-		{src:"images/Bitmap13.png?1607560801883", id:"Bitmap13"},
-		{src:"images/bookpngcopy.png?1607560801883", id:"bookpngcopy"},
-		{src:"sounds/musicBG.mp3?1607560801883", id:"musicBG"},
-		{src:"components/lib/jquery-3.4.1.min.js?1607560801883", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1607560801883", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/image.js?1607560801883", id:"an.Image"},
-		{src:"components/ui/src/image.js?1607560801883", id:"an.Image"}
+		{src:"images/Bitmap13.png?1609232366361", id:"Bitmap13"},
+		{src:"images/Bitmap1.png?1609232366361", id:"Bitmap1"},
+		{src:"images/bookpngcopy.png?1609232366361", id:"bookpngcopy"},
+		{src:"sounds/musicBG.mp3?1609232366362", id:"musicBG"},
+		{src:"components/lib/jquery-3.4.1.min.js?1609232366362", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1609232366362", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/image.js?1609232366362", id:"an.Image"},
+		{src:"components/ui/src/image.js?1609232366362", id:"an.Image"}
 	],
 	preloads: []
 };
