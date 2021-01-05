@@ -19,7 +19,7 @@ _this.popUpDanger.visible = !_this.popUpDanger.visible;
 
 root.pGam1.gotoAndStop(0);
 
-root.pieces.laut.on("dblclick", function () {
+root.pieces.tana2.on("dblclick", function () {
   root.pGam1.gotoAndPlay(0);
 });
 
@@ -210,7 +210,6 @@ root.onMatch = function () {
   setTimeout(function () {
     _this.popUpBenar.visible = !_this.popUpBenar.visible;
   }, 3000);
-
   pieces.skor++;
   Score.text = pieces.skor * 10;
 };
