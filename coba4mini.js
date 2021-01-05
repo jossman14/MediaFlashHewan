@@ -1,37 +1,29 @@
 this.stop();
-var s =
-  "Yuk bantu bapak nelayan untuk memilih hewan yang dapat dijadikan sebagai obat typus";
+var s1 =
+  "Bioremediasi adalah penggunaan organisme hidup, terutama mikroorganisme, untuk mendegradasi kontaminan lingkungan ke dalam bentuk yang kurang beracun. bioremediasi terjadi karena enzim yang diproduksi oleh mikroorganisme memodifikasi polutan beracun dengan mengubah struktur kimia polutan tersebut, disebut biotransformasi. pada banyak kasus, biotransformasi berujung pada biodegradasi, dimana polutan beracun tergradasi, strukturnya menjadi tidak kompleks, dan akhirnya menjadi metabolit yang tidak berbahaya dan tidak beracun.                                                                ";
 
-var F = f.bind(this);
+var F1 = f1.bind(this);
 
-var fI;
+var fI1;
 
-clearInterval(fI);
+clearInterval(fI1);
 
-fI = setInterval(F, 50);
+fI1 = setInterval(F1, 60);
 
-function f(e) {
-  if (this.coba.text.length < s.length) {
-    this.coba.text += s.charAt(this.coba.text.length);
+function f1(e) {
+  if (this.desk.text.length < s1.length) {
+    this.desk.text += s1.charAt(this.desk.text.length);
   } else {
-    clearInterval(fI);
+    clearInterval(fI1);
   }
-}
 
-if (!spot) {
-  if (pieces.target.x != pieces.target.originalX) {
-    console.log("check");
-    root.onMiss();
+  if (this.desk.text.length >= s1.length) {
+    // setTimeout(function () {
+    // }, 1500);
+    console.log(this.desk.visible);
+    this.desk.visible = !this.desk.visible;
+    console.log(this.desk.visible);
+    s1 = "";
+    this.play();
   }
-  return;
-}
-
-this.gotoAndStop(0);
-
-if (!spot) {
-  if (pieces1.target.x != pieces1.target.originalX) {
-    console.log("check");
-    root1.onMiss();
-  }
-  return;
 }
