@@ -6,6 +6,10 @@ var restart = root.restart;
 var Score = root.Score;
 var positions1 = [];
 
+var style = document.createElement("style");
+document.head.appendChild(style);
+style.sheet.insertRule("* {touch-action: manipulation}");
+
 root.stop();
 
 _this.popUpSalah.visible = !_this.popUpSalah.visible;
