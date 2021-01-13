@@ -19,65 +19,25 @@ _this.popUpDanger.visible = !_this.popUpDanger.visible;
 
 root.pGam1.gotoAndStop(0);
 
-root.pieces.tana2.on("dblclick", function () {
-  root.pGam1.gotoAndPlay(0);
-});
-
 root.popUpJawabanAkhir.gotoAndStop(0);
 
 root.pp3.gotoAndStop(0);
 
-root.pieces.tana.on("dblclick", function () {
-  root.pp3.gotoAndPlay(0);
-});
-
 root.pp4.gotoAndStop(0);
-
-root.pieces.tana1.on("dblclick", function () {
-  root.pp4.gotoAndPlay(0);
-});
 
 root.pp5.gotoAndStop(0);
 
-root.pieces.laut1.on("dblclick", function () {
-  root.pp5.gotoAndPlay(0);
-});
-
 root.pp6.gotoAndStop(0);
-
-root.pieces.laut2.on("dblclick", function () {
-  root.pp6.gotoAndPlay(0);
-});
 
 root.pp7.gotoAndStop(0);
 
-root.pieces.laut3.on("dblclick", function () {
-  root.pp7.gotoAndPlay(0);
-});
-
 root.pp8.gotoAndStop(0);
-
-root.pieces.laut4.on("dblclick", function () {
-  root.pp8.gotoAndPlay(0);
-});
 
 root.pp9.gotoAndStop(0);
 
-root.pieces.laut5.on("dblclick", function () {
-  root.pp9.gotoAndPlay(0);
-});
-
 root.pp10.gotoAndStop(0);
 
-root.pieces.gaga1.on("dblclick", function () {
-  root.pp10.gotoAndPlay(0);
-});
-
 root.pp11.gotoAndStop(0);
-
-root.pieces.gaga2.on("dblclick", function () {
-  root.pp11.gotoAndPlay(0);
-});
 
 root.popUpInfo.gotoAndStop(0);
 
@@ -156,7 +116,19 @@ root.shuffle = function () {
     );
   });
 };
+root.munculin = function (kotak, kotakPopUp) {
+  kotak.on("click", function () {
+    if (kotak.x != kotak.originalX) {
+      console.log("check stop");
+      kotakPopUp.gotoAndStop(0);
+      return;
+    }
 
+    console.log("check bisa");
+    kotakPopUp.gotoAndPlay(0);
+    return;
+  });
+};
 root.check = function () {
   var spot = slots.getObjectUnderPoint(pieces.target.x, pieces.target.y);
 
@@ -165,6 +137,16 @@ root.check = function () {
       console.log("check");
       root.onMiss();
     }
+    root.munculin(root.pieces.tana2, root.pGam1);
+    root.munculin(root.pieces.tana, root.pp3);
+    root.munculin(root.pieces.tana1, root.pp4);
+    root.munculin(root.pieces.laut1, root.pp5);
+    root.munculin(root.pieces.laut2, root.pp6);
+    root.munculin(root.pieces.laut3, root.pp7);
+    root.munculin(root.pieces.laut4, root.pp8);
+    root.munculin(root.pieces.laut5, root.pp9);
+    root.munculin(root.pieces.gaga1, root.pp10);
+    root.munculin(root.pieces.gaga2, root.pp11);
     return;
   }
 
