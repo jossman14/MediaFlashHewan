@@ -278,5 +278,9 @@ Update Revisi 20 Desember 2020:
       f. https://cobamedia.netlify.app/data/materi11/
       g. https://cobamedia.netlify.app/data/materi12/
 
-Update Revisi 21 Desember 2021:
+Update Revisi 21 Desember 2020:
    1. fix minor revisi teks score menjadi 0 dan alur permainan dengan memunculkan popUp sesuai revisi kemarin dari game 1 - 18 dan game yang terdapat pada materi 8 - 13
+
+
+Update Revisi 09 Februari 2021:
+   1. fix animasi bioremediasi darat
