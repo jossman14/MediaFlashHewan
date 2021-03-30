@@ -135,26 +135,26 @@ lib.ssMetadata = [];
 
 
 
+(lib.bioremediation3 = function() {
+	this.initialize(img.bioremediation3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,963,560);
+
+
 (lib.bioremediation4 = function() {
 	this.initialize(img.bioremediation4);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,963,560);
 
 
-(lib.bioremediation6 = function() {
-	this.initialize(img.bioremediation6);
+(lib.bioremediation5 = function() {
+	this.initialize(img.bioremediation5);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,963,560);
 
 
 (lib.bioremediation7 = function() {
 	this.initialize(img.bioremediation7);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,962,560);
-
-
-(lib.bioremediation8 = function() {
-	this.initialize(img.bioremediation8);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 
@@ -177,14 +177,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 p.nominalBounds = new cjs.Rectangle(0,0,204,204);
 
 
-(lib.bioremediation3 = function() {
-	this.initialize(img.bioremediation3);
+(lib.bioremediation8 = function() {
+	this.initialize(img.bioremediation8);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,963,560);
+p.nominalBounds = new cjs.Rectangle(0,0,962,560);
 
 
-(lib.bioremediation5 = function() {
-	this.initialize(img.bioremediation5);
+(lib.bioremediation6 = function() {
+	this.initialize(img.bioremediation6);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,963,560);// helper functions:
 
@@ -1135,26 +1135,11 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 		  queue.installPlugin(createjs.Sound);
 		  queue.addEventListener("complete", handleComplete);
 		
-		  queue.loadManifest([
-		    {
-		      src: "./sounds/musicBG.mp3",
-		      id: "tombolGan",
-		    },
-		    {
-		      src: "./sounds/benar.mp3",
-		      id: "benar",
-		    },
-		    {
-		      src: "./sounds/salah.mp3",
-		      id: "salah",
-		    },
-		  ]);
+		  queue.loadManifest([{ src: "/sounds/musicBG.mp3", id: "tombolGan" }]);
 		
 		  function handleComplete(event) {
 		    // assign each sound to unique variable
 		    _this.sound1 = createjs.Sound.createInstance("tombolGan");
-		    _this.sound2 = createjs.Sound.createInstance("benar");
-		    _this.sound3 = createjs.Sound.createInstance("salah");
 		    _this.sound1.play({ loop: -1 });
 		
 		    _this.nyala.on("click", function tombolKlikEd() {
@@ -1301,23 +1286,23 @@ p.nominalBounds = new cjs.Rectangle(-436.6,-314.2,960.2,543.1);
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgEAJAAIAHAAIAAgDQAAgEgDgCQgCgDgEAAQgDAAgDACQgDACAAADIgHAAQAAgDACgDIAGgFQAEgBAEAAQAHAAAFADQAEAEAAAGIAAATQAAAGACAEIAAAAIgIAAIgBgEQgFAFgGAAQgHAAgEgEgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgCACgDIAAgJIgGAAQgNAAAAAIg");
-	this.shape.setTransform(680.775,57.625);
+	this.shape.setTransform(680.675,57.525);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FFFFFF").s().p("AgKAWIAAgqIAHAAIABAFQACgGAHAAIAEABIAAAGIgFAAQgGAAgCAGIAAAeg");
-	this.shape_1.setTransform(677.35,57.575);
+	this.shape_1.setTransform(677.25,57.475);
 
 	this.shape_2 = new cjs.Shape();
 	this.shape_2.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgEAJAAIAHAAIAAgDQAAgEgDgCQgCgDgEAAQgDAAgDACQgDACAAADIgHAAQAAgDACgDIAGgFQAEgBAEAAQAHAAAFADQAEAEAAAGIAAATQAAAGACAEIAAAAIgIAAIgBgEQgFAFgGAAQgHAAgEgEgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgCACgDIAAgJIgGAAQgNAAAAAIg");
-	this.shape_2.setTransform(673.575,57.625);
+	this.shape_2.setTransform(673.475,57.525);
 
 	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("#FFFFFF").s().p("AgMASQgEgEAAgIIAAgbIAHAAIAAAbQAAAKAIAAQAIAAADgHIAAgeIAHAAIAAAqIgHAAIAAgEQgEAFgIAAQgHAAgDgEg");
-	this.shape_3.setTransform(669.125,57.65);
+	this.shape_3.graphics.f("#FFFFFF").s().p("AgMASQgEgEAAgIIAAgbIAHAAIAAAbQAAAKAIAAQAIgBADgFIAAgfIAHAAIAAAqIgHAAIAAgEQgEAFgIAAQgHAAgDgEg");
+	this.shape_3.setTransform(669.025,57.55);
 
 	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFADADQAEADAGAAQAGAAADgCQAEgDAAgEQAAgEgEgCQgCgDgIgCQgJgDgEgDQgFgEAAgGQAAgHAGgEQAFgFAHAAQAGAAAGACQAEADACAEQADAEAAAFIgHAAQgBgGgDgDQgDgDgHAAQgEAAgDADQgDACgBAFQABADACADQAEACAGACQAHACAEACQAEACACADQACAEAAAEQAAAHgGAEQgFAFgJAAQgFAAgFgDg");
-	this.shape_4.setTransform(664.45,56.875);
+	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFADADQAEADAGAAQAGAAADgCQAEgDAAgEQAAgEgEgCQgCgDgIgCQgJgDgEgDQgFgEAAgGQAAgHAGgEQAFgFAHAAQAHAAAEACQAFADACAEQADAEAAAFIgHAAQAAgGgEgDQgEgDgGAAQgEAAgDADQgEACABAFQAAADACADQADACAHACQAHACAEACQAEACACADQACAEAAAEQAAAHgFAEQgGAFgJAAQgFAAgFgDg");
+	this.shape_4.setTransform(664.35,56.775);
 
 	this.shape_5 = new cjs.Shape();
 	this.shape_5.graphics.f("#3498DB").s().p("Aj8D9QhphpAAiUQAAiTBphqQBphoCTAAQCVAABoBoQBpBqAACTQAACUhpBpQhoBpiVAAQiTAAhphpg");
@@ -1835,19 +1820,19 @@ lib.properties = {
 	color: "#3867D6",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bioremediation4.jpg?1612845723746", id:"bioremediation4"},
-		{src:"images/bioremediation6.jpg?1612845723746", id:"bioremediation6"},
-		{src:"images/bioremediation7.jpg?1612845723746", id:"bioremediation7"},
-		{src:"images/bioremediation8.jpg?1612845723746", id:"bioremediation8"},
-		{src:"images/Bitmap2.png?1612845723746", id:"Bitmap2"},
-		{src:"images/bookpngcopy.png?1612845723746", id:"bookpngcopy"},
-		{src:"images/flash0aiAssets.png?1612845723746", id:"flash0aiAssets"},
-		{src:"images/bioremediation3.jpg?1612845723746", id:"bioremediation3"},
-		{src:"images/bioremediation5.jpg?1612845723746", id:"bioremediation5"},
-		{src:"components/lib/jquery-3.4.1.min.js?1612845723746", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1612845723746", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/image.js?1612845723746", id:"an.Image"},
-		{src:"components/ui/src/image.js?1612845723746", id:"an.Image"}
+		{src:"images/bioremediation3.jpg?1612846031934", id:"bioremediation3"},
+		{src:"images/bioremediation4.jpg?1612846031934", id:"bioremediation4"},
+		{src:"images/bioremediation5.jpg?1612846031934", id:"bioremediation5"},
+		{src:"images/bioremediation7.jpg?1612846031934", id:"bioremediation7"},
+		{src:"images/Bitmap2.png?1612846031934", id:"Bitmap2"},
+		{src:"images/bookpngcopy.png?1612846031934", id:"bookpngcopy"},
+		{src:"images/flash0aiAssets.png?1612846031934", id:"flash0aiAssets"},
+		{src:"images/bioremediation8.jpg?1612846031934", id:"bioremediation8"},
+		{src:"images/bioremediation6.jpg?1612846031934", id:"bioremediation6"},
+		{src:"components/lib/jquery-3.4.1.min.js?1612846031934", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1612846031934", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/image.js?1612846031934", id:"an.Image"},
+		{src:"components/ui/src/image.js?1612846031934", id:"an.Image"}
 	],
 	preloads: []
 };

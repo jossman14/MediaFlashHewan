@@ -29,10 +29,9 @@ function init() {
 	canvas = document.getElementById("canvas");
 	anim_container = document.getElementById("animation_container");
 	dom_overlay_container = document.getElementById("dom_overlay_container");
-	var comp=AdobeAn.getComposition("E740BB847DF4864B949C99CD86B71105");
+	var comp=AdobeAn.getComposition("F6BA91DBA10E7A4B8E3951D47BD7B33E");
 	var lib=comp.getLibrary();
 	var loader = new createjs.LoadQueue(false);
-	loader.installPlugin(createjs.Sound);
 	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
 	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
 	var lib=comp.getLibrary();
@@ -53,8 +52,8 @@ function handleComplete(evt,comp) {
 	}
 	var preloaderDiv = document.getElementById("_preload_div_");
 	preloaderDiv.style.display = 'none';
-	dom_overlay_container.style.display = canvas.style.display = 'block';
-	exportRoot = new lib.materi4();
+	canvas.style.display = 'block';
+	exportRoot = new lib.tengah();
 	stage = new lib.Stage(canvas);
 	stage.enableMouseOver();	
 	//Registers the "tick" event listener.
@@ -62,24 +61,21 @@ function handleComplete(evt,comp) {
 		stage.addChild(exportRoot);
 		createjs.Ticker.framerate = lib.properties.fps;
 		createjs.Ticker.addEventListener("tick", stage);
-		createjs.Ticker.addEventListener("tick", AdobeAn.handleSoundStreamOnTick);
 	}	    
 	//Code to support hidpi screens and responsive scaling.
 	AdobeAn.makeResponsive(true,'both',true,1,[canvas,preloaderDiv,anim_container,dom_overlay_container]);	
 	AdobeAn.compositionLoaded(lib.properties.id);
 	fnStartAnimation();
 }
-function playSound(id, loop, offset) {
-	return createjs.Sound.play(id, {'interrupt':createjs.Sound.INTERRUPT_EARLY, 'loop': loop, 'offset': offset});}
 </script>
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-	<div id="animation_container" style="background-color:rgba(52, 152, 219, 1.00); width:960px; height:540px">
-		<canvas id="canvas" width="960" height="540" style="position: absolute; display: none; background-color:rgba(52, 152, 219, 1.00);"></canvas>
-		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:960px; height:540px; position: absolute; left: 0px; top: 0px; display: none;">
+	<div id="animation_container" style="background-color:rgba(44, 62, 80, 1.00); width:960px; height:640px">
+		<canvas id="canvas" width="960" height="640" style="position: absolute; display: none; background-color:rgba(44, 62, 80, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:960px; height:640px; position: absolute; left: 0px; top: 0px; display: none;">
 		</div>
 	</div>
-    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:540px; width: 960px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif style='vertical-align: middle; max-height: 100%'/></div>
+    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:640px; width: 960px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif style='vertical-align: middle; max-height: 100%'/></div>
 </body>
 </html>
