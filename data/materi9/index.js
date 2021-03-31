@@ -3202,12 +3202,12 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// timeline functions:
-	this.frame_344 = function() {
+	this.frame_265 = function() {
 		this.stop();
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(344).call(this.frame_344).wait(90));
+	this.timeline.addTween(cjs.Tween.get(this).wait(265).call(this.frame_265).wait(70));
 
 	// Layer_4
 	this.instance = new lib.buluBabi_PNG();
@@ -3225,13 +3225,13 @@ if (reversed == null) { reversed = false; }
 	this.instance_4 = new lib.buluBabi_PNG();
 	this.instance_4.setTransform(-225,12,1.0003,1.0003);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).to({state:[]},276).wait(158));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).to({state:[]},276).wait(59));
 
 	// Layer_2
 	this.instance_5 = new lib.platepiring();
 	this.instance_5.setTransform(-239,7,5.344,5.3966);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).to({_off:true},276).wait(158));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).to({_off:true},276).wait(59));
 
 	// Layer_3
 	this.instance_6 = new lib.cucumber1cucumber();
@@ -3243,13 +3243,13 @@ if (reversed == null) { reversed = false; }
 	this.instance_8 = new lib.cucumber1cucumber();
 	this.instance_8.setTransform(-310,37,1.001,1.001);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_8},{t:this.instance_7},{t:this.instance_6}]}).wait(434));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_8},{t:this.instance_7},{t:this.instance_6}]}).wait(335));
 
 	// piring
 	this.instance_9 = new lib.platepiring();
 	this.instance_9.setTransform(-317,37,5.344,5.3966);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(434));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(335));
 
 	// Layer_1
 	this.instance_10 = new lib._1e();
@@ -3278,7 +3278,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_17.filters = [new cjs.ColorFilter(0.41, 0.41, 0.41, 1, 0, 0, 0, 0)];
 	this.instance_17.cache(-2,-2,668,392);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_10}]}).to({state:[{t:this.instance_11}]},44).to({state:[{t:this.instance_12}]},45).to({state:[{t:this.instance_13}]},44).to({state:[{t:this.instance_14}]},44).to({state:[{t:this.instance_15}]},99).to({state:[{t:this.instance_17},{t:this.instance_16}]},68).wait(90));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_10}]}).to({state:[{t:this.instance_11}]},33).to({state:[{t:this.instance_12}]},35).to({state:[{t:this.instance_13}]},34).to({state:[{t:this.instance_14}]},34).to({state:[{t:this.instance_15}]},76).to({state:[{t:this.instance_17},{t:this.instance_16}]},53).wait(70));
 
 	this._renderFirstFrame();
 
@@ -4483,23 +4483,23 @@ if (reversed == null) { reversed = false; }
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgEAJAAIAHAAIAAgDQAAgEgDgCQgCgDgEAAQgDAAgDACQgDACAAADIgHAAQAAgDACgDIAGgFQAEgBAEAAQAHAAAFADQAEAEAAAGIAAATQAAAGACAEIAAAAIgIAAIgBgEQgFAFgGAAQgHAAgEgEgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgCACgDIAAgJIgGAAQgNAAAAAIg");
-	this.shape.setTransform(680.975,57.825);
+	this.shape.setTransform(680.875,57.725);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("AgJAWIAAgqIAGAAIABAFQADgGAGAAIADABIAAAGIgDAAQgHAAgCAGIAAAeg");
-	this.shape_1.setTransform(677.55,57.775);
+	this.shape_1.graphics.f("#FFFFFF").s().p("AgJAWIAAgqIAGAAIABAFQADgGAGAAIAEABIAAAGIgFAAQgGAAgCAGIAAAeg");
+	this.shape_1.setTransform(677.45,57.675);
 
 	this.shape_2 = new cjs.Shape();
 	this.shape_2.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgEAJAAIAHAAIAAgDQAAgEgDgCQgCgDgEAAQgDAAgDACQgDACAAADIgHAAQAAgDACgDIAGgFQAEgBAEAAQAHAAAFADQAEAEAAAGIAAATQAAAGACAEIAAAAIgIAAIgBgEQgFAFgGAAQgHAAgEgEgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgCACgDIAAgJIgGAAQgNAAAAAIg");
-	this.shape_2.setTransform(673.775,57.825);
+	this.shape_2.setTransform(673.675,57.725);
 
 	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("#FFFFFF").s().p("AgMASQgEgEAAgIIAAgbIAHAAIAAAbQAAAJAIAAQAIABADgHIAAgeIAHAAIAAAqIgHAAIAAgEQgEAFgIAAQgHAAgDgEg");
-	this.shape_3.setTransform(669.325,57.85);
+	this.shape_3.graphics.f("#FFFFFF").s().p("AgMASQgEgEAAgIIAAgbIAHAAIAAAbQAAAKAIAAQAIAAADgHIAAgeIAHAAIAAAqIgHAAIAAgEQgEAFgIAAQgHAAgDgEg");
+	this.shape_3.setTransform(669.225,57.75);
 
 	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFADADQAFADAFAAQAGAAAEgCQADgDAAgEQAAgEgDgCQgEgDgHgCQgJgDgEgDQgFgEAAgGQAAgHAFgEQAGgFAIAAQAFAAAGACQAEADADAEQACAEAAAFIgHAAQgBgGgDgDQgDgDgGAAQgFAAgDADQgEACAAAFQAAADAEADQADACAGACQAHACAEACQAEACACADQACAEAAAEQAAAHgGAEQgFAFgJAAQgFAAgFgDg");
-	this.shape_4.setTransform(664.65,57.075);
+	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFADADQAFADAFAAQAGAAAEgCQADgDAAgEQAAgEgDgCQgEgDgHgCQgJgDgEgDQgFgEAAgGQAAgHAGgEQAFgFAHAAQAGAAAGACQAEADACAEQADAEAAAFIgHAAQgBgGgDgDQgDgDgHAAQgEAAgDADQgDACgBAFQAAADADADQAEACAGACQAHACAEACQAEACACADQACAEAAAEQAAAHgGAEQgFAFgJAAQgFAAgFgDg");
+	this.shape_4.setTransform(664.55,56.975);
 
 	this.shape_5 = new cjs.Shape();
 	this.shape_5.graphics.f("#3498DB").s().p("Aj8D9QhphpAAiUQAAiTBphqQBphoCTAAQCVAABoBoQBpBqAACTQAACUhpBpQhoBpiVAAQiTAAhphpg");
@@ -5378,30 +5378,30 @@ lib.properties = {
 	color: "#34495E",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_1pngcopy2.png", id:"_1pngcopy2"},
-		{src:"images/_1e.png", id:"_1e"},
-		{src:"images/_2e.png", id:"_2e"},
-		{src:"images/_3e.png", id:"_3e"},
-		{src:"images/_4e.png", id:"_4e"},
-		{src:"images/_5e.png", id:"_5e"},
-		{src:"images/_6edit.png", id:"_6edit"},
-		{src:"images/Bitmap2.png", id:"Bitmap2"},
-		{src:"images/Bitmap3.png", id:"Bitmap3"},
-		{src:"images/Bitmap54.png", id:"Bitmap54"},
-		{src:"images/Bitmap55.png", id:"Bitmap55"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/buluBabi_PNG.png", id:"buluBabi_PNG"},
-		{src:"images/cucumber1cucumber.png", id:"cucumber1cucumber"},
-		{src:"images/flash0aiAssets.png", id:"flash0aiAssets"},
-		{src:"images/flash0aiAssets_1.png", id:"flash0aiAssets_1"},
-		{src:"images/flash0aiAssets_2.png", id:"flash0aiAssets_2"},
-		{src:"images/flash0aiAssets_3.png", id:"flash0aiAssets_3"},
-		{src:"images/flash0aiAssets_4.png", id:"flash0aiAssets_4"},
-		{src:"images/platepiring.png", id:"platepiring"},
-		{src:"components/lib/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/image.js", id:"an.Image"},
-		{src:"components/ui/src/image.js", id:"an.Image"}
+		{src:"images/_1pngcopy2.png?1617152719470", id:"_1pngcopy2"},
+		{src:"images/_1e.png?1617152719470", id:"_1e"},
+		{src:"images/_2e.png?1617152719470", id:"_2e"},
+		{src:"images/_3e.png?1617152719470", id:"_3e"},
+		{src:"images/_4e.png?1617152719470", id:"_4e"},
+		{src:"images/_5e.png?1617152719470", id:"_5e"},
+		{src:"images/_6edit.png?1617152719470", id:"_6edit"},
+		{src:"images/Bitmap2.png?1617152719470", id:"Bitmap2"},
+		{src:"images/Bitmap3.png?1617152719470", id:"Bitmap3"},
+		{src:"images/Bitmap54.png?1617152719470", id:"Bitmap54"},
+		{src:"images/Bitmap55.png?1617152719470", id:"Bitmap55"},
+		{src:"images/bookpngcopy.png?1617152719470", id:"bookpngcopy"},
+		{src:"images/buluBabi_PNG.png?1617152719470", id:"buluBabi_PNG"},
+		{src:"images/cucumber1cucumber.png?1617152719470", id:"cucumber1cucumber"},
+		{src:"images/flash0aiAssets.png?1617152719470", id:"flash0aiAssets"},
+		{src:"images/flash0aiAssets_1.png?1617152719470", id:"flash0aiAssets_1"},
+		{src:"images/flash0aiAssets_2.png?1617152719470", id:"flash0aiAssets_2"},
+		{src:"images/flash0aiAssets_3.png?1617152719470", id:"flash0aiAssets_3"},
+		{src:"images/flash0aiAssets_4.png?1617152719470", id:"flash0aiAssets_4"},
+		{src:"images/platepiring.png?1617152719470", id:"platepiring"},
+		{src:"components/lib/jquery-3.4.1.min.js?1617152719470", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1617152719470", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/image.js?1617152719470", id:"an.Image"},
+		{src:"components/ui/src/image.js?1617152719470", id:"an.Image"}
 	],
 	preloads: []
 };
