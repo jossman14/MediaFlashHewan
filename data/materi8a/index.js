@@ -978,9 +978,9 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(427).call(this.frame_427).wait(32));
 
 	// Layer_1
-	this.coba = new cjs.Text("", "31px 'Roboto'");
+	this.coba = new cjs.Text("", "32px 'Roboto'");
 	this.coba.name = "coba";
-	this.coba.lineHeight = 42;
+	this.coba.lineHeight = 43;
 	this.coba.lineWidth = 753;
 	this.coba.parent = this;
 	this.coba.setTransform(-383.95,-178.45);
@@ -1318,23 +1318,23 @@ if (reversed == null) { reversed = false; }
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgEAJAAIAHAAIAAgDQAAgEgDgCQgCgDgEAAQgDAAgDACQgDACAAADIgHAAQAAgDACgDIAGgFQAEgBAEAAQAHAAAFADQAEAEAAAGIAAATQAAAGACAEIAAAAIgIAAIgBgEQgFAFgGAAQgHAAgEgEgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgCACgDIAAgJIgGAAQgNAAAAAIg");
-	this.shape.setTransform(680.875,57.725);
+	this.shape.setTransform(680.775,57.625);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("AgJAWIAAgqIAGAAIABAFQADgGAGAAIAEABIAAAGIgFAAQgGAAgCAGIAAAeg");
-	this.shape_1.setTransform(677.45,57.675);
+	this.shape_1.graphics.f("#FFFFFF").s().p("AgKAWIAAgqIAHAAIABAFQACgGAHAAIAEABIAAAGIgFAAQgGAAgCAGIAAAeg");
+	this.shape_1.setTransform(677.35,57.575);
 
 	this.shape_2 = new cjs.Shape();
 	this.shape_2.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgEAJAAIAHAAIAAgDQAAgEgDgCQgCgDgEAAQgDAAgDACQgDACAAADIgHAAQAAgDACgDIAGgFQAEgBAEAAQAHAAAFADQAEAEAAAGIAAATQAAAGACAEIAAAAIgIAAIgBgEQgFAFgGAAQgHAAgEgEgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgCACgDIAAgJIgGAAQgNAAAAAIg");
-	this.shape_2.setTransform(673.675,57.725);
+	this.shape_2.setTransform(673.575,57.625);
 
 	this.shape_3 = new cjs.Shape();
 	this.shape_3.graphics.f("#FFFFFF").s().p("AgMASQgEgEAAgIIAAgbIAHAAIAAAbQAAAKAIAAQAIAAADgHIAAgeIAHAAIAAAqIgHAAIAAgEQgEAFgIAAQgHAAgDgEg");
-	this.shape_3.setTransform(669.225,57.75);
+	this.shape_3.setTransform(669.125,57.65);
 
 	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFADADQAFADAFAAQAGAAAEgCQADgDAAgEQAAgEgDgCQgEgDgHgCQgJgDgEgDQgFgEAAgGQAAgHAGgEQAFgFAHAAQAGAAAGACQAEADACAEQADAEAAAFIgHAAQgBgGgDgDQgDgDgHAAQgEAAgDADQgDACgBAFQAAADADADQAEACAGACQAHACAEACQAEACACADQACAEAAAEQAAAHgGAEQgFAFgJAAQgFAAgFgDg");
-	this.shape_4.setTransform(664.55,56.975);
+	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFADADQAEADAGAAQAGAAADgCQAEgDAAgEQAAgEgEgCQgCgDgIgCQgJgDgEgDQgFgEAAgGQAAgHAGgEQAFgFAHAAQAGAAAGACQAEADACAEQADAEAAAFIgHAAQgBgGgDgDQgDgDgHAAQgEAAgDADQgDACgBAFQABADACADQAEACAGACQAHACAEACQAEACACADQACAEAAAEQAAAHgGAEQgFAFgJAAQgFAAgFgDg");
+	this.shape_4.setTransform(664.45,56.875);
 
 	this.shape_5 = new cjs.Shape();
 	this.shape_5.graphics.f("#3498DB").s().p("Aj8D9QhphpAAiUQAAiTBphqQBphoCTAAQCVAABoBoQBpBqAACTQAACUhpBpQhoBpiVAAQiTAAhphpg");
@@ -1852,19 +1852,19 @@ lib.properties = {
 	color: "#3867D6",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bioremediation3.jpg", id:"bioremediation3"},
-		{src:"images/bioremediation4.jpg", id:"bioremediation4"},
-		{src:"images/bioremediation5.jpg", id:"bioremediation5"},
-		{src:"images/bioremediation6.jpg", id:"bioremediation6"},
-		{src:"images/bioremediation7.jpg", id:"bioremediation7"},
-		{src:"images/bioremediation8.jpg", id:"bioremediation8"},
-		{src:"images/Bitmap2.png", id:"Bitmap2"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/flash0aiAssets.png", id:"flash0aiAssets"},
-		{src:"components/lib/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/image.js", id:"an.Image"},
-		{src:"components/ui/src/image.js", id:"an.Image"}
+		{src:"images/bioremediation3.jpg?1649598218829", id:"bioremediation3"},
+		{src:"images/bioremediation4.jpg?1649598218829", id:"bioremediation4"},
+		{src:"images/bioremediation5.jpg?1649598218829", id:"bioremediation5"},
+		{src:"images/bioremediation6.jpg?1649598218829", id:"bioremediation6"},
+		{src:"images/bioremediation7.jpg?1649598218829", id:"bioremediation7"},
+		{src:"images/bioremediation8.jpg?1649598218829", id:"bioremediation8"},
+		{src:"images/Bitmap2.png?1649598218829", id:"Bitmap2"},
+		{src:"images/bookpngcopy.png?1649598218829", id:"bookpngcopy"},
+		{src:"images/flash0aiAssets.png?1649598218829", id:"flash0aiAssets"},
+		{src:"components/lib/jquery-3.4.1.min.js?1649598218829", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1649598218829", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/image.js?1649598218829", id:"an.Image"},
+		{src:"components/ui/src/image.js?1649598218829", id:"an.Image"}
 	],
 	preloads: []
 };

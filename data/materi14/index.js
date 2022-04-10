@@ -1098,27 +1098,6 @@ if (reversed == null) { reversed = false; }
 		    this.play();
 		  }
 		}
-	}
-	this.frame_1 = function() {
-		var s =
-		  "Bioremediasi merupakan  penggunaan mikroorganisme yang telah  dipilih untuk ditumbuhkan pada polutan  tertentu sebagai upaya untuk menurunkan  kadar polutan tersebut. Pada saat proses  bioremediasi berlangsung, enzim-enzim yang diproduksi oleh mikroorganisme memodifikasi struktur polutan beracun  menjadi tidak kompleks sehingga menjadi  metabolit yang tidak beracun dan berbahaya";
-		
-		
-		var F = f.bind(this);
-		
-		var fI;
-		
-		clearInterval(fI);
-		
-		fI = setInterval(F, 80);
-		
-		function f(e) {
-		  if (this.coba.text.length < s.length) {
-		    this.coba.text += s.charAt(this.coba.text.length);
-		  } else {
-		    clearInterval(fI);
-		  }
-		}
 		
 		var _this = this;
 		
@@ -1129,25 +1108,25 @@ if (reversed == null) { reversed = false; }
 		
 		this.stop();
 	}
-	this.frame_860 = function() {
+	this.frame_594 = function() {
 		this.stop();
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(859).call(this.frame_860).wait(87));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(594).call(this.frame_594).wait(353));
 
 	// Layer_1
+	this.btnNextDasar1 = new lib.btnKINext();
+	this.btnNextDasar1.name = "btnNextDasar1";
+	this.btnNextDasar1.setTransform(352.6,191.2);
+	new cjs.ButtonHelper(this.btnNextDasar1, 0, 1, 2, false, new lib.btnKINext(), 3);
+
 	this.desk = new cjs.Text("", "28px 'Roboto'");
 	this.desk.name = "desk";
 	this.desk.lineHeight = 39;
 	this.desk.lineWidth = 767;
 	this.desk.parent = this;
 	this.desk.setTransform(-383.9906,-178.45,0.981,1);
-
-	this.btnNextDasar1 = new lib.btnKINext();
-	this.btnNextDasar1.name = "btnNextDasar1";
-	this.btnNextDasar1.setTransform(352.6,191.2);
-	new cjs.ButtonHelper(this.btnNextDasar1, 0, 1, 2, false, new lib.btnKINext(), 3);
 
 	this.instance = new lib.aa1();
 	this.instance.setTransform(-332,-194,1.0003,1.0041);
@@ -1212,11 +1191,11 @@ if (reversed == null) { reversed = false; }
 	this.instance_19.filters = [instance_19Filter_1];
 	this.instance_19.cache(-2,-2,668,392);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.desk,p:{scaleX:0.981,x:-383.9906,font:"28px 'Roboto'",lineHeight:38.6,lineWidth:767}}]}).to({state:[{t:this.btnNextDasar1},{t:this.desk,p:{scaleX:1,x:-383.95,font:"31px 'Roboto'",lineHeight:42.2,lineWidth:753}}]},1).to({state:[{t:this.instance}]},266).to({state:[{t:this.instance_1}]},33).to({state:[{t:this.instance_2}]},31).to({state:[{t:this.instance_3}]},33).to({state:[{t:this.instance_4}]},31).to({state:[{t:this.instance_5}]},33).to({state:[{t:this.instance_6}]},32).to({state:[{t:this.instance_7}]},33).to({state:[{t:this.instance_8}]},32).to({state:[{t:this.instance_9}]},33).to({state:[{t:this.instance_10}]},32).to({state:[{t:this.instance_11}]},33).to({state:[{t:this.instance_12}]},32).to({state:[{t:this.instance_13}]},33).to({state:[{t:this.instance_14}]},32).to({state:[{t:this.instance_15}]},33).to({state:[{t:this.instance_16}]},33).to({state:[{t:this.instance_17}]},33).to({state:[{t:this.instance_19},{t:this.instance_18}]},41).wait(87));
-	this.timeline.addTween(cjs.Tween.get(instance_19Filter_1).wait(860).to(new cjs.ColorFilter(0.42,0.42,0.42,1,0,0,0,0), 0).wait(87));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.desk},{t:this.btnNextDasar1}]}).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance_1}]},33).to({state:[{t:this.instance_2}]},31).to({state:[{t:this.instance_3}]},33).to({state:[{t:this.instance_4}]},31).to({state:[{t:this.instance_5}]},33).to({state:[{t:this.instance_6}]},32).to({state:[{t:this.instance_7}]},33).to({state:[{t:this.instance_8}]},32).to({state:[{t:this.instance_9}]},33).to({state:[{t:this.instance_10}]},32).to({state:[{t:this.instance_11}]},33).to({state:[{t:this.instance_12}]},32).to({state:[{t:this.instance_13}]},33).to({state:[{t:this.instance_14}]},32).to({state:[{t:this.instance_15}]},33).to({state:[{t:this.instance_16}]},33).to({state:[{t:this.instance_17}]},33).to({state:[{t:this.instance_19},{t:this.instance_18}]},41).to({state:[]},87).wait(266));
+	this.timeline.addTween(cjs.Tween.get(instance_19Filter_1).wait(594).to(new cjs.ColorFilter(0.42,0.42,0.42,1,0,0,0,0), 0).wait(266));
 
 	this.filterCacheList = [];
-	this.filterCacheList.push({instance: this.instance_19, startFrame:860, endFrame:860, x:-2, y:-2, w:668, h:392});
+	this.filterCacheList.push({instance: this.instance_19, startFrame:594, endFrame:594, x:-2, y:-2, w:668, h:392});
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
@@ -1526,23 +1505,23 @@ if (reversed == null) { reversed = false; }
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgEAJAAIAHAAIAAgDQAAgEgDgCQgCgDgEAAQgDAAgDACQgDACAAADIgHAAQAAgDACgDIAGgFQAEgBAEAAQAHAAAFADQAEAEAAAGIAAATQAAAGACAEIAAAAIgIAAIgBgEQgFAFgGAAQgHAAgEgEgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgCACgDIAAgJIgGAAQgNAAAAAIg");
-	this.shape.setTransform(680.875,57.725);
+	this.shape.setTransform(680.775,57.625);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("AgJAWIAAgqIAGAAIABAFQADgGAGAAIAEABIAAAGIgFAAQgGAAgCAGIAAAeg");
-	this.shape_1.setTransform(677.45,57.675);
+	this.shape_1.graphics.f("#FFFFFF").s().p("AgKAWIAAgqIAHAAIABAFQACgGAHAAIAEABIAAAGIgFAAQgGAAgCAGIAAAeg");
+	this.shape_1.setTransform(677.35,57.575);
 
 	this.shape_2 = new cjs.Shape();
 	this.shape_2.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgEAJAAIAHAAIAAgDQAAgEgDgCQgCgDgEAAQgDAAgDACQgDACAAADIgHAAQAAgDACgDIAGgFQAEgBAEAAQAHAAAFADQAEAEAAAGIAAATQAAAGACAEIAAAAIgIAAIgBgEQgFAFgGAAQgHAAgEgEgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgCACgDIAAgJIgGAAQgNAAAAAIg");
-	this.shape_2.setTransform(673.675,57.725);
+	this.shape_2.setTransform(673.575,57.625);
 
 	this.shape_3 = new cjs.Shape();
 	this.shape_3.graphics.f("#FFFFFF").s().p("AgMASQgEgEAAgIIAAgbIAHAAIAAAbQAAAKAIAAQAIAAADgHIAAgeIAHAAIAAAqIgHAAIAAgEQgEAFgIAAQgHAAgDgEg");
-	this.shape_3.setTransform(669.225,57.75);
+	this.shape_3.setTransform(669.125,57.65);
 
 	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFADADQAFADAFAAQAGAAAEgCQADgDAAgEQAAgEgDgCQgEgDgHgCQgJgDgEgDQgFgEAAgGQAAgHAGgEQAFgFAHAAQAGAAAGACQAEADACAEQADAEAAAFIgHAAQgBgGgDgDQgDgDgHAAQgEAAgDADQgDACgBAFQAAADADADQAEACAGACQAHACAEACQAEACACADQACAEAAAEQAAAHgGAEQgFAFgJAAQgFAAgFgDg");
-	this.shape_4.setTransform(664.55,56.975);
+	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFADADQAEADAGAAQAGAAADgCQAEgDAAgEQAAgEgEgCQgCgDgIgCQgJgDgEgDQgFgEAAgGQAAgHAGgEQAFgFAHAAQAGAAAGACQAEADACAEQADAEAAAFIgHAAQgBgGgDgDQgDgDgHAAQgEAAgDADQgDACgBAFQABADACADQAEACAGACQAHACAEACQAEACACADQACAEAAAEQAAAHgGAEQgFAFgJAAQgFAAgFgDg");
+	this.shape_4.setTransform(664.45,56.875);
 
 	this.shape_5 = new cjs.Shape();
 	this.shape_5.graphics.f("#3498DB").s().p("Aj8D9QhphpAAiUQAAiTBphqQBphoCTAAQCVAABoBoQBpBqAACTQAACUhpBpQhoBpiVAAQiTAAhphpg");
@@ -2056,32 +2035,32 @@ lib.properties = {
 	color: "#3867D6",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_10pngcopy.png", id:"_10pngcopy"},
-		{src:"images/aa1.png", id:"aa1"},
-		{src:"images/aa10.png", id:"aa10"},
-		{src:"images/aa11.png", id:"aa11"},
-		{src:"images/aa12.png", id:"aa12"},
-		{src:"images/aa13.png", id:"aa13"},
-		{src:"images/aa14.png", id:"aa14"},
-		{src:"images/aa15.png", id:"aa15"},
-		{src:"images/aa17.png", id:"aa17"},
-		{src:"images/aa18.png", id:"aa18"},
-		{src:"images/aa19.png", id:"aa19"},
-		{src:"images/aa2.png", id:"aa2"},
-		{src:"images/aa3.png", id:"aa3"},
-		{src:"images/aa4.png", id:"aa4"},
-		{src:"images/aa5.png", id:"aa5"},
-		{src:"images/aa6.png", id:"aa6"},
-		{src:"images/aa7.png", id:"aa7"},
-		{src:"images/aa8.png", id:"aa8"},
-		{src:"images/aa9.png", id:"aa9"},
-		{src:"images/Bitmap2.png", id:"Bitmap2"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/flash0aiAssets.png", id:"flash0aiAssets"},
-		{src:"components/lib/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/image.js", id:"an.Image"},
-		{src:"components/ui/src/image.js", id:"an.Image"}
+		{src:"images/_10pngcopy.png?1649598383427", id:"_10pngcopy"},
+		{src:"images/aa1.png?1649598383427", id:"aa1"},
+		{src:"images/aa10.png?1649598383427", id:"aa10"},
+		{src:"images/aa11.png?1649598383427", id:"aa11"},
+		{src:"images/aa12.png?1649598383427", id:"aa12"},
+		{src:"images/aa13.png?1649598383427", id:"aa13"},
+		{src:"images/aa14.png?1649598383427", id:"aa14"},
+		{src:"images/aa15.png?1649598383427", id:"aa15"},
+		{src:"images/aa17.png?1649598383427", id:"aa17"},
+		{src:"images/aa18.png?1649598383427", id:"aa18"},
+		{src:"images/aa19.png?1649598383427", id:"aa19"},
+		{src:"images/aa2.png?1649598383427", id:"aa2"},
+		{src:"images/aa3.png?1649598383427", id:"aa3"},
+		{src:"images/aa4.png?1649598383427", id:"aa4"},
+		{src:"images/aa5.png?1649598383427", id:"aa5"},
+		{src:"images/aa6.png?1649598383427", id:"aa6"},
+		{src:"images/aa7.png?1649598383427", id:"aa7"},
+		{src:"images/aa8.png?1649598383427", id:"aa8"},
+		{src:"images/aa9.png?1649598383427", id:"aa9"},
+		{src:"images/Bitmap2.png?1649598383427", id:"Bitmap2"},
+		{src:"images/bookpngcopy.png?1649598383427", id:"bookpngcopy"},
+		{src:"images/flash0aiAssets.png?1649598383427", id:"flash0aiAssets"},
+		{src:"components/lib/jquery-3.4.1.min.js?1649598383427", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1649598383427", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/image.js?1649598383427", id:"an.Image"},
+		{src:"components/ui/src/image.js?1649598383427", id:"an.Image"}
 	],
 	preloads: []
 };

@@ -85,12 +85,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,288,399);
 p.nominalBounds = new cjs.Rectangle(0,0,495,480);
 
 
-(lib.cacingruubelus = function() {
-	this.initialize(img.cacingruubelus);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,376,233);
-
-
 (lib.flash0aiAssets = function() {
 	this.initialize(img.flash0aiAssets);
 }).prototype = p = new cjs.Bitmap();
@@ -113,12 +107,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,153,152);
 	this.initialize(img.flash0aiAssets_3);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,153,152);
-
-
-(lib.kelabang = function() {
-	this.initialize(img.kelabang);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,788,365);
 
 
 (lib.porifera = function() {
@@ -4442,41 +4430,6 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.porifera_1, new cjs.Rectangle(-332.2,-218.1,718.3,507.70000000000005), null);
 
 
-(lib.kelabang_1 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// base
-	this.instance = new lib.kelabang();
-	this.instance.setTransform(-402,-147,14.0845,14.0845);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	// bunder
-	this.instance_1 = new lib.bunder();
-	this.instance_1.setTransform(-7.95,35.75,0.8323,0.8323);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
-
-	// Layer_3
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("rgba(0,0,255,0.008)").s().p("Eg2jAnrQhjgBgBhjMAAAhMMQABhlBjABMBtGAAAQBlgBgBBlMAAABMMQABBjhlABg");
-	this.shape.setTransform(-7.95,35.75);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.kelabang_1, new cjs.Rectangle(-402,-218.1,788,507.70000000000005), null);
-
-
 (lib.info = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -4697,41 +4650,6 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.dsd, new cjs.Rectangle(-36.6,-17.4,338,107), null);
-
-
-(lib.cacingrubellus = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// base
-	this.instance = new lib.cacingruubelus();
-	this.instance.setTransform(-161,-81,14.0845,14.0845);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	// bunder
-	this.instance_1 = new lib.bunder();
-	this.instance_1.setTransform(26.95,35.75,0.8323,0.8323);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
-
-	// Layer_3
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("rgba(0,0,255,0.008)").s().p("Eg2jAnrQhjgBAAhjMAAAhMMQAAhlBjABMBtHAAAQBjgBABBlMAAABMMQgBBjhjABg");
-	this.shape.setTransform(26.95,35.75);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.cacingrubellus, new cjs.Rectangle(-332.2,-218.1,718.3,507.70000000000005), null);
 
 
 (lib.bulubabi_1 = function(mode,startPosition,loop,reversed) {
@@ -5530,49 +5448,49 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// pieces
-	this.target = new lib.porifera_1();
+	this.target = new lib.bintangLuat();
 	this.target.name = "target";
-	this.target.setTransform(648.35,450.5,0.0711,0.0711,0,0,0,26.8,35.9);
+	this.target.setTransform(370.3,403.2,0.0711,0.0711);
 	new cjs.ButtonHelper(this.target, 0, 1, 1);
 
-	this.target_1 = new lib.bulubabi_1();
+	this.target_1 = new lib.teripang_1();
 	this.target_1.name = "target_1";
-	this.target_1.setTransform(456.15,457.25,0.0711,0.0711);
+	this.target_1.setTransform(468.2,309.8,0.0711,0.0711);
 	new cjs.ButtonHelper(this.target_1, 0, 1, 1);
 
-	this.target_2 = new lib.bulubabi_1();
+	this.target_2 = new lib.porifera_1();
 	this.target_2.name = "target_2";
-	this.target_2.setTransform(526.4,493.35,0.0711,0.0711);
+	this.target_2.setTransform(648.35,450.5,0.0711,0.0711,0,0,0,26.8,35.9);
 	new cjs.ButtonHelper(this.target_2, 0, 1, 1);
 
 	this.target_3 = new lib.bulubabi_1();
 	this.target_3.name = "target_3";
-	this.target_3.setTransform(507.2,348.55,0.0711,0.0711);
+	this.target_3.setTransform(456.15,457.25,0.0711,0.0711);
 	new cjs.ButtonHelper(this.target_3, 0, 1, 1);
 
-	this.target_4 = new lib.porifera_1();
+	this.target_4 = new lib.bulubabi_1();
 	this.target_4.name = "target_4";
-	this.target_4.setTransform(633.55,521.95,0.0711,0.0711,0,0,0,26.8,35.9);
+	this.target_4.setTransform(526.4,493.35,0.0711,0.0711);
 	new cjs.ButtonHelper(this.target_4, 0, 1, 1);
 
-	this.target_5 = new lib.kelabang_1();
+	this.target_5 = new lib.bulubabi_1();
 	this.target_5.name = "target_5";
-	this.target_5.setTransform(346.2,520.15,0.0711,0.0711);
+	this.target_5.setTransform(507.2,348.55,0.0711,0.0711);
 	new cjs.ButtonHelper(this.target_5, 0, 1, 1);
 
-	this.target_6 = new lib.bintangLuat();
+	this.target_6 = new lib.porifera_1();
 	this.target_6.name = "target_6";
-	this.target_6.setTransform(283.35,484.05,0.0711,0.0711);
+	this.target_6.setTransform(633.55,521.95,0.0711,0.0711,0,0,0,26.8,35.9);
 	new cjs.ButtonHelper(this.target_6, 0, 1, 1);
 
-	this.target_7 = new lib.teripang_1();
+	this.target_7 = new lib.bintangLuat();
 	this.target_7.name = "target_7";
-	this.target_7.setTransform(572.4,361.8,0.0711,0.0711);
+	this.target_7.setTransform(367.7,502.1,0.0711,0.0711);
 	new cjs.ButtonHelper(this.target_7, 0, 1, 1);
 
-	this.target_8 = new lib.cacingrubellus();
+	this.target_8 = new lib.teripang_1();
 	this.target_8.name = "target_8";
-	this.target_8.setTransform(401.2,361.8,0.0711,0.0711);
+	this.target_8.setTransform(572.4,361.8,0.0711,0.0711);
 	new cjs.ButtonHelper(this.target_8, 0, 1, 1);
 
 	this.target_9 = new lib.bintangLuat();
@@ -5584,7 +5502,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Pieces5, new cjs.Rectangle(259.8,333.1,414.09999999999997,207.69999999999993), null);
+}).prototype = getMCSymbolPrototype(lib.Pieces5, new cjs.Rectangle(344.1,294.3,329.79999999999995,245.7), null);
 
 
 (lib.game1 = function(mode,startPosition,loop,reversed) {
@@ -5733,8 +5651,8 @@ if (reversed == null) { reversed = false; }
 		      root.letakin();
 		      root.onMatch();
 		    } else {
-		      root.letakin();
-		      root.salahJawab();
+		      // root.letakin();
+		      root.onMiss();
 		    }
 		    if (pieces.count === pieces.children.length) root.onWin();
 		
@@ -6159,24 +6077,24 @@ if (reversed == null) { reversed = false; }
 	this.tandaSuaraOff.setTransform(850.65,37.05,0.4105,0.4105,0,0,0,50.2,45.2);
 
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AgNATQgEgEAAgFQAAgHAFgDQAFgDAJgBIAHAAIAAgDQAAgEgDgCQgCgDgEABQgDAAgDABQgDACAAAEIgHAAQAAgEACgCQADgEADgCQAEgCAEAAQAHAAAFAFQAEADAAAHIAAASQAAAGACAEIAAAAIgIAAIgBgEQgFAGgGgBQgHAAgEgDgAgKAJQAAADADACQACACAEAAQACAAADgCQADgBACgDIAAgJIgGAAQgNgBAAAJg");
-	this.shape.setTransform(857.125,64.55);
+	this.shape.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgEAJABIAHAAIAAgEQAAgEgDgCQgCgDgEAAQgDAAgDADQgDACAAACIgHAAQAAgDACgDQADgDADgBQAEgCAEAAQAHAAAFADQAEAEAAAGIAAATQAAAHACADIAAABIgIAAIgBgFQgFAGgGAAQgHAAgEgFgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgCACgDIAAgJIgGAAQgNABAAAHg");
+	this.shape.setTransform(857.075,64.5);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("AgKAWIAAgqIAHAAIABAFQACgGAHAAIAEABIAAAHIgFAAQgGAAgCAFIAAAeg");
-	this.shape_1.setTransform(853.75,64.5);
+	this.shape_1.graphics.f("#FFFFFF").s().p("AgJAWIAAgqIAHAAIAAAFQACgGAHAAIADABIAAAGIgDAAQgHAAgCAHIAAAdg");
+	this.shape_1.setTransform(853.7,64.45);
 
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#FFFFFF").s().p("AgNATQgEgEAAgFQAAgHAFgDQAFgDAJgBIAHAAIAAgDQAAgEgDgCQgCgDgEABQgDAAgDABQgDACAAAEIgHAAQAAgEACgCQADgEADgCQAEgCAEAAQAHAAAFAFQAEADAAAHIAAASQAAAGACAEIAAAAIgIAAIgBgEQgFAGgGgBQgHAAgEgDgAgKAJQAAADADACQACACAEAAQACAAADgCQADgBACgDIAAgJIgGAAQgNgBAAAJg");
-	this.shape_2.setTransform(849.925,64.55);
+	this.shape_2.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgEAJABIAHAAIAAgEQAAgEgDgCQgCgDgEAAQgDAAgDADQgDACAAACIgHAAQAAgDACgDQADgDADgBQAEgCAEAAQAHAAAFADQAEAEAAAGIAAATQAAAHACADIAAABIgIAAIgBgFQgFAGgGAAQgHAAgEgFgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgCACgDIAAgJIgGAAQgNABAAAHg");
+	this.shape_2.setTransform(849.875,64.5);
 
 	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("#FFFFFF").s().p("AgMASQgEgEAAgIIAAgbIAHAAIAAAbQAAAJAIABQAIAAADgHIAAgeIAHAAIAAAqIgHAAIAAgEQgEAFgIAAQgHAAgDgEg");
-	this.shape_3.setTransform(845.475,64.6);
+	this.shape_3.graphics.f("#FFFFFF").s().p("AgMASQgEgEAAgIIAAgbIAHAAIAAAbQAAAKAIgBQAIAAADgFIAAgfIAHAAIAAAqIgHAAIAAgEQgEAFgIAAQgHAAgDgEg");
+	this.shape_3.setTransform(845.425,64.55);
 
 	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFAEADQAEADAFAAQAGAAAEgCQACgDAAgEQAAgEgCgCQgEgDgHgCQgJgDgFgDQgEgEAAgGQAAgHAFgEQAGgFAIAAQAGAAAFACQAEADADAEQACAEAAAFIgIAAQABgGgEgDQgEgDgFAAQgFAAgDADQgEACAAAFQABADADADQADACAGACQAHACAEACQAEACACADQACAEAAAEQAAAHgGAEQgFAFgJAAQgFAAgFgDg");
-	this.shape_4.setTransform(840.8,63.825);
+	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFADADQAEADAGAAQAGAAADgCQAEgDAAgEQAAgEgEgCQgCgDgIgCQgJgDgEgDQgFgEAAgGQAAgHAGgEQAFgFAHAAQAHAAAEACQAFADACAEQADAEAAAFIgHAAQAAgGgEgDQgEgDgGAAQgEAAgDADQgDACAAAFQAAADACADQADACAHACQAHACAEACQAEACACADQACAEAAAEQAAAHgFAEQgGAFgJAAQgFAAgFgDg");
+	this.shape_4.setTransform(840.75,63.775);
 
 	this.shape_5 = new cjs.Shape();
 	this.shape_5.graphics.f("#3498DB").s().p("Aj8D9QhphpAAiUQAAiTBphqQBphoCTAAQCVAABoBoQBpBqAACTQAACUhpBpQhoBpiVAAQiTAAhphpg");
@@ -6557,28 +6475,26 @@ lib.properties = {
 	color: "#2980B9",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_1pngcopy.png", id:"_1pngcopy"},
-		{src:"images/_2pngcopy.png", id:"_2pngcopy"},
-		{src:"images/_3.png", id:"_3"},
-		{src:"images/_4e.png", id:"_4e"},
-		{src:"images/_5et.png", id:"_5et"},
-		{src:"images/bintanglaut.png", id:"bintanglaut"},
-		{src:"images/Bitmap28.png", id:"Bitmap28"},
-		{src:"images/Bitmap5.png", id:"Bitmap5"},
-		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
-		{src:"images/bulubabi.png", id:"bulubabi"},
-		{src:"images/cacingruubelus.png", id:"cacingruubelus"},
-		{src:"images/flash0aiAssets.png", id:"flash0aiAssets"},
-		{src:"images/flash0aiAssets_1.png", id:"flash0aiAssets_1"},
-		{src:"images/flash0aiAssets_2.png", id:"flash0aiAssets_2"},
-		{src:"images/flash0aiAssets_3.png", id:"flash0aiAssets_3"},
-		{src:"images/kelabang.png", id:"kelabang"},
-		{src:"images/porifera.png", id:"porifera"},
-		{src:"images/teripang.png", id:"teripang"},
-		{src:"components/lib/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/image.js", id:"an.Image"},
-		{src:"components/ui/src/image.js", id:"an.Image"}
+		{src:"images/_1pngcopy.png?1649601006864", id:"_1pngcopy"},
+		{src:"images/_2pngcopy.png?1649601006864", id:"_2pngcopy"},
+		{src:"images/_3.png?1649601006864", id:"_3"},
+		{src:"images/_4e.png?1649601006864", id:"_4e"},
+		{src:"images/_5et.png?1649601006864", id:"_5et"},
+		{src:"images/bintanglaut.png?1649601006864", id:"bintanglaut"},
+		{src:"images/Bitmap28.png?1649601006864", id:"Bitmap28"},
+		{src:"images/Bitmap5.png?1649601006864", id:"Bitmap5"},
+		{src:"images/bookpngcopy.png?1649601006864", id:"bookpngcopy"},
+		{src:"images/bulubabi.png?1649601006864", id:"bulubabi"},
+		{src:"images/flash0aiAssets.png?1649601006864", id:"flash0aiAssets"},
+		{src:"images/flash0aiAssets_1.png?1649601006864", id:"flash0aiAssets_1"},
+		{src:"images/flash0aiAssets_2.png?1649601006864", id:"flash0aiAssets_2"},
+		{src:"images/flash0aiAssets_3.png?1649601006864", id:"flash0aiAssets_3"},
+		{src:"images/porifera.png?1649601006864", id:"porifera"},
+		{src:"images/teripang.png?1649601006864", id:"teripang"},
+		{src:"components/lib/jquery-3.4.1.min.js?1649601006864", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1649601006864", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/image.js?1649601006864", id:"an.Image"},
+		{src:"components/ui/src/image.js?1649601006864", id:"an.Image"}
 	],
 	preloads: []
 };

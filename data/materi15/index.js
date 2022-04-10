@@ -109,12 +109,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,153,152);
 p.nominalBounds = new cjs.Rectangle(0,0,153,152);
 
 
-(lib.lintah = function() {
-	this.initialize(img.lintah);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,147,428);
-
-
 (lib.worm = function() {
 	this.initialize(img.worm);
 }).prototype = p = new cjs.Bitmap();
@@ -4491,41 +4485,6 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-23.3,-22.9,46.2,45.9);
 
 
-(lib.lintah_1 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// base
-	this.instance = new lib.lintah();
-	this.instance.setTransform(-56,-202,16.521,12.7752);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	// bunder
-	this.instance_1 = new lib.bundercopy();
-	this.instance_1.setTransform(26.95,-15.7);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
-
-	// Layer_3
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("rgba(0,0,255,0.008)").s().p("Eg2jAnqQhjAAAAhkMAAAhMMQAAhjBjgBMBtHAAAQBjABABBjMAAABMMQgBBkhjAAg");
-	this.shape.setTransform(26.95,-15.7);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.lintah_1, new cjs.Rectangle(-332.2,-269.5,718.3,507.7), null);
-
-
 (lib.cacingrubells = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -5424,49 +5383,49 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// pieces
-	this.target = new lib.cacing();
+	this.target = new lib.wormn1();
 	this.target.name = "target";
-	this.target.setTransform(524.6,516.9,0.0609,0.0609,0,0,0,14,34.5);
+	this.target.setTransform(524.6,466.85,0.0609,0.0609,0,0,0,14,34.5);
 	new cjs.ButtonHelper(this.target, 0, 1, 1);
 
 	this.target_1 = new lib.cacing();
 	this.target_1.name = "target_1";
-	this.target_1.setTransform(393.15,433.4,0.0609,0.0609,0,0,0,14,34.5);
+	this.target_1.setTransform(288.9,497.8,0.0609,0.0609,0,0,0,14,34.5);
 	new cjs.ButtonHelper(this.target_1, 0, 1, 1);
 
 	this.target_2 = new lib.cacing();
 	this.target_2.name = "target_2";
-	this.target_2.setTransform(224.65,452.55,0.0609,0.0609,0,0,0,14,34.5);
+	this.target_2.setTransform(524.6,516.9,0.0609,0.0609,0,0,0,14,34.5);
 	new cjs.ButtonHelper(this.target_2, 0, 1, 1);
 
-	this.target_3 = new lib.cacingrubells();
+	this.target_3 = new lib.cacing();
 	this.target_3.name = "target_3";
-	this.target_3.setTransform(508.05,421.65,0.0609,0.0609,0,0,0,26.2,35.3);
+	this.target_3.setTransform(393.15,433.4,0.0609,0.0609,0,0,0,14,34.5);
 	new cjs.ButtonHelper(this.target_3, 0, 1, 1);
 
-	this.target_4 = new lib.lintah_1();
+	this.target_4 = new lib.cacing();
 	this.target_4.name = "target_4";
-	this.target_4.setTransform(454.3,415.6,0.0609,0.0609,0,0,0,26.2,35.3);
+	this.target_4.setTransform(224.65,452.55,0.0609,0.0609,0,0,0,14,34.5);
 	new cjs.ButtonHelper(this.target_4, 0, 1, 1);
 
 	this.target_5 = new lib.cacingrubells();
 	this.target_5.name = "target_5";
-	this.target_5.setTransform(426.1,520.8,0.0609,0.0609,0,0,0,26.2,35.3);
+	this.target_5.setTransform(508.05,421.65,0.0609,0.0609,0,0,0,26.2,35.3);
 	new cjs.ButtonHelper(this.target_5, 0, 1, 1);
 
-	this.target_6 = new lib.cacing();
+	this.target_6 = new lib.cacingrubells();
 	this.target_6.name = "target_6";
-	this.target_6.setTransform(528.8,381.5,0.0609,0.0609,0,0,0,26.2,35.3);
+	this.target_6.setTransform(426.1,520.8,0.0609,0.0609,0,0,0,26.2,35.3);
 	new cjs.ButtonHelper(this.target_6, 0, 1, 1);
 
-	this.target_7 = new lib.wormn1();
+	this.target_7 = new lib.cacing();
 	this.target_7.name = "target_7";
-	this.target_7.setTransform(386.8,480.7,0.0609,0.0609,0,0,0,14,34.5);
+	this.target_7.setTransform(528.8,381.5,0.0609,0.0609,0,0,0,26.2,35.3);
 	new cjs.ButtonHelper(this.target_7, 0, 1, 1);
 
-	this.target_8 = new lib.lintah_1();
+	this.target_8 = new lib.wormn1();
 	this.target_8.name = "target_8";
-	this.target_8.setTransform(276.15,486.9,0.0609,0.0609,0,0,0,26.2,35.3);
+	this.target_8.setTransform(386.8,480.7,0.0609,0.0609,0,0,0,14,34.5);
 	new cjs.ButtonHelper(this.target_8, 0, 1, 1);
 
 	this.target_9 = new lib.cacing();
@@ -5628,8 +5587,7 @@ if (reversed == null) { reversed = false; }
 		      root1.letakin();
 		      root1.onMatch();
 		    } else {
-		      root1.letakin();
-		      root1.salahJawab();
+		      root1.onMiss()
 		    }
 		    if (pieces1.count === pieces1.children.length) root1.onWin();
 		
@@ -5790,7 +5748,7 @@ if (reversed == null) { reversed = false; }
 	this.winMessage.lineHeight = 22;
 	this.winMessage.lineWidth = 418;
 	this.winMessage.parent = this;
-	this.winMessage.setTransform(1.2417,-180.65,0.9381,0.9381);
+	this.winMessage.setTransform(1.1551,-180.7,0.9381,0.9381);
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#E74C3C").s().p("Egg7ACMIAAkXMBB3AAAIAAEXg");
@@ -6058,24 +6016,24 @@ if (reversed == null) { reversed = false; }
 	this.tandaSuaraOff.setTransform(851.85,37.05,0.4105,0.4105,0,0,0,50.2,45.2);
 
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgEAJABIAHAAIAAgEQAAgEgDgCQgCgDgEAAQgDAAgDADQgDACAAACIgHAAQAAgDACgDQADgDADgBQAEgCAEAAQAHAAAFADQAEAEAAAGIAAATQAAAHACADIAAABIgIAAIgBgFQgFAGgGAAQgHAAgEgFgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgCACgDIAAgJIgGAAQgNABAAAHg");
-	this.shape.setTransform(858.425,64.5);
+	this.shape.graphics.f("#FFFFFF").s().p("AgNATQgEgEAAgFQAAgHAFgDQAFgDAJgBIAHAAIAAgDQAAgEgDgCQgCgDgEABQgDAAgDABQgDACAAAEIgHAAQAAgEACgCQADgEADgCQAEgCAEAAQAHAAAFAFQAEADAAAHIAAATQAAAFACAEIAAAAIgIAAIgBgEQgFAFgGAAQgHAAgEgDgAgKAJQAAADADACQACACAEAAQACAAADgCQADgBACgDIAAgJIgGAAQgNAAAAAIg");
+	this.shape.setTransform(858.425,64.45);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("AgJAWIAAgqIAHAAIAAAFQACgGAHAAIADABIAAAGIgDAAQgHAAgCAHIAAAdg");
-	this.shape_1.setTransform(855.05,64.45);
+	this.shape_1.graphics.f("#FFFFFF").s().p("AgJAWIAAgqIAHAAIAAAFQACgGAHAAIADABIAAAGIgDAAQgHABgCAFIAAAeg");
+	this.shape_1.setTransform(855.05,64.4);
 
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgEAJABIAHAAIAAgEQAAgEgDgCQgCgDgEAAQgDAAgDADQgDACAAACIgHAAQAAgDACgDQADgDADgBQAEgCAEAAQAHAAAFADQAEAEAAAGIAAATQAAAHACADIAAABIgIAAIgBgFQgFAGgGAAQgHAAgEgFgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgCACgDIAAgJIgGAAQgNABAAAHg");
-	this.shape_2.setTransform(851.225,64.5);
+	this.shape_2.graphics.f("#FFFFFF").s().p("AgNATQgEgEAAgFQAAgHAFgDQAFgDAJgBIAHAAIAAgDQAAgEgDgCQgCgDgEABQgDAAgDABQgDACAAAEIgHAAQAAgEACgCQADgEADgCQAEgCAEAAQAHAAAFAFQAEADAAAHIAAATQAAAFACAEIAAAAIgIAAIgBgEQgFAFgGAAQgHAAgEgDgAgKAJQAAADADACQACACAEAAQACAAADgCQADgBACgDIAAgJIgGAAQgNAAAAAIg");
+	this.shape_2.setTransform(851.225,64.45);
 
 	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("#FFFFFF").s().p("AgMASQgEgEAAgIIAAgbIAHAAIAAAbQAAAKAIgBQAIAAADgFIAAgfIAHAAIAAAqIgHAAIAAgEQgEAFgIAAQgHAAgDgEg");
-	this.shape_3.setTransform(846.775,64.55);
+	this.shape_3.graphics.f("#FFFFFF").s().p("AgMASQgEgEAAgIIAAgbIAHAAIAAAbQAAAKAIAAQAIAAADgHIAAgeIAHAAIAAAqIgHAAIAAgEQgEAFgIAAQgHAAgDgEg");
+	this.shape_3.setTransform(846.775,64.5);
 
 	this.shape_4 = new cjs.Shape();
 	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFADADQAEADAGAAQAGAAADgCQAEgDAAgEQAAgEgEgCQgCgDgIgCQgJgDgEgDQgFgEAAgGQAAgHAGgEQAFgFAHAAQAHAAAEACQAFADACAEQADAEAAAFIgHAAQAAgGgEgDQgEgDgGAAQgEAAgDADQgEACABAFQAAADACADQADACAHACQAHACAEACQAEACACADQACAEAAAEQAAAHgFAEQgGAFgJAAQgFAAgFgDg");
-	this.shape_4.setTransform(842.1,63.775);
+	this.shape_4.setTransform(842.1,63.725);
 
 	this.shape_5 = new cjs.Shape();
 	this.shape_5.graphics.f("#3498DB").s().p("Aj8D9QhphpAAiUQAAiTBphqQBphoCTAAQCVAABoBoQBpBqAACTQAACUhpBpQhoBpiVAAQiTAAhphpg");
@@ -6366,7 +6324,6 @@ lib.properties = {
 		{src:"images/flash0aiAssets_1.png", id:"flash0aiAssets_1"},
 		{src:"images/flash0aiAssets_2.png", id:"flash0aiAssets_2"},
 		{src:"images/flash0aiAssets_3.png", id:"flash0aiAssets_3"},
-		{src:"images/lintah.png", id:"lintah"},
 		{src:"images/worm.png", id:"worm"},
 		{src:"components/lib/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
 		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
