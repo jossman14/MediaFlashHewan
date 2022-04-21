@@ -194,6 +194,36 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.sustain, new cjs.Rectangle(1.5,0.7,251.9,41.9), null);
 
 
+(lib.selesai = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.text = new cjs.Text("Selesai", "30px 'Roboto Medium'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 40;
+	this.text.lineWidth = 100;
+	this.text.parent = this;
+	this.text.setTransform(85,6.4);
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#E74C3C").s().p("AtRD6IAAnzIajAAIAAHzg");
+	this.shape.setTransform(85,25);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.text}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.selesai, new cjs.Rectangle(0,0,170,50), null);
+
+
 (lib.an_Image = function(options) {
 	this.initialize();
 	this._element = new $.an.Image(options);
@@ -229,6 +259,28 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.hehe, new cjs.Rectangle(0,0,171.8,71.6), null);
+
+
+(lib.h = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.bioremediation8();
+	this.instance.setTransform(0,0,1.0003,1.0041);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.h, new cjs.Rectangle(0,0,664,388), null);
 
 
 (lib.ggg = function(mode,startPosition,loop,reversed) {
@@ -866,7 +918,7 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.bg10, new cjs.Rectangle(-229,-134,459.6,267.1), null);
 
 
-(lib.Symbol43 = function(mode,startPosition,loop,reversed) {
+(lib.Symbol45 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -970,12 +1022,12 @@ if (reversed == null) { reversed = false; }
 		
 		this.stop();
 	}
-	this.frame_427 = function() {
+	this.frame_447 = function() {
 		this.stop();
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(427).call(this.frame_427).wait(32));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(447).call(this.frame_447).wait(12));
 
 	// Layer_1
 	this.coba = new cjs.Text("", "32px 'Roboto'");
@@ -1008,8 +1060,20 @@ if (reversed == null) { reversed = false; }
 	this.instance_5 = new lib.bioremediation8();
 	this.instance_5.setTransform(-332,-194,1.0003,1.0041);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btnNextDasar1},{t:this.coba}]}).to({state:[{t:this.instance}]},266).to({state:[{t:this.instance_1}]},33).to({state:[{t:this.instance_2}]},31).to({state:[{t:this.instance_3}]},33).to({state:[{t:this.instance_4}]},31).to({state:[{t:this.instance_5}]},33).wait(32));
+	this.instance_6 = new lib.selesai();
+	this.instance_6.setTransform(0,2,1,1,0,0,0,85,25.7);
 
+	this.instance_7 = new lib.h();
+	this.instance_7.setTransform(0,0,1,1,0,0,0,332,194);
+	var instance_7Filter_1 = new cjs.ColorFilter(1,1,1,1,0,0,0,0);
+	this.instance_7.filters = [instance_7Filter_1];
+	this.instance_7.cache(-2,-2,668,392);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btnNextDasar1},{t:this.coba}]}).to({state:[{t:this.instance}]},266).to({state:[{t:this.instance_1}]},33).to({state:[{t:this.instance_2}]},31).to({state:[{t:this.instance_3}]},33).to({state:[{t:this.instance_4}]},31).to({state:[{t:this.instance_5}]},33).to({state:[{t:this.instance_7},{t:this.instance_6}]},20).wait(12));
+	this.timeline.addTween(cjs.Tween.get(instance_7Filter_1).wait(447).to(new cjs.ColorFilter(0.43,0.43,0.43,1,0,0,0,0), 0).wait(12));
+
+	this.filterCacheList = [];
+	this.filterCacheList.push({instance: this.instance_7, startFrame:447, endFrame:447, x:-2, y:-2, w:668, h:392});
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
@@ -1069,6 +1133,7 @@ if (reversed == null) { reversed = false; }
 	this.instance._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(12).to({_off:false},0).to({_off:true},1).wait(12));
+	this.instance.addEventListener("tick", AdobeAn.handleFilterCache);
 
 	// Layer_6
 	this.shape = new cjs.Shape();
@@ -1114,7 +1179,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_1.setTransform(43.5,-40.25);
 	this.instance_1.alpha = 0;
 
-	this.instance_2 = new lib.Symbol43("synched",0);
+	this.instance_2 = new lib.Symbol45("synched",0);
 	this.instance_2.setTransform(42.2,-40.2,1,1,0,0,0,42.2,-40.2);
 	this.instance_2._off = true;
 
@@ -1318,23 +1383,23 @@ if (reversed == null) { reversed = false; }
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgEAJAAIAHAAIAAgDQAAgEgDgCQgCgDgEAAQgDAAgDACQgDACAAADIgHAAQAAgDACgDIAGgFQAEgBAEAAQAHAAAFADQAEAEAAAGIAAATQAAAGACAEIAAAAIgIAAIgBgEQgFAFgGAAQgHAAgEgEgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgCACgDIAAgJIgGAAQgNAAAAAIg");
-	this.shape.setTransform(680.775,57.625);
+	this.shape.setTransform(680.675,57.525);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FFFFFF").s().p("AgKAWIAAgqIAHAAIABAFQACgGAHAAIAEABIAAAGIgFAAQgGAAgCAGIAAAeg");
-	this.shape_1.setTransform(677.35,57.575);
+	this.shape_1.setTransform(677.25,57.475);
 
 	this.shape_2 = new cjs.Shape();
 	this.shape_2.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgEAJAAIAHAAIAAgDQAAgEgDgCQgCgDgEAAQgDAAgDACQgDACAAADIgHAAQAAgDACgDIAGgFQAEgBAEAAQAHAAAFADQAEAEAAAGIAAATQAAAGACAEIAAAAIgIAAIgBgEQgFAFgGAAQgHAAgEgEgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgCACgDIAAgJIgGAAQgNAAAAAIg");
-	this.shape_2.setTransform(673.575,57.625);
+	this.shape_2.setTransform(673.475,57.525);
 
 	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("#FFFFFF").s().p("AgMASQgEgEAAgIIAAgbIAHAAIAAAbQAAAKAIAAQAIAAADgHIAAgeIAHAAIAAAqIgHAAIAAgEQgEAFgIAAQgHAAgDgEg");
-	this.shape_3.setTransform(669.125,57.65);
+	this.shape_3.graphics.f("#FFFFFF").s().p("AgMASQgEgEAAgIIAAgbIAHAAIAAAbQAAAKAIAAQAIgBADgFIAAgfIAHAAIAAAqIgHAAIAAgEQgEAFgIAAQgHAAgDgEg");
+	this.shape_3.setTransform(669.025,57.55);
 
 	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFADADQAEADAGAAQAGAAADgCQAEgDAAgEQAAgEgEgCQgCgDgIgCQgJgDgEgDQgFgEAAgGQAAgHAGgEQAFgFAHAAQAGAAAGACQAEADACAEQADAEAAAFIgHAAQgBgGgDgDQgDgDgHAAQgEAAgDADQgDACgBAFQABADACADQAEACAGACQAHACAEACQAEACACADQACAEAAAEQAAAHgGAEQgFAFgJAAQgFAAgFgDg");
-	this.shape_4.setTransform(664.45,56.875);
+	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFADADQAEADAGAAQAGAAADgCQAEgDAAgEQAAgEgEgCQgCgDgIgCQgJgDgEgDQgFgEAAgGQAAgHAGgEQAFgFAHAAQAHAAAEACQAFADACAEQADAEAAAFIgHAAQAAgGgEgDQgEgDgGAAQgEAAgDADQgEACABAFQAAADACADQADACAHACQAHACAEACQAEACACADQACAEAAAEQAAAHgFAEQgGAFgJAAQgFAAgFgDg");
+	this.shape_4.setTransform(664.35,56.775);
 
 	this.shape_5 = new cjs.Shape();
 	this.shape_5.graphics.f("#3498DB").s().p("Aj8D9QhphpAAiUQAAiTBphqQBphoCTAAQCVAABoBoQBpBqAACTQAACUhpBpQhoBpiVAAQiTAAhphpg");
@@ -1852,19 +1917,19 @@ lib.properties = {
 	color: "#3867D6",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bioremediation3.jpg?1649598218829", id:"bioremediation3"},
-		{src:"images/bioremediation4.jpg?1649598218829", id:"bioremediation4"},
-		{src:"images/bioremediation5.jpg?1649598218829", id:"bioremediation5"},
-		{src:"images/bioremediation6.jpg?1649598218829", id:"bioremediation6"},
-		{src:"images/bioremediation7.jpg?1649598218829", id:"bioremediation7"},
-		{src:"images/bioremediation8.jpg?1649598218829", id:"bioremediation8"},
-		{src:"images/Bitmap2.png?1649598218829", id:"Bitmap2"},
-		{src:"images/bookpngcopy.png?1649598218829", id:"bookpngcopy"},
-		{src:"images/flash0aiAssets.png?1649598218829", id:"flash0aiAssets"},
-		{src:"components/lib/jquery-3.4.1.min.js?1649598218829", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1649598218829", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/image.js?1649598218829", id:"an.Image"},
-		{src:"components/ui/src/image.js?1649598218829", id:"an.Image"}
+		{src:"images/bioremediation3.jpg", id:"bioremediation3"},
+		{src:"images/bioremediation4.jpg", id:"bioremediation4"},
+		{src:"images/bioremediation5.jpg", id:"bioremediation5"},
+		{src:"images/bioremediation6.jpg", id:"bioremediation6"},
+		{src:"images/bioremediation7.jpg", id:"bioremediation7"},
+		{src:"images/bioremediation8.jpg", id:"bioremediation8"},
+		{src:"images/Bitmap2.png", id:"Bitmap2"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"images/flash0aiAssets.png", id:"flash0aiAssets"},
+		{src:"components/lib/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/image.js", id:"an.Image"},
+		{src:"components/ui/src/image.js", id:"an.Image"}
 	],
 	preloads: []
 };

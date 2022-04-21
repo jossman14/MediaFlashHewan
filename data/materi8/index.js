@@ -2923,7 +2923,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(964).call(this.frame_964).wait(1));
 
 	// Layer_1
-	this.coba = new cjs.Text("", "28px 'Roboto'");
+	this.coba = new cjs.Text("", "28px 'Roboto'", "#2C3E50");
 	this.coba.name = "coba";
 	this.coba.lineHeight = 39;
 	this.coba.lineWidth = 767;
@@ -2978,7 +2978,8 @@ if (reversed == null) { reversed = false; }
 	this.instance_14.filters = [instance_14Filter_1];
 	this.instance_14.cache(-2,-2,668,392);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.coba,p:{scaleX:0.8604,x:-330.29,y:-124,text:"",font:"28px 'Roboto'",color:"#000000",textAlign:"",lineHeight:38.6,lineWidth:767}}]}).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance_1}]},52).to({state:[{t:this.instance_2}]},56).to({state:[{t:this.instance_3}]},55).to({state:[{t:this.instance_4}]},62).to({state:[{t:this.instance_5}]},93).to({state:[{t:this.instance_6}]},128).to({state:[{t:this.instance_7}]},53).to({state:[{t:this.instance_9},{t:this.instance_8}]},61).to({state:[{t:this.coba,p:{scaleX:1,x:-10.95,y:-69.45,text:"Kemudian mereka masuk ke dalam rumah",font:"52px 'Roboto'",color:"#2C3E50",textAlign:"center",lineHeight:64.4,lineWidth:591}}]},71).to({state:[{t:this.instance_10}]},72).to({state:[{t:this.instance_11}]},62).to({state:[{t:this.coba,p:{scaleX:1,x:-10.5,y:-64.45,text:"Lalu Bapak berusaha mencari obat dari hewan jenis cacing",font:"52px 'Roboto'",color:"#2C3E50",textAlign:"center",lineHeight:64.4,lineWidth:804}}]},54).to({state:[{t:this.instance_12}]},50).to({state:[{t:this.instance_12}]},19).to({state:[{t:this.instance_14},{t:this.instance_13}]},56).to({state:[{t:this.coba,p:{scaleX:1,x:-333,y:-142,text:"",font:"28px 'Roboto'",color:"#000000",textAlign:"",lineHeight:38.6,lineWidth:662}}]},19).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.coba}]}).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance_1}]},52).to({state:[{t:this.instance_2}]},56).to({state:[{t:this.instance_3}]},55).to({state:[{t:this.instance_4}]},62).to({state:[{t:this.instance_5}]},93).to({state:[{t:this.instance_6}]},128).to({state:[{t:this.instance_7}]},53).to({state:[{t:this.instance_9},{t:this.instance_8}]},61).to({state:[{t:this.coba}]},71).to({state:[{t:this.instance_10}]},72).to({state:[{t:this.instance_11}]},62).to({state:[{t:this.coba}]},54).to({state:[{t:this.coba}]},3).to({state:[{t:this.instance_12}]},47).to({state:[{t:this.instance_12}]},19).to({state:[{t:this.instance_14},{t:this.instance_13}]},56).to({state:[{t:this.coba}]},19).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.coba).to({_off:true},1).wait(631).to({_off:false,scaleX:1,x:-10.95,y:-45.45,text:"Kemudian mereka masuk ke dalam rumah",textAlign:NaN,lineHeight:35.6,lineWidth:591},0).to({_off:true},72).wait(116).to({_off:false,x:-10.5,y:-64.45,text:"Lalu Bapak berusaha mencari obat dari hewan jenis cacing",font:"52px 'Roboto'",lineHeight:64.4,lineWidth:804},0).wait(3).to({x:2.25,y:-38.45,font:"28px 'Roboto'",lineHeight:35.6,lineWidth:686},0).to({_off:true},47).wait(94).to({_off:false,x:-333,y:-142,text:"",color:"#000000",textAlign:0,lineHeight:38.6,lineWidth:662},0).wait(1));
 	this.timeline.addTween(cjs.Tween.get(instance_14Filter_1).wait(945).to(new cjs.ColorFilter(0.41,0.41,0.41,1,0,0,0,0), 0).wait(1));
 
 	this.filterCacheList = [];
@@ -4430,23 +4431,23 @@ if (reversed == null) { reversed = false; }
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgEAJAAIAHAAIAAgDQAAgEgDgCQgCgDgEAAQgDAAgDACQgDACAAADIgHAAQAAgDACgDIAGgFQAEgBAEAAQAHAAAFADQAEAEAAAGIAAATQAAAGACAEIAAAAIgIAAIgBgEQgFAFgGAAQgHAAgEgEgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgCACgDIAAgJIgGAAQgNAAAAAIg");
-	this.shape.setTransform(680.875,57.725);
+	this.shape.setTransform(680.775,57.625);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("AgJAWIAAgqIAGAAIABAFQADgGAGAAIAEABIAAAGIgFAAQgGAAgCAGIAAAeg");
-	this.shape_1.setTransform(677.45,57.675);
+	this.shape_1.graphics.f("#FFFFFF").s().p("AgKAWIAAgqIAHAAIABAFQACgGAHAAIAEABIAAAGIgFAAQgGAAgCAGIAAAeg");
+	this.shape_1.setTransform(677.35,57.575);
 
 	this.shape_2 = new cjs.Shape();
 	this.shape_2.graphics.f("#FFFFFF").s().p("AgNASQgEgDAAgGQAAgGAFgDQAFgEAJAAIAHAAIAAgDQAAgEgDgCQgCgDgEAAQgDAAgDACQgDACAAADIgHAAQAAgDACgDIAGgFQAEgBAEAAQAHAAAFADQAEAEAAAGIAAATQAAAGACAEIAAAAIgIAAIgBgEQgFAFgGAAQgHAAgEgEgAgKAIQAAAEADACQACACAEAAQACAAADgCQADgCACgDIAAgJIgGAAQgNAAAAAIg");
-	this.shape_2.setTransform(673.675,57.725);
+	this.shape_2.setTransform(673.575,57.625);
 
 	this.shape_3 = new cjs.Shape();
 	this.shape_3.graphics.f("#FFFFFF").s().p("AgMASQgEgEAAgIIAAgbIAHAAIAAAbQAAAKAIAAQAIAAADgHIAAgeIAHAAIAAAqIgHAAIAAgEQgEAFgIAAQgHAAgDgEg");
-	this.shape_3.setTransform(669.225,57.75);
+	this.shape_3.setTransform(669.125,57.65);
 
 	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFADADQAFADAFAAQAGAAAEgCQADgDAAgEQAAgEgDgCQgEgDgHgCQgJgDgEgDQgFgEAAgGQAAgHAGgEQAFgFAHAAQAGAAAGACQAEADACAEQADAEAAAFIgHAAQgBgGgDgDQgDgDgHAAQgEAAgDADQgDACgBAFQAAADADADQAEACAGACQAHACAEACQAEACACADQACAEAAAEQAAAHgGAEQgFAFgJAAQgFAAgFgDg");
-	this.shape_4.setTransform(664.55,56.975);
+	this.shape_4.graphics.f("#FFFFFF").s().p("AgJAbQgFgCgDgEQgDgEAAgFIAIAAQAAAFADADQAEADAGAAQAGAAADgCQAEgDAAgEQAAgEgEgCQgCgDgIgCQgJgDgEgDQgFgEAAgGQAAgHAGgEQAFgFAHAAQAGAAAGACQAEADACAEQADAEAAAFIgHAAQgBgGgDgDQgDgDgHAAQgEAAgDADQgDACgBAFQABADACADQAEACAGACQAHACAEACQAEACACADQACAEAAAEQAAAHgGAEQgFAFgJAAQgFAAgFgDg");
+	this.shape_4.setTransform(664.45,56.875);
 
 	this.shape_5 = new cjs.Shape();
 	this.shape_5.graphics.f("#3498DB").s().p("Aj8D9QhphpAAiUQAAiTBphqQBphoCTAAQCVAABoBoQBpBqAACTQAACUhpBpQhoBpiVAAQiTAAhphpg");
@@ -5166,35 +5167,35 @@ lib.properties = {
 	color: "#34495E",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_1.png?1649586277438", id:"_1"},
-		{src:"images/_1e.png?1649586277438", id:"_1e"},
-		{src:"images/_2e11.png?1649586277438", id:"_2e11"},
-		{src:"images/_2e1.png?1649586277438", id:"_2e1"},
-		{src:"images/_2e.png?1649586277438", id:"_2e"},
-		{src:"images/_3e11.png?1649586277438", id:"_3e11"},
-		{src:"images/_3e1.png?1649586277438", id:"_3e1"},
-		{src:"images/_3e.png?1649586277438", id:"_3e"},
-		{src:"images/_4e.jpg?1649586277438", id:"_4e"},
-		{src:"images/_5e.jpg?1649586277438", id:"_5e"},
-		{src:"images/_6eEdit.png?1649586277438", id:"_6eEdit"},
-		{src:"images/_7e.jpg?1649586277438", id:"_7e"},
-		{src:"images/_8e.jpg?1649586277438", id:"_8e"},
-		{src:"images/_9.jpg?1649586277438", id:"_9"},
-		{src:"images/_9pngcopy.png?1649586277438", id:"_9pngcopy"},
-		{src:"images/Bitmap2.png?1649586277438", id:"Bitmap2"},
-		{src:"images/Bitmap3.png?1649586277438", id:"Bitmap3"},
-		{src:"images/Bitmap42.jpg?1649586277438", id:"Bitmap42"},
-		{src:"images/Bitmap43.jpg?1649586277438", id:"Bitmap43"},
-		{src:"images/bookpngcopy.png?1649586277438", id:"bookpngcopy"},
-		{src:"images/flash0aiAssets.png?1649586277438", id:"flash0aiAssets"},
-		{src:"images/flash0aiAssets_1.png?1649586277438", id:"flash0aiAssets_1"},
-		{src:"images/flash0aiAssets_2.png?1649586277438", id:"flash0aiAssets_2"},
-		{src:"images/flash0aiAssets_3.png?1649586277438", id:"flash0aiAssets_3"},
-		{src:"images/flash0aiAssets_4.png?1649586277438", id:"flash0aiAssets_4"},
-		{src:"components/lib/jquery-3.4.1.min.js?1649586277438", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1649586277438", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/image.js?1649586277438", id:"an.Image"},
-		{src:"components/ui/src/image.js?1649586277438", id:"an.Image"}
+		{src:"images/_1.png", id:"_1"},
+		{src:"images/_1e.png", id:"_1e"},
+		{src:"images/_2e11.png", id:"_2e11"},
+		{src:"images/_2e1.png", id:"_2e1"},
+		{src:"images/_2e.png", id:"_2e"},
+		{src:"images/_3e11.png", id:"_3e11"},
+		{src:"images/_3e1.png", id:"_3e1"},
+		{src:"images/_3e.png", id:"_3e"},
+		{src:"images/_4e.jpg", id:"_4e"},
+		{src:"images/_5e.jpg", id:"_5e"},
+		{src:"images/_6eEdit.png", id:"_6eEdit"},
+		{src:"images/_7e.jpg", id:"_7e"},
+		{src:"images/_8e.jpg", id:"_8e"},
+		{src:"images/_9.jpg", id:"_9"},
+		{src:"images/_9pngcopy.png", id:"_9pngcopy"},
+		{src:"images/Bitmap2.png", id:"Bitmap2"},
+		{src:"images/Bitmap3.png", id:"Bitmap3"},
+		{src:"images/Bitmap42.jpg", id:"Bitmap42"},
+		{src:"images/Bitmap43.jpg", id:"Bitmap43"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"images/flash0aiAssets.png", id:"flash0aiAssets"},
+		{src:"images/flash0aiAssets_1.png", id:"flash0aiAssets_1"},
+		{src:"images/flash0aiAssets_2.png", id:"flash0aiAssets_2"},
+		{src:"images/flash0aiAssets_3.png", id:"flash0aiAssets_3"},
+		{src:"images/flash0aiAssets_4.png", id:"flash0aiAssets_4"},
+		{src:"components/lib/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/image.js", id:"an.Image"},
+		{src:"components/ui/src/image.js", id:"an.Image"}
 	],
 	preloads: []
 };
