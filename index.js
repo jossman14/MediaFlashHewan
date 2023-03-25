@@ -31,8 +31,8 @@ lib.ssMetadata = [];
 p.nominalBounds = new cjs.Rectangle(0,0,987,663);
 
 
-(lib.Bitmap13 = function() {
-	this.initialize(img.Bitmap13);
+(lib.Bitmap13pngcopy = function() {
+	this.initialize(img.Bitmap13pngcopy);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,675,535);
 
@@ -563,8 +563,8 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.Bitmap13();
-	this.instance.setTransform(134,125);
+	this.instance = new lib.Bitmap13pngcopy();
+	this.instance.setTransform(142,97);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -746,14 +746,14 @@ lib.properties = {
 	color: "#2ECC71",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Bitmap1.png?1646667405213", id:"Bitmap1"},
-		{src:"images/Bitmap13.png?1646667405213", id:"Bitmap13"},
-		{src:"images/bookpngcopy.png?1646667405213", id:"bookpngcopy"},
-		{src:"sounds/musicBG.mp3?1646667405213", id:"musicBG"},
-		{src:"components/lib/jquery-3.4.1.min.js?1646667405213", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1646667405213", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/image.js?1646667405213", id:"an.Image"},
-		{src:"components/ui/src/image.js?1646667405213", id:"an.Image"}
+		{src:"images/Bitmap1.png", id:"Bitmap1"},
+		{src:"images/Bitmap13pngcopy.png", id:"Bitmap13pngcopy"},
+		{src:"images/bookpngcopy.png", id:"bookpngcopy"},
+		{src:"sounds/musicBG.mp3", id:"musicBG"},
+		{src:"components/lib/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/image.js", id:"an.Image"},
+		{src:"components/ui/src/image.js", id:"an.Image"}
 	],
 	preloads: []
 };
