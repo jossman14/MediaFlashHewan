@@ -7,11 +7,14 @@
 	4. Blank lines will be removed automatically.
 	5. Remove unnecessary comments before creating your template.
 -->
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
-<title>index</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Bioremediasi - Interactive Learning</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <!-- write your code here -->
 <style>
   #animation_container, #_preload_div_ {
@@ -20,9 +23,12 @@
 	left:0;right:0;
 	top:0;bottom:0;
   }
+  /* Critical CSS for faster rendering */
+  body{margin:0;background-color:#2ECC71}
+  #canvas{background-color:rgba(46,204,113,1)}
 </style>
-<script src="libs/1.0.0/createjs.min.js"></script>
-<script src="index.js"></script>
+<script src="libs/1.0.0/createjs.min.js" defer></script>
+<script src="index.js" defer></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
